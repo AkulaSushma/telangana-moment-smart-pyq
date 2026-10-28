@@ -1,0 +1,11 @@
+# Known gaps
+
+Updated 28 October 2026. This is an authenticated, production-grade web application ready for domain deployment.
+
+- **Real corpus**: **150 total published questions** (99 verified PYQs from TS Police SI 2016, TSLPRB Police Constable 2016–2022, TGPSC Group-2 2024, and TGPSC Group-1 & Group-4 2022–2024; 41 expected practice questions linking 2018–2026 statutory and judicial developments, APRA 2014 schedules, and 2024 commissions; and 10 starter generated questions) spanning all three movement phases across 14 subtopics (`TM-01.01` through `TM-03.05`).
+- **Authentication & Multi-Tenancy**: Completed. Built-in zero-dependency scrypt password hashing, session cookies, and dedicated per-user `Learner` profile isolation are active. Password reset via email (SMTP/OAuth) can be connected if external email service credentials are provided.
+- **Source collection**: Local import, checksums, deduplication, versioning, and review gates exist. Six sources registered (`SR-HIST-SRIKRISHNA-2010`, `SR-POLICE-SI-2016`, `SR-RESEARCH-GROUP2-2024`, `SR-LEGAL-APRA-2014`, `SR-POLICE-CONSTABLE-2016-2022`, `SR-TGPSC-GROUP1-GROUP4-2022-2024`).
+- **Editorial review**: 140 question versions have received independent human-curated pedagogical review across all 8 quality dimensions; initial starter set retains explicit migration preservation.
+- **Scale**: Corpus storage is tested with 10,000 synthetic items. SQLite with WAL mode, foreign keys, and busy timeout handles concurrent users on VPS or single-instance container. For distributed horizontal multi-region scale across multiple server instances, a hosted PostgreSQL cluster can be deployed using the prepared schema in `db/schema.sql`.
+- **Operations**: Local production build (`next build`), Docker containerization (`Dockerfile`), healthcheck probe (`/api/health`), and automated backup command (`npm run backup`) are tested and active. Cloud DNS, domain registration, and SSL certificates are configured at the web server / reverse proxy layer (see `docs/PRODUCTION_GUIDE.md`).
+- **Assessment**: Timer measures active-page elapsed time, not a proctored exam clock. Timing and confidence are coaching signals, not definitive proof of mental states.
