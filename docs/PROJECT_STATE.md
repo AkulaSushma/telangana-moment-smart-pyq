@@ -46,7 +46,8 @@ Full 150-question authentic corpus (`TM-Q001` through `TM-Q150`), secure multi-u
 - **Next.js Production Build**: Turbopack build succeeded with 0 errors (`npm run build`).
 - **Database Backup Checkpoint**: Verified snapshot archived at `data/learning_checkpoint_150q.sqlite` and live backup snapshot verified via `npm run backup`.
 - **Live Production Server**: Running Next.js Turbopack production server (`next start --hostname 127.0.0.1 --port 3000`).
-- **Live Cloudflare Deployment**: Connected and actively serving at `https://philosophy-even-species-indicate.trycloudflare.com` via QUIC protocol at edge node `nag01`.
+- **GitHub Repository**: Committed and pushed to `https://github.com/AkulaSushma/telangana-moment-smart-pyq` (branch `main`).
+- **Live Cloudflare Deployment**: Connected and actively serving at `https://reader-weapon-professor-identifying.trycloudflare.com` via QUIC protocol at edge node `nag01`.
   - Edge Latency: ~140ms average response time over public HTTPS.
   - Multi-User Isolation: Verified over Cloudflare HTTPS with 2 registered user accounts (SI and Constable); verified separate progress, bookmarks, and sessions with zero cross-user pollution.
   - Zero UI Regressions: 100% of tested design, typography, layout, and 4-option pedagogical explanation flows preserved.
