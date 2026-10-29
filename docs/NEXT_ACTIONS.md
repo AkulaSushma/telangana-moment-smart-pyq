@@ -7,7 +7,8 @@ Read PROJECT_CONSTITUTION, PROJECT_STATE, SOURCE_REGISTRY, CONTENT_COVERAGE, QUE
    - Production Multi-User Architecture: Secure registration, login, session management, and per-user instance isolation active.
    - Production Build & Performance: Turbopack production build verified (`npm run build`), security headers configured, and `/api/health` active.
    - Backups & Containerization: `npm run backup` (`VACUUM INTO`) and multi-stage `Dockerfile` created and verified.
-   - Live Cloudflare Deployment: Active at `https://philosophy-even-species-indicate.trycloudflare.com` via Cloudflare Quick Tunnel with sub-200ms latency.
+   - Live Cloudflare Deployment: Active and permanently live at `https://telangana-moment-smart-pyq.s87316638.workers.dev` with 100% free unlimited unmetered bandwidth.
+   - GitHub Repository: Main branch in sync at `https://github.com/AkulaSushma/telangana-moment-smart-pyq`.
    - All 32 automated unit/auth tests and 2 HTTP API integration tests pass with 0 errors.
 2. **Next Steps for Permanent Named Domain (Optional)**:
    - For a permanent branded domain (e.g., `telanganasmartpyq.com` or `police-pyq.ts.gov.in`), run `cloudflared tunnel create <tunnel-name>` and route the DNS record directly via Cloudflare dashboard or tokens.

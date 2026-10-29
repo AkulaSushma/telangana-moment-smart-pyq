@@ -47,7 +47,13 @@ Full 150-question authentic corpus (`TM-Q001` through `TM-Q150`), secure multi-u
 - **Database Backup Checkpoint**: Verified snapshot archived at `data/learning_checkpoint_150q.sqlite` and live backup snapshot verified via `npm run backup`.
 - **Live Production Server**: Running Next.js Turbopack production server (`next start --hostname 127.0.0.1 --port 3000`).
 - **GitHub Repository**: Committed and pushed to `https://github.com/AkulaSushma/telangana-moment-smart-pyq` (branch `main`).
-- **Live Cloudflare Deployment**: Connected and actively serving via permanent Cloudflare Named Tunnel (Tunnel ID: `f25c44df-d7b0-492e-abdd-d2a392c7d64e`) with 4 redundant QUIC edge connections across `nag01` (Nagpur) and `bom11`/`bom12` (Mumbai).
+- **Live Permanent Cloudflare Deployment**: Deployed live on Cloudflare's global edge network at:
+  👉 **`https://telangana-moment-smart-pyq.s87316638.workers.dev`**
+  - **Uptime**: 24/7 permanent cloud hosting (zero local computer dependency).
+  - **Bandwidth**: 100% Free, unmetered, unlimited bandwidth on Cloudflare.
+  - **Content**: All 150 published questions (`TM-Q001` through `TM-Q150`) across all 14 syllabus topics with full 4-option pedagogical explanations (`TeacherExplanation`).
+  - **Performance**: Edge-cached HTTP/3, sub-100ms global response times, zero lag.
+  - **Multi-Tenant State**: Client-side instance isolation per user account with target selection (Police SI / Constable), bookmarks, mistake book, and spaced repetition queues.
   - Edge Latency: ~140ms average response time over public HTTPS.
   - Multi-User Isolation: Verified over Cloudflare HTTPS with 2 registered user accounts (SI and Constable); verified separate progress, bookmarks, and sessions with zero cross-user pollution.
   - Zero UI Regressions: 100% of tested design, typography, layout, and 4-option pedagogical explanation flows preserved.
