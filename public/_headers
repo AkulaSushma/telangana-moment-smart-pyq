@@ -1,6 +1,4 @@
-/*
-  Cloudflare Pages security headers
-*/
+# Cloudflare Pages security headers
 /*
   X-DNS-Prefetch-Control: on
   Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
