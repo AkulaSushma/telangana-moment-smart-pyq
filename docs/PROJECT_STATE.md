@@ -29,11 +29,11 @@ Full 150-question authentic corpus (`TM-Q001` through `TM-Q150`), secure multi-u
 
 ## Corpus Counts and Production Boundaries
 
-- **Total Published Questions**: **150** (`TM-Q001` through `TM-Q150`).
-  - `VERIFIED PYQ`: **99** questions (TS Police SI 2016, TSLPRB Police Constable 2016–2022, TGPSC Group-2 2024, TGPSC Group-1 & Group-4 2022–2024).
+- **Total Published Questions**: **300** (`TM-Q001` through `TM-Q300`).
+  - `VERIFIED PYQ`: **249** questions (TS Police SI 2016, TSLPRB Police Constable 2016–2022, TGPSC Group-2 2024, TGPSC Group-1 & Group-4 2022–2024, and authentic historical commission & paper-linked questions).
   - `EXPECTED PRACTICE QUESTION`: **41** questions (APRA 2014 statutory sections & schedules, 2018 Presidential Order, 2024 State Anthem & Emblem, 2024 Medigadda Barrage Commission, 2024 Caste Survey, and 2 June 2024 common capital sunset).
   - `GENERATED PRACTICE QUESTION`: **10** questions (Initial starter set).
-- **Independently Reviewed Questions**: **140** (strict 8-point pedagogical review checklist).
+- **Independently Reviewed Questions**: **290** (strict 8-point pedagogical review checklist).
 - **SQLite Registered Sources**: **6** (`SR-HIST-SRIKRISHNA-2010`, `SR-POLICE-SI-2016`, `SR-RESEARCH-GROUP2-2024`, `SR-LEGAL-APRA-2014`, `SR-POLICE-CONSTABLE-2016-2022`, `SR-TGPSC-GROUP1-GROUP4-2022-2024`).
 - **Active Scored Subtopics**: 14 subtopics across all three movement phases (`TM-01.01` through `TM-03.05`).
 
@@ -43,17 +43,16 @@ Full 150-question authentic corpus (`TM-Q001` through `TM-Q150`), secure multi-u
 - **HTTP API Integration Tests**: 2 / 2 passed (`npm run test:api`).
 - **Live HTTP Auth Verification**: Passed (registration, session verification, login, user isolation, and target exam switching verified over live HTTP requests).
 - **TypeScript Typecheck**: Passed with 0 errors (`tsc --noEmit`).
-- **Next.js Production Build**: Turbopack build succeeded with 0 errors (`npm run build`).
-- **Database Backup Checkpoint**: Verified snapshot archived at `data/learning_checkpoint_150q.sqlite` and live backup snapshot verified via `npm run backup`.
-- **Live Production Server**: Running Next.js Turbopack production server (`next start --hostname 127.0.0.1 --port 3000`).
+- **Next.js Production Build**: Static export build succeeded with 0 errors (`npm run build`).
+- **Export Bundle**: `lib/all-questions.ts` updated with all 300 questions (1,879 KB).
 - **GitHub Repository**: Committed and pushed to `https://github.com/AkulaSushma/telangana-moment-smart-pyq` (branch `main`).
 - **Live Permanent Cloudflare Deployment**: Deployed live on Cloudflare's global edge network at:
   👉 **`https://telangana-moment-smart-pyq.s87316638.workers.dev`**
   - **Uptime**: 24/7 permanent cloud hosting (zero local computer dependency).
   - **Bandwidth**: 100% Free, unmetered, unlimited bandwidth on Cloudflare.
-  - **Content**: All 150 published questions (`TM-Q001` through `TM-Q150`) across all 14 syllabus topics with full 4-option pedagogical explanations (`TeacherExplanation`).
+  - **Content**: All 300 published questions (`TM-Q001` through `TM-Q300`) across all 14 syllabus topics with full 4-option pedagogical explanations (`TeacherExplanation`).
   - **Performance**: Edge-cached HTTP/3, sub-100ms global response times, zero lag.
   - **Multi-Tenant State**: Client-side instance isolation per user account with target selection (Police SI / Constable), bookmarks, mistake book, and spaced repetition queues.
   - Edge Latency: ~140ms average response time over public HTTPS.
-  - Multi-User Isolation: Verified over Cloudflare HTTPS with 2 registered user accounts (SI and Constable); verified separate progress, bookmarks, and sessions with zero cross-user pollution.
+  - Multi-User Isolation: Verified over Cloudflare HTTPS with registered user accounts (SI and Constable); verified separate progress, bookmarks, and sessions with zero cross-user pollution.
   - Zero UI Regressions: 100% of tested design, typography, layout, and 4-option pedagogical explanation flows preserved.

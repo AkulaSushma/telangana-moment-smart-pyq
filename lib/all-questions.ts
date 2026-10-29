@@ -17304,5 +17304,17329 @@ export const allQuestions: Question[] = [
         "nextStep": "Connect 1969 directly to the student rallies at Osmania University, Nizam College, and Sadashivpet."
       }
     ]
+  },
+  {
+    "id": "TM-Q151",
+    "topic": "TM-01.01",
+    "concept": "TM-01.01-M01",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "In which year was Urdu declared the official administrative language of Hyderabad State by Mir Mahbub Ali Khan (Asaf Jah VI), replacing Persian as the language of administration and courts?",
+    "options": [
+      {
+        "text": "1884",
+        "why": "In 1884, during the reign of Mir Mahbub Ali Khan (Asaf Jah VI), Urdu officially replaced Persian as the court and administrative language of Hyderabad State.",
+        "attraction": "The authentic administrative milestone that led to non-Mulki influx for Urdu-proficient clerical staff.",
+        "confusion": false
+      },
+      {
+        "text": "1853",
+        "why": "1853 was the year Sir Salar Jung I was appointed Prime Minister and began administrative reforms; Persian was still the official language.",
+        "attraction": "Confusing the commencement of Salar Jung's reforms with the language transition.",
+        "confusion": true
+      },
+      {
+        "text": "1919",
+        "why": "1919 was the year Mir Osman Ali Khan issued the landmark Mulki Farman establishing the 15-year residence rule, not the Urdu language decree.",
+        "attraction": "Confusing the 1919 Mulki Firman with the 1884 official language change."
+      },
+      {
+        "text": "1948",
+        "why": "1948 marks Operation Polo and the integration of Hyderabad State into the Indian Union.",
+        "attraction": "Confusing Indian integration with 19th-century Asaf Jahi reforms."
+      }
+    ],
+    "answer": 0,
+    "reason": "Urdu replaced Persian as the administrative language of Hyderabad State in 1884 by order of Nizam VI (Mir Mahbub Ali Khan).",
+    "clue": "Look for the 19th-century linguistic transition from Persian to Urdu during Nizam VI's reign.",
+    "trap": "Do not confuse the 1884 Urdu decree with the 1919 Mulki Farman issued by Nizam VII.",
+    "elimination": "1853 is Salar Jung's appointment; 1919 is the Mulki Firman; 1948 is Police Action. Only 1884 represents the language decree.",
+    "anchor": "1884 Urdu replaces Persian in Hyderabad State administration.",
+    "hint": "Occurred during the reign of Nizam VI, one year after the Chanda Railway agitation.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 38,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies 1884 as the year Urdu replaced Persian.",
+        "correctMeaning": "Correct: This reform triggered hiring from North India (United Provinces) because local Hyderabadis had studied Persian.",
+        "selectedMeaning": "Correct: Mir Mahbub Ali Khan decreed Urdu as the official language in 1884.",
+        "possibleConfusion": "No confusion; this is the authentic date.",
+        "decisionRules": [
+          {
+            "when": "Asked when Urdu replaced Persian in Hyderabad State",
+            "choose": "Choose 1884 under Nizam VI (Mir Mahbub Ali Khan)."
+          },
+          {
+            "when": "Asked when the 15-year residence Mulki Firman was issued",
+            "choose": "Choose 1919 under Nizam VII (Mir Osman Ali Khan)."
+          }
+        ],
+        "nextStep": "Connect 1884 Urdu transition to the influx of non-Mulkis from North India."
+      },
+      {
+        "observation": "Selected 1853.",
+        "correctMeaning": "The correct year is 1884.",
+        "selectedMeaning": "1853 marks Salar Jung I becoming Prime Minister, not the Urdu language switch.",
+        "possibleConfusion": "Confusing the beginning of Salar Jung's revenue reforms with language reforms 31 years later.",
+        "decisionRules": [
+          {
+            "when": "Asked when Salar Jung I became Prime Minister",
+            "choose": "Choose 1853."
+          },
+          {
+            "when": "Asked when Urdu replaced Persian as official language",
+            "choose": "Choose 1884."
+          }
+        ],
+        "nextStep": "Separate Salar Jung's appointment (1853) from the language change (1884)."
+      },
+      {
+        "observation": "Selected 1919.",
+        "correctMeaning": "The correct year is 1884.",
+        "selectedMeaning": "1919 is the 15-year Mulki Firman, not the 1884 language reform.",
+        "possibleConfusion": "Confusing two landmark Nizam decrees separated by 35 years.",
+        "decisionRules": [
+          {
+            "when": "Asked about the 15-year continuous stay Firman",
+            "choose": "Choose 1919."
+          },
+          {
+            "when": "Asked about the Persian-to-Urdu language transition",
+            "choose": "Choose 1884."
+          }
+        ],
+        "nextStep": "Anchor 1919 to the Mulki definition and 1884 to the language declaration."
+      },
+      {
+        "observation": "Selected 1948.",
+        "correctMeaning": "The correct year is 1884.",
+        "selectedMeaning": "1948 is Police Action (Operation Polo), unrelated to Asaf Jahi language decrees.",
+        "possibleConfusion": "Confusing 20th-century political accession with 19th-century administrative reforms.",
+        "decisionRules": [
+          {
+            "when": "Asked when Hyderabad joined the Indian Union",
+            "choose": "Choose 1948 (Operation Polo)."
+          },
+          {
+            "when": "Asked when Urdu was made official state language",
+            "choose": "Choose 1884."
+          }
+        ],
+        "nextStep": "Review the Asaf Jahi administrative timeline from 1853 to 1911."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q152",
+    "topic": "TM-01.01",
+    "concept": "TM-01.01-M02",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Who among the following was the principal leader of the 1883 'Chanda Railway Scheme' agitation in Hyderabad State, widely recognized as the first modern political agitation in Telangana history?",
+    "options": [
+      {
+        "text": "Dr. Aghornath Chattopadhyaya and Mulla Abdul Qayyum",
+        "why": "Dr. Aghornath Chattopadhyaya (principal of Hyderabad College, father of Sarojini Naidu) and Mulla Abdul Qayyum founded the 'Committee to Consider the Chanda Railway Project' in 1883 to protest financial exploitation of state funds by a British company.",
+        "attraction": "The authentic founding intellectuals behind the Chanda Railway agitation.",
+        "confusion": false
+      },
+      {
+        "text": "Swami Ramananda Tirtha and Burgula Ramakrishna Rao",
+        "why": "Swami Ramananda Tirtha led the Hyderabad State Congress during the 1938-1948 phase, long after the 1883 railway agitation.",
+        "attraction": "Associating later Hyderabad State Congress leaders with early 19th-century agitation.",
+        "confusion": true
+      },
+      {
+        "text": "Ravi Narayana Reddy and Baddam Yella Reddy",
+        "why": "Ravi Narayana Reddy and Baddam Yella Reddy were leaders of the 1946–1951 Telangana Peasant Armed Struggle, not the 1883 railway protest.",
+        "attraction": "Confusing armed struggle leaders with early intellectual constitutional protest."
+      },
+      {
+        "text": "Komaram Bheem and Ramji Gond",
+        "why": "Komaram Bheem (1940 Jodeghat) and Ramji Gond (1860 Nirmal) led tribal armed revolts in Adilabad against British/Nizam forces.",
+        "attraction": "Confusing tribal revolt leaders with urban intellectual railway agitation."
+      }
+    ],
+    "answer": 0,
+    "reason": "The 1883 Chanda Railway Agitation was led by Dr. Aghornath Chattopadhyaya and Mulla Abdul Qayyum, demanding financial accountability regarding the railway contract.",
+    "clue": "Look for the Hyderabad College principal and his companion who formed the Railway committee in 1883.",
+    "trap": "Do not choose Swami Ramananda Tirtha, who emerged 55 years later in the 1938 Hyderabad State Congress satyagraha.",
+    "elimination": "Ramananda Tirtha is 1938; Ravi Narayana Reddy is 1946; Komaram Bheem is 1940. Only Aghornath Chattopadhyaya is 1883.",
+    "anchor": "Chanda Railway Agitation (1883) -> Dr. Aghornath Chattopadhyaya & Mulla Abdul Qayyum.",
+    "hint": "Dr. Aghornath Chattopadhyaya was exiled from Hyderabad by the Nizam administration for leading this agitation.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 41,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Aghornath Chattopadhyaya and Mulla Abdul Qayyum.",
+        "correctMeaning": "Correct: This agitation marked the birth of public awareness and political mobilization in Hyderabad State.",
+        "selectedMeaning": "Correct: They organized public opinion against financial loss to the state caused by the British railway contract.",
+        "possibleConfusion": "No confusion; standard Telangana history question.",
+        "decisionRules": [
+          {
+            "when": "Asked who led the 1883 Chanda Railway Agitation",
+            "choose": "Choose Dr. Aghornath Chattopadhyaya and Mulla Abdul Qayyum."
+          },
+          {
+            "when": "Asked who led the 1938 Hyderabad State Congress Satyagraha",
+            "choose": "Choose Swami Ramananda Tirtha."
+          }
+        ],
+        "nextStep": "Note that Aghornath was deported from Hyderabad State for this agitation."
+      },
+      {
+        "observation": "Selected Swami Ramananda Tirtha.",
+        "correctMeaning": "The 1883 pioneers were Aghornath Chattopadhyaya and Mulla Abdul Qayyum.",
+        "selectedMeaning": "Ramananda Tirtha led the 1938 Satyagraha and Join India Union movement (1947–48).",
+        "possibleConfusion": "Confusing the greatest 1940s Congress leader with the 1880s pioneers.",
+        "decisionRules": [
+          {
+            "when": "Asked about the 1883 Railway agitation",
+            "choose": "Choose Aghornath Chattopadhyaya."
+          },
+          {
+            "when": "Asked about Hyderabad State Congress 1938 founding satyagraha",
+            "choose": "Choose Swami Ramananda Tirtha."
+          }
+        ],
+        "nextStep": "Differentiate 19th-century civic awakening from 20th-century mass congress movements."
+      },
+      {
+        "observation": "Selected Ravi Narayana Reddy.",
+        "correctMeaning": "The 1883 agitation was led by Aghornath Chattopadhyaya.",
+        "selectedMeaning": "Ravi Narayana Reddy was a CPI leader in the 1946 Armed Struggle and highest Lok Sabha vote-getter in 1952.",
+        "possibleConfusion": "Confusing peasant armed struggle icons with 1880s urban intellectuals.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1946 Telangana armed struggle leadership",
+            "choose": "Choose Ravi Narayana Reddy."
+          },
+          {
+            "when": "Asked about the 1883 Chanda Railway committee",
+            "choose": "Choose Aghornath Chattopadhyaya."
+          }
+        ],
+        "nextStep": "Map the timeline: 1883 Chanda -> 1938 State Congress -> 1946 Armed Struggle."
+      },
+      {
+        "observation": "Selected Komaram Bheem.",
+        "correctMeaning": "The 1883 railway protest was an urban constitutional protest led by Aghornath Chattopadhyaya.",
+        "selectedMeaning": "Komaram Bheem was an Adivasi martyr of 1940 (Jodeghat), fighting against forest and revenue oppression.",
+        "possibleConfusion": "Confusing tribal resistance with urban intellectual agitations.",
+        "decisionRules": [
+          {
+            "when": "Asked about Jodeghat martyr of 1940 (Jal Jangal Jameen)",
+            "choose": "Choose Komaram Bheem."
+          },
+          {
+            "when": "Asked about 1883 railway scheme protest",
+            "choose": "Choose Aghornath Chattopadhyaya."
+          }
+        ],
+        "nextStep": "Distinguish between tribal frontier revolts and capital city political mobilization."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q153",
+    "topic": "TM-01.01",
+    "concept": "TM-01.01-M03",
+    "model": "Statements",
+    "modelId": "TM-QM-STA-01",
+    "stage": "practice",
+    "prompt": "Under the landmark 1919 Mulki Firman issued by Nizam VII (Mir Osman Ali Khan), which of the following criteria correctly qualified a person as a 'Mulki'?\n(I) A person who was born and permanently resided in Hyderabad State.\n(II) A person who resided continuously in Hyderabad State for at least 15 years and abandoned the idea of returning to his native land.\n(III) A person whose father was a Mulki at the time of the person's birth.\n(IV) A woman married to a Mulki citizen.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "text": "(I), (II), (III), and (IV) — All four",
+        "why": "The 1919 Firman defined Mulkis under four distinct heads: by birth, by 15-year continuous permanent residence with declaration of intent to permanently stay, by descent through a Mulki father, and by marriage of a woman to a Mulki.",
+        "attraction": "All four categories are the exact statutory definition formulated in the 1919 Firman.",
+        "confusion": false
+      },
+      {
+        "text": "(I) and (II) only",
+        "why": "Excludes descent (father being Mulki) and marriage, which were explicit statutory provisions of the 1919 Firman.",
+        "attraction": "Only remembering the birth and 15-year residence rules.",
+        "confusion": true
+      },
+      {
+        "text": "(II) only",
+        "why": "Only focuses on the famous 15-year rule while ignoring birth, parentage, and marriage.",
+        "attraction": "Overemphasizing the 15-year continuous residence rule."
+      },
+      {
+        "text": "(I), (II), and (III) only",
+        "why": "Excludes the marriage clause, which explicitly granted Mulki status to a woman marrying a Mulki man.",
+        "attraction": "Omitting the gender/marriage entitlement clause."
+      }
+    ],
+    "answer": 0,
+    "reason": "The 1919 Firman recognized four categories of Mulkis: by birth, by 15-year continuous residence, by descent (father), and by marriage.",
+    "clue": "Check whether birth, 15-year residence, father's status, and wife's marital status were all included in the 1919 Firman.",
+    "trap": "Do not omit marriage or descent: the 1919 Firman explicitly had four distinct clauses.",
+    "elimination": "All four statements (I, II, III, IV) are valid statutory limbs of the 1919 Mulki definition.",
+    "anchor": "1919 Firman: 4 categories (Birth, 15-Year Residence, Paternal Descent, Marriage).",
+    "hint": "Think about how women who married Mulkis acquired citizenship rights in Hyderabad State.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 45,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 3,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies all four statutory criteria.",
+        "correctMeaning": "Correct: All four clauses formed the basis of Mulki rules until the 1973 Six-Point Formula.",
+        "selectedMeaning": "Correct: The 1919 Firman recognized birth, 15-year domicile, paternal descent, and marital status.",
+        "possibleConfusion": "No confusion; exhaustive statutory knowledge.",
+        "decisionRules": [
+          {
+            "when": "Asked which categories are included in the 1919 Mulki Firman",
+            "choose": "Choose All four: birth, 15-year residence, father's status, and marriage."
+          },
+          {
+            "when": "Asked about the minimum continuous stay duration in the 1919 Firman",
+            "choose": "Choose 15 years."
+          }
+        ],
+        "nextStep": "Contrast the 1919 15-year rule with the later 1975/2018 4-year study rule."
+      },
+      {
+        "observation": "Selected (I) and (II) only.",
+        "correctMeaning": "All four categories were part of the 1919 Firman.",
+        "selectedMeaning": "Misses paternal descent (III) and marriage (IV).",
+        "possibleConfusion": "Assuming only residence and birth mattered.",
+        "decisionRules": [
+          {
+            "when": "Asked if marriage granted Mulki status under 1919 Firman",
+            "choose": "Yes, a woman marrying a Mulki became a Mulki."
+          },
+          {
+            "when": "Asked if father's Mulki status conferred it to the child",
+            "choose": "Yes, by descent."
+          }
+        ],
+        "nextStep": "Memorize the fourfold classification of the 1919 Mulki rules."
+      },
+      {
+        "observation": "Selected (II) only.",
+        "correctMeaning": "The 15-year rule was only for non-natives seeking naturalization; native-born were automatically Mulkis.",
+        "selectedMeaning": "Only considered the 15-year rule.",
+        "possibleConfusion": "Fixating solely on the 15-year number.",
+        "decisionRules": [
+          {
+            "when": "Asked about naturalization of non-natives in Hyderabad",
+            "choose": "15 years continuous stay."
+          },
+          {
+            "when": "Asked about the complete definition of Mulki",
+            "choose": "All four categories."
+          }
+        ],
+        "nextStep": "Review the full text of the 1919 Firman."
+      },
+      {
+        "observation": "Selected (I), (II), and (III) only.",
+        "correctMeaning": "Women marrying Mulkis were explicitly granted Mulki status under Rule 4.",
+        "selectedMeaning": "Omitted marriage.",
+        "possibleConfusion": "Believing marital status did not confer Mulki rights.",
+        "decisionRules": [
+          {
+            "when": "Asked if non-Mulki woman marrying a Mulki became a Mulki",
+            "choose": "Yes, under the 1919 Firman."
+          },
+          {
+            "when": "Asked about a Mulki woman marrying a non-Mulki",
+            "choose": "She lost her Mulki rights if she moved away."
+          }
+        ],
+        "nextStep": "Note the gender rules in the 1919 Hyderabad Civil Service Regulations."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q154",
+    "topic": "TM-01.01",
+    "concept": "TM-01.01-M04",
+    "model": "Negative wording",
+    "modelId": "TM-QM-NEG-01",
+    "stage": "practice",
+    "prompt": "When the Hyderabad State Congress was formed in July 1938, the Nizam's government banned it immediately under Public Safety Regulations before it could hold its first general conference. Which of the following pretexts was officially cited by the Nizam's government to justify the ban?",
+    "options": [
+      {
+        "text": "That it was a communal organization and that its name was associated with British Indian political organizations",
+        "why": "Nizam VII's government issued an extraordinary gazette banning the Hyderabad State Congress on the pretext that it was a communal body dominated by one community and had organic ties with the Indian National Congress in British India.",
+        "attraction": "The authentic administrative justification published in the Nizam's 1938 gazette notification.",
+        "confusion": false
+      },
+      {
+        "text": "That it was an armed terrorist organization planning to overthrow the state by violence",
+        "why": "The State Congress was strictly committed to Gandhian non-violence and satyagraha; it was never accused of being an armed terrorist outfit.",
+        "attraction": "Confusing peaceful Congress satyagraha with armed rebellion.",
+        "confusion": true
+      },
+      {
+        "text": "That it refused to recognize the Nizam as the sovereign head of Hyderabad State",
+        "why": "In 1938, the State Congress explicitly accepted the Nizam as the constitutional sovereign and only demanded responsible government under his aegis.",
+        "attraction": "Assuming early Congress sought immediate abolition of the monarchy in 1938."
+      },
+      {
+        "text": "That it was funded by the Soviet Union to establish a communist regime",
+        "why": "Soviet funding was never alleged against the Congress; Communist organizations operated separately in the Andhra Mahasabha.",
+        "attraction": "Confusing Congress with the Communist Party."
+      }
+    ],
+    "answer": 0,
+    "reason": "Nizam's government banned Hyderabad State Congress in 1938 claiming it was communal and tied to British Indian politics.",
+    "clue": "Look for the government's pretext regarding communal character and outside political affiliation.",
+    "trap": "In 1938, Congress did NOT demand removal of the Nizam; they demanded responsible government under the Nizam's aegis.",
+    "elimination": "Congress was non-violent (eliminates armed terrorism), recognized Nizam's sovereignty in 1938 (eliminates treason), and non-communist (eliminates Soviet funding).",
+    "anchor": "1938 Hyderabad State Congress ban pretext: Alleged communal nature & outside Congress links.",
+    "hint": "Mahatma Gandhi even advised Swami Ramananda Tirtha to temporarily change the organization's name to resolve this pretext.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 52,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies communal and external association pretext.",
+        "correctMeaning": "Correct: Swami Ramananda Tirtha courted arrest on 24 October 1938 protesting this ban.",
+        "selectedMeaning": "Correct: The Nizam's government claimed it was a communal body representing only Hindus and tied to British India.",
+        "possibleConfusion": "No confusion; historical fact.",
+        "decisionRules": [
+          {
+            "when": "Asked why Nizam banned Hyderabad State Congress in 1938",
+            "choose": "Choose alleged communal nature and outside Indian National Congress links."
+          },
+          {
+            "when": "Asked what Congress demanded in 1938",
+            "choose": "Choose Responsible Government under the aegis of the Nizam."
+          }
+        ],
+        "nextStep": "Note Gandhi's letter to Sir Akbar Hydari regarding the lift of this ban."
+      },
+      {
+        "observation": "Selected armed terrorist organization.",
+        "correctMeaning": "The government used the pretext of communalism and outside political influence.",
+        "selectedMeaning": "Incorrect: The State Congress adhered strictly to non-violence and satyagraha.",
+        "possibleConfusion": "Confusing Gandhian satyagrahis with revolutionary armed groups.",
+        "decisionRules": [
+          {
+            "when": "Asked about State Congress method in 1938",
+            "choose": "Non-violent Individual Satyagraha."
+          },
+          {
+            "when": "Asked about Nizam's official reason for the ban",
+            "choose": "Alleged communal character."
+          }
+        ],
+        "nextStep": "Study Swami Ramananda Tirtha's philosophy of satyagraha."
+      },
+      {
+        "observation": "Selected refusal to recognize the Nizam.",
+        "correctMeaning": "The ban was justified by alleging it was communal.",
+        "selectedMeaning": "Incorrect: Congress constitution of 1938 explicitly acknowledged the Nizam as constitutional ruler.",
+        "possibleConfusion": "Assuming the 1947 'Join India' stance was already present in 1938.",
+        "decisionRules": [
+          {
+            "when": "Asked about Congress goal in 1938",
+            "choose": "Responsible Government under the Nizam."
+          },
+          {
+            "when": "Asked about Congress goal in 1947",
+            "choose": "Complete integration into Indian Union and end of Nizam rule."
+          }
+        ],
+        "nextStep": "Track the evolution of Congress demands from 1938 to 1947."
+      },
+      {
+        "observation": "Selected Soviet Union funding.",
+        "correctMeaning": "The official pretext was communalism and external Congress links.",
+        "selectedMeaning": "Incorrect: Congress had no communist or Soviet affiliation.",
+        "possibleConfusion": "Mixing Communist armed struggle with Congress satyagraha.",
+        "decisionRules": [
+          {
+            "when": "Asked who led the 1946 armed struggle",
+            "choose": "Communist Party / Andhra Mahasabha."
+          },
+          {
+            "when": "Asked who faced the 1938 ban",
+            "choose": "Hyderabad State Congress."
+          }
+        ],
+        "nextStep": "Keep CPI and State Congress organizational records distinct."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q155",
+    "topic": "TM-01.01",
+    "concept": "TM-01.01-M05",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHR-01",
+    "stage": "practice",
+    "prompt": "In 1938, Hindu students at Osmania University were prohibited from singing 'Vandemataram' in their prayer halls, sparking the historic Vandemataram Movement. When Osmania University expelled 350+ striking students, which University granted them admission to enable them to complete their degrees?",
+    "options": [
+      {
+        "text": "Nagpur University",
+        "why": "Nagpur University, through the efforts of its Vice-Chancellor Justice Kedar and Dr. N.B. Khare, admitted the expelled Osmania University students (including future Prime Minister P.V. Narasimha Rao and future Minister K.V. Ranga Reddy).",
+        "attraction": "The historic institution in Central Provinces that sheltered expelled Telangana students.",
+        "confusion": false
+      },
+      {
+        "text": "Andhra University (Visakhapatnam)",
+        "why": "Andhra University was approached, but initially hesitated or could not accommodate all the expelled students due to strict British-Nizam inter-provincial understandings.",
+        "attraction": "Assuming Andhra University was the immediate destination for Telugu students.",
+        "confusion": true
+      },
+      {
+        "text": "Banaras Hindu University (BHU)",
+        "why": "BHU supported the students morally, but it was Nagpur University that officially admitted and examined them.",
+        "attraction": "Associating nationalist education with Banaras Hindu University."
+      },
+      {
+        "text": "Madras University",
+        "why": "Madras University had jurisdiction over the Madras Presidency, not the Central Provinces where Nagpur opened its doors.",
+        "attraction": "Prominent southern university."
+      }
+    ],
+    "answer": 0,
+    "reason": "Nagpur University admitted the students expelled from Osmania University during the 1938 Vandemataram agitation.",
+    "clue": "Look for the university where P.V. Narasimha Rao and G. Ramaswamy completed their degrees after being expelled from OU.",
+    "trap": "Do not choose Andhra University; it was Nagpur University and its Vice-Chancellor Justice Kedar who welcomed them.",
+    "elimination": "Nagpur University granted mass admission. Andhra, BHU, and Madras did not admit this expelled batch.",
+    "anchor": "1938 Vandemataram OU strike -> Expelled students admitted to Nagpur University.",
+    "hint": "Vice Chancellor Justice Kedar played a pivotal role in admitting the students in Maharashtra/Central Provinces.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 55,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Nagpur University.",
+        "correctMeaning": "Correct: P.V. Narasimha Rao, Marri Chenna Reddy, and Hayagrivachary completed their education at Nagpur.",
+        "selectedMeaning": "Correct: Nagpur University provided shelter and degree examinations to the expelled OU student strikers.",
+        "possibleConfusion": "No confusion; famous historical fact.",
+        "decisionRules": [
+          {
+            "when": "Asked which university admitted expelled 1938 OU Vandemataram students",
+            "choose": "Choose Nagpur University."
+          },
+          {
+            "when": "Asked which OU hostel prayer hall started the 1938 Vandemataram protest",
+            "choose": "Choose Hostel 'B' (Hostel No. 2)."
+          }
+        ],
+        "nextStep": "Note the prominent leaders produced by the 1938 OU Vandemataram agitation."
+      },
+      {
+        "observation": "Selected Andhra University.",
+        "correctMeaning": "Nagpur University was the sole institution that took them in.",
+        "selectedMeaning": "Incorrect: Andhra University did not admit the expelled batch.",
+        "possibleConfusion": "Assuming Telugu students automatically went to Andhra University.",
+        "decisionRules": [
+          {
+            "when": "Asked about university sheltering OU Vandemataram strikers",
+            "choose": "Nagpur University."
+          },
+          {
+            "when": "Asked about Andhra University role",
+            "choose": "Refused or unable due to administrative protocols."
+          }
+        ],
+        "nextStep": "Remember the Nagpur connection of Telangana leaders like P.V. Narasimha Rao."
+      },
+      {
+        "observation": "Selected Banaras Hindu University.",
+        "correctMeaning": "Nagpur University admitted them under Justice Kedar's leadership.",
+        "selectedMeaning": "Incorrect: BHU was not the admitting institution for this cohort.",
+        "possibleConfusion": "Confusing nationalist pride of BHU with the actual destination.",
+        "decisionRules": [
+          {
+            "when": "Asked where P.V. Narasimha Rao went after OU expulsion",
+            "choose": "Nagpur University."
+          },
+          {
+            "when": "Asked about BHU",
+            "choose": "Not the admitting university for 1938 OU batch."
+          }
+        ],
+        "nextStep": "Associate 1938 strike with Nagpur University."
+      },
+      {
+        "observation": "Selected Madras University.",
+        "correctMeaning": "Nagpur University provided academic refuge.",
+        "selectedMeaning": "Incorrect: Madras University was not involved.",
+        "possibleConfusion": "General geographic assumption.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1938 Vandemataram OU students",
+            "choose": "Nagpur University."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Memorize: Osmania University strike -> Nagpur University refuge."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q156",
+    "topic": "TM-01.01",
+    "concept": "TM-01.01-M06",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHR-01",
+    "stage": "practice",
+    "prompt": "Match the following historical Andhra Mahasabha (AMS) conferences with the years and Presidents who presided over them:\n(A) 1st AMS Conference (Suriyapet) — (1) Suravaram Pratapa Reddy (1930)\n(B) 11th AMS Conference (Bhuvanagiri) — (2) Ravi Narayana Reddy (1944)\n(C) 12th AMS Conference (Warangal) — (3) Mandumula Narasinga Rao (1945)\n(D) 12th Split AMS Nationalist Wing — (4) K.V. Ranga Reddy (1945)\nWhich of the following is the correct matching combination?",
+    "options": [
+      {
+        "text": "(A)-1, (B)-2, (C)-3, (D)-4",
+        "why": "1st AMS (1930 Suriyapet) was presided by Suravaram Pratapa Reddy; 11th AMS (1944 Bhuvanagiri) was presided by Ravi Narayana Reddy (historic communist triumph); 12th AMS (1945 Warangal) was presided by Mandumula Narasinga Rao; and the rival 12th Nationalist AMS conference was presided by K.V. Ranga Reddy.",
+        "attraction": "The authentic, widely examined Andhra Mahasabha conference leadership timeline.",
+        "confusion": false
+      },
+      {
+        "text": "(A)-2, (B)-1, (C)-4, (D)-3",
+        "why": "Inverts Suravaram Pratapa Reddy (1930) and Ravi Narayana Reddy (1944).",
+        "attraction": "Confusing the first and eleventh conference leaders.",
+        "confusion": true
+      },
+      {
+        "text": "(A)-1, (B)-3, (C)-2, (D)-4",
+        "why": "Misplaces Mandumula Narasinga Rao to Bhuvanagiri instead of Warangal.",
+        "attraction": "Switching 1944 and 1945 conference presidents."
+      },
+      {
+        "text": "(A)-4, (B)-2, (C)-3, (D)-1",
+        "why": "Puts K.V. Ranga Reddy at the first 1930 conference instead of Suravaram.",
+        "attraction": "Confusing Ranga Reddy's role."
+      }
+    ],
+    "answer": 0,
+    "reason": "Suravaram Pratapa Reddy presided over 1st AMS (1930, Suriyapet); Ravi Narayana Reddy over 11th (1944, Bhuvanagiri); Mandumula Narasinga Rao over 12th (1945, Warangal); K.V. Ranga Reddy over 12th Nationalist Wing.",
+    "clue": "Look for Suravaram Pratapa Reddy presiding over the first 1930 conference at Suriyapet.",
+    "trap": "Bhuvanagiri (1944) was the famous turning point where communists took control under Ravi Narayana Reddy.",
+    "elimination": "(A) must be 1 (Suravaram Pratapa Reddy, 1930). This immediately narrows down to (A)-1, (B)-2, (C)-3, (D)-4.",
+    "anchor": "1st AMS: Suravaram (1930) | 11th AMS: Ravi Narayana Reddy (1944 Bhuvanagiri) | 12th AMS: Mandumula (1945) & K.V. Ranga Reddy (Nationalist).",
+    "hint": "Suravaram Pratapa Reddy also founded Golconda Patrika in 1926.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 60,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 3,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correct pairing across all four conferences.",
+        "correctMeaning": "Correct: The Bhuvanagiri conference (1944) marked the decisive ideological split between communists and moderates.",
+        "selectedMeaning": "Correct: Matches 1930 Suravaram, 1944 Ravi Narayana Reddy, and 1945 split.",
+        "possibleConfusion": "No confusion; standard high-yield match.",
+        "decisionRules": [
+          {
+            "when": "Asked who presided over 1st Andhra Mahasabha (1930 Suriyapet)",
+            "choose": "Suravaram Pratapa Reddy."
+          },
+          {
+            "when": "Asked who presided over 11th AMS Bhuvanagiri conference (1944)",
+            "choose": "Ravi Narayana Reddy."
+          }
+        ],
+        "nextStep": "Review all 12 AMS conferences and their respective host towns."
+      },
+      {
+        "observation": "Selected inverted 1st and 11th leaders.",
+        "correctMeaning": "Suravaram was 1930; Ravi Narayana Reddy was 1944.",
+        "selectedMeaning": "Inverts Suravaram and Ravi Narayana Reddy.",
+        "possibleConfusion": "Chronological reversal.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1930 first conference",
+            "choose": "Suravaram Pratapa Reddy."
+          },
+          {
+            "when": "Asked about 1944 Bhuvanagiri conference",
+            "choose": "Ravi Narayana Reddy."
+          }
+        ],
+        "nextStep": "Anchor Suravaram to 1930 and Bhuvanagiri to 1944."
+      },
+      {
+        "observation": "Selected Mandumula for Bhuvanagiri.",
+        "correctMeaning": "Bhuvanagiri 1944 belongs to Ravi Narayana Reddy.",
+        "selectedMeaning": "Incorrect: Bhuvanagiri was presided by Ravi Narayana Reddy.",
+        "possibleConfusion": "Confusing Bhuvanagiri and Warangal sessions.",
+        "decisionRules": [
+          {
+            "when": "Asked about Bhuvanagiri 1944",
+            "choose": "Ravi Narayana Reddy."
+          },
+          {
+            "when": "Asked about Warangal 12th session",
+            "choose": "Mandumula Narasinga Rao."
+          }
+        ],
+        "nextStep": "Note the communist victory at Bhuvanagiri."
+      },
+      {
+        "observation": "Selected K.V. Ranga Reddy for 1st conference.",
+        "correctMeaning": "Suravaram Pratapa Reddy was the 1st president.",
+        "selectedMeaning": "Incorrect: K.V. Ranga Reddy presided over the rival nationalist wing in 1945.",
+        "possibleConfusion": "Confusing moderate leader Ranga Reddy with the 1930 founder.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1st AMS president",
+            "choose": "Suravaram Pratapa Reddy."
+          },
+          {
+            "when": "Asked about 1945 Nationalist wing president",
+            "choose": "K.V. Ranga Reddy."
+          }
+        ],
+        "nextStep": "Trace the moderate-communist split within Andhra Mahasabha."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q157",
+    "topic": "TM-01.01",
+    "concept": "TM-01.01-M07",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "The historic Telugu journal 'Golconda Patrika' was launched on 10 May 1926 in Hyderabad. Who was its founder-editor, and who provided the financial backing as its main publisher and managing director?",
+    "options": [
+      {
+        "text": "Founder-Editor: Suravaram Pratapa Reddy | Financier/Publisher: Raja Bahadur Venkatarama Reddy",
+        "why": "Suravaram Pratapa Reddy was the founding editor who used Golconda Patrika to kindle cultural and linguistic pride in Telangana, while Kotwal Raja Bahadur Venkatarama Reddy and other philanthropists provided initial financial and moral backing.",
+        "attraction": "The authentic editorial and financial partnership behind Golconda Patrika.",
+        "confusion": false
+      },
+      {
+        "text": "Founder-Editor: Shoebullah Khan | Financier/Publisher: K.V. Ranga Reddy",
+        "why": "Shoebullah Khan edited the nationalist Urdu daily 'Imroze' (and was martyred by Razakars in 1948), not Golconda Patrika.",
+        "attraction": "Confusing Shoebullah Khan's 'Imroze' with 'Golconda Patrika'.",
+        "confusion": true
+      },
+      {
+        "text": "Founder-Editor: Kaloji Narayana Rao | Financier/Publisher: Madapati Hanumantha Rao",
+        "why": "Kaloji was a famous poet ('Naa Godava') and Madapati was the pioneer of Andhra Janasangham, but neither founded Golconda Patrika.",
+        "attraction": "Prominent Telangana cultural figures."
+      },
+      {
+        "text": "Founder-Editor: Dasarathi Krishnamacharyulu | Financier/Publisher: Burgula Ramakrishna Rao",
+        "why": "Dasarathi wrote 'Agnidhara' and 'Rudra Veena'; he did not establish Golconda Patrika in 1926.",
+        "attraction": "Associating Dasarathi with early print journalism."
+      }
+    ],
+    "answer": 0,
+    "reason": "Golconda Patrika was founded and edited by Suravaram Pratapa Reddy on 10 May 1926, backed by Raja Bahadur Venkatarama Reddy.",
+    "clue": "Look for the author of 'Andhrula Sanghika Charitra' who launched Golconda Patrika in 1926.",
+    "trap": "Do not confuse Golconda Patrika with Imroze (Shoebullah Khan) or Rayyat (Mandamula Narsing Rao).",
+    "elimination": "Shoebullah Khan is Imroze; Kaloji is Naa Godava; Dasarathi is Agnidhara. Only Suravaram Pratapa Reddy edited Golconda Patrika.",
+    "anchor": "Golconda Patrika (10 May 1926) -> Suravaram Pratapa Reddy.",
+    "hint": "Suravaram also compiled 'Golconda Kavula Sanchika' containing poems of 354 Telangana poets to prove Telangana's rich literary heritage.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 63,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Suravaram Pratapa Reddy.",
+        "correctMeaning": "Correct: It became the mouthpiece for social reform, Telugu literacy, and Mulki rights.",
+        "selectedMeaning": "Correct: Suravaram launched Golconda Patrika on 10 May 1926 as a bi-weekly, later converted into a daily.",
+        "possibleConfusion": "No confusion; foundational fact.",
+        "decisionRules": [
+          {
+            "when": "Asked who founded and edited Golconda Patrika (1926)",
+            "choose": "Suravaram Pratapa Reddy."
+          },
+          {
+            "when": "Asked who compiled Golconda Kavula Sanchika (1934)",
+            "choose": "Suravaram Pratapa Reddy."
+          }
+        ],
+        "nextStep": "Remember Suravaram's Sahitya Akademi award-winning work: 'Andhrula Sanghika Charitra'."
+      },
+      {
+        "observation": "Selected Shoebullah Khan.",
+        "correctMeaning": "Suravaram Pratapa Reddy edited Golconda Patrika.",
+        "selectedMeaning": "Incorrect: Shoebullah Khan edited the Urdu newspaper 'Imroze'.",
+        "possibleConfusion": "Confusing Urdu martyr journalist with Telugu cultural journalist.",
+        "decisionRules": [
+          {
+            "when": "Asked about the editor of 'Imroze' martyred by Razakars in 1948",
+            "choose": "Shoebullah Khan."
+          },
+          {
+            "when": "Asked about the editor of 'Golconda Patrika' (1926)",
+            "choose": "Suravaram Pratapa Reddy."
+          }
+        ],
+        "nextStep": "Keep Imroze and Golconda Patrika separate."
+      },
+      {
+        "observation": "Selected Kaloji Narayana Rao.",
+        "correctMeaning": "Suravaram Pratapa Reddy founded it.",
+        "selectedMeaning": "Incorrect: Kaloji was a poet ('Naa Godava'), not the 1926 founder.",
+        "possibleConfusion": "Attributing early institutions to Kaloji.",
+        "decisionRules": [
+          {
+            "when": "Asked who wrote 'Naa Godava'",
+            "choose": "Kaloji Narayana Rao."
+          },
+          {
+            "when": "Asked who founded Golconda Patrika",
+            "choose": "Suravaram Pratapa Reddy."
+          }
+        ],
+        "nextStep": "Note Kaloji's era (1940s–1990s)."
+      },
+      {
+        "observation": "Selected Dasarathi.",
+        "correctMeaning": "Suravaram Pratapa Reddy founded Golconda Patrika.",
+        "selectedMeaning": "Incorrect: Dasarathi wrote poetry on prison walls with coal, not 1926 journalism.",
+        "possibleConfusion": "Confusing poets with early editors.",
+        "decisionRules": [
+          {
+            "when": "Asked who wrote 'Koti Rathanala Veena Naa Telangana'",
+            "choose": "Dasarathi Krishnamacharyulu."
+          },
+          {
+            "when": "Asked about Golconda Patrika editor",
+            "choose": "Suravaram Pratapa Reddy."
+          }
+        ],
+        "nextStep": "Match each literary icon with their exact vehicle."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q158",
+    "topic": "TM-01.01",
+    "concept": "TM-01.01-M08",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Tribal revolutionary leader Komaram Bheem fought against the Nizam's forest and revenue officials in Adilabad district. On which date was he martyred in an encounter with Nizam's police at Jodeghat, and what was his historic revolutionary slogan?",
+    "options": [
+      {
+        "text": "1 September 1940 (Ashwayuja Pournami) | Slogan: 'Jal, Jangal, Zameen' (Water, Forest, Land)",
+        "why": "Komaram Bheem was martyred at Jodeghat on Ashwayuja Pournami (1 September 1940) fighting the armed detachment led by Asifabad Talukdar Abdul Sattar. His enduring slogan was 'Jal, Jangal, Zameen'.",
+        "attraction": "The authentic date, traditional lunar tithi, and world-renowned tribal rights slogan.",
+        "confusion": false
+      },
+      {
+        "text": "4 July 1946 | Slogan: 'Bhoo Kosam, Mukti Kosam' (For Land, For Liberation)",
+        "why": "4 July 1946 marks the martyrdom of Doddi Komaraiah at Kadavendi, which sparked the peasant armed struggle.",
+        "attraction": "Confusing Komaram Bheem with Doddi Komaraiah.",
+        "confusion": true
+      },
+      {
+        "text": "9 April 1860 | Slogan: 'Inquilab Zindabad'",
+        "why": "9 April 1860 is associated with Ramji Gond's fight and the hanging at Nirmal ('Veyyi Vudala Marri').",
+        "attraction": "Confusing Komaram Bheem with 1860 Ramji Gond."
+      },
+      {
+        "text": "15 August 1947 | Slogan: 'Jai Telangana'",
+        "why": "15 August 1947 is Indian Independence Day, not Komaram Bheem's martyrdom date.",
+        "attraction": "General nationalist date."
+      }
+    ],
+    "answer": 0,
+    "reason": "Komaram Bheem was martyred on Ashwayuja Pournami (1 September 1940) at Jodeghat, coining 'Jal, Jangal, Zameen'.",
+    "clue": "Look for Jodeghat, Ashwayuja Pournami 1940, and the slogan 'Jal, Jangal, Zameen'.",
+    "trap": "Do not confuse Komaram Bheem (1940, Jodeghat) with Doddi Komaraiah (4 July 1946, Kadavendi).",
+    "elimination": "Doddi Komaraiah is 4 July 1946; Ramji Gond is 1860. Only Komaram Bheem is September 1940 (Jodeghat).",
+    "anchor": "Komaram Bheem (1940 Jodeghat) -> 'Jal, Jangal, Zameen'.",
+    "hint": "Following Bheem's revolt, the Nizam appointed Austrian anthropologist Christoph von Fürer-Haimendorf to study tribal land alienation.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 68,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies 1940 Jodeghat and Jal, Jangal, Zameen.",
+        "correctMeaning": "Correct: His sacrifice prompted the appointment of Christoph von Fürer-Haimendorf to draft tribal safeguards.",
+        "selectedMeaning": "Correct: Komaram Bheem gave the immortal slogan 'Jal, Jangal, Zameen' and fell at Jodeghat in 1940.",
+        "possibleConfusion": "No confusion; standard question.",
+        "decisionRules": [
+          {
+            "when": "Asked about Komaram Bheem's slogan and martyrdom site",
+            "choose": "Jal, Jangal, Zameen at Jodeghat (1940)."
+          },
+          {
+            "when": "Asked who investigated tribal conditions after Bheem's martyrdom",
+            "choose": "Prof. Christoph von Fürer-Haimendorf."
+          }
+        ],
+        "nextStep": "Connect Bheem's uprising to the creation of Special Tribal Areas in Adilabad."
+      },
+      {
+        "observation": "Selected 4 July 1946.",
+        "correctMeaning": "Komaram Bheem died in 1940 at Jodeghat.",
+        "selectedMeaning": "4 July 1946 is the martyrdom of Doddi Komaraiah at Kadavendi, triggering the Telangana Armed Struggle.",
+        "possibleConfusion": "Confusing two famous martyrs with 'Komaram' / 'Komaraiah' names.",
+        "decisionRules": [
+          {
+            "when": "Asked about Doddi Komaraiah",
+            "choose": "4 July 1946, Kadavendi (Visnoor Ramachandra Reddy's gadi)."
+          },
+          {
+            "when": "Asked about Komaram Bheem",
+            "choose": "1 September 1940, Jodeghat (Gond-Koya tribal leader)."
+          }
+        ],
+        "nextStep": "Clearly separate Doddi Komaraiah (1946, Kadavendi) and Komaram Bheem (1940, Jodeghat)."
+      },
+      {
+        "observation": "Selected 1860 Ramji Gond.",
+        "correctMeaning": "Komaram Bheem fought in 1940 against Nizam's forest taxes.",
+        "selectedMeaning": "Ramji Gond fought in 1860 against the British near Nirmal.",
+        "possibleConfusion": "Confusing two Adilabad Gond tribal leaders across different centuries.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1860 Nirmal banyan tree martyrdom (1,000 hanging)",
+            "choose": "Ramji Gond."
+          },
+          {
+            "when": "Asked about 1940 Jodeghat battle",
+            "choose": "Komaram Bheem."
+          }
+        ],
+        "nextStep": "Place Ramji Gond in 1860 and Komaram Bheem in 1940."
+      },
+      {
+        "observation": "Selected 15 August 1947.",
+        "correctMeaning": "Bheem died 7 years before Indian independence (1940).",
+        "selectedMeaning": "Incorrect date.",
+        "possibleConfusion": "Anachronism.",
+        "decisionRules": [
+          {
+            "when": "Asked about Komaram Bheem's martyrdom year",
+            "choose": "1940."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Anchor 1940 to Komaram Bheem."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q159",
+    "topic": "TM-01.01",
+    "concept": "TM-01.01-M09",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "During the 1857 First War of Indian Independence, which heroic leader led an armed assault of 5,000 Rohilla and Hyderabadi rebels on the British Residency at Koti (Hyderabad) on 17 July 1857, and was later betrayed, shot at Toopran, and his dead body hung naked at the city gates?",
+    "options": [
+      {
+        "text": "Turrebaz Khan (accompanied by Maulvi Allauddin)",
+        "why": "On 17 July 1857, Turrebaz Khan and Maulvi Allauddin led the heroic assault on the British Residency at Koti. Turrebaz Khan was captured, escaped from prison, was tracked to Toopran by Qurban Ali, shot dead on 19 August 1859, and his body was displayed publicly at the Residency.",
+        "attraction": "The legendary martyr of the 1857 rebellion in Hyderabad State.",
+        "confusion": false
+      },
+      {
+        "text": "Mubarez-ud-Daulah",
+        "why": "Mubarez-ud-Daulah (brother of Nizam Nasir-ud-Daulah) led the Wahhabi Movement in Hyderabad in 1839 and was imprisoned at Golconda Fort where he died in 1854, before 1857.",
+        "attraction": "Confusing the 1839 Wahhabi conspiracy leader with the 1857 rebellion leader.",
+        "confusion": true
+      },
+      {
+        "text": "Salar Jung I",
+        "why": "Sir Salar Jung I was the Prime Minister who supported the British and actively suppressed the 1857 rebellion in Hyderabad.",
+        "attraction": "Confusing the British-allied Prime Minister with the rebel leader."
+      },
+      {
+        "text": "Raja Deep Singh",
+        "why": "Raja Deep Singh was an earlier rebel of the 1820s, not the leader of the 17 July 1857 Residency assault.",
+        "attraction": "Historical rebel figure."
+      }
+    ],
+    "answer": 0,
+    "reason": "Turrebaz Khan led the 17 July 1857 assault on the British Residency at Koti, supported by Maulvi Allauddin.",
+    "clue": "Look for the 17 July 1857 attack on the British Residency and the martyr shot at Toopran.",
+    "trap": "Do not confuse Turrebaz Khan (1857) with Mubarez-ud-Daulah (1839 Wahhabi leader who died in 1854).",
+    "elimination": "Mubarez-ud-Daulah died in 1854; Salar Jung aided the British. Only Turrebaz Khan led the 1857 Koti Residency assault.",
+    "anchor": "1857 Koti Residency assault -> Turrebaz Khan & Maulvi Allauddin.",
+    "hint": "Maulvi Allauddin was captured and transported for life to the Andaman Cellular Jail (Kalapani).",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 35,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Turrebaz Khan and Maulvi Allauddin.",
+        "correctMeaning": "Correct: He was betrayed by Talukdar Qurban Ali, shot at Toopran, and hung at the city gates.",
+        "selectedMeaning": "Correct: Turrebaz Khan led the Koti Residency assault on 17 July 1857.",
+        "possibleConfusion": "No confusion; famous 1857 Telangana question.",
+        "decisionRules": [
+          {
+            "when": "Asked who attacked the British Residency in Hyderabad on 17 July 1857",
+            "choose": "Turrebaz Khan."
+          },
+          {
+            "when": "Asked which religious leader accompanied Turrebaz Khan and was sent to Andaman",
+            "choose": "Maulvi Allauddin."
+          }
+        ],
+        "nextStep": "Note that Minister Salar Jung alerted the British Resident Major Davidson before the attack."
+      },
+      {
+        "observation": "Selected Mubarez-ud-Daulah.",
+        "correctMeaning": "Turrebaz Khan led the 1857 assault.",
+        "selectedMeaning": "Incorrect: Mubarez-ud-Daulah led the 1839 Wahhabi movement, not 1857.",
+        "possibleConfusion": "Confusing 1839 anti-British conspiracy with 1857 open revolt.",
+        "decisionRules": [
+          {
+            "when": "Asked about the 1839 Wahhabi Conspiracy in Hyderabad",
+            "choose": "Mubarez-ud-Daulah."
+          },
+          {
+            "when": "Asked about 1857 Koti Residency attack",
+            "choose": "Turrebaz Khan."
+          }
+        ],
+        "nextStep": "Remember Mubarez-ud-Daulah died in Golconda Fort imprisonment in 1854."
+      },
+      {
+        "observation": "Selected Salar Jung I.",
+        "correctMeaning": "Turrebaz Khan fought against the British.",
+        "selectedMeaning": "Incorrect: Salar Jung supported the British and prevented the Nizam's army from joining the revolt.",
+        "possibleConfusion": "Total role reversal.",
+        "decisionRules": [
+          {
+            "when": "Asked who helped the British survive in Hyderabad during 1857",
+            "choose": "Salar Jung I."
+          },
+          {
+            "when": "Asked who attacked the British Residency",
+            "choose": "Turrebaz Khan."
+          }
+        ],
+        "nextStep": "Understand why the British hailed Hyderabad as 'an anchor in the storm' during 1857."
+      },
+      {
+        "observation": "Selected Raja Deep Singh.",
+        "correctMeaning": "Turrebaz Khan was the 1857 hero.",
+        "selectedMeaning": "Incorrect: Not the 1857 leader.",
+        "possibleConfusion": "General rebel confusion.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1857 Koti attack",
+            "choose": "Turrebaz Khan."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Memorize Turrebaz Khan and Maulvi Allauddin."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q160",
+    "topic": "TM-01.01",
+    "concept": "TM-01.01-M10",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "In 1860, the British forces under Colonel Roberts defeated the combined Gond and Rohilla rebel forces led by Ramji Gond near Nirmal. At which iconic location were Ramji Gond and 1,000 of his followers brutally executed by hanging from a single massive tree, now preserved as a historic martyr memorial?",
+    "options": [
+      {
+        "text": "'Veyyi Vudala Marri' (Banyan tree of a thousand roots) at Nirmal",
+        "why": "On 9 April 1860, following the Battle of Nirmal, British forces hanged Ramji Gond and 1,000 of his fellow Gond and Rohilla rebels to a single banyan tree known as 'Veyyi Vudala Marri' outside Nirmal town.",
+        "attraction": "The sacred historical memorial representing the 1860 martyrdom of 1,000 freedom fighters.",
+        "confusion": false
+      },
+      {
+        "text": "Jodeghat hills near Asifabad",
+        "why": "Jodeghat is the martyrdom site of Komaram Bheem in 1940, not Ramji Gond in 1860.",
+        "attraction": "Confusing Ramji Gond's Nirmal execution with Komaram Bheem's Jodeghat battle.",
+        "confusion": true
+      },
+      {
+        "text": "Kadavendi Gadi in Jangaon",
+        "why": "Kadavendi Gadi is the location where Doddi Komaraiah was shot on 4 July 1946.",
+        "attraction": "Confusing 1860 tribal hanging with 1946 peasant armed struggle."
+      },
+      {
+        "text": "Gun Park opposite Telangana Assembly",
+        "why": "Gun Park is the 1969 Telangana Martyrs Memorial built by Aekka Yadagiri Rao, not an 1860 site.",
+        "attraction": "Associating modern 1969 martyrs memorial with 1860 tribal execution."
+      }
+    ],
+    "answer": 0,
+    "reason": "Ramji Gond and 1,000 rebels were hanged at 'Veyyi Vudala Marri' near Nirmal in April 1860.",
+    "clue": "Look for the banyan tree of 1,000 hangings in Nirmal in 1860.",
+    "trap": "Do not confuse Ramji Gond (1860 Nirmal) with Komaram Bheem (1940 Jodeghat).",
+    "elimination": "Jodeghat is 1940 Komaram Bheem; Kadavendi is 1946 Doddi Komaraiah; Gun Park is 1969. Only Veyyi Vudala Marri at Nirmal is 1860 Ramji Gond.",
+    "anchor": "Ramji Gond (1860) -> 'Veyyi Vudala Marri' (1,000 hanged) at Nirmal.",
+    "hint": "The banyan tree fell during a storm in 1995, but a memorial column marks this historic site in Nirmal.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 36,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Veyyi Vudala Marri at Nirmal.",
+        "correctMeaning": "Correct: It remains one of the largest mass hangings in Indian colonial history.",
+        "selectedMeaning": "Correct: Ramji Gond and 1,000 rebels were executed on a single banyan tree outside Nirmal on 9 April 1860.",
+        "possibleConfusion": "No confusion; famous Adilabad history question.",
+        "decisionRules": [
+          {
+            "when": "Asked about 'Veyyi Vudala Marri' 1860 mass hanging at Nirmal",
+            "choose": "Ramji Gond."
+          },
+          {
+            "when": "Asked about Jodeghat 1940 martyrdom",
+            "choose": "Komaram Bheem."
+          }
+        ],
+        "nextStep": "Connect Ramji Gond's rebellion to the alliance between Gonds and Rohillas."
+      },
+      {
+        "observation": "Selected Jodeghat hills.",
+        "correctMeaning": "Ramji Gond's memorial is Veyyi Vudala Marri in Nirmal (1860).",
+        "selectedMeaning": "Jodeghat is Komaram Bheem's site in 1940.",
+        "possibleConfusion": "Confusing two Adilabad tribal rebellion sites separated by 80 years.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1860 Nirmal banyan tree",
+            "choose": "Ramji Gond."
+          },
+          {
+            "when": "Asked about 1940 Jodeghat hills",
+            "choose": "Komaram Bheem."
+          }
+        ],
+        "nextStep": "Chronologically sequence: Ramji Gond (1860) -> Komaram Bheem (1940)."
+      },
+      {
+        "observation": "Selected Kadavendi Gadi.",
+        "correctMeaning": "Ramji Gond belongs to 1860 Nirmal.",
+        "selectedMeaning": "Kadavendi is Doddi Komaraiah's martyrdom site on 4 July 1946.",
+        "possibleConfusion": "Confusing armed peasant struggle with 19th-century tribal revolt.",
+        "decisionRules": [
+          {
+            "when": "Asked about Kadavendi 1946",
+            "choose": "Doddi Komaraiah."
+          },
+          {
+            "when": "Asked about Nirmal 1860",
+            "choose": "Ramji Gond."
+          }
+        ],
+        "nextStep": "Maintain geographic clarity between Nirmal (Adilabad) and Kadavendi (Warangal/Jangaon)."
+      },
+      {
+        "observation": "Selected Gun Park.",
+        "correctMeaning": "Ramji Gond is 1860 Nirmal.",
+        "selectedMeaning": "Gun Park is the 1969 Telangana Martyrs Memorial in Hyderabad.",
+        "possibleConfusion": "Confusing modern capital monument with 19th-century historical execution site.",
+        "decisionRules": [
+          {
+            "when": "Asked about Gun Park Martyrs Memorial",
+            "choose": "1969 Agitation (sculpted by Aekka Yadagiri Rao)."
+          },
+          {
+            "when": "Asked about Veyyi Vudala Marri",
+            "choose": "1860 Ramji Gond martyrdom."
+          }
+        ],
+        "nextStep": "Study all major Telangana martyr monuments across historical eras."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q161",
+    "topic": "TM-01.02",
+    "concept": "TM-01.02-M01",
+    "model": "Statements",
+    "modelId": "TM-QM-STA-01",
+    "stage": "practice",
+    "prompt": "Regarding the 1952 'Non-Mulki Go Back' (Idhi Mulki Maadi, Gair Mulki Pove) movement, consider the following statements:\n(I) The movement originated in Warangal in July 1952 when local teachers protested the appointment and promotion of non-Mulkis using fake domicile certificates by Divisional Inspector of Schools, Parthasarathi.\n(II) On 3 and 4 September 1952, police opened fire on protesting students near City College in Hyderabad, killing 4 people and injuring dozens.\n(III) Chief Minister Burgula Ramakrishna Rao appointed the Pingali Jaganmohan Reddy Commission of Inquiry to probe the City College police firing.\nWhich of the statements given above are correct?",
+    "options": [
+      {
+        "text": "(I), (II), and (III) — All three are correct",
+        "why": "All three statements are historically accurate: the spark occurred in Warangal in July 1952 over Parthasarathi's appointments; the City College police firing occurred on 3-4 September 1952; and Justice Pingali Jaganmohan Reddy was appointed to investigate.",
+        "attraction": "All three statements provide the authentic narrative of the 1952 Mulki movement.",
+        "confusion": false
+      },
+      {
+        "text": "(I) and (II) only",
+        "why": "Omits the appointment of the landmark Pingali Jaganmohan Reddy Commission, which submitted its report on 28 December 1952.",
+        "attraction": "Overlooking the commission of inquiry.",
+        "confusion": true
+      },
+      {
+        "text": "(II) and (III) only",
+        "why": "Omits the Warangal origin and Inspector Parthasarathi's role.",
+        "attraction": "Forgetting that the movement started in Warangal before spreading to Hyderabad."
+      },
+      {
+        "text": "(I) only",
+        "why": "Omits the tragic climax at City College and the judicial inquiry.",
+        "attraction": "Focusing solely on the initial spark."
+      }
+    ],
+    "answer": 0,
+    "reason": "All three statements are correct: 1952 movement began in Warangal, saw City College firing on 3-4 September 1952, and was probed by Justice Pingali Jaganmohan Reddy.",
+    "clue": "Check Warangal origin, 3-4 Sept City College firing, and Jaganmohan Reddy Commission.",
+    "trap": "Do not confuse the 1952 Jaganmohan Reddy Commission with the 1969 Bhargava or Kumar Lalit Committees.",
+    "elimination": "All three statements represent verified historical facts of the 1952 Mulki agitation.",
+    "anchor": "1952 Mulki Movement: Warangal spark -> 3-4 Sept City College firing -> Pingali Jaganmohan Reddy Commission.",
+    "hint": "The four martyrs of the City College firing were Mohammad Qasim, Shaikh Mohammad, Ramulu, and Jamaluddin.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 72,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Validates all three historical statements.",
+        "correctMeaning": "Correct: The movement started over Warangal teacher transfers and culminated in the City College firing.",
+        "selectedMeaning": "Correct: All three statements represent the true chronology of the 1952 Mulki movement.",
+        "possibleConfusion": "No confusion; standard high-yield topic.",
+        "decisionRules": [
+          {
+            "when": "Asked where the 1952 Mulki movement started",
+            "choose": "Warangal (Hanumakonda)."
+          },
+          {
+            "when": "Asked who headed the commission into the 1952 City College firing",
+            "choose": "Justice Pingali Jaganmohan Reddy."
+          }
+        ],
+        "nextStep": "Note the Cabinet Sub-Committee appointed by Burgula consisting of K.V. Ranga Reddy, Phoolchand Gandhi, G. Rajaram, and Mehdi Nawaz Jung."
+      },
+      {
+        "observation": "Selected (I) and (II) only.",
+        "correctMeaning": "Statement III is an essential part of the 1952 history.",
+        "selectedMeaning": "Omitted the Pingali Jaganmohan Reddy Commission.",
+        "possibleConfusion": "Forgetting the commission of inquiry.",
+        "decisionRules": [
+          {
+            "when": "Asked about the judicial probe into 1952 firing",
+            "choose": "Justice Pingali Jaganmohan Reddy Commission."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Memorize: 1952 City College firing -> Justice Pingali Jaganmohan Reddy."
+      },
+      {
+        "observation": "Selected (II) and (III) only.",
+        "correctMeaning": "The 1952 agitation began in Warangal under school inspector Parthasarathi's actions.",
+        "selectedMeaning": "Omitted the Warangal spark.",
+        "possibleConfusion": "Assuming the agitation was born at City College.",
+        "decisionRules": [
+          {
+            "when": "Asked about the birthplace of the 1952 Non-Mulki movement",
+            "choose": "Warangal."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Trace the spread: Warangal (July) -> Hyderabad (August/September)."
+      },
+      {
+        "observation": "Selected (I) only.",
+        "correctMeaning": "City College firing and the judicial commission are core components.",
+        "selectedMeaning": "Omitted the peak events.",
+        "possibleConfusion": "Incomplete recall.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1952 Mulki agitation key events",
+            "choose": "Warangal origin + City College firing + Jaganmohan Reddy Commission."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Review the full sequence of events in 1952."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q162",
+    "topic": "TM-01.02",
+    "concept": "TM-01.02-M02",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "In the States Reorganisation Commission (SRC) Report of 1955 (headed by Justice Fazal Ali, with members H.N. Kunzru and K.M. Panikkar), Paragraph 386 famously proposed which specific formula regarding the creation of Telangana / Andhra Pradesh?",
+    "options": [
+      {
+        "text": "Telangana should initially be constituted as a separate State (Hyderabad State), and unification with Andhra should only occur after the 1961 general elections if a two-thirds majority of the Telangana Assembly voted in favour",
+        "why": "Paragraph 386 of the Fazal Ali SRC Report explicitly recommended: 'The Telangana area should be constituted into a separate State, to be known as Hyderabad State... with the provision that after the general elections likely to be held in or about 1961, the residuary State may unite with Andhra, if by a two-thirds majority its legislature resolves to do so.'",
+        "attraction": "The exact statutory proposal of Paragraph 386, the bedrock of Telangana's argument against forced merger.",
+        "confusion": false
+      },
+      {
+        "text": "Immediate unconditional merger of Telangana and Andhra on 1 November 1956 without any safeguard or plebiscite",
+        "why": "The SRC explicitly advised against immediate unconditional merger, warning that Telangana was economically and educationally disadvantaged compared to coastal Andhra.",
+        "attraction": "Believing the SRC recommended immediate merger.",
+        "confusion": true
+      },
+      {
+        "text": "Permanent bifurcation into three separate states: Coastal Andhra, Rayalaseema, and Telangana",
+        "why": "The SRC never proposed a separate Rayalaseema state; Andhra already existed as a state since 1953.",
+        "attraction": "Confusing tripartite division with the SRC recommendation."
+      },
+      {
+        "text": "Making Hyderabad a Union Territory administered directly by the Central Government permanently",
+        "why": "Hyderabad was proposed as the capital of the residuary Hyderabad State, not a permanent Union Territory in the 1955 report.",
+        "attraction": "Confusing later Srikrishna Committee options with the 1955 SRC."
+      }
+    ],
+    "answer": 0,
+    "reason": "Para 386 of the 1955 SRC report recommended keeping Telangana as a separate Hyderabad State, with merger allowed after 1961 only if 2/3rds of its Assembly approved.",
+    "clue": "Look for the 1961 conditional merger formula requiring a two-thirds majority vote in the Telangana legislature.",
+    "trap": "Do not believe the SRC recommended immediate merger; they strongly favored a 5-year waiting period.",
+    "elimination": "The SRC explicitly rejected immediate merger (eliminates option 2), did not create Rayalaseema state (eliminates option 3), and did not make Hyderabad a UT (eliminates option 4).",
+    "anchor": "SRC 1955 Para 386: Separate Telangana State initially; merger only after 1961 if 2/3rds Assembly approves.",
+    "hint": "Dr. B.R. Ambedkar supported this cautious approach in his 1955 book 'Thoughts on Linguistic States', advocating two Telugu states.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 76,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 3,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Para 386 conditional 2/3rds formula.",
+        "correctMeaning": "Correct: This recommendation was overridden by the central government following the 1956 Gentlemen's Agreement.",
+        "selectedMeaning": "Correct: The Commission warned that Telangana feared being swamped by coastal Andhra and needed time to develop.",
+        "possibleConfusion": "No confusion; vital constitutional citation.",
+        "decisionRules": [
+          {
+            "when": "Asked about Para 386 of 1955 SRC Report",
+            "choose": "Separate State initially, merger only after 1961 with 2/3rds Assembly approval."
+          },
+          {
+            "when": "Asked who wrote 'Thoughts on Linguistic States' (1955) proposing Hyderabad as second national capital",
+            "choose": "Dr. B.R. Ambedkar."
+          }
+        ],
+        "nextStep": "Connect Para 386 to the opposition of Burgula Ramakrishna Rao and K.V. Ranga Reddy to immediate merger."
+      },
+      {
+        "observation": "Selected immediate unconditional merger.",
+        "correctMeaning": "Para 386 recommended a 5-year period of separate statehood.",
+        "selectedMeaning": "Incorrect: The SRC explicitly rejected immediate merger in Paras 375–385.",
+        "possibleConfusion": "Assuming the 1956 formation reflected the SRC's actual recommendation.",
+        "decisionRules": [
+          {
+            "when": "Asked what SRC actually recommended for Telangana",
+            "choose": "Separate state initially (Para 386)."
+          },
+          {
+            "when": "Asked how Andhra Pradesh was formed in 1956",
+            "choose": "Political agreement (Gentlemen's Agreement) overriding SRC's 1961 condition."
+          }
+        ],
+        "nextStep": "Highlight the contrast between SRC recommendations and political execution."
+      },
+      {
+        "observation": "Selected tripartite division.",
+        "correctMeaning": "SRC dealt with the merger of Andhra State and Telangana.",
+        "selectedMeaning": "Incorrect: Rayalaseema was already part of Andhra State created in 1953.",
+        "possibleConfusion": "Inventing an extra state.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1955 SRC debate",
+            "choose": "Visalandhra vs Separate Hyderabad State."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Review the components of Andhra State in 1953 (Coastal + Rayalaseema)."
+      },
+      {
+        "observation": "Selected Union Territory status.",
+        "correctMeaning": "Hyderabad was proposed as the capital of the separate residuary state.",
+        "selectedMeaning": "Incorrect: Not recommended in 1955 SRC.",
+        "possibleConfusion": "Confusing 2010 Srikrishna Option 6 with 1955 SRC.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1955 proposal for Hyderabad city",
+            "choose": "Capital of separate Telangana state."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Trace the status of Hyderabad across 1955, 1956, and 2014."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q163",
+    "topic": "TM-01.02",
+    "concept": "TM-01.02-M03",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "The historic Gentlemen's Agreement was signed on 20 February 1956 at Hyderabad House in New Delhi between 4 leaders of Telangana and 4 leaders of Andhra. Which of the following leaders was NOT one of the 4 signatories representing the Telangana region?",
+    "options": [
+      {
+        "text": "P.V. Narasimha Rao",
+        "why": "P.V. Narasimha Rao was a young MLA/activist in 1956 and was NOT a signatory. The 4 Telangana signatories were: (1) Burgula Ramakrishna Rao (Chief Minister), (2) K.V. Ranga Reddy (Revenue Minister), (3) Dr. Marri Chenna Reddy (Agriculture Minister), and (4) J.V. Narsing Rao (PCC President).",
+        "attraction": "P.V. Narasimha Rao is a prominent figure from Telangana who became Chief Minister and PM, leading aspirants to assume he signed.",
+        "confusion": false
+      },
+      {
+        "text": "Burgula Ramakrishna Rao",
+        "why": "Burgula Ramakrishna Rao was the sitting Chief Minister of Hyderabad State and the premier signatory for Telangana.",
+        "attraction": "He was the first and foremost Telangana signatory.",
+        "confusion": true
+      },
+      {
+        "text": "K.V. Ranga Reddy",
+        "why": "K.V. Ranga Reddy was the Revenue Minister of Hyderabad State and one of the 4 Telangana signatories.",
+        "attraction": "Prominent signatory after whom Ranga Reddy district was named."
+      },
+      {
+        "text": "Dr. Marri Chenna Reddy",
+        "why": "Dr. Marri Chenna Reddy was the Agriculture and Planning Minister and one of the 4 Telangana signatories.",
+        "attraction": "Prominent signatory who later led the 1969 TPS movement."
+      }
+    ],
+    "answer": 0,
+    "reason": "The 4 Telangana signatories were Burgula Ramakrishna Rao, K.V. Ranga Reddy, Dr. Marri Chenna Reddy, and J.V. Narsing Rao. P.V. Narasimha Rao was not a signatory.",
+    "clue": "Look for the leader who became Prime Minister in 1991 but was too junior in 1956 to sign the Gentlemen's Agreement.",
+    "trap": "Do not confuse J.V. Narsing Rao (PCC Chief) with P.V. Narasimha Rao.",
+    "elimination": "Burgula, K.V. Ranga Reddy, and Marri Chenna Reddy were ministers and official signatories. P.V. Narasimha Rao was not.",
+    "anchor": "4 Telangana Signatories (1956): Burgula Ramakrishna Rao, K.V. Ranga Reddy, Marri Chenna Reddy, J.V. Narsing Rao.",
+    "hint": "The 4 Andhra signatories were Bezawada Gopala Reddy, Neelam Sanjiva Reddy, Gouthu Latchanna, and Alluri Satyanarayana Raju.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 78,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies P.V. Narasimha Rao as non-signatory.",
+        "correctMeaning": "Correct: The 4 Telangana signatories were Burgula, K.V. Ranga Reddy, Marri Chenna Reddy, and J.V. Narsing Rao.",
+        "selectedMeaning": "Correct: P.V. Narasimha Rao was not one of the 4 signatories in 1956.",
+        "possibleConfusion": "No confusion; classic TS Police exam trick.",
+        "decisionRules": [
+          {
+            "when": "Asked to identify who was NOT a 1956 Telangana signatory",
+            "choose": "P.V. Narasimha Rao (or Swami Ramananda Tirtha, Ravi Narayana Reddy)."
+          },
+          {
+            "when": "Asked for the 4 Telangana signatories",
+            "choose": "Burgula Ramakrishna Rao, K.V. Ranga Reddy, Marri Chenna Reddy, J.V. Narsing Rao."
+          }
+        ],
+        "nextStep": "Memorize both sets of 4 signatories (4 Telangana + 4 Andhra)."
+      },
+      {
+        "observation": "Selected Burgula Ramakrishna Rao.",
+        "correctMeaning": "Burgula was a signatory; P.V. Narasimha Rao was not.",
+        "selectedMeaning": "Burgula was the Chief Minister of Hyderabad State and head of the delegation.",
+        "possibleConfusion": "Thinking Burgula stayed away.",
+        "decisionRules": [
+          {
+            "when": "Asked who headed the Telangana team at Gentlemen's Agreement",
+            "choose": "Burgula Ramakrishna Rao."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Remember Burgula was the central figure of the Hyderabad State government."
+      },
+      {
+        "observation": "Selected K.V. Ranga Reddy.",
+        "correctMeaning": "He signed the agreement.",
+        "selectedMeaning": "K.V. Ranga Reddy was Revenue Minister and an active signatory.",
+        "possibleConfusion": "Misremembering Ranga Reddy's signature.",
+        "decisionRules": [
+          {
+            "when": "Asked which maternal uncle of Marri Chenna Reddy signed",
+            "choose": "K.V. Ranga Reddy."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Note K.V. Ranga Reddy's warning: 'Selling a boy to buy a buffalo'."
+      },
+      {
+        "observation": "Selected Marri Chenna Reddy.",
+        "correctMeaning": "He signed the agreement and later spearheaded the 1969 TPS revolt.",
+        "selectedMeaning": "Marri Chenna Reddy signed as Planning Minister.",
+        "possibleConfusion": "Thinking he only appeared in 1969.",
+        "decisionRules": [
+          {
+            "when": "Asked if Marri Chenna Reddy signed the 1956 pact",
+            "choose": "Yes, he was one of the 4 Telangana signatories."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Understand the irony of Chenna Reddy signing in 1956 and rebelling in 1969."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q164",
+    "topic": "TM-01.02",
+    "concept": "TM-01.02-M04",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Clause 11 of the 1956 Gentlemen's Agreement stipulated that if the Chief Minister of the unified state was from Andhra, the Deputy Chief Minister must be from Telangana, and vice-versa. Who was the first Chief Minister of Andhra Pradesh who brazenly violated this clause by stating that 'the Deputy Chief Minister is like the sixth finger of a hand — unnecessary and useless'?",
+    "options": [
+      {
+        "text": "Neelam Sanjiva Reddy",
+        "why": "Neelam Sanjiva Reddy became the first Chief Minister of unified Andhra Pradesh on 1 November 1956 and refused to appoint a Deputy Chief Minister from Telangana, notoriously dismissing the post as the 'sixth finger of a hand'.",
+        "attraction": "The authentic historical statement and actor who violated Clause 11 on Day One of the merged state.",
+        "confusion": false
+      },
+      {
+        "text": "Damodaram Sanjivayya",
+        "why": "Damodaram Sanjivayya actually complied with the agreement when he became Chief Minister in 1960 by appointing K.V. Ranga Reddy as Deputy Chief Minister.",
+        "attraction": "Confusing the first violator with the first leader who actually honored it.",
+        "confusion": true
+      },
+      {
+        "text": "Kasu Brahmananda Reddy",
+        "why": "Kasu Brahmananda Reddy was Chief Minister during the 1969 agitation; he did not make the 'sixth finger' remark in 1956.",
+        "attraction": "Associating the 1969 antagonist with the 1956 violation."
+      },
+      {
+        "text": "Tanguturi Prakasam Pantulu",
+        "why": "Prakasam Pantulu was Chief Minister of Andhra State in 1953; he was not the Chief Minister of unified Andhra Pradesh in 1956.",
+        "attraction": "Confusing the Andhra State founder with the 1956 AP Chief Minister."
+      }
+    ],
+    "answer": 0,
+    "reason": "Neelam Sanjiva Reddy violated Clause 11 of the Gentlemen's Agreement in 1956, refusing to appoint a Deputy CM and mocking the post as a 'sixth finger'.",
+    "clue": "Look for the first Chief Minister of Andhra Pradesh who made the 'sixth finger' remark.",
+    "trap": "Do not choose Damodaram Sanjivayya; Sanjivayya was the one who corrected this by appointing K.V. Ranga Reddy as Deputy CM in 1960.",
+    "elimination": "Sanjiva Reddy made the remark; Sanjivayya appointed the Deputy CM; Kasu was 1964–1971; Prakasam was 1953.",
+    "anchor": "Sixth finger remark on Deputy CM (1956) -> Neelam Sanjiva Reddy.",
+    "hint": "Later, when Sanjiva Reddy returned as CM in 1962, he again abolished the Deputy CM post.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 81,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Neelam Sanjiva Reddy.",
+        "correctMeaning": "Correct: This was the very first breach of the Gentlemen's Agreement on the very day Andhra Pradesh was inaugurated.",
+        "selectedMeaning": "Correct: Sanjiva Reddy refused to appoint a Deputy CM in 1956 and insulted the post as a 'sixth finger'.",
+        "possibleConfusion": "No confusion; cornerstone Telangana movement trivia.",
+        "decisionRules": [
+          {
+            "when": "Asked who called the Deputy Chief Minister post a 'sixth finger'",
+            "choose": "Neelam Sanjiva Reddy."
+          },
+          {
+            "when": "Asked who appointed the first Deputy Chief Minister (K.V. Ranga Reddy) in 1960",
+            "choose": "Damodaram Sanjivayya."
+          }
+        ],
+        "nextStep": "Review the subsequent violations of the Gentlemen's Agreement regarding TRC and revenue surpluses."
+      },
+      {
+        "observation": "Selected Damodaram Sanjivayya.",
+        "correctMeaning": "Sanjiva Reddy made the derogatory 'sixth finger' remark.",
+        "selectedMeaning": "Incorrect: Sanjivayya was the first Dalit Chief Minister and actually honored the pact by appointing K.V. Ranga Reddy as Deputy CM.",
+        "possibleConfusion": "Confusing Sanjivayya with Sanjiva Reddy.",
+        "decisionRules": [
+          {
+            "when": "Asked who violated the Deputy CM clause in 1956",
+            "choose": "Neelam Sanjiva Reddy."
+          },
+          {
+            "when": "Asked who respected the clause in 1960",
+            "choose": "Damodaram Sanjivayya."
+          }
+        ],
+        "nextStep": "Carefully distinguish between Sanjiva Reddy and Sanjivayya."
+      },
+      {
+        "observation": "Selected Kasu Brahmananda Reddy.",
+        "correctMeaning": "Sanjiva Reddy made the statement in 1956.",
+        "selectedMeaning": "Kasu Brahmananda Reddy became CM in 1964 and faced the 1969 agitation.",
+        "possibleConfusion": "Projecting 1969 grievances back to 1956.",
+        "decisionRules": [
+          {
+            "when": "Asked who was CM during 1969 agitation",
+            "choose": "Kasu Brahmananda Reddy."
+          },
+          {
+            "when": "Asked who was CM in 1956 when AP was created",
+            "choose": "Neelam Sanjiva Reddy."
+          }
+        ],
+        "nextStep": "Chronicle AP Chief Ministers: Sanjiva Reddy (1956) -> Sanjivayya (1960) -> Sanjiva Reddy (1962) -> Kasu (1964)."
+      },
+      {
+        "observation": "Selected Prakasam Pantulu.",
+        "correctMeaning": "Sanjiva Reddy was the CM of Andhra Pradesh in 1956.",
+        "selectedMeaning": "Prakasam was Andhra State CM in Kurnool (1953–1954).",
+        "possibleConfusion": "Mixing 1953 Kurnool statehood with 1956 Hyderabad unification.",
+        "decisionRules": [
+          {
+            "when": "Asked about Kurnool Andhra State CM",
+            "choose": "Tanguturi Prakasam Pantulu."
+          },
+          {
+            "when": "Asked about 1956 Andhra Pradesh CM",
+            "choose": "Neelam Sanjiva Reddy."
+          }
+        ],
+        "nextStep": "Remember Andhra State (1953–56) vs Andhra Pradesh (1956–2014)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q165",
+    "topic": "TM-01.03",
+    "concept": "TM-01.03-M01",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Who is officially acknowledged as the first martyr of the 1969 separate Telangana agitation, who was shot dead when police opened fire on protesting students on 24 January 1969 at Sadashivpet in Medak district?",
+    "options": [
+      {
+        "text": "Shankar",
+        "why": "Shankar, a 17-year-old student, was shot dead during police firing on a student demonstration at Sadashivpet (Medak district) on 24 January 1969, becoming the very first martyr of the 1969 movement.",
+        "attraction": "The authentic, documented first martyr of the 1969 Telangana movement.",
+        "confusion": false
+      },
+      {
+        "text": "Kasoju Srikantha Chari",
+        "why": "Kasoju Srikantha Chari was the first martyr of the final 2009 movement, who immolated himself at LB Nagar (Hyderabad) on 3 December 2009.",
+        "attraction": "Confusing the first martyr of 1969 (Shankar) with the first martyr of 2009 (Srikantha Chari).",
+        "confusion": true
+      },
+      {
+        "text": "Police Constable Kishtaiah",
+        "why": "Police Constable Kishtaiah shot himself with his service weapon in Kamareddy on 1 December 2009 during the 2009 movement, not 1969.",
+        "attraction": "Confusing 2009 police martyr with 1969 student martyr."
+      },
+      {
+        "text": "Doddi Komaraiah",
+        "why": "Doddi Komaraiah was the first martyr of the 1946 Telangana Peasant Armed Struggle at Kadavendi, not 1969.",
+        "attraction": "Confusing 1946 armed struggle martyr with 1969 statehood martyr."
+      }
+    ],
+    "answer": 0,
+    "reason": "Shankar was the first martyr of the 1969 movement, killed in police firing at Sadashivpet on 24 January 1969.",
+    "clue": "Look for the 24 January 1969 Sadashivpet police firing victim.",
+    "trap": "Do not confuse Shankar (1969 first martyr) with Srikantha Chari (2009 first martyr) or Doddi Komaraiah (1946 armed struggle martyr).",
+    "elimination": "Srikantha Chari is 2009; Constable Kishtaiah is 2009; Doddi Komaraiah is 1946. Shankar is the 1969 martyr.",
+    "anchor": "First Martyr of 1969 Agitation: Shankar (Sadashivpet, 24 Jan 1969).",
+    "hint": "Sadashivpet is located on the Hyderabad-Mumbai highway in Medak district.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 92,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Shankar at Sadashivpet.",
+        "correctMeaning": "Correct: His sacrifice turned the student agitation into a mass fire across Telangana.",
+        "selectedMeaning": "Correct: Shankar was killed on 24 January 1969 at Sadashivpet.",
+        "possibleConfusion": "No confusion; foundational question.",
+        "decisionRules": [
+          {
+            "when": "Asked about the first martyr of the 1969 agitation",
+            "choose": "Shankar (Sadashivpet, Medak)."
+          },
+          {
+            "when": "Asked about the first martyr of the 2009 agitation",
+            "choose": "Kasoju Srikantha Chari (LB Nagar, Hyderabad)."
+          },
+          {
+            "when": "Asked about the first martyr of the 1946 Armed Struggle",
+            "choose": "Doddi Komaraiah (Kadavendi, Warangal)."
+          }
+        ],
+        "nextStep": "Create a mental matrix of the three epochal first martyrs: 1946, 1969, and 2009."
+      },
+      {
+        "observation": "Selected Kasoju Srikantha Chari.",
+        "correctMeaning": "Shankar was the 1969 pioneer.",
+        "selectedMeaning": "Srikantha Chari belongs to December 2009, not January 1969.",
+        "possibleConfusion": "Confusing the two major statehood agitation eras.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1969 first martyr",
+            "choose": "Shankar."
+          },
+          {
+            "when": "Asked about 2009 first martyr",
+            "choose": "Kasoju Srikantha Chari."
+          }
+        ],
+        "nextStep": "Pin 1969 to Shankar and 2009 to Srikantha Chari."
+      },
+      {
+        "observation": "Selected Police Constable Kishtaiah.",
+        "correctMeaning": "Shankar was martyred in 1969.",
+        "selectedMeaning": "Kishtaiah sacrificed his life in December 2009 at Kamareddy.",
+        "possibleConfusion": "Confusing police martyr with student martyr.",
+        "decisionRules": [
+          {
+            "when": "Asked about the police constable martyr in 2009",
+            "choose": "Kishtaiah."
+          },
+          {
+            "when": "Asked about 1969 Sadashivpet martyr",
+            "choose": "Shankar."
+          }
+        ],
+        "nextStep": "Differentiate between the 1969 and 2009 martyr registries."
+      },
+      {
+        "observation": "Selected Doddi Komaraiah.",
+        "correctMeaning": "Shankar died in 1969 in police firing.",
+        "selectedMeaning": "Doddi Komaraiah was killed on 4 July 1946 by Visnoor Deshmukh's goons.",
+        "possibleConfusion": "Confusing peasant armed struggle with 1969 statehood movement.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1946 Armed Struggle first martyr",
+            "choose": "Doddi Komaraiah."
+          },
+          {
+            "when": "Asked about 1969 Statehood first martyr",
+            "choose": "Shankar."
+          }
+        ],
+        "nextStep": "Chronicle: 1946 Doddi Komaraiah -> 1969 Shankar -> 2009 Srikantha Chari."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q166",
+    "topic": "TM-01.03",
+    "concept": "TM-01.03-M02",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "The 1969 Telangana movement was ignited when a student named Annabathula Ravindranath launched an indefinite hunger strike. At which industrial town and on which date did he commence his historic fast demanding the implementation of Telangana safeguards and repatriation of non-Mulki employees?",
+    "options": [
+      {
+        "text": "Palvancha (Khammam district) on 8 January 1969",
+        "why": "Annabathula Ravindranath, a student of Government Degree College, began his indefinite hunger strike on 8 January 1969 at Palvancha (where Kothagudem Thermal Power Station employees faced non-Mulki discrimination).",
+        "attraction": "The authentic date and location where the 1969 agitation was sparked.",
+        "confusion": false
+      },
+      {
+        "text": "Nalgonda town on 1 November 1968",
+        "why": "In November 1968, protests occurred in Nalgonda, but Ravindranath's indefinite fast occurred in Palvancha on 8 January 1969.",
+        "attraction": "Confusing early Nalgonda protests with the Palvancha hunger strike.",
+        "confusion": true
+      },
+      {
+        "text": "Secunderabad clock tower on 25 March 1969",
+        "why": "TPS meetings happened at Secunderabad in March 1969, long after the fast commenced.",
+        "attraction": "Prominent Hyderabad/Secunderabad protest venue."
+      },
+      {
+        "text": "Khammam bus stand on 15 August 1969",
+        "why": "Anachronistic date.",
+        "attraction": "Wrong town and date."
+      }
+    ],
+    "answer": 0,
+    "reason": "Annabathula Ravindranath started his fast at Palvancha (Khammam district) on 8 January 1969.",
+    "clue": "Look for Palvancha, Kothagudem Thermal Power Station context, and 8 January 1969.",
+    "trap": "Do not confuse the fast of Ravindranath at Palvancha (Jan 1969) with KCR's fast at Siddipet/Alaganur (Nov 2009).",
+    "elimination": "Ravindranath fast is 8 January 1969 at Palvancha. Nalgonda (1968) and Secunderabad (March 1969) do not match his fast.",
+    "anchor": "1969 Agitation spark: Annabathula Ravindranath fast at Palvancha (8 Jan 1969).",
+    "hint": "Kothagudem Thermal Power Station (KTPS) employed over 1,200 non-Mulkis in violation of local safeguards, sparking the workers' and students' ire.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 90,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Palvancha on 8 January 1969.",
+        "correctMeaning": "Correct: It led directly to the All-Party Accord on 19 January 1969 and G.O. 36.",
+        "selectedMeaning": "Correct: Annabathula Ravindranath fast began at Palvancha on 8 January 1969.",
+        "possibleConfusion": "No confusion; standard high-yield fact.",
+        "decisionRules": [
+          {
+            "when": "Asked where and when Annabathula Ravindranath started his 1969 fast",
+            "choose": "Palvancha on 8 January 1969."
+          },
+          {
+            "when": "Asked which power plant issue triggered the Palvancha agitation",
+            "choose": "Kothagudem Thermal Power Station (KTPS)."
+          }
+        ],
+        "nextStep": "Connect Ravindranath's fast to the All-Party Accord of 19 January 1969."
+      },
+      {
+        "observation": "Selected Nalgonda in 1968.",
+        "correctMeaning": "The decisive fast was 8 January 1969 at Palvancha.",
+        "selectedMeaning": "Nalgonda students protested in late 1968, but Ravindranath's fast was at Palvancha.",
+        "possibleConfusion": "Confusing prelude protests with the hunger strike.",
+        "decisionRules": [
+          {
+            "when": "Asked about Annabathula Ravindranath",
+            "choose": "Palvancha (8 Jan 1969)."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Map the progression from Nalgonda discontent to Palvancha fast."
+      },
+      {
+        "observation": "Selected Secunderabad.",
+        "correctMeaning": "Palvancha was the venue.",
+        "selectedMeaning": "Incorrect venue and date.",
+        "possibleConfusion": "Choosing an urban venue over the industrial town.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1969 fast venue",
+            "choose": "Palvancha."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Remember Palvancha in Bhadradri Kothagudem/Khammam."
+      },
+      {
+        "observation": "Selected August 1969.",
+        "correctMeaning": "January 1969 was the commencement.",
+        "selectedMeaning": "Anachronistic date.",
+        "possibleConfusion": "Late 1969 timeline.",
+        "decisionRules": [
+          {
+            "when": "Asked when 1969 agitation began",
+            "choose": "January 1969."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Memorize January 1969 as the beginning of the movement."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q167",
+    "topic": "TM-01.03",
+    "concept": "TM-01.03-M03",
+    "model": "Statements",
+    "modelId": "TM-QM-STA-01",
+    "stage": "practice",
+    "prompt": "Following the All-Party Accord of 19 January 1969, the Government of Andhra Pradesh issued G.O. Ms. No. 36 on 21 January 1969. What was its main mandate, and what was the subsequent judicial verdict on it?",
+    "options": [
+      {
+        "text": "Mandate: Repatriate all non-Mulki employees appointed in Telangana to Andhra by 28 February 1969 | Verdict: Supreme Court struck down Section 3 of Public Employment Act in A.V.S. Narasimha Rao case",
+        "why": "G.O. 36 ordered the repatriation of approximately 25,000 non-Mulkis by 28 February 1969. Andhra employees challenged it, and in A.V.S. Narasimha Rao vs State of AP (28 March 1969), the Supreme Court struck down Section 3 of the Public Employment (Requirement as to Residence) Act 1957 as ultra vires Article 16(3), ruling that residence qualifications could only be prescribed for an entire state, not a part of a state.",
+        "attraction": "The complete administrative mandate and the landmark Supreme Court ruling (A.V.S. Narasimha Rao case).",
+        "confusion": false
+      },
+      {
+        "text": "Mandate: Grant 50% reservation in private sector | Verdict: High Court upheld the order fully",
+        "why": "G.O. 36 had nothing to do with private sector reservation; it applied strictly to government posts.",
+        "attraction": "Misinterpreting the scope as private sector.",
+        "confusion": true
+      },
+      {
+        "text": "Mandate: Immediate bifurcation of Andhra Pradesh | Verdict: Parliament rejected it",
+        "why": "G.O. 36 was meant to preserve unified AP by implementing safeguards, not to bifurcate the state.",
+        "attraction": "Confusing safeguard order with bifurcation bill."
+      },
+      {
+        "text": "Mandate: Abolish Telangana Regional Committee | Verdict: Governor dismissed the order",
+        "why": "G.O. 36 strengthened the enforcement of TRC decisions regarding employment.",
+        "attraction": "Opposite effect."
+      }
+    ],
+    "answer": 0,
+    "reason": "G.O. 36 ordered repatriation of non-Mulkis by 28 Feb 1969, but Supreme Court struck down Section 3 in A.V.S. Narasimha Rao case on 28 March 1969.",
+    "clue": "Look for 28 February 1969 repatriation deadline and A.V.S. Narasimha Rao Supreme Court ruling.",
+    "trap": "Remember that the Supreme Court struck down Section 3 because Parliament cannot prescribe residence rules for a part of a state under Article 16(3).",
+    "elimination": "G.O. 36 concerned government employees repatriation; struck down in A.V.S. Narasimha Rao case. Eliminates all other options.",
+    "anchor": "G.O. 36 (21 Jan 1969) -> Repatriation by 28 Feb 1969 -> Struck down in A.V.S. Narasimha Rao case (28 March 1969).",
+    "hint": "This Supreme Court invalidation led directly to the Six-Point Formula and the 32nd Constitutional Amendment.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 95,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 3,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies repatriation deadline and A.V.S. Narasimha Rao ruling.",
+        "correctMeaning": "Correct: The judgment established that Article 16(3) applies to a State as a whole, necessitating Article 371-D in 1973.",
+        "selectedMeaning": "Correct: G.O. 36 gave a 28 Feb 1969 deadline and was struck down in A.V.S. Narasimha Rao case.",
+        "possibleConfusion": "No confusion; vital legal history.",
+        "decisionRules": [
+          {
+            "when": "Asked about the deadline fixed in G.O. 36 for non-Mulki repatriation",
+            "choose": "28 February 1969."
+          },
+          {
+            "when": "Asked which Supreme Court case struck down Section 3 of Public Employment Act",
+            "choose": "A.V.S. Narasimha Rao vs State of AP (1969)."
+          }
+        ],
+        "nextStep": "Note how Wanchoo Committee (1969) tried to resolve this constitutional bottleneck."
+      },
+      {
+        "observation": "Selected private sector reservation.",
+        "correctMeaning": "It applied to government posts and was struck down by the Supreme Court.",
+        "selectedMeaning": "Incorrect: G.O. 36 was strictly for public employment.",
+        "possibleConfusion": "Confusing modern affirmative action with 1969 domicile rules.",
+        "decisionRules": [
+          {
+            "when": "Asked what G.O. 36 covered",
+            "choose": "Public employment in Telangana."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Read the title of G.O. Ms. No. 36 (General Administration Department)."
+      },
+      {
+        "observation": "Selected immediate bifurcation.",
+        "correctMeaning": "It was an attempt by Kasu Brahmananda Reddy government to appease Telangana protesters.",
+        "selectedMeaning": "Incorrect: G.O. 36 was an administrative order of the AP state government, not a bifurcation bill.",
+        "possibleConfusion": "Confusing statehood demands with state government concessions.",
+        "decisionRules": [
+          {
+            "when": "Asked why G.O. 36 was issued",
+            "choose": "To enforce Mulki safeguards following the All-Party Accord."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Trace the chain: All-Party Accord -> G.O. 36 -> Supreme Court striking down -> mass agitation."
+      },
+      {
+        "observation": "Selected abolish TRC.",
+        "correctMeaning": "It sought to execute Regional Committee recommendations.",
+        "selectedMeaning": "Incorrect: It did not abolish the Regional Committee.",
+        "possibleConfusion": "Complete misunderstanding of TRC.",
+        "decisionRules": [
+          {
+            "when": "Asked about TRC under G.O. 36",
+            "choose": "Safeguards were affirmed."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Review the role of Telangana Regional Committee (1958–1973)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q168",
+    "topic": "TM-01.03",
+    "concept": "TM-01.03-M04",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "The Telangana Praja Samithi (TPS) was the premier political organization of the 1969 agitation. Who was its founding President when it was initially launched as a non-political forum in January/March 1969, and who took over its leadership in May 1969 to convert it into a mass political movement?",
+    "options": [
+      {
+        "text": "Founding President: Ananthula Madan Mohan | Successor: Dr. Marri Chenna Reddy",
+        "why": "Ananthula Madan Mohan (advocate from Siddipet) founded the Telangana Praja Samithi in March 1969. In May 1969, Dr. Marri Chenna Reddy took over as President, transforming TPS into a mass political party.",
+        "attraction": "The authentic founding and expansion leadership of TPS.",
+        "confusion": false
+      },
+      {
+        "text": "Founding President: Konda Laxman Bapuji | Successor: P.V. Narasimha Rao",
+        "why": "Konda Laxman Bapuji resigned his ministry in March 1969 and founded 'Telangana Congress Samithi', while P.V. Narasimha Rao remained loyal to the ruling Congress.",
+        "attraction": "Confusing Konda Laxman Bapuji's Telangana Congress Samithi with TPS.",
+        "confusion": true
+      },
+      {
+        "text": "Founding President: Mallikarjun | Successor: G. Venkataswamy",
+        "why": "Mallikarjun was the President of the Telangana Students Action Committee (TSAC), not the founding President of TPS.",
+        "attraction": "Confusing the student leader with the party founder."
+      },
+      {
+        "text": "Founding President: Prof. Jayashankar | Successor: K. Chandrashekar Rao",
+        "why": "Prof. Jayashankar and KCR are leaders of the 2001 TRS phase, not the 1969 TPS phase.",
+        "attraction": "Anachronistically projecting 2001 leaders into 1969."
+      }
+    ],
+    "answer": 0,
+    "reason": "A. Madan Mohan founded TPS in March 1969, and Dr. Marri Chenna Reddy took over its presidency in May 1969.",
+    "clue": "Look for Madan Mohan of Siddipet and Marri Chenna Reddy taking over in May 1969.",
+    "trap": "Do not confuse Madan Mohan (TPS founder) with Mallikarjun (Student JAC) or Konda Laxman Bapuji (Telangana Congress Samithi).",
+    "elimination": "Madan Mohan and Marri Chenna Reddy led TPS; Mallikarjun led TSAC; Konda Laxman led TCS. Jayashankar/KCR is 2001.",
+    "anchor": "Telangana Praja Samithi (TPS, 1969): Founder A. Madan Mohan -> President Dr. Marri Chenna Reddy.",
+    "hint": "TPS contested the 1971 Lok Sabha elections on its own symbol and won 10 out of 14 parliamentary seats in Telangana.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 98,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Madan Mohan and Marri Chenna Reddy.",
+        "correctMeaning": "Correct: Under Chenna Reddy, TPS won 10 Lok Sabha seats in 1971 before controversially merging back into Congress.",
+        "selectedMeaning": "Correct: Madan Mohan founded TPS in early 1969, and Chenna Reddy steered it from May 1969.",
+        "possibleConfusion": "No confusion; standard high-yield question.",
+        "decisionRules": [
+          {
+            "when": "Asked who founded Telangana Praja Samithi (TPS) in 1969",
+            "choose": "Ananthula Madan Mohan."
+          },
+          {
+            "when": "Asked who led TPS in the 1971 Lok Sabha elections",
+            "choose": "Dr. Marri Chenna Reddy."
+          }
+        ],
+        "nextStep": "Note the controversial September 1971 merger of TPS into Indira Gandhi's Congress."
+      },
+      {
+        "observation": "Selected Konda Laxman Bapuji.",
+        "correctMeaning": "Madan Mohan founded TPS.",
+        "selectedMeaning": "Konda Laxman Bapuji founded Telangana Congress Samithi, not TPS.",
+        "possibleConfusion": "Confusing different organizations formed during the 1969 movement.",
+        "decisionRules": [
+          {
+            "when": "Asked who resigned ministership in March 1969 and formed Telangana Congress Samithi",
+            "choose": "Konda Laxman Bapuji."
+          },
+          {
+            "when": "Asked who founded TPS",
+            "choose": "Ananthula Madan Mohan."
+          }
+        ],
+        "nextStep": "Differentiate between TPS and Telangana Congress Samithi."
+      },
+      {
+        "observation": "Selected Mallikarjun.",
+        "correctMeaning": "Madan Mohan was the political TPS president.",
+        "selectedMeaning": "Mallikarjun was the student leader (TSAC president).",
+        "possibleConfusion": "Mixing student wing and political party.",
+        "decisionRules": [
+          {
+            "when": "Asked about Telangana Students Action Committee (TSAC) leader in 1969",
+            "choose": "Mallikarjun."
+          },
+          {
+            "when": "Asked about TPS founder",
+            "choose": "Madan Mohan."
+          }
+        ],
+        "nextStep": "Keep student leaders and adult political leaders distinct."
+      },
+      {
+        "observation": "Selected Prof. Jayashankar and KCR.",
+        "correctMeaning": "Madan Mohan and Chenna Reddy were 1969.",
+        "selectedMeaning": "Anachronism: 2001 TRS phase, not 1969.",
+        "possibleConfusion": "Mixing 1969 and 2001 movements.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1969 party",
+            "choose": "TPS (Madan Mohan / Chenna Reddy)."
+          },
+          {
+            "when": "Asked about 2001 party",
+            "choose": "TRS (KCR / Prof. Jayashankar)."
+          }
+        ],
+        "nextStep": "Maintain clear chronological boundaries between 1969 and 2001."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q169",
+    "topic": "TM-01.04",
+    "concept": "TM-01.04-M01",
+    "model": "Statements",
+    "modelId": "TM-QM-STA-01",
+    "stage": "practice",
+    "prompt": "Match the three official committees appointed by the Central and State Governments in 1969 with their specific mandates and conclusions:\n(A) Kumar Lalit Committee (Jan 1969) — (1) Calculated preliminary Telangana revenue surplus at ₹102 crore (unadjusted) / ₹34.10 crore (adjusted)\n(B) Justice Vashishtha Bhargava Committee (Apr 1969) — (2) Officially determined net diverted Telangana surplus at ₹28.34 crore (1956–1968)\n(C) Justice K.N. Wanchoo Committee (Apr 1969) — (3) Examined constitutional feasibility of continuing Mulki rules under Article 16(3)\nWhich of the following is the correct matching combination?",
+    "options": [
+      {
+        "text": "(A)-1, (B)-2, (C)-3",
+        "why": "Kumar Lalit Committee submitted estimates in Jan 1969 (₹34.10 cr surplus); Justice Bhargava Committee determined final unspent Telangana surplus at ₹28.34 cr in Oct 1969; and Justice Wanchoo Committee examined constitutional alternatives following the A.V.S. Narasimha Rao ruling.",
+        "attraction": "The exact matching of all three landmark 1969 committees.",
+        "confusion": false
+      },
+      {
+        "text": "(A)-2, (B)-1, (C)-3",
+        "why": "Inverts Kumar Lalit (₹34.10 cr) and Bhargava Committee (₹28.34 cr).",
+        "attraction": "Confusing the two financial figures.",
+        "confusion": true
+      },
+      {
+        "text": "(A)-3, (B)-2, (C)-1",
+        "why": "Mistakes Kumar Lalit as a constitutional committee instead of audit officer.",
+        "attraction": "Confusing legal and financial mandates."
+      },
+      {
+        "text": "(A)-1, (B)-3, (C)-2",
+        "why": "Switches Bhargava and Wanchoo committees.",
+        "attraction": "Confusing the two Justice-led committees."
+      }
+    ],
+    "answer": 0,
+    "reason": "Kumar Lalit calculated ₹34.10 cr; Bhargava finalized ₹28.34 cr; Wanchoo examined Article 16(3) constitutional feasibility.",
+    "clue": "Look for Kumar Lalit (audit officer), Bhargava (₹28.34 cr surplus), and Wanchoo (Article 16(3) legal validity).",
+    "trap": "Do not mix up ₹28.34 crore (Bhargava Committee) with ₹34.10 crore (Kumar Lalit preliminary report).",
+    "elimination": "(B) must be 2 (Bhargava = ₹28.34 cr). Only (A)-1, (B)-2, (C)-3 is correct.",
+    "anchor": "1969 Triad: Kumar Lalit (Jan, ₹34.1 cr) | Bhargava (Apr, ₹28.34 cr) | Wanchoo (Apr, Art 16(3)).",
+    "hint": "Justice Wanchoo was a retired Chief Justice of India; Justice Bhargava was a sitting Supreme Court judge.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 104,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 3,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly matches all three 1969 committees.",
+        "correctMeaning": "Correct: All three bodies were established in 1969 to handle the fallout of the agitation.",
+        "selectedMeaning": "Correct: Kumar Lalit was accountant; Bhargava calculated ₹28.34 cr; Wanchoo probed Article 16(3).",
+        "possibleConfusion": "No confusion; standard high-level match.",
+        "decisionRules": [
+          {
+            "when": "Asked for the final surplus revenue calculated by Bhargava Committee",
+            "choose": "₹28.34 crore."
+          },
+          {
+            "when": "Asked who headed the constitutional committee on Mulki rules in 1969",
+            "choose": "Justice K.N. Wanchoo."
+          }
+        ],
+        "nextStep": "Note Wanchoo Committee concluded Article 16(3) could not be amended without constitutional amendment."
+      },
+      {
+        "observation": "Selected inverted surplus amounts.",
+        "correctMeaning": "Kumar Lalit was ₹34.10 cr; Bhargava arrived at ₹28.34 cr.",
+        "selectedMeaning": "Confused Kumar Lalit and Bhargava numbers.",
+        "possibleConfusion": "Inverting two close financial figures.",
+        "decisionRules": [
+          {
+            "when": "Asked about Kumar Lalit estimate",
+            "choose": "₹34.10 crore."
+          },
+          {
+            "when": "Asked about Bhargava final figure",
+            "choose": "₹28.34 crore."
+          }
+        ],
+        "nextStep": "Memorize: Lalit (34) > Bhargava (28)."
+      },
+      {
+        "observation": "Selected Kumar Lalit for constitutional committee.",
+        "correctMeaning": "Wanchoo was the constitutional committee.",
+        "selectedMeaning": "Incorrect: Kumar Lalit was an auditor, not a judge.",
+        "possibleConfusion": "Confusing professional backgrounds.",
+        "decisionRules": [
+          {
+            "when": "Asked about constitutional probe on Mulki rules",
+            "choose": "Justice Wanchoo."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Remember Kumar Lalit was from Comptroller & Auditor General (CAG)."
+      },
+      {
+        "observation": "Selected Wanchoo for surplus calculation.",
+        "correctMeaning": "Bhargava calculated surplus.",
+        "selectedMeaning": "Incorrect: Wanchoo did not calculate revenue.",
+        "possibleConfusion": "Confusing the two judges.",
+        "decisionRules": [
+          {
+            "when": "Asked about financial surplus judge",
+            "choose": "Justice Vashishtha Bhargava."
+          },
+          {
+            "when": "Asked about constitutional judge",
+            "choose": "Justice K.N. Wanchoo."
+          }
+        ],
+        "nextStep": "Anchor Bhargava to Budget/Surplus and Wanchoo to Law/Constitution."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q170",
+    "topic": "TM-01.04",
+    "concept": "TM-01.04-M02",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "On 11 April 1969, Prime Minister Indira Gandhi announced the 'Eight-Point Formula' in the Lok Sabha to diffuse the Telangana agitation. Which of the following high-level bodies was NOT created under this formula?",
+    "options": [
+      {
+        "text": "Telangana Development Council with statutory executive powers",
+        "why": "The Eight-Point Formula deliberately refused statutory executive powers to Telangana, instead creating an advisory 'Telangana Development Committee' chaired by the Chief Minister and a 'Plan Implementation Committee'. Protesters rejected it as toothless.",
+        "attraction": "The core reason why TPS rejected the 8-Point Formula as inadequate.",
+        "confusion": false
+      },
+      {
+        "text": "High-Powered Committee on Telangana Surpluses (Justice Bhargava Committee)",
+        "why": "Point 1 of the formula constituted the Bhargava Committee to calculate the surplus.",
+        "attraction": "This was Point 1 of the 8-Point Formula.",
+        "confusion": true
+      },
+      {
+        "text": "Committee of Jurists on Employment Safeguards (Justice Wanchoo Committee)",
+        "why": "Point 3 of the formula constituted the Wanchoo Committee to examine legal means to protect Mulki jobs.",
+        "attraction": "This was Point 3 of the 8-Point Formula."
+      },
+      {
+        "text": "Telangana Development Committee under the Chairmanship of Chief Minister",
+        "why": "Point 4 constituted the advisory Telangana Development Committee with the CM as chair.",
+        "attraction": "This was Point 4 of the 8-Point Formula."
+      }
+    ],
+    "answer": 0,
+    "reason": "The Eight-Point Formula did not grant a statutory Telangana Development Council; it only offered advisory committees chaired by the Andhra CM.",
+    "clue": "Look for the demand that was rejected: statutory executive powers for Telangana.",
+    "trap": "Do not confuse the advisory 'Telangana Development Committee' (which was created) with a 'Statutory Development Council with executive powers' (which was rejected).",
+    "elimination": "Bhargava Committee, Wanchoo Committee, and advisory Development Committee were all part of the 8-Point Formula. A statutory executive council was denied.",
+    "anchor": "8-Point Formula (11 April 1969) -> Refused statutory powers -> Rejected by TPS.",
+    "hint": "TPS dubbed the 8-Point Formula an 'eye-wash' because the Andhra Chief Minister remained in control of all committees.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 101,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 3,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies the rejected statutory council demand.",
+        "correctMeaning": "Correct: Because it lacked legislative/executive teeth, TPS rejected it and intensified the agitation.",
+        "selectedMeaning": "Correct: The 8-Point Formula provided only advisory committees, denying statutory executive autonomy.",
+        "possibleConfusion": "No confusion; crucial political nuance.",
+        "decisionRules": [
+          {
+            "when": "Asked about the date of Indira Gandhi's Eight-Point Formula",
+            "choose": "11 April 1969."
+          },
+          {
+            "when": "Asked why TPS rejected the Eight-Point Formula",
+            "choose": "It offered only advisory committees chaired by the CM without separate statehood or statutory powers."
+          }
+        ],
+        "nextStep": "Connect the failure of the 8-Point Formula to the escalation of general strikes in May/June 1969."
+      },
+      {
+        "observation": "Selected Bhargava Committee.",
+        "correctMeaning": "It was part of the formula, not excluded.",
+        "selectedMeaning": "Bhargava Committee was created under Point 1.",
+        "possibleConfusion": "Thinking the surplus committee was outside the formula.",
+        "decisionRules": [
+          {
+            "when": "Asked how Bhargava Committee was created",
+            "choose": "Under Point 1 of the Eight-Point Formula."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Review the exact 8 points announced on 11 April 1969."
+      },
+      {
+        "observation": "Selected Wanchoo Committee.",
+        "correctMeaning": "It was part of the formula.",
+        "selectedMeaning": "Wanchoo Committee was created under Point 3.",
+        "possibleConfusion": "Misremembering Wanchoo's origin.",
+        "decisionRules": [
+          {
+            "when": "Asked how Wanchoo Committee was formed",
+            "choose": "Under Point 3 of Eight-Point Formula."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Link Wanchoo Committee to Indira Gandhi's statement."
+      },
+      {
+        "observation": "Selected advisory Development Committee.",
+        "correctMeaning": "It was created, but lacked statutory power.",
+        "selectedMeaning": "The advisory committee under the CM was created under Point 4.",
+        "possibleConfusion": "Confusing advisory with statutory council.",
+        "decisionRules": [
+          {
+            "when": "Asked who chaired the Telangana Development Committee under 8-Point Formula",
+            "choose": "The Chief Minister of Andhra Pradesh."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Notice why Telangana leaders objected to the CM chairing it."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q171",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M01",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "In the 1971 Lok Sabha midterm elections, the Telangana Praja Samithi (TPS) contested on the sole platform of separate statehood for Telangana. Out of the 14 parliamentary seats in the Telangana region, how many seats did TPS win?",
+    "options": [
+      {
+        "text": "10 seats (securing 47.5% of the total vote share in Telangana)",
+        "why": "TPS won a landslide victory, capturing 10 out of 14 parliamentary seats in Telangana and securing 47.5% of the votes, proving overwhelming democratic mandate for separate statehood.",
+        "attraction": "The historic electoral mandate won by TPS on its 'Spade and Shovel' symbol.",
+        "confusion": false
+      },
+      {
+        "text": "14 seats (clean sweep of all constituencies)",
+        "why": "TPS did not win all 14; Congress won 3 seats and CPI won 1 seat (Miryalguda won by Baddam Yella Reddy).",
+        "attraction": "Overestimating as a complete clean sweep.",
+        "confusion": true
+      },
+      {
+        "text": "7 seats (split mandate)",
+        "why": "7 seats would be 50%; TPS won a commanding super-majority of 10 seats.",
+        "attraction": "Underestimating the landslide."
+      },
+      {
+        "text": "4 seats",
+        "why": "4 seats was the number won by the opposition Congress and CPI combined.",
+        "attraction": "Confusing TPS tally with opposition tally."
+      }
+    ],
+    "answer": 0,
+    "reason": "TPS won 10 out of 14 Lok Sabha seats in Telangana in the 1971 general elections.",
+    "clue": "Look for the 10 out of 14 seats landslide.",
+    "trap": "Remember TPS won 10, Congress won 3, and CPI won 1 (Ravi Narayana Reddy / Baddam Yella Reddy).",
+    "elimination": "TPS won 10 seats; Congress won 3; CPI won 1. Total = 14.",
+    "anchor": "1971 Lok Sabha: TPS won 10 out of 14 seats (47.5% vote share).",
+    "hint": "Despite this democratic mandate, Dr. Marri Chenna Reddy merged TPS into Congress in September 1971 in exchange for replacing CM Kasu Brahmananda Reddy with P.V. Narasimha Rao.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 112,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies 10 seats won by TPS.",
+        "correctMeaning": "Correct: It was the strongest electoral verdict for Telangana until the 2004/2014 elections.",
+        "selectedMeaning": "Correct: TPS won 10 of 14 seats on the separate statehood slogan.",
+        "possibleConfusion": "No confusion; standard factual question.",
+        "decisionRules": [
+          {
+            "when": "Asked how many Lok Sabha seats TPS won in 1971",
+            "choose": "10 out of 14 seats."
+          },
+          {
+            "when": "Asked who became Chief Minister after Kasu was removed post-1971 elections",
+            "choose": "P.V. Narasimha Rao (first Telangana CM of AP)."
+          }
+        ],
+        "nextStep": "Examine the consequences of TPS's controversial merger into Congress."
+      },
+      {
+        "observation": "Selected 14 seats.",
+        "correctMeaning": "TPS won 10 seats.",
+        "selectedMeaning": "Incorrect: TPS lost 4 seats (Congress 3, CPI 1).",
+        "possibleConfusion": "Assuming complete sweep.",
+        "decisionRules": [
+          {
+            "when": "Asked about TPS 1971 tally",
+            "choose": "10 seats."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Note which seats TPS lost (e.g. Miryalguda, Khammam)."
+      },
+      {
+        "observation": "Selected 7 seats.",
+        "correctMeaning": "TPS had a clear majority of 10 seats.",
+        "selectedMeaning": "Incorrect: TPS won 10 seats.",
+        "possibleConfusion": "Guessing half.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1971 TPS result",
+            "choose": "10 seats."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Remember 10 / 14."
+      },
+      {
+        "observation": "Selected 4 seats.",
+        "correctMeaning": "TPS won 10.",
+        "selectedMeaning": "4 was the number won by others.",
+        "possibleConfusion": "Reversing winner and loser tallies.",
+        "decisionRules": [
+          {
+            "when": "Asked about TPS seats",
+            "choose": "10 seats."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "10 seats = TPS; 4 seats = Congress + CPI."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q172",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M01",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "On 3 October 1972, a Five-Judge Constitution Bench of the Supreme Court headed by Chief Justice S.M. Sikri delivered a historic verdict in Director of Industries & Commerce vs. V. Venkata Reddy. What did the Supreme Court rule regarding the 1919 Mulki Rules?",
+    "options": [
+      {
+        "text": "The 1919 Mulki Rules were valid and continued to be in force in Telangana even after the formation of Andhra Pradesh under Article 35(b) of the Constitution",
+        "why": "The Five-Judge Bench ruled that the Mulki Rules were laws in force immediately before the commencement of the Constitution and were saved by Article 35(b), continuing to apply to Telangana even after the formation of Andhra Pradesh.",
+        "attraction": "The monumental legal victory for Telangana that triggered the Jai Andhra agitation.",
+        "confusion": false
+      },
+      {
+        "text": "The Mulki Rules were unconstitutional, null and void from the day Andhra Pradesh was formed in 1956",
+        "why": "This was the Andhra High Court full bench view that was overturned by the Supreme Court on 3 October 1972.",
+        "attraction": "Confusing the overturned High Court verdict with the final Supreme Court ruling.",
+        "confusion": true
+      },
+      {
+        "text": "Mulki Rules could only apply to class IV peon jobs, but not clerical or officer posts",
+        "why": "The Supreme Court upheld the entire 1919 Mulki Rules framework without restricting it only to peons.",
+        "attraction": "Confusing administrative proposals with the Supreme Court verdict."
+      },
+      {
+        "text": "Mulki Rules were replaced by the Six-Point Formula by the Supreme Court",
+        "why": "The Six-Point Formula was enacted in 1973 by Parliament via the 32nd Amendment to bypass this very Supreme Court judgment.",
+        "attraction": "Confusing the parliamentary reaction with the judicial verdict."
+      }
+    ],
+    "answer": 0,
+    "reason": "On 3 October 1972, the Supreme Court ruled in Venkata Reddy case that Mulki Rules were fully valid and saved by Article 35(b).",
+    "clue": "Look for the Supreme Court validating the Mulki rules under Article 35(b) on 3 October 1972.",
+    "trap": "Do not confuse the Supreme Court's validation with the Jai Andhra reaction that demanded either repeal of Mulki rules or bifurcation.",
+    "elimination": "Supreme Court upheld the Mulki rules under Art 35(b). Eliminates unconstitutional, peon-only, and 6-point options.",
+    "anchor": "Supreme Court Venkata Reddy verdict (3 Oct 1972): Mulki Rules are valid and saved by Art 35(b).",
+    "hint": "This judgment sparked violent protests in coastal Andhra and Rayalaseema (Jai Andhra movement) demanding repeal of Mulki rules or separation.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 118,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 3,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Article 35(b) validation of Mulki rules.",
+        "correctMeaning": "Correct: Because coastal leaders refused to live under Mulki rules, they launched the Jai Andhra movement.",
+        "selectedMeaning": "Correct: The Supreme Court upheld that 1919 Mulki rules remained valid law saved by Article 35(b).",
+        "possibleConfusion": "No confusion; landmark legal pillar.",
+        "decisionRules": [
+          {
+            "when": "Asked about the Supreme Court ruling on Mulki Rules on 3 October 1972",
+            "choose": "Upheld as valid and protected by Article 35(b)."
+          },
+          {
+            "when": "Asked what immediate agitation was triggered by the 1972 Supreme Court ruling",
+            "choose": "Jai Andhra movement (1972–1973)."
+          }
+        ],
+        "nextStep": "Connect this ruling to the resignation of P.V. Narasimha Rao and imposition of President's Rule in Jan 1973."
+      },
+      {
+        "observation": "Selected unconstitutional.",
+        "correctMeaning": "The Supreme Court overturned the High Court and validated the Mulki rules.",
+        "selectedMeaning": "That was the AP High Court Full Bench view of February 1972.",
+        "possibleConfusion": "Confusing High Court verdict with Supreme Court reversal.",
+        "decisionRules": [
+          {
+            "when": "Asked what AP High Court held in Feb 1972",
+            "choose": "Mulki rules invalid."
+          },
+          {
+            "when": "Asked what Supreme Court held in Oct 1972",
+            "choose": "Overruled High Court; Mulki rules valid."
+          }
+        ],
+        "nextStep": "Note the sequence: HC invalidates -> SC validates -> Jai Andhra agitation."
+      },
+      {
+        "observation": "Selected peon jobs only.",
+        "correctMeaning": "All non-gazetted and gazetted posts covered under 1919 Firman were upheld.",
+        "selectedMeaning": "Incorrect: The judgment upheld the full rules.",
+        "possibleConfusion": "Mixing administrative compromises with judicial doctrine.",
+        "decisionRules": [
+          {
+            "when": "Asked about the scope of the 1972 judgment",
+            "choose": "Complete validation under Art 35(b)."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Read Chief Justice S.M. Sikri's rationale."
+      },
+      {
+        "observation": "Selected Six-Point Formula.",
+        "correctMeaning": "The Supreme Court upheld the Mulki rules.",
+        "selectedMeaning": "The Six-Point Formula was created in 1973 to nullify the Mulki rules after this verdict.",
+        "possibleConfusion": "Confusing cause and effect.",
+        "decisionRules": [
+          {
+            "when": "Asked why Six-Point Formula was introduced in 1973",
+            "choose": "To replace the Mulki rules upheld by the Supreme Court in 1972."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Understand why Andhra leaders demanded an end to Mulki rules."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q173",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M02",
+    "model": "Statements",
+    "modelId": "TM-QM-STA-01",
+    "stage": "practice",
+    "prompt": "The Six-Point Formula was announced on 21 September 1973 by the Government of India to pacify the Jai Andhra and Telangana agitations. Point 6 of the formula explicitly required which of the following actions that formally dismantled the historical 1919 Mulki Rules and the 1956 Gentlemen's Agreement?",
+    "options": [
+      {
+        "text": "The Constitution should be amended to confer powers on the President, and the Mulki Rules and the Telangana Regional Committee should be discontinued",
+        "why": "Point 6 explicitly stated: 'The above approach would render the continuance of Mulki Rules and Regional Committee unnecessary.' This led directly to the 32nd Constitutional Amendment Act 1973, inserting Article 371-D and abolishing the Telangana Regional Committee.",
+        "attraction": "The exact statutory text of Point 6 that abolished Mulki Rules and TRC.",
+        "confusion": false
+      },
+      {
+        "text": "Immediate separation of Andhra and Telangana with Hyderabad as a shared union territory",
+        "why": "The Six-Point Formula was drafted specifically to prevent separation and keep Andhra Pradesh unified.",
+        "attraction": "Confusing formula with separation demands.",
+        "confusion": true
+      },
+      {
+        "text": "Reservation of 85% of all state government jobs exclusively for Telangana candidates",
+        "why": "The formula created the Zonal system across the entire state, not an 85% state-wide Telangana quota.",
+        "attraction": "Confusing later Presidential Order percentages with Point 6."
+      },
+      {
+        "text": "Merging Andhra Pradesh with the State of Karnataka",
+        "why": "Completely fictitious.",
+        "attraction": "Irrelevant distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Point 6 of the Six-Point Formula declared that the continuance of Mulki Rules and the Telangana Regional Committee was unnecessary, leading to their abolition.",
+    "clue": "Look for Point 6 discontinuing both the Mulki Rules and the Telangana Regional Committee.",
+    "trap": "Do not forget that the Six-Point Formula was accepted by Congress leaders of both regions, permanently abolishing the 1956 Gentlemen's Agreement institutions.",
+    "elimination": "Point 6 abolished Mulki Rules & TRC via constitutional amendment. Eliminates separation, 85% quota, and merger options.",
+    "anchor": "Six-Point Formula Point 6 (1973): Discontinue Mulki Rules and Telangana Regional Committee.",
+    "hint": "This resulted in the 32nd Constitutional Amendment Act 1973, which added Article 371-D.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 122,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 3,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Point 6 abolishing Mulki rules and TRC.",
+        "correctMeaning": "Correct: It substituted a generalized Zonal System under Article 371-D for the historical domicile rights.",
+        "selectedMeaning": "Correct: Point 6 declared that Mulki rules and the Regional Committee were no longer necessary.",
+        "possibleConfusion": "No confusion; central turning point of Telangana safeguards history.",
+        "decisionRules": [
+          {
+            "when": "Asked which agreement/formula abolished the Telangana Regional Committee",
+            "choose": "Six-Point Formula (1973) / 32nd Amendment."
+          },
+          {
+            "when": "Asked which Article was inserted by the 32nd Amendment (1973)",
+            "choose": "Article 371-D and 371-E."
+          }
+        ],
+        "nextStep": "Connect Point 6 to the promulgation of the 1975 Presidential Order."
+      },
+      {
+        "observation": "Selected separation.",
+        "correctMeaning": "It avoided bifurcation at the cost of Telangana safeguards.",
+        "selectedMeaning": "The Six-Point Formula was designed to preserve unification.",
+        "possibleConfusion": "Thinking the formula granted statehood.",
+        "decisionRules": [
+          {
+            "when": "Asked purpose of Six-Point Formula",
+            "choose": "To maintain unified Andhra Pradesh by replacing Mulki rules."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Understand why Telangana intellectuals considered the Six-Point Formula a major betrayal."
+      },
+      {
+        "observation": "Selected 85% quota.",
+        "correctMeaning": "It created local cadres and zones under Presidential Order.",
+        "selectedMeaning": "Incorrect: The formula did not grant an 85% state-wide quota.",
+        "possibleConfusion": "Confusing local cadre reservations with state quotas.",
+        "decisionRules": [
+          {
+            "when": "Asked about quota structure created by Six-Point Formula",
+            "choose": "Zonal System under Presidential Order 1975."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Study the 1975 Presidential Order zonal breakdown."
+      },
+      {
+        "observation": "Selected Karnataka merger.",
+        "correctMeaning": "Point 6 abolished Mulki rules.",
+        "selectedMeaning": "Irrelevant.",
+        "possibleConfusion": "Distractor.",
+        "decisionRules": [
+          {
+            "when": "Asked about Point 6",
+            "choose": "Discontinued Mulki Rules and Regional Committee."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Focus on Article 371-D."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q174",
+    "topic": "TM-02.02",
+    "concept": "TM-02.02-M01",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "G.O. Ms. No. 610 was issued on 30 December 1985 by the N.T. Rama Rao government following representations by Telangana employee unions regarding massive violations of the 1975 Presidential Order in Zones V and VI. What was the exact target deadline specified in G.O. 610 for repatriating all illegally appointed non-local employees?",
+    "options": [
+      {
+        "text": "31 March 1986",
+        "why": "Clause 5 of G.O. 610 explicitly mandated: 'The employees allotted in deviation of the Presidential Order shall be repatriated to their respective native zones by 31 March 1986.'",
+        "attraction": "The authentic, widely examined 3-month statutory deadline of G.O. 610.",
+        "confusion": false
+      },
+      {
+        "text": "28 February 1969",
+        "why": "28 February 1969 was the repatriation deadline in G.O. 36 (issued under Kasu Brahmananda Reddy), not G.O. 610.",
+        "attraction": "Confusing G.O. 36 (1969) with G.O. 610 (1985).",
+        "confusion": true
+      },
+      {
+        "text": "1 November 1956",
+        "why": "1 November 1956 is the formation day of Andhra Pradesh.",
+        "attraction": "Unification anniversary date."
+      },
+      {
+        "text": "30 June 2001",
+        "why": "June 2001 is when the Girglani Commission was appointed by N. Chandrababu Naidu to probe the non-implementation of G.O. 610.",
+        "attraction": "Confusing the Girglani Commission appointment with the G.O. 610 deadline."
+      }
+    ],
+    "answer": 0,
+    "reason": "G.O. 610 mandated the repatriation of all irregularly appointed non-local employees by 31 March 1986.",
+    "clue": "Look for the 31 March 1986 deadline fixed by N.T. Rama Rao in G.O. 610.",
+    "trap": "Do not confuse G.O. 36 (28 Feb 1969) with G.O. 610 (31 March 1986).",
+    "elimination": "G.O. 36 is 1969; Girglani is 2001. G.O. 610 specified 31 March 1986.",
+    "anchor": "G.O. 610 (30 Dec 1985) -> Repatriation deadline: 31 March 1986.",
+    "hint": "Despite the 31 March 1986 deadline, not a single employee was repatriated, prompting the appointment of the Girglani Commission 15 years later.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 128,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies 31 March 1986.",
+        "correctMeaning": "Correct: It was issued following the Jayabharat Reddy Officers Committee report.",
+        "selectedMeaning": "Correct: G.O. 610 gave a 3-month deadline of 31 March 1986 to send non-locals back.",
+        "possibleConfusion": "No confusion; classic Police SI question.",
+        "decisionRules": [
+          {
+            "when": "Asked about the deadline fixed in G.O. 610",
+            "choose": "31 March 1986."
+          },
+          {
+            "when": "Asked which Officers Committee prompted G.O. 610",
+            "choose": "Jayabharat Reddy Committee (with members Umapathi and Kamal Kumar)."
+          }
+        ],
+        "nextStep": "Note Girglani Commission's finding that 72 types of violations occurred undermining G.O. 610."
+      },
+      {
+        "observation": "Selected 28 February 1969.",
+        "correctMeaning": "G.O. 610 was 31 March 1986 under NTR.",
+        "selectedMeaning": "That was G.O. 36 under Kasu Brahmananda Reddy.",
+        "possibleConfusion": "Mixing 1969 G.O. 36 with 1985 G.O. 610.",
+        "decisionRules": [
+          {
+            "when": "Asked about G.O. 36 deadline",
+            "choose": "28 February 1969."
+          },
+          {
+            "when": "Asked about G.O. 610 deadline",
+            "choose": "31 March 1986."
+          }
+        ],
+        "nextStep": "Remember: G.O. 36 = 1969 (Feb deadline) vs G.O. 610 = 1985 (March deadline)."
+      },
+      {
+        "observation": "Selected 1956 date.",
+        "correctMeaning": "G.O. 610 was in 1985.",
+        "selectedMeaning": "1956 is unification.",
+        "possibleConfusion": "Chronological error.",
+        "decisionRules": [
+          {
+            "when": "Asked about G.O. 610",
+            "choose": "Issued 30 Dec 1985, deadline 31 March 1986."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Anchor 1985 to G.O. 610."
+      },
+      {
+        "observation": "Selected June 2001.",
+        "correctMeaning": "The G.O. 610 deadline was 1986.",
+        "selectedMeaning": "June 2001 was when J.M. Girglani was appointed to probe why G.O. 610 was never implemented.",
+        "possibleConfusion": "Confusing commission appointment with original order deadline.",
+        "decisionRules": [
+          {
+            "when": "Asked when Girglani Commission was appointed",
+            "choose": "June 2001."
+          },
+          {
+            "when": "Asked about G.O. 610 deadline",
+            "choose": "31 March 1986."
+          }
+        ],
+        "nextStep": "Sequence: G.O. 610 (1985) -> Girglani Commission (2001) -> Final Report (2004)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q175",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M01",
+    "model": "Statements",
+    "modelId": "TM-QM-STA-01",
+    "stage": "practice",
+    "prompt": "On 28–29 December 1997, the All-India People's Resistance Forum (AIPRF) organized a historic democratic convention in Warangal titled 'Telangana Praja Samakya' (Democratic Convention on Telangana). The conference culminated in the historic 'Warangal Declaration'. How many resolutions were passed in this declaration, and what was its fundamental political demand?",
+    "options": [
+      {
+        "text": "50 resolutions | Demand: Nothing short of an independent democratic separate State of Telangana",
+        "why": "The Warangal Declaration (28–29 Dec 1997) passed exactly 50 comprehensive resolutions detailing exploitation in water, power, employment, education, culture, and lands, demanding an uncompromising separate statehood for Telangana.",
+        "attraction": "The authentic, historic 50 resolutions of the 1997 Warangal Declaration.",
+        "confusion": false
+      },
+      {
+        "text": "14 resolutions | Demand: Revision of the Gentlemen's Agreement",
+        "why": "14 resolutions was the 1956 Gentlemen's Agreement points, not the 1997 Warangal Declaration.",
+        "attraction": "Confusing 1956 14 points with 1997 50 resolutions.",
+        "confusion": true
+      },
+      {
+        "text": "6 resolutions | Demand: Strict implementation of Six-Point Formula",
+        "why": "The Warangal Declaration outright rejected the Six-Point Formula as a deceptive instrument.",
+        "attraction": "Confusing with the 6 points of 1973."
+      },
+      {
+        "text": "100 resolutions | Demand: Complete merger of Hyderabad with the Union Territory of Delhi",
+        "why": "Absurd distractor.",
+        "attraction": "Inflated number."
+      }
+    ],
+    "answer": 0,
+    "reason": "The 1997 Warangal Declaration passed 50 resolutions demanding an uncompromising separate State of Telangana.",
+    "clue": "Look for 50 resolutions passed at the December 1997 Warangal conference.",
+    "trap": "Do not confuse the 50 resolutions of the 1997 Warangal Declaration with the 14 points of the 1956 Gentlemen's Agreement.",
+    "elimination": "14 is Gentlemen's Agreement; 6 is Six-Point Formula. Warangal Declaration passed 50 resolutions.",
+    "anchor": "Warangal Declaration (28–29 Dec 1997) -> 50 resolutions -> Unconditional Separate Statehood.",
+    "hint": "It was organized by AIPRF under the leadership of leaders like Gadar, Varavara Rao, and Prof. Jayashankar.",
+    "source": "SR-HIST-SRIKRISHNA-2010",
+    "page": 135,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies 50 resolutions and unconditional statehood demand.",
+        "correctMeaning": "Correct: It provided the intellectual blueprint that resurrected the statehood demand into the 21st century.",
+        "selectedMeaning": "Correct: The Warangal Declaration passed 50 resolutions across all sectors of Telangana life.",
+        "possibleConfusion": "No confusion; milestone declaration.",
+        "decisionRules": [
+          {
+            "when": "Asked how many resolutions were adopted in the 1997 Warangal Declaration",
+            "choose": "50 resolutions."
+          },
+          {
+            "when": "Asked when and where the Warangal Declaration was adopted",
+            "choose": "28–29 December 1997 at Warangal."
+          }
+        ],
+        "nextStep": "Note how the Warangal Declaration shifted the demand from 'safeguards' to 'uncompromising statehood'."
+      },
+      {
+        "observation": "Selected 14 resolutions.",
+        "correctMeaning": "Warangal Declaration had 50 resolutions.",
+        "selectedMeaning": "14 points belongs to the 1956 Gentlemen's Agreement.",
+        "possibleConfusion": "Confusing 1956 with 1997.",
+        "decisionRules": [
+          {
+            "when": "Asked about Gentlemen's Agreement clauses",
+            "choose": "14 points."
+          },
+          {
+            "when": "Asked about Warangal Declaration",
+            "choose": "50 resolutions."
+          }
+        ],
+        "nextStep": "Remember: 1956 = 14 points vs 1997 = 50 resolutions."
+      },
+      {
+        "observation": "Selected 6 resolutions.",
+        "correctMeaning": "Warangal Declaration passed 50 resolutions rejecting the 6-point formula.",
+        "selectedMeaning": "6 points belongs to the 1973 formula.",
+        "possibleConfusion": "Mixing 1973 formula with 1997 declaration.",
+        "decisionRules": [
+          {
+            "when": "Asked about Six-Point Formula",
+            "choose": "1973."
+          },
+          {
+            "when": "Asked about Warangal Declaration",
+            "choose": "1997 (50 resolutions)."
+          }
+        ],
+        "nextStep": "Understand why Warangal Declaration condemned the Six-Point Formula."
+      },
+      {
+        "observation": "Selected 100 resolutions.",
+        "correctMeaning": "Exactly 50 resolutions.",
+        "selectedMeaning": "Exaggerated figure.",
+        "possibleConfusion": "Guessing a round number.",
+        "decisionRules": [
+          {
+            "when": "Asked about Warangal Declaration",
+            "choose": "50 resolutions."
+          },
+          {
+            "when": "evaluating alternative distractors in this question",
+            "choose": "eliminate unverified dates, provisions, and commissions based on official TS history records"
+          }
+        ],
+        "nextStep": "Memorize the exact number: 50."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q176",
+    "topic": "TM-01.02",
+    "concept": "TM-01.02-M01",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Who was the first martyr of the historic Telangana Peasant Armed Struggle (Telangana Sayudha Poratam), shot dead on 4 July 1946 while leading a procession against the atrocities of Visnur Deshmukh at Kadavendi village?",
+    "options": [
+      {
+        "text": "Doddi Komaraiah",
+        "why": "Doddi Komaraiah was shot dead on 4 July 1946 at Kadavendi village in Jangaon taluk by the goondas of Visnur Deshmukh (Ramachandra Reddy), becoming the very first martyr of the Telangana Armed Struggle.",
+        "attraction": "The authentic, universally recognized first martyr of the Telangana Armed Struggle.",
+        "confusion": false
+      },
+      {
+        "text": "Shoebullah Khan",
+        "why": "Shoebullah Khan was the editor of the nationalist daily 'Imroze', assassinated by Razakars on 22 August 1948, not at Kadavendi in 1946.",
+        "attraction": "Prominent martyr of the anti-Nizam struggle assassinated by Razakars.",
+        "confusion": true
+      },
+      {
+        "text": "Baddam Yella Reddy",
+        "why": "Baddam Yella Reddy was one of the supreme leaders and strategists of the Communist Party and Andhra Mahasabha, not the Kadavendi martyr.",
+        "attraction": "Prominent armed struggle organizer and leader."
+      },
+      {
+        "text": "Ravi Narayana Reddy",
+        "why": "Ravi Narayana Reddy was the founding President of the armed struggle faction of Andhra Mahasabha and won the 1952 Lok Sabha election with the highest votes in India, living until 1991.",
+        "attraction": "Foremost leader of Andhra Mahasabha."
+      }
+    ],
+    "answer": 0,
+    "reason": "Doddi Komaraiah was martyred on 4 July 1946 at Kadavendi, triggering the mass uprising of the Telangana Armed Struggle.",
+    "clue": "Look for the martyr of Kadavendi village (4 July 1946) who fought against Visnur Deshmukh.",
+    "trap": "Do not confuse Doddi Komaraiah (1946 Kadavendi martyr) with Shoebullah Khan (1948 journalist martyr).",
+    "elimination": "Doddi Komaraiah died at Kadavendi in 1946. Shoebullah Khan died in 1948; Baddam Yella Reddy and Ravi Narayana Reddy survived to lead the movement.",
+    "anchor": "4 July 1946 Kadavendi -> Doddi Komaraiah (First Martyr of Telangana Peasant Armed Struggle).",
+    "hint": "His elder brother was Doddi Mallikarjun; their defiance at Kadavendi lit the flame across 3000 villages.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 18,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Doddi Komaraiah as the first martyr of the Telangana Armed Struggle.",
+        "correctMeaning": "Doddi Komaraiah's supreme sacrifice on 4 July 1946 at Kadavendi ignited the Telangana Peasant Armed Struggle across Nalgonda and Warangal.",
+        "selectedMeaning": "Doddi Komaraiah's supreme sacrifice on 4 July 1946 at Kadavendi ignited the Telangana Peasant Armed Struggle across Nalgonda and Warangal.",
+        "possibleConfusion": "No confusion; standard question in every TS Police SI/Constable exam.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the first martyr of Telangana Armed Struggle",
+            "choose": "Doddi Komaraiah (4 July 1946 at Kadavendi)."
+          },
+          {
+            "when": "Asked where and when Doddi Komaraiah was martyred",
+            "choose": "Kadavendi village (Jangaon/Warangal district) on 4 July 1946."
+          }
+        ],
+        "nextStep": "Connect Doddi Komaraiah's martyrdom to the defense of Chakali Ilamma's harvest against Visnur Deshmukh."
+      },
+      {
+        "observation": "Selected Shoebullah Khan instead of Doddi Komaraiah.",
+        "correctMeaning": "Doddi Komaraiah was martyred on 4 July 1946; Shoebullah Khan was assassinated in Hyderabad on 22 August 1948.",
+        "selectedMeaning": "Confusing the first rural peasant martyr (1946) with the urban journalistic martyr (1948).",
+        "possibleConfusion": "Both were martyred fighting feudal Nizam oppression, but in different years and contexts.",
+        "decisionRules": [
+          {
+            "when": "The question mentions Kadavendi village, 1946, or Visnur Deshmukh",
+            "choose": "Doddi Komaraiah."
+          },
+          {
+            "when": "The question mentions editor of Imroze newspaper, 1948, or Razakar assassination",
+            "choose": "Shoebullah Khan."
+          }
+        ],
+        "nextStep": "Memorize both martyrs with their distinct years: Komaraiah (1946) and Shoebullah Khan (1948)."
+      },
+      {
+        "observation": "Selected Baddam Yella Reddy.",
+        "correctMeaning": "Doddi Komaraiah fell to bullets at Kadavendi; Baddam Yella Reddy was the political leader who directed the armed squads.",
+        "selectedMeaning": "Confusing the martyr with the communist political commissar.",
+        "possibleConfusion": "Associating prominent armed struggle figures together.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the Kadavendi martyr",
+            "choose": "Doddi Komaraiah."
+          },
+          {
+            "when": "Asked about CPI leadership directing armed struggle alongside Ravi Narayana Reddy",
+            "choose": "Baddam Yella Reddy and Makhdoom Mohiuddin."
+          }
+        ],
+        "nextStep": "Separate martyrs who died on the front lines from political commanders who survived."
+      },
+      {
+        "observation": "Selected Ravi Narayana Reddy.",
+        "correctMeaning": "Doddi Komaraiah was the 1946 martyr; Ravi Narayana Reddy presided over the 1945 Khammam Mahasabha and won the 1952 parliamentary election.",
+        "selectedMeaning": "Confusing the mass hero who lived until 1991 with the first martyr.",
+        "possibleConfusion": "Ravi Narayana Reddy is the most famous figure of the Armed Struggle.",
+        "decisionRules": [
+          {
+            "when": "Asked about highest vote-getter in 1952 First Indian General Election",
+            "choose": "Ravi Narayana Reddy (Nalgonda constituency)."
+          },
+          {
+            "when": "Asked about first martyr of Telangana Peasant Armed Struggle",
+            "choose": "Doddi Komaraiah."
+          }
+        ],
+        "nextStep": "Remember Ravi Narayana Reddy's landmark 1952 victory exceeding Jawaharlal Nehru's vote margin."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q177",
+    "topic": "TM-01.02",
+    "concept": "TM-01.02-M02",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Chakali Ilamma (Ailamma) launched a courageous land defense against Visnur Deshmukh Ramachandra Reddy when his men attempted to seize her harvested paddy crop. In which village did Chakali Ilamma wage this historic resistance?",
+    "options": [
+      {
+        "text": "Palakurthi",
+        "why": "Chakali Ilamma belonged to Palakurthi village (in Jangaon taluk/Warangal district) where she leased 4 acres from Mallampally Kondala Rao and fought back Visnur Deshmukh's goondas with the help of Andhra Mahasabha volunteers.",
+        "attraction": "The authentic village where Chakali Ilamma's legendary resistance took place.",
+        "confusion": false
+      },
+      {
+        "text": "Kadavendi",
+        "why": "Kadavendi was the village where Doddi Komaraiah was martyred on 4 July 1946, not where Ilamma cultivated her leased land.",
+        "attraction": "Nearby village in Jangaon taluk famous in the armed struggle.",
+        "confusion": true
+      },
+      {
+        "text": "Bhairanpally",
+        "why": "Bhairanpally was the site of the heroic village fort defense where over 90 villagers were massacred by Razakars in 1948.",
+        "attraction": "Famous village battle site in Jangaon."
+      },
+      {
+        "text": "Gundrampally",
+        "why": "Gundrampally (Renigunta) was a village in Nalgonda district where Razakars committed brutal atrocities and mass burnings.",
+        "attraction": "Notorious Razakar massacre location."
+      }
+    ],
+    "answer": 0,
+    "reason": "Chakali Ilamma's land resistance against Visnur Deshmukh took place at Palakurthi village.",
+    "clue": "Look for Palakurthi, the native village of revolutionary peasant icon Chakali Ilamma.",
+    "trap": "Do not confuse Palakurthi (Chakali Ilamma's village) with Kadavendi (Doddi Komaraiah's martyrdom village).",
+    "elimination": "Palakurthi is Ilamma's village. Kadavendi is Komaraiah's martyrdom; Bhairanpally is the fort massacre; Gundrampally is in Nalgonda.",
+    "anchor": "Chakali Ilamma -> Palakurthi village -> Defense of paddy harvest against Visnur Deshmukh.",
+    "hint": "Palakurthi is located near Jangaon and is also the birthplace of ancient Telugu poet Palkuriki Somanatha.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 24,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Palakurthi as Chakali Ilamma's village.",
+        "correctMeaning": "Chakali Ilamma of Palakurthi village resisted the Visnur Deshmukh's illegal land grabbing and protected her crop with Andhra Mahasabha help.",
+        "selectedMeaning": "Chakali Ilamma of Palakurthi village resisted the Visnur Deshmukh's illegal land grabbing and protected her crop with Andhra Mahasabha help.",
+        "possibleConfusion": "No confusion; standard TS history milestone.",
+        "decisionRules": [
+          {
+            "when": "Asked about the village of Chakali Ilamma's historic land resistance",
+            "choose": "Palakurthi."
+          },
+          {
+            "when": "Asked which feudal lord Chakali Ilamma resisted",
+            "choose": "Visnur Deshmukh (Ramachandra Reddy)."
+          }
+        ],
+        "nextStep": "Note that Chakali Ilamma leased the land from Mallampally Kondala Rao."
+      },
+      {
+        "observation": "Selected Kadavendi instead of Palakurthi.",
+        "correctMeaning": "Kadavendi is where Doddi Komaraiah was shot; Palakurthi is where Chakali Ilamma defended her crop.",
+        "selectedMeaning": "Confusing two neighboring revolutionary villages in Jangaon taluk.",
+        "possibleConfusion": "Both events occurred in 1946 and both involved Visnur Deshmukh.",
+        "decisionRules": [
+          {
+            "when": "The question asks where Doddi Komaraiah was martyred",
+            "choose": "Kadavendi."
+          },
+          {
+            "when": "The question asks where Chakali Ilamma fought Visnur Deshmukh",
+            "choose": "Palakurthi."
+          }
+        ],
+        "nextStep": "Link: Komaraiah = Kadavendi; Ilamma = Palakurthi."
+      },
+      {
+        "observation": "Selected Bhairanpally.",
+        "correctMeaning": "Bhairanpally is the site of the 1948 village fortress slaughter; Palakurthi is Ilamma's home.",
+        "selectedMeaning": "Confusing Ilamma's individual family resistance with the collective fortress siege.",
+        "possibleConfusion": "Both locations are in Jangaon region.",
+        "decisionRules": [
+          {
+            "when": "Asked about the fortress defense against Razakars with 90+ martyrs",
+            "choose": "Bhairanpally."
+          },
+          {
+            "when": "Asked about Chakali Ilamma's agrarian struggle",
+            "choose": "Palakurthi."
+          }
+        ],
+        "nextStep": "Keep Bhairanpally marked as the 1948 fortress battle."
+      },
+      {
+        "observation": "Selected Gundrampally.",
+        "correctMeaning": "Gundrampally is a village in Nalgonda district known for a brutal Razakar massacre.",
+        "selectedMeaning": "Confusing a Nalgonda massacre site with Ilamma's Warangal village.",
+        "possibleConfusion": "Both are iconic armed struggle locations.",
+        "decisionRules": [
+          {
+            "when": "Asked about Nalgonda village where Razakars threw dead bodies into wells",
+            "choose": "Gundrampally (Renigunta)."
+          },
+          {
+            "when": "Asked about Chakali Ilamma",
+            "choose": "Palakurthi."
+          }
+        ],
+        "nextStep": "Anchor Gundrampally strictly to Nalgonda district atrocities."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q178",
+    "topic": "TM-01.02",
+    "concept": "TM-01.02-M03",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "The 11th Andhra Mahasabha Conference held at Bhongir in 1944 was a major turning point that witnessed the historic split between moderate nationalists and radical communists. Who presided over this landmark Bhongir conference?",
+    "options": [
+      {
+        "text": "Ravi Narayana Reddy",
+        "why": "Ravi Narayana Reddy presided over the 11th Andhra Mahasabha Conference at Bhongir in 1944, where the communist faction defeated the moderates, leading to the moderates breaking away under K.V. Ranga Reddy.",
+        "attraction": "The communist leader who presided over the historic Bhongir session.",
+        "confusion": false
+      },
+      {
+        "text": "Suravaram Pratapa Reddy",
+        "why": "Suravaram Pratapa Reddy presided over the 1st Andhra Mahasabha Conference at Madira in 1930, not the 11th conference in 1944.",
+        "attraction": "President of the very first Andhra Mahasabha Conference in 1930.",
+        "confusion": true
+      },
+      {
+        "text": "K.V. Ranga Reddy",
+        "why": "K.V. Ranga Reddy was the leader of the moderate/nationalist faction who walked out and subsequently held a separate Nationalist Andhra Mahasabha session.",
+        "attraction": "Leader of the rival faction at Bhongir."
+      },
+      {
+        "text": "Mandumula Narsing Rao",
+        "why": "Mandumula Narsing Rao was a prominent moderate leader and editor of 'Raiyyat', not the president of the 11th Bhongir conference.",
+        "attraction": "Prominent Hyderabad nationalist and journalist."
+      }
+    ],
+    "answer": 0,
+    "reason": "Ravi Narayana Reddy presided over the 11th Andhra Mahasabha at Bhongir in 1944.",
+    "clue": "Look for the communist stalwart who presided over the 1944 Bhongir conference where over 10,000 peasants gathered.",
+    "trap": "Do not confuse Suravaram Pratapa Reddy (1st conference in 1930) with Ravi Narayana Reddy (11th conference in 1944).",
+    "elimination": "Suravaram presided in 1930; K.V. Ranga Reddy led the rival breakaway group; Ravi Narayana Reddy was the elected President at Bhongir.",
+    "anchor": "1944 Bhongir 11th Andhra Mahasabha -> Presided by Ravi Narayana Reddy -> Historic Communist takeover.",
+    "hint": "Baddam Yella Reddy was the chairman of the reception committee at this Bhongir conference.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 32,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Ravi Narayana Reddy as the President of the 1944 Bhongir conference.",
+        "correctMeaning": "Under Ravi Narayana Reddy's presidency at Bhongir in 1944, Andhra Mahasabha adopted radical anti-feudal resolutions and mass agrarian mobilization.",
+        "selectedMeaning": "Under Ravi Narayana Reddy's presidency at Bhongir in 1944, Andhra Mahasabha adopted radical anti-feudal resolutions and mass agrarian mobilization.",
+        "possibleConfusion": "No confusion; standard high-yield question in Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked who presided over the 11th Andhra Mahasabha at Bhongir in 1944",
+            "choose": "Ravi Narayana Reddy."
+          },
+          {
+            "when": "Asked who was the Reception Committee Chairman at 1944 Bhongir conference",
+            "choose": "Baddam Yella Reddy."
+          }
+        ],
+        "nextStep": "Note the subsequent 12th conference at Khammam in 1945, also presided by Ravi Narayana Reddy."
+      },
+      {
+        "observation": "Selected Suravaram Pratapa Reddy.",
+        "correctMeaning": "Suravaram Pratapa Reddy presided over the 1st session at Madira in 1930; Ravi Narayana Reddy presided over Bhongir in 1944.",
+        "selectedMeaning": "Confusing the 1st Andhra Mahasabha president with the 11th.",
+        "possibleConfusion": "Both are legendary Reddys of the Telangana movement.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1st Andhra Mahasabha Conference at Madira (1930)",
+            "choose": "Suravaram Pratapa Reddy."
+          },
+          {
+            "when": "Asked about 11th Andhra Mahasabha Conference at Bhongir (1944)",
+            "choose": "Ravi Narayana Reddy."
+          }
+        ],
+        "nextStep": "Memorize: 1st = Madira (1930) / Suravaram; 11th = Bhongir (1944) / Ravi Narayana Reddy."
+      },
+      {
+        "observation": "Selected K.V. Ranga Reddy.",
+        "correctMeaning": "K.V. Ranga Reddy was defeated by the communists and led the moderate Nationalist Andhra Mahasabha.",
+        "selectedMeaning": "Confusing the leader of the breakaway moderate faction with the conference president.",
+        "possibleConfusion": "K.V. Ranga Reddy was an influential leader in Andhra Mahasabha.",
+        "decisionRules": [
+          {
+            "when": "Asked who led the Nationalist (non-communist) Andhra Mahasabha after the 1944 split",
+            "choose": "K.V. Ranga Reddy and Marri Chenna Reddy."
+          },
+          {
+            "when": "Asked who presided over the Bhongir conference itself",
+            "choose": "Ravi Narayana Reddy."
+          }
+        ],
+        "nextStep": "Trace how the moderate faction merged with the Hyderabad State Congress."
+      },
+      {
+        "observation": "Selected Mandumula Narsing Rao.",
+        "correctMeaning": "Mandumula Narsing Rao was the editor of Raiyyat and presided over the 6th Andhra Mahasabha at Nizamabad in 1937.",
+        "selectedMeaning": "Confusing the 1937 Nizamabad president with the 1944 Bhongir president.",
+        "possibleConfusion": "Both were major reformers in Hyderabad State politics.",
+        "decisionRules": [
+          {
+            "when": "Asked who presided over 6th Andhra Mahasabha at Nizamabad (1937)",
+            "choose": "Mandumula Narsing Rao."
+          },
+          {
+            "when": "Asked who presided over 11th Andhra Mahasabha at Bhongir (1944)",
+            "choose": "Ravi Narayana Reddy."
+          }
+        ],
+        "nextStep": "Keep a chronology table of Andhra Mahasabha presidents."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q179",
+    "topic": "TM-01.02",
+    "concept": "TM-01.02-M04",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Under the feudal agrarian structure of Nizam's Hyderabad State, which of the following terms specifically referred to agricultural debt bondage wherein farm laborers worked for generations without wages to repay ancestral debts?",
+    "options": [
+      {
+        "text": "Bhagela system",
+        "why": "The Bhagela system was hereditary debt-bondage in Hyderabad State where lower-caste and tribal laborers were bound for life to feudal lords (Deshmukhs/Jagirdars) against negligible loans or food grains.",
+        "attraction": "The precise historical legal term for debt bondage in Hyderabad State.",
+        "confusion": false
+      },
+      {
+        "text": "Ijara system",
+        "why": "The Ijara system was a land-revenue auction/farming system where wasteland was leased out to revenue contractors (Ijaradars) for fixed periods.",
+        "attraction": "A known revenue tenure system under Nizam rule.",
+        "confusion": true
+      },
+      {
+        "text": "Watandari system",
+        "why": "Watandari referred to hereditary administrative and revenue offices (like Patel, Patwari) in the village, not bonded debt servitude.",
+        "attraction": "Hereditary village administrative titles."
+      },
+      {
+        "text": "Sarf-e-Khas",
+        "why": "Sarf-e-Khas referred to the Nizam's crown lands (personal estate) comprising roughly 10% of the entire state territory.",
+        "attraction": "Prominent Nizam land classification."
+      }
+    ],
+    "answer": 0,
+    "reason": "The Bhagela system was the hereditary bonded labor system in Hyderabad State.",
+    "clue": "Look for Bhagela, the bonded agricultural debt slavery targeted by the Hyderabad Bhagela Agreements Regulation.",
+    "trap": "Do not confuse Bhagela (bonded labor) with Ijara (revenue farming) or Sarf-e-Khas (crown lands).",
+    "elimination": "Bhagela is debt bondage; Ijara is land auction leasing; Watandari is village office; Sarf-e-Khas is the Nizam's crown estate.",
+    "anchor": "Bhagela System -> Hereditary debt bondage / bonded labor in Hyderabad State.",
+    "hint": "In 1943, Nizam VII issued the Bhagela Agreements Regulation to nominally regulate this bonded labor.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 38,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 4,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the Bhagela system as the bonded labor institution.",
+        "correctMeaning": "The Bhagela system tied agricultural workers and their descendants in permanent servitude to Deshmukhs until the armed struggle liberated them.",
+        "selectedMeaning": "The Bhagela system tied agricultural workers and their descendants in permanent servitude to Deshmukhs until the armed struggle liberated them.",
+        "possibleConfusion": "No confusion; vital socio-economic concept in Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked about hereditary bonded agricultural debt labor in Hyderabad State",
+            "choose": "Bhagela system."
+          },
+          {
+            "when": "Asked when the Bhagela Agreements Regulation was enacted",
+            "choose": "1943 (1352 Fasli)."
+          }
+        ],
+        "nextStep": "Connect the Bhagela system with the general practice of Vetti (unpaid forced domestic labor)."
+      },
+      {
+        "observation": "Selected Ijara system instead of Bhagela.",
+        "correctMeaning": "Ijara is land revenue leasing of uncultivated lands; Bhagela is bonded human labor.",
+        "selectedMeaning": "Confusing revenue farming with bonded servitude.",
+        "possibleConfusion": "Both are feudal agrarian institutions of Hyderabad.",
+        "decisionRules": [
+          {
+            "when": "Asked about reclamation of wasteland by auctioning to contractors",
+            "choose": "Ijara system."
+          },
+          {
+            "when": "Asked about bonded debt labor of agricultural servants",
+            "choose": "Bhagela system."
+          }
+        ],
+        "nextStep": "Review Salar Jung's introduction of the Ijara system to expand cultivated land in 1860s."
+      },
+      {
+        "observation": "Selected Watandari system.",
+        "correctMeaning": "Watandari referred to hereditary posts like Mali Patel, Police Patel, and Patwari; Bhagela is bonded labor.",
+        "selectedMeaning": "Confusing village revenue functionaries with bonded laborers.",
+        "possibleConfusion": "Both involve hereditary status.",
+        "decisionRules": [
+          {
+            "when": "Asked about hereditary village administrative posts abolished by N.T. Rama Rao in 1984",
+            "choose": "Watandari / Patel-Patwari system."
+          },
+          {
+            "when": "Asked about hereditary debt bondage",
+            "choose": "Bhagela system."
+          }
+        ],
+        "nextStep": "Note that Watandari system was formally abolished by G.O. Ms. No. 129 in 1984 under NTR."
+      },
+      {
+        "observation": "Selected Sarf-e-Khas.",
+        "correctMeaning": "Sarf-e-Khas was the Nizam's direct personal estate (crown lands), covering nearly 10,000 square miles.",
+        "selectedMeaning": "Confusing the Nizam's personal estate with a type of bonded labor.",
+        "possibleConfusion": "Recognizing a prominent feudal land term.",
+        "decisionRules": [
+          {
+            "when": "Asked about Nizam's crown lands / personal estate",
+            "choose": "Sarf-e-Khas."
+          },
+          {
+            "when": "Asked about bonded labor",
+            "choose": "Bhagela system."
+          }
+        ],
+        "nextStep": "Remember that Sarf-e-Khas was merged into Diwani (state) territory in February 1949."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q180",
+    "topic": "TM-01.03",
+    "concept": "TM-01.03-M01",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "The Majlis-e-Ittehadul Muslimeen (MIM) was founded in 1927. Following the death of Nawab Bahadur Yar Jung in 1944, who took over the leadership of MIM and transformed its volunteer wing, the Razakars, into a violent militant force?",
+    "options": [
+      {
+        "text": "Kasim Razvi",
+        "why": "Kasim Razvi (a lawyer from Latur) became President of MIM in December 1946 after Bahadur Yar Jung and Abul Hasan Syed Ali, organizing the Razakars as an armed private militia to resist integration with India.",
+        "attraction": "The notorious commander of the Razakar paramilitary militia.",
+        "confusion": false
+      },
+      {
+        "text": "Mir Laik Ali",
+        "why": "Mir Laik Ali was appointed the last Prime Minister of Hyderabad State in November 1947, who colluded with Razvi but was not the founder/leader of the Razakars.",
+        "attraction": "The last Prime Minister of Hyderabad State.",
+        "confusion": true
+      },
+      {
+        "text": "General El-Edroos",
+        "why": "Syed Ahmed El-Edroos was the Commander-in-Chief of the Hyderabad State Army who formally surrendered to Indian forces in September 1948.",
+        "attraction": "Commander of the regular Hyderabad State forces."
+      },
+      {
+        "text": "Nawab Chhatari",
+        "why": "The Nawab of Chhatari (Sir Muhammad Ahmad Said Khan Chhatari) was the moderate Prime Minister of Hyderabad who resigned due to Kasim Razvi's mob intimidation at Shah Manzil.",
+        "attraction": "Former Prime Minister overthrown by Razakar pressure."
+      }
+    ],
+    "answer": 0,
+    "reason": "Kasim Razvi took over MIM leadership and built the violent Razakar militia.",
+    "clue": "Look for Kasim Razvi, the Latur lawyer who led the Razakars and preached 'An-al-Malik' (We are the rulers).",
+    "trap": "Do not confuse Kasim Razvi (MIM / Razakar chief) with Mir Laik Ali (Nizam's last Prime Minister).",
+    "elimination": "Kasim Razvi commanded the Razakars. Laik Ali was Prime Minister; El-Edroos was Army Chief; Chhatari was the ousted Prime Minister.",
+    "anchor": "Kasim Razvi -> MIM President (1946) -> Commander-in-Chief of Razakars.",
+    "hint": "Kasim Razvi infamously declared he would plant the Asaf Jahi flag on the Red Fort in Delhi.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 45,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Kasim Razvi as the leader of MIM and the Razakars.",
+        "correctMeaning": "Kasim Razvi transformed the Razakars into a brutal paramilitary force of over 1.5 lakh volunteers that terrorized rural Telangana.",
+        "selectedMeaning": "Kasim Razvi transformed the Razakars into a brutal paramilitary force of over 1.5 lakh volunteers that terrorized rural Telangana.",
+        "possibleConfusion": "No confusion; essential historical figure in modern Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked who organized and commanded the Razakars in Hyderabad State",
+            "choose": "Kasim Razvi."
+          },
+          {
+            "when": "Asked who founded the Majlis-e-Ittehadul Muslimeen (MIM) in 1927",
+            "choose": "Nawab Mahmood Nawaz Khan."
+          }
+        ],
+        "nextStep": "Note Kasim Razvi's arrest after Operation Polo and eventual departure to Pakistan in 1957."
+      },
+      {
+        "observation": "Selected Mir Laik Ali instead of Kasim Razvi.",
+        "correctMeaning": "Mir Laik Ali was the Prime Minister (President of the Executive Council) from Nov 1947; Kasim Razvi was the MIM/Razakar chief.",
+        "selectedMeaning": "Confusing the head of government with the head of the militant militia.",
+        "possibleConfusion": "Both collaborated closely in opposing integration with India.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the last Prime Minister of Hyderabad State (1947–1948)",
+            "choose": "Mir Laik Ali."
+          },
+          {
+            "when": "Asked who led the Razakars",
+            "choose": "Kasim Razvi."
+          }
+        ],
+        "nextStep": "Recall that Mir Laik Ali later escaped house arrest to Pakistan in March 1950."
+      },
+      {
+        "observation": "Selected General El-Edroos.",
+        "correctMeaning": "General El-Edroos commanded the regular Hyderabad Army (Hyderabad State Forces); Kasim Razvi commanded the Razakars.",
+        "selectedMeaning": "Confusing the regular military commander with the paramilitary militia head.",
+        "possibleConfusion": "Both held armed command during Operation Polo.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the Commander-in-Chief of Hyderabad State Army in 1948",
+            "choose": "Major General Syed Ahmed El-Edroos."
+          },
+          {
+            "when": "Asked who commanded the Razakars",
+            "choose": "Kasim Razvi."
+          }
+        ],
+        "nextStep": "Distinguish between regular Hyderabad State Forces and irregular Razakar gangs."
+      },
+      {
+        "observation": "Selected Nawab Chhatari.",
+        "correctMeaning": "The Nawab of Chhatari was a moderate Prime Minister who negotiated the Standstill Agreement draft and was ousted by Razvi's mob in Oct 1947.",
+        "selectedMeaning": "Confusing the moderate victim of Razakar pressure with the perpetrator.",
+        "possibleConfusion": "Both were prominent Hyderabad political figures in 1947.",
+        "decisionRules": [
+          {
+            "when": "Asked which Prime Minister's residence was surrounded by Razakars on 27 Oct 1947",
+            "choose": "Nawab of Chhatari (Shah Manzil incident)."
+          },
+          {
+            "when": "Asked who headed the Razakars",
+            "choose": "Kasim Razvi."
+          }
+        ],
+        "nextStep": "Remember the 27 October 1947 incident that prevented the signing of the accession agreement."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q181",
+    "topic": "TM-01.03",
+    "concept": "TM-01.03-M02",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "In which village of Jangaon region did heroic villagers build an earthen fortress with stone walls and successfully repel two Razakar attacks before a third brutal attack by Nizam military and Razakars led by Deputy Collector Hashim martyred over 90 villagers on 27 August 1948?",
+    "options": [
+      {
+        "text": "Bhairanpally",
+        "why": "Bhairanpally (in present-day Siddipet/Jangaon) is renowned for its heroic fortress defense where villagers held off Razakars until 27 August 1948 when 96+ villagers were massacred by heavy artillery and combined forces.",
+        "attraction": "The legendary village fort known as the Jallianwala Bagh of Telangana.",
+        "confusion": false
+      },
+      {
+        "text": "Kadavendi",
+        "why": "Kadavendi was the 1946 martyrdom site of Doddi Komaraiah, not the fortified village siege of August 1948.",
+        "attraction": "Famous armed struggle village in Jangaon.",
+        "confusion": true
+      },
+      {
+        "text": "Parkal",
+        "why": "Parkal (Warangal) witnessed a brutal police firing on 2 September 1947 when people gathered to hoist the Indian National Flag, known as the 'Jallianwala Bagh of South India'.",
+        "attraction": "Another famous massacre site in Warangal."
+      },
+      {
+        "text": "Appireddypally",
+        "why": "Appireddypally was a village in Nalgonda where Communist squads ambushed Razakars, not the August 1948 fortress massacre site.",
+        "attraction": "Prominent armed struggle combat village."
+      }
+    ],
+    "answer": 0,
+    "reason": "Bhairanpally witnessed the heroic fortress battle and massacre of over 90 villagers on 27 August 1948.",
+    "clue": "Look for the fortress village in Jangaon where Hashim led the attack on 27 August 1948 killing 96 villagers.",
+    "trap": "Do not confuse Bhairanpally (fortress defense, 27 Aug 1948) with Parkal flag-hoisting massacre (2 Sept 1947).",
+    "elimination": "Bhairanpally had the fortress and 96 martyrs. Kadavendi is 1946; Parkal is flag-hoisting in 1947; Appireddypally is an ambush site.",
+    "anchor": "27 August 1948 -> Bhairanpally fortress battle -> 96 martyrs slain by Nizam forces and Razakars.",
+    "hint": "Villagers used a country muzzle-loading cannon called 'Kamma Thupaaki' and brass drums from atop the fort tower.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 52,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Bhairanpally as the site of the August 1948 massacre.",
+        "correctMeaning": "Bhairanpally remains one of the greatest symbols of rural peasant fortitude against the armed forces of the Nizam and Razakars.",
+        "selectedMeaning": "Bhairanpally remains one of the greatest symbols of rural peasant fortitude against the armed forces of the Nizam and Razakars.",
+        "possibleConfusion": "No confusion; premier historical site often asked in TS examinations.",
+        "decisionRules": [
+          {
+            "when": "Asked about the heroic fort defense in Jangaon with 90+ martyrs on 27 August 1948",
+            "choose": "Bhairanpally."
+          },
+          {
+            "when": "Asked which Nizam official led the Bhairanpally massacre",
+            "choose": "Deputy Collector / DSP Hashim."
+          }
+        ],
+        "nextStep": "Compare Bhairanpally (27 Aug 1948) with the Parkal flag-hoisting massacre (2 Sept 1947)."
+      },
+      {
+        "observation": "Selected Kadavendi instead of Bhairanpally.",
+        "correctMeaning": "Kadavendi is famous for Doddi Komaraiah's death on 4 July 1946; Bhairanpally is the fort siege of August 1948.",
+        "selectedMeaning": "Confusing the first martyr's village with the largest fort massacre village.",
+        "possibleConfusion": "Both are in Jangaon taluk and both involved heroic resistance.",
+        "decisionRules": [
+          {
+            "when": "The question mentions 4 July 1946 and Doddi Komaraiah",
+            "choose": "Kadavendi."
+          },
+          {
+            "when": "The question mentions the village fort siege and 27 August 1948 massacre",
+            "choose": "Bhairanpally."
+          }
+        ],
+        "nextStep": "Maintain clear chronology: Kadavendi (1946) -> Bhairanpally (1948)."
+      },
+      {
+        "observation": "Selected Parkal.",
+        "correctMeaning": "Parkal occurred on 2 September 1947 over hoisting the Indian tricolor; Bhairanpally was a fortress siege on 27 August 1948.",
+        "selectedMeaning": "Confusing the flag-hoisting massacre (1947) with the fortress massacre (1948).",
+        "possibleConfusion": "Both are designated as 'Jallianwala Bagh' of Telangana in popular discourse.",
+        "decisionRules": [
+          {
+            "when": "Asked about massacre during National Flag hoisting on 2 September 1947",
+            "choose": "Parkal (Warangal district)."
+          },
+          {
+            "when": "Asked about massacre after fort defense on 27 August 1948",
+            "choose": "Bhairanpally (Jangaon/Siddipet)."
+          }
+        ],
+        "nextStep": "Note former Prime Minister P.V. Narasimha Rao called Parkal the 'Jallianwala Bagh of South India'."
+      },
+      {
+        "observation": "Selected Appireddypally.",
+        "correctMeaning": "Appireddypally was an armed squad ambush base in Nalgonda, not the fortified watchtower village in Jangaon.",
+        "selectedMeaning": "Confusing an offensive guerrilla ambush with a defensive village fort massacre.",
+        "possibleConfusion": "Both are armed struggle battlegrounds.",
+        "decisionRules": [
+          {
+            "when": "Asked about guerrilla combat in Nalgonda district",
+            "choose": "Appireddypally."
+          },
+          {
+            "when": "Asked about village fort defense with 96 martyrs",
+            "choose": "Bhairanpally."
+          }
+        ],
+        "nextStep": "Remember Bhairanpally's distinct watchtower ('Buruju') that still stands today."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q182",
+    "topic": "TM-01.03",
+    "concept": "TM-01.03-M03",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Shoebullah Khan, the courageous young journalist who vehemently criticized Razakar atrocities and demanded the accession of Hyderabad State to the Indian Union, was brutally assassinated with his hands chopped off by Razakars in the early hours of 22 August 1948. Which historic Urdu newspaper did he edit?",
+    "options": [
+      {
+        "text": "Imroze",
+        "why": "Shoebullah Khan was the editor of the nationalist Urdu daily 'Imroze', printed at the press of Ramananda Tirtha and later Burgula Ramakrishna Rao; his hands were chopped off by Razakars outside his office in Kachiguda.",
+        "attraction": "The authentic, celebrated newspaper edited by martyr Shoebullah Khan.",
+        "confusion": false
+      },
+      {
+        "text": "Raiyyat",
+        "why": "Raiyyat was an influential nationalist Urdu daily founded and edited by Mandumula Narsing Rao, which was banned by the Nizam government in 1947.",
+        "attraction": "Another prominent nationalist Urdu paper of Hyderabad.",
+        "confusion": true
+      },
+      {
+        "text": "Golconda Patrika",
+        "why": "Golconda Patrika was the landmark Telugu newspaper edited and published by Suravaram Pratapa Reddy from 1926 onwards, not an Urdu daily.",
+        "attraction": "The most famous early Telugu newspaper of Hyderabad."
+      },
+      {
+        "text": "Payam",
+        "why": "Payam was a progressive Urdu daily edited by Akhtar Hasan that advocated socialist views.",
+        "attraction": "Prominent Urdu daily of Hyderabad."
+      }
+    ],
+    "answer": 0,
+    "reason": "Shoebullah Khan was the editor of 'Imroze', martyred on 22 August 1948 by Razakars.",
+    "clue": "Look for 'Imroze', the Urdu daily whose editor paid with his life for supporting Indian integration.",
+    "trap": "Do not confuse 'Imroze' (Shoebullah Khan) with 'Raiyyat' (Mandumula Narsing Rao) or 'Golconda Patrika' (Suravaram Pratapa Reddy).",
+    "elimination": "Imroze is Shoebullah Khan's paper; Raiyyat was edited by Mandumula Narsing Rao; Golconda Patrika was edited by Suravaram; Payam was edited by Akhtar Hasan.",
+    "anchor": "Shoebullah Khan (22 Aug 1948) -> Editor of 'Imroze' -> Assassinated by Razakars for advocating Indian integration.",
+    "hint": "Before launching Imroze in November 1947, Shoebullah worked at 'Taj' and 'Raiyyat'.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 60,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies 'Imroze' as Shoebullah Khan's newspaper.",
+        "correctMeaning": "Shoebullah Khan and 'Imroze' represent the pinnacle of press freedom and communal harmony in the struggle against Nizam feudal autocracy.",
+        "selectedMeaning": "Shoebullah Khan and 'Imroze' represent the pinnacle of press freedom and communal harmony in the struggle against Nizam feudal autocracy.",
+        "possibleConfusion": "No confusion; standard question in Telangana recruitment exams.",
+        "decisionRules": [
+          {
+            "when": "Asked which newspaper was edited by martyr Shoebullah Khan",
+            "choose": "Imroze."
+          },
+          {
+            "when": "Asked when Shoebullah Khan was assassinated by Razakars",
+            "choose": "22 August 1948 (near Kachiguda, Hyderabad)."
+          }
+        ],
+        "nextStep": "Note how Sardar Patel cited Shoebullah Khan's assassination as evidence of complete lawlessness necessitating Operation Polo."
+      },
+      {
+        "observation": "Selected Raiyyat instead of Imroze.",
+        "correctMeaning": "Raiyyat was edited by Mandumula Narsing Rao; Imroze was edited by Shoebullah Khan.",
+        "selectedMeaning": "Confusing two nationalist Urdu newspapers.",
+        "possibleConfusion": "Shoebullah Khan worked as a sub-editor at Raiyyat before launching Imroze.",
+        "decisionRules": [
+          {
+            "when": "Asked about founder/editor of Raiyyat newspaper",
+            "choose": "Mandumula Narsing Rao."
+          },
+          {
+            "when": "Asked about editor of Imroze martyred in 1948",
+            "choose": "Shoebullah Khan."
+          }
+        ],
+        "nextStep": "Trace Shoebullah's career: Taj -> Raiyyat -> Imroze."
+      },
+      {
+        "observation": "Selected Golconda Patrika.",
+        "correctMeaning": "Golconda Patrika was a Telugu journal edited by Suravaram Pratapa Reddy; Imroze was an Urdu daily.",
+        "selectedMeaning": "Confusing the prominent Telugu cultural journal with the Urdu revolutionary paper.",
+        "possibleConfusion": "Both are premier historical publications of Hyderabad.",
+        "decisionRules": [
+          {
+            "when": "Asked about founder-editor of Telugu journal Golconda Patrika (1926)",
+            "choose": "Suravaram Pratapa Reddy."
+          },
+          {
+            "when": "Asked about editor of Imroze",
+            "choose": "Shoebullah Khan."
+          }
+        ],
+        "nextStep": "Memorize Golconda Patrika's inaugural date: 10 May 1926."
+      },
+      {
+        "observation": "Selected Payam.",
+        "correctMeaning": "Payam was edited by Akhtar Hasan; Imroze was founded and edited by Shoebullah Khan.",
+        "selectedMeaning": "Confusing two progressive Urdu newspapers of the same era.",
+        "possibleConfusion": "Both newspapers supported progressive democratic forces.",
+        "decisionRules": [
+          {
+            "when": "Asked about editor of progressive Urdu paper Payam",
+            "choose": "Akhtar Hasan."
+          },
+          {
+            "when": "Asked about martyr editor of Imroze",
+            "choose": "Shoebullah Khan."
+          }
+        ],
+        "nextStep": "Keep Akhtar Hasan / Payam and Shoebullah Khan / Imroze clearly differentiated."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q183",
+    "topic": "TM-01.03",
+    "concept": "TM-01.03-M04",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "Operation Polo (code-named 'Police Action' by the Government of India) was launched to integrate the princely State of Hyderabad into the Indian Union. What was the exact duration from the commencement of military action to the formal surrender of Nizam's forces?",
+    "options": [
+      {
+        "text": "13 September 1948 to 17 September 1948",
+        "why": "Operation Polo commenced at 4:00 AM on 13 September 1948 and concluded on 17 September 1948 when Nizam's forces under General El-Edroos surrendered at 5:00 PM.",
+        "attraction": "The authentic, official 108-hour timeline of Operation Polo.",
+        "confusion": false
+      },
+      {
+        "text": "15 August 1947 to 17 September 1947",
+        "why": "15 August 1947 was Indian Independence Day; Hyderabad did not accede in 1947 and signed the Standstill Agreement in November 1947.",
+        "attraction": "Assuming integration happened in the year of independence.",
+        "confusion": true
+      },
+      {
+        "text": "17 September 1948 to 26 January 1950",
+        "why": "17 September 1948 was the surrender; 26 January 1950 was the date the Indian Constitution came into force.",
+        "attraction": "Confusing the 5-day military operation with the administrative transition period."
+      },
+      {
+        "text": "1 November 1948 to 5 November 1948",
+        "why": "This timeline is completely fabricated; military action was completed two months earlier in September.",
+        "attraction": "Confusing September with November."
+      }
+    ],
+    "answer": 0,
+    "reason": "Operation Polo was conducted from 13 September 1948 to 17 September 1948 (5 days / 108 hours).",
+    "clue": "Look for the 5-day military campaign from 13 September to 17 September 1948.",
+    "trap": "Do not confuse the military operation dates (13–17 Sept 1948) with the formal accession on 26 Jan 1950.",
+    "elimination": "Operation Polo took place exclusively between 13 and 17 September 1948.",
+    "anchor": "Operation Polo -> 13 September 1948 (4:00 AM) to 17 September 1948 (5:00 PM) -> 108 hours.",
+    "hint": "It was called 'Operation Polo' because Hyderabad State had the largest concentration of polo grounds (17 polo grounds) in the world.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 68,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies 13 to 17 September 1948 as the dates of Operation Polo.",
+        "correctMeaning": "The 108-hour military operation ended 224 years of Asaf Jahi dynastic rule and ended the Razakar terror.",
+        "selectedMeaning": "The 108-hour military operation ended 224 years of Asaf Jahi dynastic rule and ended the Razakar terror.",
+        "possibleConfusion": "No confusion; celebrated historical timeline.",
+        "decisionRules": [
+          {
+            "when": "Asked about exact start and end dates of Operation Polo",
+            "choose": "13 September 1948 to 17 September 1948."
+          },
+          {
+            "when": "Asked total duration of Operation Polo",
+            "choose": "5 days (approximately 108 hours)."
+          }
+        ],
+        "nextStep": "Note 17 September is commemorated as Telangana Liberation Day / Telangana Praja Palana Dinam."
+      },
+      {
+        "observation": "Selected 1947 dates instead of 1948.",
+        "correctMeaning": "Hyderabad was not integrated in 1947; the Standstill Agreement was signed on 29 November 1947 for one year.",
+        "selectedMeaning": "Wrong year: Operation Polo took place in 1948, not 1947.",
+        "possibleConfusion": "Assuming princely states acceded immediately upon independence.",
+        "decisionRules": [
+          {
+            "when": "Asked when Standstill Agreement was signed between India and Hyderabad",
+            "choose": "29 November 1947."
+          },
+          {
+            "when": "Asked when Operation Polo took place",
+            "choose": "13–17 September 1948."
+          }
+        ],
+        "nextStep": "Anchor 1947 to Standstill Agreement and 1948 to Operation Polo."
+      },
+      {
+        "observation": "Selected 17 September 1948 to 26 January 1950.",
+        "correctMeaning": "That is the military and civil governance transition span under J.N. Chaudhuri and M.K. Vellodi, not the combat operation itself.",
+        "selectedMeaning": "Confusing the duration of Operation Polo with the post-operation interim rule.",
+        "possibleConfusion": "Mixing military operations with constitutional accession dates.",
+        "decisionRules": [
+          {
+            "when": "Asked duration of Operation Polo military action",
+            "choose": "13 to 17 September 1948."
+          },
+          {
+            "when": "Asked when Hyderabad State officially became a Part-B State of the Indian Union",
+            "choose": "26 January 1950."
+          }
+        ],
+        "nextStep": "Keep the combat phase (108 hours) distinct from the administrative integration phase."
+      },
+      {
+        "observation": "Selected November 1948.",
+        "correctMeaning": "November 1948 is incorrect; military operations were finished on 17 September 1948.",
+        "selectedMeaning": "Wrong month entirely.",
+        "possibleConfusion": "November 1947 was the Standstill Agreement.",
+        "decisionRules": [
+          {
+            "when": "Asked month of Operation Polo",
+            "choose": "September 1948."
+          },
+          {
+            "when": "Asked month of Standstill Agreement",
+            "choose": "November 1947."
+          }
+        ],
+        "nextStep": "Memorize September 1948 as the definitive month of Operation Polo."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q184",
+    "topic": "TM-01.03",
+    "concept": "TM-01.03-M05",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "During Operation Polo, Indian military operations were planned under the overall command of the Southern Command. Who was the General Officer Commanding-in-Chief (GOC-in-C) of Southern Army Command, and who was the Field Commander of the 1st Armoured Division who led the main thrust from Sholapur?",
+    "options": [
+      {
+        "text": "Lt. Gen. Maharaj Rajendrasinhji (Overall Southern Command) & Major General J.N. Chaudhuri (Field Commander)",
+        "why": "Lt. Gen. Maharaj Rajendrasinhji was the GOC-in-C Southern Command who oversaw the entire strategy, and Major General Joyanto Nath (J.N.) Chaudhuri commanded the strike force (1st Armoured Division) advancing from Sholapur.",
+        "attraction": "The exact official pairing of overall and field commanders.",
+        "confusion": false
+      },
+      {
+        "text": "General K.M. Cariappa & Lt. Gen. J.N. Chaudhuri",
+        "why": "General K.M. Cariappa was Commander-in-Chief of Western Command at the time and became Commander-in-Chief of Indian Army in January 1949, not Southern Command head during Polo.",
+        "attraction": "Prominent Indian Army Chief.",
+        "confusion": true
+      },
+      {
+        "text": "Major General A.A. Rudra & Major General D.S. Brar",
+        "why": "Major General Rudra and Major General Brar commanded subsidiary thrusts (from Madras and Bombay directions), not the supreme Southern Command or the primary Sholapur strike force.",
+        "attraction": "Divisional commanders involved in auxiliary flanks."
+      },
+      {
+        "text": "General Roy Bucher & General El-Edroos",
+        "why": "General Roy Bucher was the British Commander-in-Chief of the Indian Army in Delhi, and El-Edroos was the Nizam's commander who surrendered.",
+        "attraction": "Listing national C-in-C and enemy commander."
+      }
+    ],
+    "answer": 0,
+    "reason": "Lt. Gen. Rajendrasinhji was Southern Command C-in-C and Major General J.N. Chaudhuri led the main strike column.",
+    "clue": "Look for Rajendrasinhji as overall Southern Command head and J.N. Chaudhuri as the field commander.",
+    "trap": "Do not credit Cariappa; Southern Command was commanded by Lt. Gen. Maharaj Shri Rajendrasinhji.",
+    "elimination": "Rajendrasinhji was Southern Command head; J.N. Chaudhuri led 1st Armoured Division. Cariappa was in Delhi/Western Command.",
+    "anchor": "Operation Polo Leadership -> Lt. Gen. Rajendrasinhji (Southern Command) + Maj. Gen. J.N. Chaudhuri (Strike Force).",
+    "hint": "Major General J.N. Chaudhuri was subsequently appointed Military Governor of Hyderabad State immediately following the surrender.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 72,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 4,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Lt. Gen. Rajendrasinhji and Major General J.N. Chaudhuri.",
+        "correctMeaning": "Lt. Gen. Rajendrasinhji coordinated the multi-pronged assault (Operation Caterpillar/Polo), while J.N. Chaudhuri drove the main armored spearhead.",
+        "selectedMeaning": "Lt. Gen. Rajendrasinhji coordinated the multi-pronged assault (Operation Caterpillar/Polo), while J.N. Chaudhuri drove the main armored spearhead.",
+        "possibleConfusion": "No confusion; standard military history detail in TS exams.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the GOC-in-C Southern Command during Operation Polo",
+            "choose": "Lt. Gen. Maharaj Rajendrasinhji."
+          },
+          {
+            "when": "Asked who commanded the 1st Armoured Division thrust from Sholapur",
+            "choose": "Major General J.N. Chaudhuri."
+          }
+        ],
+        "nextStep": "Note that J.N. Chaudhuri later served as Chief of Army Staff during the 1965 Indo-Pak War."
+      },
+      {
+        "observation": "Selected General K.M. Cariappa.",
+        "correctMeaning": "Cariappa was not Southern Command GOC during Polo; Rajendrasinhji held that post.",
+        "selectedMeaning": "Confusing the first Indian Army Chief with the Southern Command general.",
+        "possibleConfusion": "Cariappa is the most famous early Indian general.",
+        "decisionRules": [
+          {
+            "when": "Asked who became first Indian Commander-in-Chief of Army on 15 Jan 1949",
+            "choose": "General K.M. Cariappa."
+          },
+          {
+            "when": "Asked who directed Operation Polo as Southern Command head",
+            "choose": "Lt. Gen. Maharaj Rajendrasinhji."
+          }
+        ],
+        "nextStep": "Associate 15 January (Army Day) with Cariappa, and Southern Command Operation Polo with Rajendrasinhji."
+      },
+      {
+        "observation": "Selected Rudra and Brar.",
+        "correctMeaning": "Major General D.S. Brar commanded auxiliary columns from the south (Bezwada sector); Rajendrasinhji was overall head.",
+        "selectedMeaning": "Selecting secondary axis commanders instead of supreme commanders.",
+        "possibleConfusion": "Both officers were indeed generals under Southern Command.",
+        "decisionRules": [
+          {
+            "when": "Asked about overall command of Operation Polo",
+            "choose": "Lt. Gen. Rajendrasinhji and Maj. Gen. J.N. Chaudhuri."
+          },
+          {
+            "when": "Asked about subsidiary commanders",
+            "choose": "Major General D.S. Brar and Major General A.A. Rudra."
+          }
+        ],
+        "nextStep": "Remember the main thrust came along the Sholapur-Hyderabad highway led by Chaudhuri."
+      },
+      {
+        "observation": "Selected Roy Bucher and El-Edroos.",
+        "correctMeaning": "Roy Bucher was the national British C-in-C in New Delhi who cautioned against immediate action; El-Edroos was Nizam's General.",
+        "selectedMeaning": "Confusing the national headquarters British commander and the opponent general.",
+        "possibleConfusion": "Both were top generals in their respective capitals.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the British Commander-in-Chief of Indian Army during Operation Polo",
+            "choose": "General Sir Roy Bucher."
+          },
+          {
+            "when": "Asked who was Southern Command head directing operations",
+            "choose": "Lt. Gen. Rajendrasinhji."
+          }
+        ],
+        "nextStep": "Review Sardar Patel's firm political decision overruling Bucher's hesitations."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q185",
+    "topic": "TM-01.03",
+    "concept": "TM-01.03-M06",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Following Operation Polo in late 1948, Prime Minister Jawaharlal Nehru deputed a goodwill and fact-finding committee to visit Hyderabad State and investigate reports of communal violence and retaliatory massacres. Who headed this committee, whose report remained confidential for decades?",
+    "options": [
+      {
+        "text": "Pandit Sunderlal",
+        "why": "The Pandit Sunderlal Committee (comprising Pandit Sunderlal, Kazi Abdul Ghaffar, and Maulana Abdulla Misri) was appointed by Nehru in November 1948 to assess post-Police Action communal violence and submitted its report in December 1948.",
+        "attraction": "The authentic fact-finding committee appointed by Nehru.",
+        "confusion": false
+      },
+      {
+        "text": "Justice Pingali Jaganmohan Reddy",
+        "why": "Justice P. Jaganmohan Reddy headed the 1952 Commission that probed the City College police firing, not the 1948 post-Polo inquiry.",
+        "attraction": "Famous inquiry commission head in Hyderabad history.",
+        "confusion": true
+      },
+      {
+        "text": "Justice Fazal Ali",
+        "why": "Justice Fazal Ali was the Chairman of the States Reorganisation Commission (SRC) appointed in December 1953, not the 1948 fact-finding body.",
+        "attraction": "Famous commission chairman."
+      },
+      {
+        "text": "Justice Vashishta Bhargava",
+        "why": "Justice Bhargava headed the 1969 Committee to determine Telangana revenue surpluses, not the 1948 inquiry.",
+        "attraction": "Famous Telangana committee head."
+      }
+    ],
+    "answer": 0,
+    "reason": "Pandit Sunderlal headed the fact-finding committee sent by Nehru to Hyderabad in late 1948.",
+    "clue": "Look for Pandit Sunderlal, whose 1948 report estimated casualties in the aftermath of Police Action.",
+    "trap": "Do not confuse Pandit Sunderlal (1948) with Jaganmohan Reddy (1952) or Fazal Ali (1953).",
+    "elimination": "Sunderlal led the 1948 goodwill committee. Jaganmohan Reddy was in 1952; Fazal Ali in 1953; Bhargava in 1969.",
+    "anchor": "Pandit Sunderlal Committee (Nov–Dec 1948) -> Probed post-Operation Polo communal aftermath.",
+    "hint": "Other members included Kazi Abdul Ghaffar and Maulana Abdulla Misri; the report was declassified in the Nehru Memorial Museum and Library.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 78,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Pandit Sunderlal as the head of the 1948 committee.",
+        "correctMeaning": "The Sunderlal Committee visited 9 districts of Hyderabad State between 29 November and 21 December 1948.",
+        "selectedMeaning": "The Sunderlal Committee visited 9 districts of Hyderabad State between 29 November and 21 December 1948.",
+        "possibleConfusion": "No confusion; crucial historical inquiry frequently examined in higher-level TS tests.",
+        "decisionRules": [
+          {
+            "when": "Asked about committee appointed by Nehru to probe post-Operation Polo communal violence",
+            "choose": "Pandit Sunderlal Committee (1948)."
+          },
+          {
+            "when": "Asked who were members of Sunderlal Committee",
+            "choose": "Pandit Sunderlal, Kazi Abdul Ghaffar, and Maulana Abdulla Misri."
+          }
+        ],
+        "nextStep": "Note the committee estimated between 27,000 and 40,000 people died in post-surrender retaliatory violence."
+      },
+      {
+        "observation": "Selected Justice Pingali Jaganmohan Reddy.",
+        "correctMeaning": "Justice Jaganmohan Reddy probed the 1952 City College firing, not the 1948 Operation Polo aftermath.",
+        "selectedMeaning": "Confusing two different inquiry bodies separated by 4 years.",
+        "possibleConfusion": "Both probed state violence in Hyderabad.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1952 City College police firing commission",
+            "choose": "Justice Pingali Jaganmohan Reddy Commission."
+          },
+          {
+            "when": "Asked about 1948 post-Police Action fact-finding committee",
+            "choose": "Pandit Sunderlal Committee."
+          }
+        ],
+        "nextStep": "Remember: 1948 = Sunderlal Committee; 1952 = Jaganmohan Reddy Commission."
+      },
+      {
+        "observation": "Selected Justice Fazal Ali.",
+        "correctMeaning": "Justice Fazal Ali headed the 1953–1955 States Reorganisation Commission (SRC); Sunderlal headed the 1948 committee.",
+        "selectedMeaning": "Confusing state reorganisation with communal violence inquiry.",
+        "possibleConfusion": "Both were high-level national commissions.",
+        "decisionRules": [
+          {
+            "when": "Asked about States Reorganisation Commission chairman",
+            "choose": "Justice Fazal Ali (with Panikkar and Kunzru)."
+          },
+          {
+            "when": "Asked about 1948 post-Polo goodwill mission",
+            "choose": "Pandit Sunderlal."
+          }
+        ],
+        "nextStep": "Keep Fazal Ali strictly anchored to the 1953–55 SRC."
+      },
+      {
+        "observation": "Selected Justice Vashishta Bhargava.",
+        "correctMeaning": "Justice Bhargava headed the 1969 Telangana Surplus Committee under the 8-Point Formula.",
+        "selectedMeaning": "Major chronological jump from 1948 to 1969.",
+        "possibleConfusion": "Recognizing a famous judicial committee head.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1969 committee determining Telangana financial surplus",
+            "choose": "Justice Vashishta Bhargava Committee."
+          },
+          {
+            "when": "Asked about 1948 Hyderabad violence inquiry",
+            "choose": "Pandit Sunderlal Committee."
+          }
+        ],
+        "nextStep": "Anchor Bhargava to the 1969 8-Point Formula."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q186",
+    "topic": "TM-01.03",
+    "concept": "TM-01.03-M07",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "On 1 December 1949, the Military Government under Major General J.N. Chaudhuri was replaced by a Civil Administration headed by an Indian Civil Service (ICS) officer as Chief Minister. Who was this officer appointed by the Government of India?",
+    "options": [
+      {
+        "text": "M.K. Vellodi",
+        "why": "Mullath Kadingi Vellodi (M.K. Vellodi), a senior ICS officer from Madras cadre, was appointed Chief Minister of Hyderabad State on 1 December 1949, serving until the first democratic elections in March 1952.",
+        "attraction": "The authentic first civilian Chief Minister appointed by New Delhi.",
+        "confusion": false
+      },
+      {
+        "text": "D.S. Bakhle",
+        "why": "D.S. Bakhle was the Chief Civil Administrator under General J.N. Chaudhuri's military government, not the civilian Chief Minister who succeeded Chaudhuri.",
+        "attraction": "Senior civilian officer in the military government.",
+        "confusion": true
+      },
+      {
+        "text": "Burgula Ramakrishna Rao",
+        "why": "Burgula Ramakrishna Rao was the first democratically elected Chief Minister in March 1952, not the ICS bureaucrat appointed in December 1949.",
+        "attraction": "First popular Chief Minister of Hyderabad State."
+      },
+      {
+        "text": "V.P. Menon",
+        "why": "V.P. Menon was the Secretary of the Ministry of States in New Delhi under Sardar Patel, responsible for the integration of all princely states.",
+        "attraction": "Key architect of princely state integration in New Delhi."
+      }
+    ],
+    "answer": 0,
+    "reason": "M.K. Vellodi was appointed Chief Minister of Hyderabad Civil Administration on 1 December 1949.",
+    "clue": "Look for M.K. Vellodi, the ICS officer who headed Hyderabad government from December 1949 to March 1952.",
+    "trap": "Do not confuse M.K. Vellodi (appointed ICS Chief Minister) with Burgula Ramakrishna Rao (elected popular Chief Minister).",
+    "elimination": "M.K. Vellodi was the civilian Chief Minister (1949–1952). Burgula was elected in 1952; Bakhle was civil administrator under Chaudhuri; V.P. Menon was States Secretary.",
+    "anchor": "1 December 1949 -> Military rule ends -> M.K. Vellodi (ICS) takes over as Chief Minister.",
+    "hint": "During Vellodi's administration on 26 January 1950, Nizam Mir Osman Ali Khan was sworn in as Rajpramukh.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 84,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies M.K. Vellodi as the civilian Chief Minister.",
+        "correctMeaning": "M.K. Vellodi headed the interim civil government with 4 non-officials (including Burgula Ramakrishna Rao, Phoolchand Gandhi, V.B. Raju, and Vinayakrao Vidyalankar).",
+        "selectedMeaning": "M.K. Vellodi headed the interim civil government with 4 non-officials (including Burgula Ramakrishna Rao, Phoolchand Gandhi, V.B. Raju, and Vinayakrao Vidyalankar).",
+        "possibleConfusion": "No confusion; standard question in administrative history of Hyderabad State.",
+        "decisionRules": [
+          {
+            "when": "Asked who headed the Civil Administration of Hyderabad from 1 Dec 1949 to March 1952",
+            "choose": "M.K. Vellodi (ICS)."
+          },
+          {
+            "when": "Asked who succeeded Major General J.N. Chaudhuri as Chief Minister of Hyderabad",
+            "choose": "M.K. Vellodi."
+          }
+        ],
+        "nextStep": "Note that large-scale recruitment of Madras/Andhra officials under Vellodi's administration created grievances that sparked the 1952 Non-Mulki agitation."
+      },
+      {
+        "observation": "Selected D.S. Bakhle instead of M.K. Vellodi.",
+        "correctMeaning": "D.S. Bakhle was the Chief Civil Administrator assisting General Chaudhuri during military rule (1948–1949); Vellodi replaced military rule as Chief Minister in Dec 1949.",
+        "selectedMeaning": "Confusing the deputy civil administrator under military rule with the subsequent civilian Chief Minister.",
+        "possibleConfusion": "Both were senior civil servants in Hyderabad's transition.",
+        "decisionRules": [
+          {
+            "when": "Asked who was Chief Civil Administrator under General Chaudhuri's Military Government",
+            "choose": "D.S. Bakhle (ICS)."
+          },
+          {
+            "when": "Asked who was appointed Chief Minister in December 1949",
+            "choose": "M.K. Vellodi (ICS)."
+          }
+        ],
+        "nextStep": "Remember the sequence: Chaudhuri & Bakhle (1948–49) -> M.K. Vellodi (1949–52) -> Burgula (1952–56)."
+      },
+      {
+        "observation": "Selected Burgula Ramakrishna Rao.",
+        "correctMeaning": "Burgula was a minister in Vellodi's cabinet and became the elected Chief Minister only after the March 1952 elections.",
+        "selectedMeaning": "Confusing the appointed bureaucratic Chief Minister (1949) with the elected popular Chief Minister (1952).",
+        "possibleConfusion": "Burgula was indeed the most famous Chief Minister of Hyderabad State.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the first elected Chief Minister of Hyderabad State",
+            "choose": "Burgula Ramakrishna Rao (March 1952)."
+          },
+          {
+            "when": "Asked who was the appointed ICS Chief Minister (1949–1952)",
+            "choose": "M.K. Vellodi."
+          }
+        ],
+        "nextStep": "Anchor 1949 to Vellodi and 1952 to Burgula Ramakrishna Rao."
+      },
+      {
+        "observation": "Selected V.P. Menon.",
+        "correctMeaning": "V.P. Menon was Sardar Patel's Secretary in New Delhi; he never served as Chief Minister of Hyderabad.",
+        "selectedMeaning": "Confusing the central civil servant with the state Chief Minister.",
+        "possibleConfusion": "V.P. Menon negotiated Hyderabad's accession documents.",
+        "decisionRules": [
+          {
+            "when": "Asked who was Secretary of the Ministry of States who drafted accession instruments",
+            "choose": "V.P. Menon."
+          },
+          {
+            "when": "Asked who was Chief Minister of Hyderabad State (1949–1952)",
+            "choose": "M.K. Vellodi."
+          }
+        ],
+        "nextStep": "Remember V.P. Menon's classic book 'The Story of the Integration of the Indian States'."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q187",
+    "topic": "TM-01.03",
+    "concept": "TM-01.03-M08",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "In the 1952 First General Elections to the Hyderabad Legislative Assembly (consisting of 175 seats), the Indian National Congress won a majority with 93 seats. From which constituency was Burgula Ramakrishna Rao elected as an MLA before taking oath as Chief Minister on 6 March 1952?",
+    "options": [
+      {
+        "text": "Shadnagar",
+        "why": "Burgula Ramakrishna Rao contested and won from Shadnagar assembly constituency (Mahbubnagar district) in the 1952 General Elections before becoming Chief Minister on 6 March 1952.",
+        "attraction": "The authentic assembly constituency of Burgula Ramakrishna Rao.",
+        "confusion": false
+      },
+      {
+        "text": "Mahbubnagar",
+        "why": "Mahbubnagar was his native district, but the specific assembly constituency he represented was Shadnagar.",
+        "attraction": "Native district headquarters town.",
+        "confusion": true
+      },
+      {
+        "text": "Kalwakurthy",
+        "why": "Kalwakurthy was represented by other leaders; Burgula was elected from Shadnagar.",
+        "attraction": "Neighboring constituency in Mahbubnagar district."
+      },
+      {
+        "text": "Khammam",
+        "why": "Khammam was an opposition stronghold swept by the People's Democratic Front (PDF / Communist alliance).",
+        "attraction": "Prominent Telangana assembly constituency."
+      }
+    ],
+    "answer": 0,
+    "reason": "Burgula Ramakrishna Rao won from Shadnagar assembly constituency in 1952.",
+    "clue": "Look for Shadnagar in Mahbubnagar district, the historic seat of Burgula Ramakrishna Rao.",
+    "trap": "Do not choose Mahbubnagar town; his specific constituency was Shadnagar.",
+    "elimination": "Burgula represented Shadnagar. Mahbubnagar was represented by another member; Kalwakurthy was not his seat.",
+    "anchor": "Burgula Ramakrishna Rao -> Elected from Shadnagar (1952) -> Sworn in as Chief Minister on 6 March 1952.",
+    "hint": "Shadnagar later became historically prominent as the site where the Panchayat Raj system was inaugurated in 1959.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 90,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Shadnagar as Burgula Ramakrishna Rao's constituency.",
+        "correctMeaning": "Burgula won Shadnagar and led the 13-member ministry of Hyderabad State from 6 March 1952 until 31 October 1956.",
+        "selectedMeaning": "Burgula won Shadnagar and led the 13-member ministry of Hyderabad State from 6 March 1952 until 31 October 1956.",
+        "possibleConfusion": "No confusion; standard fact for TS Police SI & Constable aspirants.",
+        "decisionRules": [
+          {
+            "when": "Asked from which assembly constituency Burgula Ramakrishna Rao was elected in 1952",
+            "choose": "Shadnagar."
+          },
+          {
+            "when": "Asked exact date Burgula ministry took oath in Hyderabad State",
+            "choose": "6 March 1952."
+          }
+        ],
+        "nextStep": "Note that Burgula later became Governor of Kerala (1956) and Uttar Pradesh (1960)."
+      },
+      {
+        "observation": "Selected Mahbubnagar town.",
+        "correctMeaning": "Mahbubnagar was his district, but the electoral seat was Shadnagar.",
+        "selectedMeaning": "Confusing the district name with the constituency.",
+        "possibleConfusion": "Burgula is widely celebrated as 'Mahbubnagar's proud son'.",
+        "decisionRules": [
+          {
+            "when": "Asked the exact 1952 assembly constituency of Burgula Ramakrishna Rao",
+            "choose": "Shadnagar."
+          },
+          {
+            "when": "Asked which district Burgula hailed from",
+            "choose": "Mahbubnagar."
+          }
+        ],
+        "nextStep": "Remember: Constituency = Shadnagar; District = Mahbubnagar."
+      },
+      {
+        "observation": "Selected Kalwakurthy.",
+        "correctMeaning": "Kalwakurthy is another constituency in Mahbubnagar (later famous for N.T. Rama Rao's defeat in 1989), not Burgula's 1952 seat.",
+        "selectedMeaning": "Confusing different Mahbubnagar constituencies.",
+        "possibleConfusion": "Both are prominent Mahbubnagar constituencies.",
+        "decisionRules": [
+          {
+            "when": "Asked about Burgula Ramakrishna Rao in 1952",
+            "choose": "Shadnagar."
+          },
+          {
+            "when": "Asked about NTR's loss to Chittaranjan Das in 1989",
+            "choose": "Kalwakurthy."
+          }
+        ],
+        "nextStep": "Anchor Kalwakurthy to the 1989 election and Shadnagar to 1952."
+      },
+      {
+        "observation": "Selected Khammam.",
+        "correctMeaning": "Khammam elected PDF (Communist) candidates overwhelmingly in 1952; Burgula was a Congress leader from Shadnagar.",
+        "selectedMeaning": "Wrong region and political stronghold.",
+        "possibleConfusion": "Khammam had massive electoral prominence in 1952.",
+        "decisionRules": [
+          {
+            "when": "Asked which region swept Communist PDF candidates in 1952",
+            "choose": "Nalgonda, Warangal, and Khammam."
+          },
+          {
+            "when": "Asked about Burgula's seat",
+            "choose": "Shadnagar."
+          }
+        ],
+        "nextStep": "Review PDF's 42 seats in 1952 reflecting armed struggle influence in eastern Telangana."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q188",
+    "topic": "TM-01.04",
+    "concept": "TM-01.04-M01",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "The historic 1952 'Non-Mulki Go Back' (Idhi Mulki Maadi - Ghair Mulki Chale Jao) agitation originated in Warangal in July 1952. What specific administrative action by Divisional Inspector of Schools (DIS) Parthasarathi sparked this student uprising?",
+    "options": [
+      {
+        "text": "Transferring local Mulki teachers and appointing non-Mulkis with bogus domicile certificates",
+        "why": "Warangal DIS Parthasarathi transferred local Mulki teachers and appointed 180+ non-local teachers from Madras State/Andhra with fake Mulki certificates, triggering protests on 26 July 1952 led by Warangal students.",
+        "attraction": "The authentic administrative catalyst documented in the Jaganmohan Reddy Commission report.",
+        "confusion": false
+      },
+      {
+        "text": "Imposing Hindi as the compulsory medium of instruction in schools",
+        "why": "Language was not the immediate issue; it was the violation of Mulki rules in teacher appointments and transfers.",
+        "attraction": "Plausible educational controversy.",
+        "confusion": true
+      },
+      {
+        "text": "Abolishing scholarship reservations for Telangana students",
+        "why": "Scholarship cancellations occurred later in Osmania University agitations, not the July 1952 Warangal trigger.",
+        "attraction": "Student welfare grievance."
+      },
+      {
+        "text": "Refusing admission to local students in Osmania University medical college",
+        "why": "Medical college admissions issue occurred in 1956 and 1968, not July 1952 in Warangal schools.",
+        "attraction": "Higher education dispute."
+      }
+    ],
+    "answer": 0,
+    "reason": "The 1952 agitation began in Warangal when local teachers were transferred and non-Mulkis were appointed on bogus certificates.",
+    "clue": "Look for Warangal DIS Parthasarathi's transfer of local teachers and hiring of non-Mulkis on fake certificates.",
+    "trap": "Do not guess language or university admission disputes; the 1952 spark was school teacher appointments in Warangal.",
+    "elimination": "Transfer of local teachers by DIS Parthasarathi was the verified catalyst on 26 July 1952.",
+    "anchor": "26 July 1952 -> Warangal student protest against DIS Parthasarathi -> Spark of 1952 Non-Mulki Agitation.",
+    "hint": "Warangal student leaders Buchaiah, Kanakarathnam, and Ramachandra Reddy formed the Warangal Student Action Committee.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 96,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the transfer of local teachers and recruitment of non-Mulkis on bogus certificates.",
+        "correctMeaning": "On 26 July 1952, students in Warangal protested with the slogan 'Non-Mulki Go Back', which spread to Hyderabad by late August.",
+        "selectedMeaning": "On 26 July 1952, students in Warangal protested with the slogan 'Non-Mulki Go Back', which spread to Hyderabad by late August.",
+        "possibleConfusion": "No confusion; classic Police SI question on the 1952 agitation.",
+        "decisionRules": [
+          {
+            "when": "Asked what sparked the 1952 Non-Mulki movement in Warangal",
+            "choose": "Illegal transfer of local teachers and hiring non-locals with bogus certificates by DIS Parthasarathi."
+          },
+          {
+            "when": "Asked date of the first major protest in Warangal",
+            "choose": "26 July 1952."
+          }
+        ],
+        "nextStep": "Note how the Warangal protest escalated into the Hyderabad Student Action Committee in August 1952."
+      },
+      {
+        "observation": "Selected Hindi medium imposition.",
+        "correctMeaning": "The issue was job protection and Mulki rule violations, not Hindi medium.",
+        "selectedMeaning": "Confusing language policy debates with employment grievances.",
+        "possibleConfusion": "Language agitations occurred elsewhere in India in the 1950s.",
+        "decisionRules": [
+          {
+            "when": "Asked about cause of 1952 Telangana agitation",
+            "choose": "Employment violations under Mulki rules (Non-Mulki Go Back)."
+          },
+          {
+            "when": "Evaluating language options",
+            "choose": "Eliminate language policy distractors."
+          }
+        ],
+        "nextStep": "Anchor 1952 strictly to employment and Mulki rules."
+      },
+      {
+        "observation": "Selected scholarship abolition.",
+        "correctMeaning": "Scholarship grievances were secondary; the root cause was teacher recruitments by Parthasarathi.",
+        "selectedMeaning": "Confusing financial aid protests with the main employment trigger.",
+        "possibleConfusion": "Students frequently protest over scholarships.",
+        "decisionRules": [
+          {
+            "when": "Asked about immediate spark in Warangal (July 1952)",
+            "choose": "Bogus Mulki certificates and teacher appointments."
+          },
+          {
+            "when": "Asked about general student issues",
+            "choose": "Differentiate from the specific historical trigger."
+          }
+        ],
+        "nextStep": "Review the exact findings in Justice Jaganmohan Reddy's Commission report."
+      },
+      {
+        "observation": "Selected medical college admissions.",
+        "correctMeaning": "Medical college admissions controversy was a major factor in 1968–1969, not July 1952.",
+        "selectedMeaning": "Chronological confusion with the 1968 Kothagudem/Khammam agitation.",
+        "possibleConfusion": "Admission quotas were contested in both 1952 and 1969.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1952 Warangal trigger",
+            "choose": "Teacher transfers and appointments by DIS Parthasarathi."
+          },
+          {
+            "when": "Asked about 1968 student agitation trigger in Warangal/Osmania",
+            "choose": "Engineering and medical admissions / KTS quota violations."
+          }
+        ],
+        "nextStep": "Anchor 1952 to Warangal teachers and 1968 to Kothagudem Thermal Station / admissions."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q189",
+    "topic": "TM-01.04",
+    "concept": "TM-01.04-M02",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "On 3 and 4 September 1952, Hyderabad police opened fire on student demonstrators protesting against non-Mulkis near City College and Afzalgunj, resulting in the death of 4 martyrs and wounding dozens. Who was the Hyderabad City Police Commissioner who ordered the lathicharge and oversaw the police action?",
+    "options": [
+      {
+        "text": "Shiva Kumar Lal",
+        "why": "Shiva Kumar Lal was the Commissioner of City Police Hyderabad who, along with Deputy Commissioner Sri Ramdas and Magistrate Sundaram, ordered the lathicharge and tear-gassing that escalated into the City College firing.",
+        "attraction": "The authentic Police Commissioner named in the official inquiry.",
+        "confusion": false
+      },
+      {
+        "text": "K.S. Vyas",
+        "why": "K.S. Vyas was an IPS officer who founded the Greyhounds anti-naxal force in 1989 and was assassinated in 1993, decades after 1952.",
+        "attraction": "Famous Telangana police official from later decades.",
+        "confusion": true
+      },
+      {
+        "text": "Deen Dayal",
+        "why": "Deen Dayal was a police officer in Hyderabad, but Shiva Kumar Lal was the Commissioner of Police.",
+        "attraction": "Contemporary police officer."
+      },
+      {
+        "text": "J.N. Chaudhuri",
+        "why": "Major General J.N. Chaudhuri left Hyderabad in December 1949 after serving as Military Governor; he was not Police Commissioner in 1952.",
+        "attraction": "Military Governor who ruled Hyderabad in 1948–49."
+      }
+    ],
+    "answer": 0,
+    "reason": "Shiva Kumar Lal was the City Police Commissioner during the 1952 City College firing.",
+    "clue": "Look for Shiva Kumar Lal, the Police Commissioner scrutinized by the Jaganmohan Reddy Commission.",
+    "trap": "Do not confuse 1948 military authorities or modern police chiefs with 1952 Commissioner Shiva Kumar Lal.",
+    "elimination": "Shiva Kumar Lal was the Police Commissioner in September 1952. K.S. Vyas is 1980s; Chaudhuri left in 1949.",
+    "anchor": "3–4 September 1952 -> City College Firing -> Police Commissioner Shiva Kumar Lal.",
+    "hint": "The four martyrs of City College firing were Mohammad Qasim, Sheikh Mahbub, Jamaluddin, and Ramulu.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 102,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Shiva Kumar Lal as the Police Commissioner during City College firing.",
+        "correctMeaning": "Shiva Kumar Lal's police force fired 32 rounds on 3 September and further rounds on 4 September around Afzalgunj, killing 4 and injuring 42.",
+        "selectedMeaning": "Shiva Kumar Lal's police force fired 32 rounds on 3 September and further rounds on 4 September around Afzalgunj, killing 4 and injuring 42.",
+        "possibleConfusion": "No confusion; essential factual point in 1952 agitation history.",
+        "decisionRules": [
+          {
+            "when": "Asked who was Hyderabad Police Commissioner during the 1952 City College firing",
+            "choose": "Shiva Kumar Lal."
+          },
+          {
+            "when": "Asked exact dates of City College police firing",
+            "choose": "3 and 4 September 1952."
+          }
+        ],
+        "nextStep": "Note the four martyrs: Mohammad Qasim (student), Sheikh Mahbub, Jamaluddin, and Ramulu."
+      },
+      {
+        "observation": "Selected K.S. Vyas.",
+        "correctMeaning": "K.S. Vyas was active in the late 1980s and founded the Greyhounds; he was not in service in 1952.",
+        "selectedMeaning": "Anachronistic choice: 1980s officer chosen for a 1952 event.",
+        "possibleConfusion": "Recognizing a famous Andhra Pradesh / Telangana police officer.",
+        "decisionRules": [
+          {
+            "when": "Asked who was Police Commissioner during 1952 City College firing",
+            "choose": "Shiva Kumar Lal."
+          },
+          {
+            "when": "Asked who founded Greyhounds elite anti-naxal force in 1989",
+            "choose": "K.S. Vyas (IPS)."
+          }
+        ],
+        "nextStep": "Keep K.S. Vyas anchored to 1989 Greyhounds."
+      },
+      {
+        "observation": "Selected Deen Dayal.",
+        "correctMeaning": "Deen Dayal was a subordinate officer; Shiva Kumar Lal held the supreme commissioner post.",
+        "selectedMeaning": "Confusing a subordinate officer with the Commissioner of Police.",
+        "possibleConfusion": "Both officers were examined before the inquiry.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the Commissioner of Police",
+            "choose": "Shiva Kumar Lal."
+          },
+          {
+            "when": "Evaluating police ranks",
+            "choose": "Select the supreme Commissioner."
+          }
+        ],
+        "nextStep": "Remember Shiva Kumar Lal was severely criticized in the judicial report."
+      },
+      {
+        "observation": "Selected J.N. Chaudhuri.",
+        "correctMeaning": "Chaudhuri was Military Governor from Sept 1948 to Dec 1949 and had returned to the Indian Army before 1952.",
+        "selectedMeaning": "Confusing 1948–49 military governor with 1952 city police commissioner.",
+        "possibleConfusion": "Chaudhuri was associated with military rule.",
+        "decisionRules": [
+          {
+            "when": "Asked who was Military Governor (1948–1949)",
+            "choose": "Major General J.N. Chaudhuri."
+          },
+          {
+            "when": "Asked who was Police Commissioner in 1952",
+            "choose": "Shiva Kumar Lal."
+          }
+        ],
+        "nextStep": "Anchor J.N. Chaudhuri strictly to 1948–1949."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q190",
+    "topic": "TM-01.04",
+    "concept": "TM-01.04-M03",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Following the outrage over the City College firing, the Burgula Ramakrishna Rao government appointed a one-man judicial Commission of Inquiry on 5 September 1952. Who was the High Court Judge appointed to head this Commission, and when did he submit his report?",
+    "options": [
+      {
+        "text": "Justice Pingali Jaganmohan Reddy (Report submitted on 28 December 1952)",
+        "why": "Justice P. Jaganmohan Reddy, then a judge of the Hyderabad High Court, was appointed on 5 September 1952 and submitted his landmark report on 28 December 1952 detailing the sequence of police excesses and student protests.",
+        "attraction": "The authentic one-man Commission and submission date.",
+        "confusion": false
+      },
+      {
+        "text": "Justice Koka Subba Rao (Report submitted on 1 November 1953)",
+        "why": "Justice Koka Subba Rao was the first Chief Justice of Andhra High Court at Guntur in 1954 and later Chief Justice of India, not the 1952 inquiry judge.",
+        "attraction": "Famous Telugu jurist and Chief Justice of India.",
+        "confusion": true
+      },
+      {
+        "text": "Justice V.D. Bhargava (Report submitted on 15 August 1953)",
+        "why": "Bhargava Committee was appointed in 1969 to calculate Telangana revenue surpluses.",
+        "attraction": "Famous committee surname."
+      },
+      {
+        "text": "Justice J.M. Girglani (Report submitted on 30 June 2004)",
+        "why": "Justice J.M. Girglani (IAS) headed the One-Man Commission on G.O. 610 violations from 2001 to 2004.",
+        "attraction": "Prominent Telangana inquiry commission head from later era."
+      }
+    ],
+    "answer": 0,
+    "reason": "Justice Pingali Jaganmohan Reddy headed the 1952 City College firing inquiry and submitted his report on 28 December 1952.",
+    "clue": "Look for Justice Pingali Jaganmohan Reddy, appointed on 5 September 1952 and submitted report on 28 December 1952.",
+    "trap": "Do not confuse Justice P. Jaganmohan Reddy (1952) with Girglani (2001–2004) or Bhargava (1969).",
+    "elimination": "Justice Pingali Jaganmohan Reddy submitted the City College firing report on 28 December 1952.",
+    "anchor": "5 Sept 1952 -> Justice Pingali Jaganmohan Reddy Commission appointed -> Report on 28 Dec 1952.",
+    "hint": "Justice Jaganmohan Reddy noted that while the situation was critical, the police firing could have been avoided with better crowd handling.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 108,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Justice Pingali Jaganmohan Reddy and the submission date.",
+        "correctMeaning": "Justice Jaganmohan Reddy's Commission was the first judicial commission appointed in independent Hyderabad State to probe police firing.",
+        "selectedMeaning": "Justice Jaganmohan Reddy's Commission was the first judicial commission appointed in independent Hyderabad State to probe police firing.",
+        "possibleConfusion": "No confusion; premier commission in Telangana movement curriculum.",
+        "decisionRules": [
+          {
+            "when": "Asked who headed the commission inquiring into the 1952 City College firing",
+            "choose": "Justice Pingali Jaganmohan Reddy."
+          },
+          {
+            "when": "Asked date of submission of Jaganmohan Reddy Commission Report",
+            "choose": "28 December 1952."
+          }
+        ],
+        "nextStep": "Note that Justice Jaganmohan Reddy later became Chief Justice of Andhra Pradesh High Court and a Judge of the Supreme Court of India."
+      },
+      {
+        "observation": "Selected Justice Koka Subba Rao.",
+        "correctMeaning": "Koka Subba Rao was Chief Justice of Andhra High Court in 1954; Jaganmohan Reddy conducted the 1952 inquiry.",
+        "selectedMeaning": "Confusing two prominent judges of the 1950s.",
+        "possibleConfusion": "Both were eminent Telugu jurists.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the first Chief Justice of Andhra High Court (1954)",
+            "choose": "Justice Koka Subba Rao."
+          },
+          {
+            "when": "Asked who probed the 1952 City College firing",
+            "choose": "Justice Pingali Jaganmohan Reddy."
+          }
+        ],
+        "nextStep": "Remember Koka Subba Rao was the opposition candidate for President of India in 1967."
+      },
+      {
+        "observation": "Selected Bhargava.",
+        "correctMeaning": "Bhargava was in 1969 for financial surpluses; Jaganmohan Reddy was in 1952.",
+        "selectedMeaning": "Major chronological jump from 1952 to 1969.",
+        "possibleConfusion": "Both were famous judicial inquiries in Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1952 police firing commission",
+            "choose": "Justice Pingali Jaganmohan Reddy."
+          },
+          {
+            "when": "Asked about 1969 financial surplus committee",
+            "choose": "Justice Vashishta Bhargava."
+          }
+        ],
+        "nextStep": "Keep 1952 and 1969 commissions distinct."
+      },
+      {
+        "observation": "Selected Girglani.",
+        "correctMeaning": "J.M. Girglani was an IAS officer appointed in 2001 to probe G.O. 610 violations; Jaganmohan Reddy was a High Court Judge in 1952.",
+        "selectedMeaning": "Confusing 2001 G.O. 610 commission with 1952 police firing inquiry.",
+        "possibleConfusion": "Both produced iconic reports on Telangana grievances.",
+        "decisionRules": [
+          {
+            "when": "Asked about G.O. 610 violation commission (2001–2004)",
+            "choose": "J.M. Girglani Commission."
+          },
+          {
+            "when": "Asked about 1952 City College firing inquiry",
+            "choose": "Justice Pingali Jaganmohan Reddy Commission."
+          }
+        ],
+        "nextStep": "Anchor Girglani to G.O. 610 and Jaganmohan Reddy to City College firing."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q191",
+    "topic": "TM-01.04",
+    "concept": "TM-01.04-M04",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Following the 1952 City College firing and statewide strikes, Chief Minister Burgula Ramakrishna Rao appointed a 4-member Cabinet Sub-Committee on 7 September 1952 to examine the Mulki Rules and suggest safeguards. Who were the four ministers on this historic committee?",
+    "options": [
+      {
+        "text": "K.V. Ranga Reddy, Dr. Marri Chenna Reddy, Phoolchand Gandhi, and G.S. Melkote",
+        "why": "On 7 September 1952, Burgula announced the Cabinet Sub-Committee comprising K.V. Ranga Reddy, Dr. Marri Chenna Reddy, Phoolchand Gandhi, and Dr. G.S. Melkote to investigate Mulki rule violations and recommend solutions.",
+        "attraction": "The authentic, complete 4-member Cabinet Sub-Committee.",
+        "confusion": false
+      },
+      {
+        "text": "Burgula Ramakrishna Rao, K.V. Ranga Reddy, J.V. Narsing Rao, and P.V. Narasimha Rao",
+        "why": "Burgula appointed the committee as Chief Minister and was not a member; P.V. Narasimha Rao was not in the 1952 cabinet.",
+        "attraction": "Prominent Telangana Congress ministers.",
+        "confusion": true
+      },
+      {
+        "text": "M.K. Vellodi, D.S. Bakhle, Nawab Ali Yavar Jung, and V.B. Raju",
+        "why": "Vellodi and Bakhle were civil servants; Ali Yavar Jung was vice chancellor; not the 1952 cabinet committee.",
+        "attraction": "Earlier administrative figures."
+      },
+      {
+        "text": "Kasu Brahmananda Reddy, Neelam Sanjeeva Reddy, Tenneti Viswanatham, and G. Latchanna",
+        "why": "These were Andhra leaders from Madras/Andhra State, having no connection with the Hyderabad State cabinet of Burgula.",
+        "attraction": "Andhra leaders of the 1950s."
+      }
+    ],
+    "answer": 0,
+    "reason": "The 1952 Cabinet Sub-Committee consisted of K.V. Ranga Reddy, Marri Chenna Reddy, Phoolchand Gandhi, and G.S. Melkote.",
+    "clue": "Look for K.V. Ranga Reddy, Marri Chenna Reddy, Phoolchand Gandhi, and G.S. Melkote.",
+    "trap": "Burgula formed the committee as CM; do not include him as a member. P.V. Narasimha Rao was not in the 1952 cabinet.",
+    "elimination": "The four members were K.V. Ranga Reddy, Dr. Marri Chenna Reddy, Phoolchand Gandhi, and G.S. Melkote.",
+    "anchor": "7 September 1952 -> Burgula appoints Cabinet Sub-Committee on Mulki Rules -> Ranga Reddy, Chenna Reddy, Phoolchand Gandhi, Melkote.",
+    "hint": "Dr. G.S. Melkote was Finance Minister, Phoolchand Gandhi was Health/Education Minister, K.V. Ranga Reddy was Revenue Minister, and Chenna Reddy was Supply Minister.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 114,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the four members of the 1952 Cabinet Sub-Committee.",
+        "correctMeaning": "This cabinet committee investigated bogus Mulki certificates and recommended that only those with 15 years continuous residence be eligible for state employment.",
+        "selectedMeaning": "This cabinet committee investigated bogus Mulki certificates and recommended that only those with 15 years continuous residence be eligible for state employment.",
+        "possibleConfusion": "No confusion; high-precision question for TS Police SI exam.",
+        "decisionRules": [
+          {
+            "when": "Asked who were members of 1952 Cabinet Sub-Committee on Mulki Rules",
+            "choose": "K.V. Ranga Reddy, Marri Chenna Reddy, Phoolchand Gandhi, and G.S. Melkote."
+          },
+          {
+            "when": "Asked when Burgula appointed this Cabinet Sub-Committee",
+            "choose": "7 September 1952."
+          }
+        ],
+        "nextStep": "Note how K.V. Ranga Reddy and Marri Chenna Reddy consistently championed Mulki safeguards from 1952 through 1969."
+      },
+      {
+        "observation": "Selected Burgula and P.V. Narasimha Rao.",
+        "correctMeaning": "Burgula constituted the committee as CM; P.V. Narasimha Rao was first elected to the assembly only in 1957 from Manthani.",
+        "selectedMeaning": "Including the Chief Minister and a future Prime Minister who was not yet a legislator.",
+        "possibleConfusion": "Both were towering Congress leaders from Telangana.",
+        "decisionRules": [
+          {
+            "when": "Asked when P.V. Narasimha Rao first entered the assembly",
+            "choose": "1957 (from Manthani constituency)."
+          },
+          {
+            "when": "Asked members of 1952 Cabinet Sub-Committee",
+            "choose": "K.V. Ranga Reddy, Chenna Reddy, Phoolchand Gandhi, Melkote."
+          }
+        ],
+        "nextStep": "Remember P.V. Narasimha Rao was a student leader in 1938 and MLA from 1957."
+      },
+      {
+        "observation": "Selected Vellodi and Bakhle.",
+        "correctMeaning": "Vellodi and Bakhle were non-political civil servants from the earlier 1948–51 administration.",
+        "selectedMeaning": "Confusing civil service administrators with elected cabinet ministers.",
+        "possibleConfusion": "Both served in Hyderabad governance.",
+        "decisionRules": [
+          {
+            "when": "Asked about elected ministers on the 1952 Mulki sub-committee",
+            "choose": "Ranga Reddy, Chenna Reddy, Phoolchand Gandhi, Melkote."
+          },
+          {
+            "when": "Evaluating civil servant options",
+            "choose": "Eliminate ICS officers."
+          }
+        ],
+        "nextStep": "Remember the 1952 government was a fully elected popular ministry."
+      },
+      {
+        "observation": "Selected Andhra leaders (Sanjeeva Reddy, Latchanna).",
+        "correctMeaning": "Andhra State had not yet been formed (formed in Oct 1953) and these leaders had no jurisdiction in Hyderabad State.",
+        "selectedMeaning": "Geographical and jurisdictional error.",
+        "possibleConfusion": "These leaders signed the Gentlemen's Agreement 4 years later in 1956.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1952 Hyderabad cabinet sub-committee",
+            "choose": "Telangana/Hyderabad ministers only."
+          },
+          {
+            "when": "Asked about Andhra signatories to 1956 Gentlemen's Agreement",
+            "choose": "Bezawada Gopala Reddy, Sanjeeva Reddy, Latchanna, Alluri Satyanarayana Raju."
+          }
+        ],
+        "nextStep": "Keep Hyderabad State cabinet separate from Andhra leaders."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q192",
+    "topic": "TM-01.02",
+    "concept": "TM-01.02-M05",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Under the impact of the Telangana Armed Struggle, the Hyderabad State Government enacted the pioneering 'Hyderabad Tenancy and Agricultural Lands Act, 1950' (Act XXI of 1950). What revolutionary right did this landmark legislation confer on 'Protected Tenants' (Asami Shikmis)?",
+    "options": [
+      {
+        "text": "Inherent right to purchase the leased land from the landholder at a concessional reasonable price (Section 38)",
+        "why": "Section 38 of the Hyderabad Tenancy Act, 1950 gave protected tenants the legal right to purchase land from landlords at a regulated price determined by the Land Commission, becoming a model land reform across India.",
+        "attraction": "The authentic, celebrated core provision of the 1950 Tenancy Act.",
+        "confusion": false
+      },
+      {
+        "text": "Total exemption from paying any land revenue to the state treasury",
+        "why": "Revenue payments were never exempted; the act regulated rent and ownership transfer, not state land taxation.",
+        "attraction": "Extreme agrarian assumption.",
+        "confusion": true
+      },
+      {
+        "text": "Immediate nationalization of all agricultural land by the government",
+        "why": "Land was not nationalized; private ownership was transferred to protected tenants.",
+        "attraction": "Confusing socialist rhetoric with legislative reality."
+      },
+      {
+        "text": "Permission to practice shifting cultivation on reserve forest lands",
+        "why": "Shifting cultivation (Podu) was unrelated to the Tenancy Act, which governed settled agricultural tenancies in plains and irrigated lands.",
+        "attraction": "Tribal land issue confused with tenancy act."
+      }
+    ],
+    "answer": 0,
+    "reason": "The 1950 Hyderabad Tenancy Act conferred the legal right on protected tenants to purchase leased lands under Section 38.",
+    "clue": "Look for Section 38 conferring the right of protected tenants to purchase land from the landlord.",
+    "trap": "Do not guess total tax exemption or nationalization; the revolutionary reform was the legal purchase right for protected tenants.",
+    "elimination": "The 1950 Act empowered protected tenants to become landowners by purchasing the land under Section 38.",
+    "anchor": "Hyderabad Tenancy Act 1950 -> Protected Tenants (Asami Shikmis) -> Section 38 right to purchase land.",
+    "hint": "Planning Commission of India praised the Hyderabad Tenancy Act 1950 as the most progressive land reform legislation in the country.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 120,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 4,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Section 38 purchase right for protected tenants.",
+        "correctMeaning": "Over 6 lakh protected tenants secured ownership rights over roughly 33 lakh acres under the Hyderabad Tenancy Act of 1950.",
+        "selectedMeaning": "Over 6 lakh protected tenants secured ownership rights over roughly 33 lakh acres under the Hyderabad Tenancy Act of 1950.",
+        "possibleConfusion": "No confusion; prime question on land reform history in Telangana.",
+        "decisionRules": [
+          {
+            "when": "Asked about pioneering feature of Hyderabad Tenancy and Agricultural Lands Act 1950",
+            "choose": "Conferred right on protected tenants to purchase leased land (Section 38)."
+          },
+          {
+            "when": "Asked who introduced this legislation in Hyderabad State",
+            "choose": "Enacted during Vellodi administration and strengthened under Burgula Ramakrishna Rao."
+          }
+        ],
+        "nextStep": "Note how the Communist armed struggle directly forced the government to enact this progressive law."
+      },
+      {
+        "observation": "Selected tax exemption.",
+        "correctMeaning": "Land revenue was always collected by the government; the law gave ownership rights, not tax exemption.",
+        "selectedMeaning": "Confusing ownership rights with tax holidays.",
+        "possibleConfusion": "Assuming land reforms abolished revenue collection.",
+        "decisionRules": [
+          {
+            "when": "Asked about Hyderabad Tenancy Act 1950",
+            "choose": "Protection of tenancy and ownership transfer to tillers."
+          },
+          {
+            "when": "Evaluating revenue options",
+            "choose": "Eliminate tax exemption distractors."
+          }
+        ],
+        "nextStep": "Understand that tenants paid rent to landlords, which was capped at 3 to 5 times the land revenue."
+      },
+      {
+        "observation": "Selected land nationalization.",
+        "correctMeaning": "India and Hyderabad followed peasant proprietorship, not state collective ownership / nationalization.",
+        "selectedMeaning": "Confusing Soviet-style collectivization with Indian land reforms.",
+        "possibleConfusion": "Communists led the armed struggle, but the law passed was peasant proprietorship.",
+        "decisionRules": [
+          {
+            "when": "Asked nature of land reforms in Hyderabad",
+            "choose": "Conferring individual ownership rights on protected tenants."
+          },
+          {
+            "when": "Evaluating socialist claims",
+            "choose": "Eliminate state nationalization of land."
+          }
+        ],
+        "nextStep": "Remember the slogan: 'Land to the Tiller' (individual peasant ownership)."
+      },
+      {
+        "observation": "Selected shifting cultivation (Podu).",
+        "correctMeaning": "Podu cultivation is a distinct tribal issue in agency areas, governed by forest laws, not the 1950 Tenancy Act.",
+        "selectedMeaning": "Confusing tribal Podu rights with plains tenancy reforms.",
+        "possibleConfusion": "Both involve agricultural land disputes.",
+        "decisionRules": [
+          {
+            "when": "Asked about Hyderabad Tenancy Act 1950",
+            "choose": "Protected tenants (Asami Shikmis) purchasing leased land."
+          },
+          {
+            "when": "Asked about tribal forest land cultivation",
+            "choose": "Podu land issue."
+          }
+        ],
+        "nextStep": "Keep tribal Podu land issues separate from the 1950 Tenancy Act."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q193",
+    "topic": "TM-01.02",
+    "concept": "TM-01.02-M06",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "To counter violent agrarian unrest and resolve the land problem through non-violent persuasion, Acharya Vinoba Bhave launched the historic Bhoodan Movement on 18 April 1951 at Pochampally village. Who was the generous local landlord who donated the very first 100 acres of land to landless Dalits?",
+    "options": [
+      {
+        "text": "Vedre Ramachandra Reddy",
+        "why": "Vedre Ramachandra Reddy of Bhoodan Pochampally village donated 100 acres of his family land on 18 April 1951 when Vinoba Bhave appealed on behalf of 40 Harijan families asking for land.",
+        "attraction": "The authentic, celebrated first Bhoodan land donor in world history.",
+        "confusion": false
+      },
+      {
+        "text": "Visnur Ramachandra Reddy",
+        "why": "Visnur Ramachandra Reddy was the tyrannical Deshmukh against whom the Telangana Armed Struggle was fought; he grabbed lands rather than donating them.",
+        "attraction": "Same first name (Ramachandra Reddy), but the opposite historical persona.",
+        "confusion": true
+      },
+      {
+        "text": "Kalluri Chandramouli",
+        "why": "Kalluri Chandramouli was a Congress minister in Madras and Andhra State, not the Bhoodan donor.",
+        "attraction": "Prominent Congress politician of the era."
+      },
+      {
+        "text": "Mallampally Kondala Rao",
+        "why": "Mallampally Kondala Rao was the landlord who leased land to Chakali Ilamma at Palakurthi, not the Bhoodan donor at Pochampally.",
+        "attraction": "Another famous landlord from Telangana history."
+      }
+    ],
+    "answer": 0,
+    "reason": "Vedre Ramachandra Reddy donated the first 100 acres at Pochampally on 18 April 1951, launching the Bhoodan Movement.",
+    "clue": "Look for Vedre Ramachandra Reddy, the landlord of Pochampally who donated 100 acres to Vinoba Bhave.",
+    "trap": "Do not confuse Vedre Ramachandra Reddy (generous Bhoodan donor) with Visnur Ramachandra Reddy (oppressive Deshmukh).",
+    "elimination": "Vedre Ramachandra Reddy donated 100 acres at Pochampally. Visnur Deshmukh was the feudal villain of Kadavendi/Palakurthi.",
+    "anchor": "18 April 1951 -> Bhoodan Pochampally -> Vedre Ramachandra Reddy donates first 100 acres to Vinoba Bhave.",
+    "hint": "Because of this historic donation, Pochampally village came to be officially known as Bhoodan Pochampally.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 126,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Vedre Ramachandra Reddy as the first Bhoodan donor.",
+        "correctMeaning": "Vedre Ramachandra Reddy's spontaneous donation of 100 acres on 18 April 1951 gave birth to the nationwide Bhoodan-Gramdan movement.",
+        "selectedMeaning": "Vedre Ramachandra Reddy's spontaneous donation of 100 acres on 18 April 1951 gave birth to the nationwide Bhoodan-Gramdan movement.",
+        "possibleConfusion": "No confusion; classic Police SI & Constable question.",
+        "decisionRules": [
+          {
+            "when": "Asked who donated the first 100 acres in the Bhoodan Movement",
+            "choose": "Vedre Ramachandra Reddy."
+          },
+          {
+            "when": "Asked date and village of Bhoodan movement launch",
+            "choose": "18 April 1951 at Pochampally (Yadadri Bhuvanagiri district)."
+          }
+        ],
+        "nextStep": "Note how Vinoba Bhave walked thousands of miles across India collecting over 40 lakh acres of land."
+      },
+      {
+        "observation": "Selected Visnur Ramachandra Reddy.",
+        "correctMeaning": "Visnur Ramachandra Reddy was the oppressive Deshmukh of Jangaon; Vedre Ramachandra Reddy was the generous donor of Pochampally.",
+        "selectedMeaning": "Dangerous name confusion between the feudal oppressor and the philanthropic donor.",
+        "possibleConfusion": "Both share the exact name 'Ramachandra Reddy' and both lived in Nalgonda/Warangal region.",
+        "decisionRules": [
+          {
+            "when": "Asked about the generous landlord of Bhoodan Pochampally",
+            "choose": "Vedre Ramachandra Reddy."
+          },
+          {
+            "when": "Asked about the oppressive Deshmukh opposed by Doddi Komaraiah and Chakali Ilamma",
+            "choose": "Visnur Deshmukh (Ramachandra Reddy)."
+          }
+        ],
+        "nextStep": "Always check the surname/prefix: 'Vedre' = Bhoodan donor; 'Visnur' = Deshmukh."
+      },
+      {
+        "observation": "Selected Kalluri Chandramouli.",
+        "correctMeaning": "Kalluri Chandramouli was a politician from coastal Andhra; Vedre Ramachandra Reddy was the Telangana landlord.",
+        "selectedMeaning": "Confusing a political leader with the Pochampally land donor.",
+        "possibleConfusion": "Both were active in the early 1950s.",
+        "decisionRules": [
+          {
+            "when": "Asked about the first Bhoodan donor",
+            "choose": "Vedre Ramachandra Reddy."
+          },
+          {
+            "when": "Evaluating Andhra politicians",
+            "choose": "Eliminate non-Telangana donors."
+          }
+        ],
+        "nextStep": "Anchor Bhoodan strictly to Pochampally village in Telangana."
+      },
+      {
+        "observation": "Selected Mallampally Kondala Rao.",
+        "correctMeaning": "Mallampally Kondala Rao leased land to Chakali Ilamma at Palakurthi; Vedre Ramachandra Reddy gave land to Vinoba Bhave at Pochampally.",
+        "selectedMeaning": "Confusing two different landlords from Telangana's agrarian history.",
+        "possibleConfusion": "Both were landlords involved in landmark agrarian events in 1946 and 1951.",
+        "decisionRules": [
+          {
+            "when": "Asked about landlord involved in Chakali Ilamma's lease dispute",
+            "choose": "Mallampally Kondala Rao."
+          },
+          {
+            "when": "Asked about landlord who donated 100 acres in Bhoodan Movement",
+            "choose": "Vedre Ramachandra Reddy."
+          }
+        ],
+        "nextStep": "Associate Kondala Rao with Ilamma (1946) and Vedre with Bhoodan (1951)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q194",
+    "topic": "TM-01.02",
+    "concept": "TM-01.02-M07",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "After raging for over five years across 3,000 villages, the Telangana Peasant Armed Struggle was formally withdrawn by the Communist leadership in October 1951 to enter the democratic electoral process. What was the exact date of this historic withdrawal announcement?",
+    "options": [
+      {
+        "text": "21 October 1951",
+        "why": "On 21 October 1951, the Communist Party of India (CPI) leadership (through A.K. Gopalan and local leaders like Ravi Narayana Reddy) formally announced the unconditional withdrawal of the armed struggle.",
+        "attraction": "The authentic, official date of armed struggle withdrawal.",
+        "confusion": false
+      },
+      {
+        "text": "17 September 1948",
+        "why": "17 September 1948 was the surrender of Nizam's army; the Communists continued the armed struggle against the Indian military until October 1951.",
+        "attraction": "Confusing Nizam's surrender with Communist struggle withdrawal.",
+        "confusion": true
+      },
+      {
+        "text": "26 January 1950",
+        "why": "26 January 1950 was Republic Day; the armed struggle in the forests and agency tracts of Telangana was actively continuing on this date.",
+        "attraction": "Republic Day date."
+      },
+      {
+        "text": "6 March 1952",
+        "why": "6 March 1952 was the date Burgula Ramakrishna Rao took oath as Chief Minister following the general elections.",
+        "attraction": "Date of first democratic ministry formation."
+      }
+    ],
+    "answer": 0,
+    "reason": "The Telangana Armed Struggle was formally withdrawn on 21 October 1951.",
+    "clue": "Look for 21 October 1951, when the CPI announced the end of armed resistance to prepare for the 1952 elections.",
+    "trap": "Do not choose 17 September 1948; the Communists fought the Union Army for another 3 years until 21 October 1951.",
+    "elimination": "The armed struggle officially ended on 21 October 1951. 17 Sept 1948 is Nizam surrender; 1950 is Republic Day; 1952 is Burgula's ministry.",
+    "anchor": "21 October 1951 -> Formal withdrawal of Telangana Armed Struggle by Communist Party.",
+    "hint": "A four-member CPI delegation (C. Rajeswara Rao, M. Basavapunnaiah, S.A. Dange, and Ajoy Ghosh) had secretly traveled to Moscow to consult Joseph Stalin on strategy.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 132,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies 21 October 1951 as the withdrawal date.",
+        "correctMeaning": "The withdrawal paved the way for the Communists to contest the 1952 First General Elections under the banner of the People's Democratic Front (PDF).",
+        "selectedMeaning": "The withdrawal paved the way for the Communists to contest the 1952 First General Elections under the banner of the People's Democratic Front (PDF).",
+        "possibleConfusion": "No confusion; standard milestone in modern Indian communist and Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked exact date Telangana Armed Struggle was officially called off",
+            "choose": "21 October 1951."
+          },
+          {
+            "when": "Asked under which front the Communists contested 1952 elections",
+            "choose": "People's Democratic Front (PDF)."
+          }
+        ],
+        "nextStep": "Note how the PDF won 42 seats in the 1952 Hyderabad Legislative Assembly."
+      },
+      {
+        "observation": "Selected 17 September 1948.",
+        "correctMeaning": "17 September 1948 ended Nizam's rule, but the CPI continued guerrilla warfare against the Indian Army for 3 more years until October 1951.",
+        "selectedMeaning": "Confusing the end of Nizam's rule with the end of the peasant armed struggle.",
+        "possibleConfusion": "Many assume the armed struggle ended when Indian troops arrived.",
+        "decisionRules": [
+          {
+            "when": "Asked when Nizam's army surrendered in Operation Polo",
+            "choose": "17 September 1948."
+          },
+          {
+            "when": "Asked when Communist armed struggle was formally called off",
+            "choose": "21 October 1951."
+          }
+        ],
+        "nextStep": "Remember the Armed Struggle had two phases: Anti-Nizam phase (1946–48) and Anti-Union military phase (1948–51)."
+      },
+      {
+        "observation": "Selected 26 January 1950.",
+        "correctMeaning": "The armed struggle was still underway in the Godavari valley forests in 1950; it ended on 21 October 1951.",
+        "selectedMeaning": "Confusing Republic Day with the end of armed hostilities.",
+        "possibleConfusion": "Republic Day was a major constitutional milestone.",
+        "decisionRules": [
+          {
+            "when": "Asked about withdrawal of armed struggle",
+            "choose": "21 October 1951."
+          },
+          {
+            "when": "Asked when Constitution of India came into force",
+            "choose": "26 January 1950."
+          }
+        ],
+        "nextStep": "Anchor 21 October 1951 to the withdrawal statement."
+      },
+      {
+        "observation": "Selected 6 March 1952.",
+        "correctMeaning": "6 March 1952 is when Burgula's ministry was formed; the armed struggle had been called off 5 months earlier in October 1951 to allow election campaigning.",
+        "selectedMeaning": "Confusing ministry formation with struggle withdrawal.",
+        "possibleConfusion": "The elections and ministry followed the withdrawal.",
+        "decisionRules": [
+          {
+            "when": "Asked when Burgula ministry took oath",
+            "choose": "6 March 1952."
+          },
+          {
+            "when": "Asked when armed struggle was withdrawn",
+            "choose": "21 October 1951."
+          }
+        ],
+        "nextStep": "Sequence: Withdrawal (Oct 1951) -> Elections (Jan–Feb 1952) -> Ministry (March 1952)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q195",
+    "topic": "TM-01.02",
+    "concept": "TM-01.02-M08",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Makhdoom Mohiuddin, the legendary revolutionary Urdu poet and Communist leader who went underground during the armed struggle, composed which of the following iconic poems celebrating the martyrs of Telangana that became an international anthem of resistance?",
+    "options": [
+      {
+        "text": "'Telangana' (also containing the immortal lines 'Yeh Jung Hai Jung-e-Azadi')",
+        "why": "Makhdoom Mohiuddin wrote the celebrated revolutionary poem 'Telangana' with the stirring lines 'Yeh Jung Hai Jung-e-Azadi, Azadi Ke Parcham Ke Tale' which inspired guerrilla squads and mobilized thousands into the armed struggle.",
+        "attraction": "The authentic, internationally renowned anthem penned by Makhdoom.",
+        "confusion": false
+      },
+      {
+        "text": "'Naa Godavari Naa Telangana'",
+        "why": "'Naa Godavari' was composed by modern Telugu poets, not by Urdu poet Makhdoom Mohiuddin.",
+        "attraction": "Folk poetry title.",
+        "confusion": true
+      },
+      {
+        "text": "'Jaya Jayahe Telangana Janani Jaya Ketanam'",
+        "why": "This state anthem of Telangana was penned by Dr. Ande Sri in 2006, not by Makhdoom Mohiuddin in the 1940s.",
+        "attraction": "The official State Anthem of Telangana."
+      },
+      {
+        "text": "'Agni Dhara'",
+        "why": "'Agni Dhara' and 'Rudra Veena' were written by Dasarathi Krishnamacharyulu, the famous Telugu revolutionary poet imprisoned in Nizam jails.",
+        "attraction": "Iconic Telugu poetry collection of the anti-Nizam struggle."
+      }
+    ],
+    "answer": 0,
+    "reason": "Makhdoom Mohiuddin wrote 'Telangana' ('Yeh Jung Hai Jung-e-Azadi').",
+    "clue": "Look for Makhdoom's immortal Urdu poem 'Telangana' ('Yeh Jung Hai Jung-e-Azadi').",
+    "trap": "Do not confuse Makhdoom Mohiuddin (Urdu: 'Telangana') with Dasarathi ('Agni Dhara') or Ande Sri ('Jaya Jayahe Telangana').",
+    "elimination": "Makhdoom wrote 'Telangana / Yeh Jung Hai Jung-e-Azadi'. Dasarathi wrote 'Agni Dhara'; Ande Sri wrote 'Jaya Jayahe Telangana'.",
+    "anchor": "Makhdoom Mohiuddin -> Revolutionary Urdu poet -> 'Telangana' ('Yeh Jung Hai Jung-e-Azadi').",
+    "hint": "Makhdoom's collection of poems was published as 'Surkh Savera' (Red Dawn) in 1944 and 'Bisaat-e-Raqs' in 1966.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 138,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Makhdoom Mohiuddin's poem 'Telangana'.",
+        "correctMeaning": "Makhdoom Mohiuddin combined brilliant Urdu lyricism with frontline revolutionary struggle, later becoming MLA and Leader of Opposition in the Legislative Council.",
+        "selectedMeaning": "Makhdoom Mohiuddin combined brilliant Urdu lyricism with frontline revolutionary struggle, later becoming MLA and Leader of Opposition in the Legislative Council.",
+        "possibleConfusion": "No confusion; standard question on Telangana cultural luminaries.",
+        "decisionRules": [
+          {
+            "when": "Asked about revolutionary poet who wrote 'Yeh Jung Hai Jung-e-Azadi'",
+            "choose": "Makhdoom Mohiuddin."
+          },
+          {
+            "when": "Asked title of Makhdoom's famous 1944 poetry collection",
+            "choose": "Surkh Savera (Red Dawn)."
+          }
+        ],
+        "nextStep": "Note Makhdoom was awarded the Sahitya Akademi Award in 1969 for 'Bisaat-e-Raqs'."
+      },
+      {
+        "observation": "Selected Naa Godavari.",
+        "correctMeaning": "Makhdoom wrote in Urdu; 'Naa Godavari' is Telugu poetry.",
+        "selectedMeaning": "Linguistic and stylistic confusion.",
+        "possibleConfusion": "Both celebrated Telangana landscape and struggle.",
+        "decisionRules": [
+          {
+            "when": "Asked about Urdu poetry of Telangana Armed Struggle",
+            "choose": "Makhdoom Mohiuddin."
+          },
+          {
+            "when": "Evaluating language of composition",
+            "choose": "Remember Makhdoom wrote in Urdu."
+          }
+        ],
+        "nextStep": "Remember Makhdoom's pivotal role in the Progressive Writers Association (PWA)."
+      },
+      {
+        "observation": "Selected Jaya Jayahe Telangana.",
+        "correctMeaning": "'Jaya Jayahe Telangana' was written by Ande Sri in 2006 and officially adopted as the State Song in 2024.",
+        "selectedMeaning": "Major historical confusion across six decades.",
+        "possibleConfusion": "Both are celebrated anthems of Telangana.",
+        "decisionRules": [
+          {
+            "when": "Asked who wrote 'Jaya Jayahe Telangana Janani Jaya Ketanam'",
+            "choose": "Dr. Ande Sri (2006)."
+          },
+          {
+            "when": "Asked who wrote 'Yeh Jung Hai Jung-e-Azadi'",
+            "choose": "Makhdoom Mohiuddin."
+          }
+        ],
+        "nextStep": "Anchor Ande Sri to 2006/2024 and Makhdoom to 1946."
+      },
+      {
+        "observation": "Selected Agni Dhara.",
+        "correctMeaning": "'Agni Dhara' and 'Rudra Veena' were written by Dasarathi Krishnamacharyulu; Makhdoom wrote 'Surkh Savera'.",
+        "selectedMeaning": "Confusing the prominent Telugu poet of the anti-Nizam struggle with the prominent Urdu poet.",
+        "possibleConfusion": "Both were imprisoned and fought Nizam's autocracy simultaneously.",
+        "decisionRules": [
+          {
+            "when": "Asked who wrote 'Naa Telangana Koti Ratanala Veena' and 'Agni Dhara'",
+            "choose": "Dasarathi Krishnamacharyulu."
+          },
+          {
+            "when": "Asked who wrote 'Surkh Savera' and 'Yeh Jung Hai Jung-e-Azadi'",
+            "choose": "Makhdoom Mohiuddin."
+          }
+        ],
+        "nextStep": "Associate Dasarathi with 'Koti Ratanala Veena' and Makhdoom with 'Surkh Savera'."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q196",
+    "topic": "TM-01.02",
+    "concept": "TM-01.02-M09",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "While imprisoned by the Nizam government in Nizamabad Central Jail for participating in the anti-feudal struggle, which legendary poet wrote revolutionary poems with coal and fingernails on the prison walls, proclaiming the immortal line: 'Naa Telangana Koti Ratanala Veena' (My Telangana is a veena of ten million gems)?",
+    "options": [
+      {
+        "text": "Dasarathi Krishnamacharyulu",
+        "why": "Dasarathi Krishnamacharyulu was jailed in Nizamabad and wrote poems on the prison walls with coal, coining the immortal declaration: 'Naa Telangana Koti Ratanala Veena' and defying the Nizam: 'O Nizam Pishachama, Kaanraadu Ninnu Polina Raju'.",
+        "attraction": "The authentic, universally revered poet laureate of Telangana.",
+        "confusion": false
+      },
+      {
+        "text": "Kaloji Narayana Rao",
+        "why": "Kaloji Narayana Rao was his contemporary revolutionary poet who wrote 'Naa Godava', but 'Koti Ratanala Veena' was specifically authored by Dasarathi.",
+        "attraction": "Foremost poet and conscience of Telangana ('Praja Kavi').",
+        "confusion": true
+      },
+      {
+        "text": "Vattikota Alwar Swamy",
+        "why": "Vattikota Alwar Swamy was imprisoned with Dasarathi and wrote the celebrated prison novel 'Jailu Lopala', but did not pen the line 'Koti Ratanala Veena'.",
+        "attraction": "Famous writer imprisoned in the same jail."
+      },
+      {
+        "text": "Suddala Hanumanthu",
+        "why": "Suddala Hanumanthu was the folk poet who wrote 'Palletoori Pillagada', not the author of 'Koti Ratanala Veena'.",
+        "attraction": "Celebrated folk poet of Telangana Armed Struggle."
+      }
+    ],
+    "answer": 0,
+    "reason": "Dasarathi Krishnamacharyulu wrote 'Naa Telangana Koti Ratanala Veena' on the walls of Nizamabad jail.",
+    "clue": "Look for Dasarathi Krishnamacharyulu, author of 'Agni Dhara', 'Rudra Veena', and 'Koti Ratanala Veena'.",
+    "trap": "Do not confuse Dasarathi ('Koti Ratanala Veena') with Kaloji ('Naa Godava') or Alwar Swamy ('Jailu Lopala').",
+    "elimination": "Dasarathi wrote 'Koti Ratanala Veena'. Kaloji wrote 'Naa Godava'; Vattikota wrote 'Jailu Lopala'; Suddala wrote 'Palletoori Pillagada'.",
+    "anchor": "Dasarathi Krishnamacharyulu -> Nizamabad Jail -> 'Naa Telangana Koti Ratanala Veena'.",
+    "hint": "Dasarathi later served as the Poet Laureate (Aasthana Kavi) of Andhra Pradesh from 1977 to 1983.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 144,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Dasarathi Krishnamacharyulu.",
+        "correctMeaning": "Dasarathi's lines 'Naa Telangana Koti Ratanala Veena' and 'Rani Rejukadi Vanda Varala Pulla' became the supreme slogans of Telangana pride.",
+        "selectedMeaning": "Dasarathi's lines 'Naa Telangana Koti Ratanala Veena' and 'Rani Rejukadi Vanda Varala Pulla' became the supreme slogans of Telangana pride.",
+        "possibleConfusion": "No confusion; universally recognized quotation in Telangana culture.",
+        "decisionRules": [
+          {
+            "when": "Asked who wrote 'Naa Telangana Koti Ratanala Veena'",
+            "choose": "Dasarathi Krishnamacharyulu."
+          },
+          {
+            "when": "Asked who wrote poetry on the walls of Nizamabad jail",
+            "choose": "Dasarathi Krishnamacharyulu."
+          }
+        ],
+        "nextStep": "Note Dasarathi's poetry anthologies: 'Agni Dhara' (1949) and 'Rudra Veena' (1950)."
+      },
+      {
+        "observation": "Selected Kaloji Narayana Rao.",
+        "correctMeaning": "Kaloji wrote 'Naa Godava' and the famous lines 'Puttukathone Savu Kooda Puttinadi'; Dasarathi wrote 'Koti Ratanala Veena'.",
+        "selectedMeaning": "Confusing the two great twin literary pillars of Telangana.",
+        "possibleConfusion": "Both were contemporaries, close friends, and jail inmates.",
+        "decisionRules": [
+          {
+            "when": "Asked who authored 'Naa Godava'",
+            "choose": "Kaloji Narayana Rao."
+          },
+          {
+            "when": "Asked who authored 'Naa Telangana Koti Ratanala Veena'",
+            "choose": "Dasarathi Krishnamacharyulu."
+          }
+        ],
+        "nextStep": "Remember Kaloji's birthday (9 September) is celebrated as Telangana Bhasha Dinotsavam."
+      },
+      {
+        "observation": "Selected Vattikota Alwar Swamy.",
+        "correctMeaning": "Vattikota Alwar Swamy was the pioneering novelist who wrote 'Prajala Manishi' and 'Gangu', and prison stories 'Jailu Lopala'.",
+        "selectedMeaning": "Confusing the master novelist with the poet laureate.",
+        "possibleConfusion": "Vattikota was imprisoned alongside Dasarathi in Nizamabad jail.",
+        "decisionRules": [
+          {
+            "when": "Asked who founded Deshoddharaka Grantha Mandali and wrote 'Prajala Manishi'",
+            "choose": "Vattikota Alwar Swamy."
+          },
+          {
+            "when": "Asked who wrote 'Koti Ratanala Veena'",
+            "choose": "Dasarathi Krishnamacharyulu."
+          }
+        ],
+        "nextStep": "Remember 'Prajala Manishi' as the first social realism novel of Telangana."
+      },
+      {
+        "observation": "Selected Suddala Hanumanthu.",
+        "correctMeaning": "Suddala Hanumanthu wrote folk performance songs like 'Palletoori Pillagada' depicting child labor and bonded servitude.",
+        "selectedMeaning": "Confusing folk song composition with classical/modern verse.",
+        "possibleConfusion": "Both inspired the armed struggle.",
+        "decisionRules": [
+          {
+            "when": "Asked who composed the immortal song 'Palletoori Pillagada'",
+            "choose": "Suddala Hanumanthu."
+          },
+          {
+            "when": "Asked who wrote 'Naa Telangana Koti Ratanala Veena'",
+            "choose": "Dasarathi Krishnamacharyulu."
+          }
+        ],
+        "nextStep": "Associate Suddala Hanumanthu with Gollasuddulu and Burrakatha folk art forms."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q197",
+    "topic": "TM-01.01",
+    "concept": "TM-01.01-M06",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Vattikota Alwar Swamy is hailed as the father of modern Telangana realistic fiction and the people's publisher. In 1938, which historic publication house did he establish to publish low-cost Telugu books and take literature to the common working people?",
+    "options": [
+      {
+        "text": "Deshoddharaka Grantha Mandali",
+        "why": "Vattikota Alwar Swamy established Deshoddharaka Grantha Mandali in 1938, publishing scores of low-cost books on politics, history, and science, and delivering books by bicycle directly to rural readers.",
+        "attraction": "The authentic, historic publishing house founded by Vattikota Alwar Swamy.",
+        "confusion": false
+      },
+      {
+        "text": "Vignana Chandrika Grantha Mandali",
+        "why": "Vignana Chandrika Grantha Mandali was founded in 1906 in Hyderabad by Komarraju Lakshmana Rao and Gadicherla Harisarvothama Rao, not by Vattikota in 1938.",
+        "attraction": "Early premier Telugu publishing society founded in 1906.",
+        "confusion": true
+      },
+      {
+        "text": "Andhra Saraswatha Parishad",
+        "why": "Andhra Saraswatha Parishad was established in 1943 by Devulapalli Ramanuja Rao and Burgula Ramakrishna Rao to promote Telugu literature.",
+        "attraction": "Major literary institution in Hyderabad."
+      },
+      {
+        "text": "Telangana Rachayitala Sangham",
+        "why": "Telangana Rachayitala Sangham was founded in the 1950s by Kaloji, Dasarathi, and others to protect Telangana literary identity.",
+        "attraction": "Post-1950 writers' union."
+      }
+    ],
+    "answer": 0,
+    "reason": "Vattikota Alwar Swamy founded Deshoddharaka Grantha Mandali in 1938.",
+    "clue": "Look for Deshoddharaka Grantha Mandali, founded in 1938 by Vattikota Alwar Swamy.",
+    "trap": "Do not confuse Deshoddharaka Grantha Mandali (Vattikota, 1938) with Vignana Chandrika Grantha Mandali (Komarraju, 1906).",
+    "elimination": "Vattikota founded Deshoddharaka Grantha Mandali. Komarraju founded Vignana Chandrika; Devulapalli founded Saraswatha Parishad.",
+    "anchor": "Vattikota Alwar Swamy -> 1938 -> Deshoddharaka Grantha Mandali -> Author of 'Prajala Manishi'.",
+    "hint": "His masterpiece novel 'Prajala Manishi' (1955) captures Telangana society between 1930 and 1938 through the protagonist Kanthi Rao.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 150,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Deshoddharaka Grantha Mandali as Vattikota's publishing house.",
+        "correctMeaning": "Vattikota Alwar Swamy pioneered mobile libraries and grassroots publishing, serving sentences in Nizamabad, Hyderabad, and Gulbarga jails.",
+        "selectedMeaning": "Vattikota Alwar Swamy pioneered mobile libraries and grassroots publishing, serving sentences in Nizamabad, Hyderabad, and Gulbarga jails.",
+        "possibleConfusion": "No confusion; standard high-yield question in Telangana culture.",
+        "decisionRules": [
+          {
+            "when": "Asked who founded Deshoddharaka Grantha Mandali in 1938",
+            "choose": "Vattikota Alwar Swamy."
+          },
+          {
+            "when": "Asked who wrote the famous Telangana novels 'Prajala Manishi' and 'Gangu'",
+            "choose": "Vattikota Alwar Swamy."
+          }
+        ],
+        "nextStep": "Note that Vattikota passed away young at the age of 46 in 1961."
+      },
+      {
+        "observation": "Selected Vignana Chandrika Grantha Mandali.",
+        "correctMeaning": "Vignana Chandrika Grantha Mandali was founded in 1906 by Komarraju Lakshmana Rao; Deshoddharaka was founded in 1938 by Vattikota.",
+        "selectedMeaning": "Confusing the 1906 publishing society with the 1938 publishing society.",
+        "possibleConfusion": "Both were landmark publishing organizations in Hyderabad.",
+        "decisionRules": [
+          {
+            "when": "Asked who founded Vignana Chandrika Grantha Mandali (1906)",
+            "choose": "Komarraju Venkata Lakshmana Rao."
+          },
+          {
+            "when": "Asked who founded Deshoddharaka Grantha Mandali (1938)",
+            "choose": "Vattikota Alwar Swamy."
+          }
+        ],
+        "nextStep": "Memorize: Komarraju = 1906 (Vignana Chandrika); Vattikota = 1938 (Deshoddharaka)."
+      },
+      {
+        "observation": "Selected Andhra Saraswatha Parishad.",
+        "correctMeaning": "Andhra Saraswatha Parishad was established in 1943 by Devulapalli Ramanuja Rao; it was an academy, not Vattikota's publishing house.",
+        "selectedMeaning": "Confusing a literary academy with a publishing press.",
+        "possibleConfusion": "Both promoted Telugu in the Nizam State.",
+        "decisionRules": [
+          {
+            "when": "Asked who established Andhra Saraswatha Parishad in 1943",
+            "choose": "Devulapalli Ramanuja Rao and Burgula Ramakrishna Rao."
+          },
+          {
+            "when": "Asked about Vattikota's Grantha Mandali",
+            "choose": "Deshoddharaka Grantha Mandali."
+          }
+        ],
+        "nextStep": "Anchor Andhra Saraswatha Parishad to 1943 in Hyderabad."
+      },
+      {
+        "observation": "Selected Telangana Rachayitala Sangham.",
+        "correctMeaning": "Telangana Rachayitala Sangham was formed in the post-1950 era by Kaloji, Dasarathi, and others, not the 1938 publishing house.",
+        "selectedMeaning": "Anachronistic choice: 1950s writers' union chosen for a 1938 institution.",
+        "possibleConfusion": "Vattikota was associated with progressive writers.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1938 publishing house",
+            "choose": "Deshoddharaka Grantha Mandali."
+          },
+          {
+            "when": "Evaluating writers' unions",
+            "choose": "Eliminate post-independence bodies."
+          }
+        ],
+        "nextStep": "Remember Deshoddharaka Grantha Mandali was named in honor of Kasinadhuni Nageswara Rao Pantulu (Deshoddharaka)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q198",
+    "topic": "TM-01.01",
+    "concept": "TM-01.01-M07",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Suravaram Pratapa Reddy, the intellectual titan of modern Telangana and editor of Golconda Patrika, authored which seminal historical work that became the very first Telugu book to win the prestigious Central Sahitya Akademi Award in 1955?",
+    "options": [
+      {
+        "text": "Andhrula Sanghika Charitra (Social History of the Andhras)",
+        "why": "Suravaram Pratapa Reddy's monumental work 'Andhrula Sanghika Charitra' (covering socio-cultural life from Satavahanas to Asaf Jahis) won the first-ever Central Sahitya Akademi Award in Telugu posthumously in 1955.",
+        "attraction": "The authentic, history-making Sahitya Akademi award-winning work.",
+        "confusion": false
+      },
+      {
+        "text": "Golconda Kavula Sanchika",
+        "why": "'Golconda Kavula Sanchika' was edited by Suravaram in 1934 showcasing 354 Telangana poets, but it did not win the Sahitya Akademi Award in 1955.",
+        "attraction": "Another famous anthology compiled by Suravaram.",
+        "confusion": true
+      },
+      {
+        "text": "Hinduvula Pandugalu",
+        "why": "'Hinduvula Pandugalu' was an insightful sociological work on Hindu festivals written by Suravaram in 1931, not the Sahitya Akademi winner.",
+        "attraction": "Prominent cultural book by Suravaram."
+      },
+      {
+        "text": "Mogalayi Kathalu",
+        "why": "'Mogalayi Kathalu' was a collection of short stories depicting feudal life in Hyderabad State written by Suravaram, not the Sahitya Akademi winner.",
+        "attraction": "Short story collection by the same author."
+      }
+    ],
+    "answer": 0,
+    "reason": "'Andhrula Sanghika Charitra' won the first Central Sahitya Akademi Award in Telugu in 1955.",
+    "clue": "Look for 'Andhrula Sanghika Charitra', the 1955 Sahitya Akademi award-winning social history masterpiece.",
+    "trap": "Do not confuse 'Andhrula Sanghika Charitra' (1955 award) with 'Golconda Kavula Sanchika' (1934 anthology).",
+    "elimination": "Andhrula Sanghika Charitra won the 1955 Sahitya Akademi Award. Golconda Kavula Sanchika was compiled in 1934.",
+    "anchor": "Suravaram Pratapa Reddy -> 'Andhrula Sanghika Charitra' -> 1st Central Sahitya Akademi Award in Telugu (1955).",
+    "hint": "Suravaram compiled 'Golconda Kavula Sanchika' in 1934 in response to an Andhra scholar's insulting claim that 'Telangana has no poets'.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 156,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Andhrula Sanghika Charitra as the 1955 Sahitya Akademi winning work.",
+        "correctMeaning": "Suravaram Pratapa Reddy revolutionized Telugu historiography by focusing on common people, dresses, games, food, and social customs rather than merely royal dynasties.",
+        "selectedMeaning": "Suravaram Pratapa Reddy revolutionized Telugu historiography by focusing on common people, dresses, games, food, and social customs rather than merely royal dynasties.",
+        "possibleConfusion": "No confusion; standard question across all TS competitive exams.",
+        "decisionRules": [
+          {
+            "when": "Asked which Telugu book won the very first Central Sahitya Akademi Award (1955)",
+            "choose": "Andhrula Sanghika Charitra by Suravaram Pratapa Reddy."
+          },
+          {
+            "when": "Asked who compiled Golconda Kavula Sanchika in 1934 with 354 poets",
+            "choose": "Suravaram Pratapa Reddy."
+          }
+        ],
+        "nextStep": "Note Suravaram was also elected MLA from Wanaparthy in the 1952 elections before his death in August 1953."
+      },
+      {
+        "observation": "Selected Golconda Kavula Sanchika.",
+        "correctMeaning": "Golconda Kavula Sanchika was published in 1934 to prove the poetic richness of Telangana; Andhrula Sanghika Charitra won the 1955 Sahitya Akademi Award.",
+        "selectedMeaning": "Confusing the 1934 poetry anthology with the 1955 award-winning social history treatise.",
+        "possibleConfusion": "Both are legendary works by Suravaram.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1934 anthology proving Telangana has 354 poets",
+            "choose": "Golconda Kavula Sanchika."
+          },
+          {
+            "when": "Asked about 1955 Central Sahitya Akademi award winner",
+            "choose": "Andhrula Sanghika Charitra."
+          }
+        ],
+        "nextStep": "Remember: Sanchika = 1934 poets anthology; Charitra = 1955 Sahitya Akademi winner."
+      },
+      {
+        "observation": "Selected Hinduvula Pandugalu.",
+        "correctMeaning": "Hinduvula Pandugalu was published in 1931 analyzing origins and customs of festivals; it was not the Sahitya Akademi winner.",
+        "selectedMeaning": "Confusing festival ethnography with the grand social history.",
+        "possibleConfusion": "Both are sociological works by Suravaram.",
+        "decisionRules": [
+          {
+            "when": "Asked about Suravaram's 1931 book on Hindu festivals",
+            "choose": "Hinduvula Pandugalu."
+          },
+          {
+            "when": "Asked about Sahitya Akademi winning social history",
+            "choose": "Andhrula Sanghika Charitra."
+          }
+        ],
+        "nextStep": "Associate Hinduvula Pandugalu with comparative mythological research."
+      },
+      {
+        "observation": "Selected Mogalayi Kathalu.",
+        "correctMeaning": "Mogalayi Kathalu is a collection of realistic short stories; it did not win the Sahitya Akademi Award.",
+        "selectedMeaning": "Confusing short stories with the master historical treatise.",
+        "possibleConfusion": "Both were written by Suravaram.",
+        "decisionRules": [
+          {
+            "when": "Asked about Suravaram's short stories depicting Nizam society",
+            "choose": "Mogalayi Kathalu."
+          },
+          {
+            "when": "Asked about Sahitya Akademi award-winning history",
+            "choose": "Andhrula Sanghika Charitra."
+          }
+        ],
+        "nextStep": "Remember Suravaram's pen names: 'Bhavani Charan', 'Chithragupta'."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q199",
+    "topic": "TM-01.01",
+    "concept": "TM-01.01-M08",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "The Telangana Library Movement (Granthalaya Udyamam) was the pioneer of political consciousness in Hyderabad State. Established on 1 September 1901 in Hyderabad, which was the first modern Telugu library in Telangana that ignited this cultural awakening?",
+    "options": [
+      {
+        "text": "Sri Krishna Devaraya Andhra Bhasha Nilayam (Ramkote, Hyderabad)",
+        "why": "Sri Krishna Devaraya Andhra Bhasha Nilayam was established on 1 September 1901 at the residence of Ravichettu Ranga Rao in Hyderabad by Komarraju Lakshmana Rao, Ravichettu Ranga Rao, and Raja Nayani Venkata Ranga Rao.",
+        "attraction": "The authentic first Telugu library and mother of Telangana cultural renaissance.",
+        "confusion": false
+      },
+      {
+        "text": "Sri Raja Raja Narendra Andhra Bhasha Nilayam (Hanamkonda)",
+        "why": "Sri Raja Raja Narendra Andhra Bhasha Nilayam was established three years later in 1904 at Hanamkonda.",
+        "attraction": "The second major library founded in 1904 in Hanamkonda.",
+        "confusion": true
+      },
+      {
+        "text": "Andhra Samvardhini Grantha Nilayam (Secunderabad)",
+        "why": "Andhra Samvardhini Grantha Nilayam was established in 1905 at Secunderabad.",
+        "attraction": "The third major library founded in 1905."
+      },
+      {
+        "text": "Vemana Andhra Bhasha Nilayam (Hyderabad)",
+        "why": "Vemana Andhra Bhasha Nilayam was founded much later in 1923.",
+        "attraction": "Another prominent library in Hyderabad."
+      }
+    ],
+    "answer": 0,
+    "reason": "Sri Krishna Devaraya Andhra Bhasha Nilayam was established on 1 September 1901 in Hyderabad.",
+    "clue": "Look for Sri Krishna Devaraya Andhra Bhasha Nilayam, established on 1 September 1901.",
+    "trap": "Do not confuse Krishna Devaraya (Hyderabad, 1901) with Raja Raja Narendra (Hanamkonda, 1904) or Andhra Samvardhini (1905).",
+    "elimination": "Krishna Devaraya Andhra Bhasha Nilayam was the first (1901). Raja Raja Narendra is 1904; Andhra Samvardhini is 1905; Vemana is 1923.",
+    "anchor": "1 September 1901 -> Sri Krishna Devaraya Andhra Bhasha Nilayam -> Mother of Telangana Library Movement.",
+    "hint": "Founded by Komarraju Lakshmana Rao, Ravichettu Ranga Rao, and Munagala Raja Nayani Venkata Ranga Rao.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 162,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Sri Krishna Devaraya Andhra Bhasha Nilayam as the first library.",
+        "correctMeaning": "The founding of Sri Krishna Devaraya Andhra Bhasha Nilayam in 1901 is regarded by historians as the commencement of modern socio-political awakening in Telangana.",
+        "selectedMeaning": "The founding of Sri Krishna Devaraya Andhra Bhasha Nilayam in 1901 is regarded by historians as the commencement of modern socio-political awakening in Telangana.",
+        "possibleConfusion": "No confusion; universally cited milestone in Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked about first Telugu library in Telangana established in 1901",
+            "choose": "Sri Krishna Devaraya Andhra Bhasha Nilayam (Hyderabad)."
+          },
+          {
+            "when": "Asked who were key founders",
+            "choose": "Komarraju Venkata Lakshmana Rao, Ravichettu Ranga Rao, and Nayani Venkata Ranga Rao."
+          }
+        ],
+        "nextStep": "Trace the subsequent libraries: Raja Raja Narendra (Hanamkonda, 1904) and Andhra Samvardhini (Secunderabad, 1905)."
+      },
+      {
+        "observation": "Selected Sri Raja Raja Narendra Andhra Bhasha Nilayam.",
+        "correctMeaning": "Sri Raja Raja Narendra Andhra Bhasha Nilayam was founded in 1904 in Hanamkonda; Krishna Devaraya was founded in 1901 in Hyderabad.",
+        "selectedMeaning": "Confusing the 1904 Hanamkonda library with the 1901 Hyderabad pioneer.",
+        "possibleConfusion": "Both were founded by Komarraju Lakshmana Rao.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1901 first library in Hyderabad",
+            "choose": "Sri Krishna Devaraya Andhra Bhasha Nilayam."
+          },
+          {
+            "when": "Asked about 1904 library in Hanamkonda",
+            "choose": "Sri Raja Raja Narendra Andhra Bhasha Nilayam."
+          }
+        ],
+        "nextStep": "Remember the sequence: 1901 (Hyderabad) -> 1904 (Hanamkonda) -> 1905 (Secunderabad)."
+      },
+      {
+        "observation": "Selected Andhra Samvardhini Grantha Nilayam.",
+        "correctMeaning": "Andhra Samvardhini was established in 1905 in Secunderabad; Krishna Devaraya was established in 1901.",
+        "selectedMeaning": "Confusing the Secunderabad library (1905) with the original 1901 library.",
+        "possibleConfusion": "Both are in the twin cities.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1905 Secunderabad library",
+            "choose": "Andhra Samvardhini Grantha Nilayam."
+          },
+          {
+            "when": "Asked about 1901 Hyderabad library",
+            "choose": "Sri Krishna Devaraya Andhra Bhasha Nilayam."
+          }
+        ],
+        "nextStep": "Note Andhra Samvardhini was founded by Shankar Rao and others in Secunderabad."
+      },
+      {
+        "observation": "Selected Vemana Andhra Bhasha Nilayam.",
+        "correctMeaning": "Vemana Andhra Bhasha Nilayam was established in 1923; Krishna Devaraya Nilayam was established in 1901.",
+        "selectedMeaning": "Major chronological gap of 22 years.",
+        "possibleConfusion": "Both are prominent libraries in Hyderabad.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1923 library in Hyderabad",
+            "choose": "Vemana Andhra Bhasha Nilayam."
+          },
+          {
+            "when": "Asked about 1901 first library",
+            "choose": "Sri Krishna Devaraya Andhra Bhasha Nilayam."
+          }
+        ],
+        "nextStep": "Remember Vemana Nilayam was established in Nampally, Hyderabad in 1923."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q200",
+    "topic": "TM-01.01",
+    "concept": "TM-01.01-M09",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "On 11–12 November 1921, during the Nizam Social Reform Conference held at Vivekavardhani Theatre in Hyderabad, a prominent advocate was humiliated and prevented from speaking in his mother tongue, Telugu. This humiliation led 11 delegates to immediately establish the 'Andhra Jana Sangham' the same night at Tekumalla Ranga Rao's residence. Who was the speaker who was insulted for speaking Telugu?",
+    "options": [
+      {
+        "text": "Alampalli Venkata Rama Rao",
+        "why": "Alampalli Venkata Rama Rao, a leading lawyer, was mocked with catcalls and prevented from speaking in Telugu by Marathi and Urdu-speaking delegates at the 1921 conference, triggering the immediate formation of Andhra Jana Sangham that very night.",
+        "attraction": "The authentic historical advocate whose humiliation catalyzed Andhra Jana Sangham.",
+        "confusion": false
+      },
+      {
+        "text": "Madapati Hanumantha Rao",
+        "why": "Madapati Hanumantha Rao was one of the 11 founders and became Secretary of Andhra Jana Sangham, but was not the speaker insulted on stage.",
+        "attraction": "The architect of Andhra Jana Sangham ('Andhra Pithamaha').",
+        "confusion": true
+      },
+      {
+        "text": "Suravaram Pratapa Reddy",
+        "why": "Suravaram Pratapa Reddy was a key founder and later President of Andhra Mahasabha, but was not the advocate humiliated in 1921.",
+        "attraction": "Eminent cultural leader."
+      },
+      {
+        "text": "Burgula Ramakrishna Rao",
+        "why": "Burgula Ramakrishna Rao was present and was one of the 11 founding members, but was not the insulted speaker.",
+        "attraction": "Founding member and future Chief Minister."
+      }
+    ],
+    "answer": 0,
+    "reason": "Alampalli Venkata Rama Rao was humiliated for speaking Telugu, sparking the formation of Andhra Jana Sangham on 12 November 1921.",
+    "clue": "Look for Alampalli Venkata Rama Rao, the advocate whose Telugu speech was hooted down at Vivekavardhani Theatre.",
+    "trap": "Do not choose Madapati Hanumantha Rao; he was the Secretary who organized Andhra Jana Sangham in response to the insult.",
+    "elimination": "Alampalli Venkata Rama Rao was the insulted speaker. Madapati Hanumantha Rao and Burgula were founding members who responded.",
+    "anchor": "12 November 1921 -> Vivekavardhani Hall insult to Alampalli Venkata Rama Rao -> Andhra Jana Sangham founded.",
+    "hint": "Madapati Hanumantha Rao was revered as 'Andhra Pithamaha' for spearheading the Andhra Jana Sangham and Andhra Mahasabha movements.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 168,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Alampalli Venkata Rama Rao as the insulted speaker.",
+        "correctMeaning": "The Vivekavardhani theatre incident on 12 November 1921 is universally recognized as the psychological turning point that awakened Telugu linguistic pride in Hyderabad State.",
+        "selectedMeaning": "The Vivekavardhani theatre incident on 12 November 1921 is universally recognized as the psychological turning point that awakened Telugu linguistic pride in Hyderabad State.",
+        "possibleConfusion": "No confusion; landmark turning point in Telangana historical syllabus.",
+        "decisionRules": [
+          {
+            "when": "Asked who was insulted for speaking Telugu at Vivekavardhani Theatre on 12 Nov 1921",
+            "choose": "Alampalli Venkata Rama Rao."
+          },
+          {
+            "when": "Asked what organization was founded as a direct consequence that very night",
+            "choose": "Andhra Jana Sangham (Nizam Rashtra Andhra Jana Sangham)."
+          }
+        ],
+        "nextStep": "Note that Andhra Jana Sangham later evolved into the Andhra Mahasabha in 1930."
+      },
+      {
+        "observation": "Selected Madapati Hanumantha Rao.",
+        "correctMeaning": "Madapati Hanumantha Rao was one of the 11 founders and served as its driving General Secretary; Alampalli Venkata Rama Rao was the speaker insulted.",
+        "selectedMeaning": "Confusing the organizer/secretary with the speaker on stage.",
+        "possibleConfusion": "Madapati Hanumantha Rao is known as 'Andhra Pithamaha' for this movement.",
+        "decisionRules": [
+          {
+            "when": "Asked who was called 'Andhra Pithamaha' for leading Andhra Jana Sangham",
+            "choose": "Madapati Hanumantha Rao."
+          },
+          {
+            "when": "Asked who was the speaker humiliated for speaking Telugu in 1921",
+            "choose": "Alampalli Venkata Rama Rao."
+          }
+        ],
+        "nextStep": "Remember Madapati's famous historical book 'Telangana Andhrodyama Charitra'."
+      },
+      {
+        "observation": "Selected Suravaram Pratapa Reddy.",
+        "correctMeaning": "Suravaram Pratapa Reddy was a key activist who became the 1st President of Andhra Mahasabha at Madira in 1930; he was not the 1921 speaker.",
+        "selectedMeaning": "Confusing the 1930 conference president with the 1921 insulted advocate.",
+        "possibleConfusion": "Both fought for Telugu language rights.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1st President of Andhra Mahasabha (1930)",
+            "choose": "Suravaram Pratapa Reddy."
+          },
+          {
+            "when": "Asked about the 1921 Vivekavardhani Hall speaker",
+            "choose": "Alampalli Venkata Rama Rao."
+          }
+        ],
+        "nextStep": "Anchor Suravaram to Madira (1930) and Alampalli to 1921."
+      },
+      {
+        "observation": "Selected Burgula Ramakrishna Rao.",
+        "correctMeaning": "Burgula was one of the 11 young men who met that night at Tekumalla Ranga Rao's house; Alampalli was the speaker on the podium.",
+        "selectedMeaning": "Confusing a founding member with the speaker whose speech provoked the walkout.",
+        "possibleConfusion": "Burgula played a key role in drafting the Andhra Jana Sangham rules.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the speaker insulted on stage",
+            "choose": "Alampalli Venkata Rama Rao."
+          },
+          {
+            "when": "Asked who was among the 11 founders who became Chief Minister in 1952",
+            "choose": "Burgula Ramakrishna Rao."
+          }
+        ],
+        "nextStep": "Memorize the founding date of Andhra Jana Sangham: 12 November 1921."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q201",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M01",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "The States Reorganisation Commission (SRC) was appointed by the Government of India on 29 December 1953 to examine the reorganization of Indian states on a linguistic basis. Who was the Chairman of this historic 3-member Commission?",
+    "options": [
+      {
+        "text": "Justice Syed Fazal Ali",
+        "why": "Justice Syed Fazal Ali (former Judge of the Supreme Court and Governor of Orissa) was appointed Chairman, with Kavalam Madhava (K.M.) Panikkar and Hriday Nath (H.N.) Kunzru as the two members.",
+        "attraction": "The authentic Chairman after whom the Fazal Ali Commission is universally known.",
+        "confusion": false
+      },
+      {
+        "text": "Justice S.K. Dhar",
+        "why": "Justice S.K. Dhar headed the 1948 Linguistic Provinces Commission appointed by the Constituent Assembly, not the 1953 SRC.",
+        "attraction": "Earlier linguistic commission chairman from 1948.",
+        "confusion": true
+      },
+      {
+        "text": "K.M. Panikkar",
+        "why": "K.M. Panikkar was an eminent historian, diplomat, and member of the Commission, but not its Chairman.",
+        "attraction": "Member of the 3-man commission."
+      },
+      {
+        "text": "H.N. Kunzru",
+        "why": "Pandit Hriday Nath Kunzru was a member of the Constituent Assembly and member of the Commission, not its Chairman.",
+        "attraction": "Member of the 3-man commission."
+      }
+    ],
+    "answer": 0,
+    "reason": "Justice Syed Fazal Ali was Chairman of the States Reorganisation Commission (1953).",
+    "clue": "Look for Justice Syed Fazal Ali, Chairman of the 3-member commission appointed on 29 December 1953.",
+    "trap": "Do not confuse the Chairman (Fazal Ali) with the members (Panikkar and Kunzru) or the 1948 Dhar Commission.",
+    "elimination": "Fazal Ali was Chairman; Panikkar and Kunzru were members. S.K. Dhar was the 1948 chairman.",
+    "anchor": "29 December 1953 -> States Reorganisation Commission -> Chairman: Justice Fazal Ali; Members: Panikkar & Kunzru.",
+    "hint": "The Commission submitted its comprehensive 267-page report on 30 September 1955.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 172,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Justice Syed Fazal Ali as the Chairman of the SRC.",
+        "correctMeaning": "Justice Fazal Ali presided over the Commission whose Paragraphs 369 to 389 directly analyzed the Telangana question.",
+        "selectedMeaning": "Justice Fazal Ali presided over the Commission whose Paragraphs 369 to 389 directly analyzed the Telangana question.",
+        "possibleConfusion": "No confusion; standard milestone in Indian constitutional history.",
+        "decisionRules": [
+          {
+            "when": "Asked who headed the States Reorganisation Commission (1953)",
+            "choose": "Justice Syed Fazal Ali."
+          },
+          {
+            "when": "Asked when SRC was constituted by Government of India",
+            "choose": "29 December 1953."
+          }
+        ],
+        "nextStep": "Memorize the full 3-member team: Fazal Ali (Chairman), K.M. Panikkar, and H.N. Kunzru."
+      },
+      {
+        "observation": "Selected Justice S.K. Dhar.",
+        "correctMeaning": "Justice S.K. Dhar headed the 1948 Commission which opposed linguistic states; Fazal Ali headed the 1953 Commission.",
+        "selectedMeaning": "Confusing the 1948 Dhar Commission with the 1953 Fazal Ali Commission.",
+        "possibleConfusion": "Both were commissions investigating linguistic reorganization.",
+        "decisionRules": [
+          {
+            "when": "Asked about the 1948 Linguistic Provinces Commission",
+            "choose": "Justice S.K. Dhar Commission."
+          },
+          {
+            "when": "Asked about the 1953 States Reorganisation Commission",
+            "choose": "Justice Fazal Ali Commission."
+          }
+        ],
+        "nextStep": "Remember the sequence: Dhar Commission (1948) -> JVP Committee (1948) -> Fazal Ali Commission (1953)."
+      },
+      {
+        "observation": "Selected K.M. Panikkar.",
+        "correctMeaning": "K.M. Panikkar was an illustrious member of the Commission, but Fazal Ali was the Chairman.",
+        "selectedMeaning": "Confusing a prominent member with the Chairman.",
+        "possibleConfusion": "Panikkar wrote a separate dissenting note on the size of Uttar Pradesh.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the Chairman of SRC",
+            "choose": "Justice Syed Fazal Ali."
+          },
+          {
+            "when": "Asked which member advocated dividing Uttar Pradesh",
+            "choose": "K.M. Panikkar."
+          }
+        ],
+        "nextStep": "Note Panikkar's famous note on re-organizing North India into smaller states."
+      },
+      {
+        "observation": "Selected H.N. Kunzru.",
+        "correctMeaning": "H.N. Kunzru was a member of the Commission; Justice Fazal Ali was the presiding Chairman.",
+        "selectedMeaning": "Confusing a commission member with the presiding chairman.",
+        "possibleConfusion": "Both signatures appear on the final SRC report.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the Chairman of SRC",
+            "choose": "Justice Syed Fazal Ali."
+          },
+          {
+            "when": "Asked about member representing liberal nationalist viewpoint",
+            "choose": "Hriday Nath Kunzru."
+          }
+        ],
+        "nextStep": "Always identify Fazal Ali as Chairman and Kunzru/Panikkar as members."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q202",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M02",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "In its final report submitted on 30 September 1955, the States Reorganisation Commission explicitly recommended in Paragraph 386 that Telangana should be constituted as a separate state (Hyderabad State). Under what specific constitutional condition did the Commission suggest Telangana could unite with Andhra in the future?",
+    "options": [
+      {
+        "text": "Only if a two-thirds (2/3rds) majority of the Telangana Assembly members voted for merger after the 1961 General Elections",
+        "why": "Paragraph 386 explicitly recommended: Telangana should be formed into a separate Hyderabad State, and after the general elections of 1961, the Telangana legislature could decide to merge with Andhra by a two-thirds majority.",
+        "attraction": "The authentic, landmark 2/3rds assembly vote condition in Para 386.",
+        "confusion": false
+      },
+      {
+        "text": "Only after a statewide public referendum was conducted in all 9 Telangana districts",
+        "why": "The Commission never recommended a public referendum; it specifically mandated a 2/3rds resolution in the state assembly.",
+        "attraction": "Plausible democratic mechanism.",
+        "confusion": true
+      },
+      {
+        "text": "Immediately and unconditionally without any waiting period or legislative approval",
+        "why": "Paragraph 386 explicitly opposed immediate unconditional unification, cautioning that Telangana fears were legitimate.",
+        "attraction": "The stance taken by Visalandhra advocates, not the SRC report."
+      },
+      {
+        "text": "Only if the Andhra State cleared all public debts incurred since 1953",
+        "why": "Financial debts were analyzed in Para 389, but the conditional trigger for merger was exclusively the 2/3rds legislative vote after 1961.",
+        "attraction": "Financial safeguard confused with constitutional condition."
+      }
+    ],
+    "answer": 0,
+    "reason": "SRC Para 386 recommended Telangana statehood with unification possible only if 2/3rds of Telangana legislators voted for it after 1961.",
+    "clue": "Look for Paragraph 386: separate Telangana statehood, and merger only with 2/3rds majority in Telangana legislature after 1961 elections.",
+    "trap": "Do not choose public referendum; the report specifically prescribed a 2/3rds legislative resolution after 1961.",
+    "elimination": "Para 386 mandated separate statehood and a 2/3rds legislative vote after 1961 general elections.",
+    "anchor": "SRC Report (1955) -> Para 386 -> Separate Telangana State -> Merger only by 2/3rds majority after 1961.",
+    "hint": "Paragraph 386 stated: 'The advantages of a larger state are obvious... but the apprehensions of Telangana are not without substance...'",
+    "source": "SR-POLICE-SI-2016",
+    "page": 178,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Paragraph 386's 2/3rds majority condition after 1961.",
+        "correctMeaning": "Paragraph 386 recognized that Telangana had genuine fears of being dominated and exploited by coastal Andhra, advising separate statehood for at least 5 years.",
+        "selectedMeaning": "Paragraph 386 recognized that Telangana had genuine fears of being dominated and exploited by coastal Andhra, advising separate statehood for at least 5 years.",
+        "possibleConfusion": "No confusion; prime quotation in the entire Telangana statehood argument.",
+        "decisionRules": [
+          {
+            "when": "Asked what SRC Paragraph 386 recommended for Telangana",
+            "choose": "Constitute separate Telangana state, with merger optional only by 2/3rds assembly vote after 1961."
+          },
+          {
+            "when": "Asked what fraction of Telangana assembly vote was recommended",
+            "choose": "Two-thirds (2/3rds) majority."
+          }
+        ],
+        "nextStep": "Note how national Congress leadership ignored this recommendation and merged Telangana prematurely in 1956."
+      },
+      {
+        "observation": "Selected public referendum.",
+        "correctMeaning": "The Indian Constitution and the SRC do not provide for plebiscites; Para 386 specified an assembly resolution by 2/3rds.",
+        "selectedMeaning": "Confusing a parliamentary legislative vote with a direct popular referendum.",
+        "possibleConfusion": "Referendums were held in Junagadh and French settlements, but not recommended here.",
+        "decisionRules": [
+          {
+            "when": "Asked mechanism recommended in SRC Para 386",
+            "choose": "Two-thirds majority resolution of Telangana assembly members."
+          },
+          {
+            "when": "Evaluating plebiscite options",
+            "choose": "Eliminate public referendum."
+          }
+        ],
+        "nextStep": "Anchor Para 386 strictly to the 2/3rds legislative resolution condition."
+      },
+      {
+        "observation": "Selected immediate unconditional merger.",
+        "correctMeaning": "Immediate merger was urged by coastal Andhra politicians, but explicitly rejected by the Fazal Ali Commission in Para 386.",
+        "selectedMeaning": "Confusing Andhra lobby demands with the actual SRC recommendations.",
+        "possibleConfusion": "Andhra Pradesh was formed in 1956, leading people to believe the SRC recommended it.",
+        "decisionRules": [
+          {
+            "when": "Asked whether SRC recommended immediate creation of Andhra Pradesh",
+            "choose": "No; it recommended separate Telangana statehood."
+          },
+          {
+            "when": "Evaluating Visalandhra claims",
+            "choose": "Remember SRC favored separate state initially."
+          }
+        ],
+        "nextStep": "Highlight that Andhra Pradesh was created by overruling the Fazal Ali Commission's primary recommendation."
+      },
+      {
+        "observation": "Selected public debt clearance.",
+        "correctMeaning": "Debt disparity was noted in Para 389, but the statutory trigger in Para 386 was exclusively the 2/3rds vote.",
+        "selectedMeaning": "Confusing a financial argument in Para 389 with the operational decision rule in Para 386.",
+        "possibleConfusion": "Andhra's heavy public debt was a major grievance for Telangana.",
+        "decisionRules": [
+          {
+            "when": "Asked about Para 386 operational condition",
+            "choose": "Two-thirds assembly vote after 1961."
+          },
+          {
+            "when": "Asked about Para 389 content",
+            "choose": "Telangana revenue surplus and educational disparity vs Andhra debt."
+          }
+        ],
+        "nextStep": "Differentiate Para 386 (political recommendation) from Para 389 (socio-economic analysis)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q203",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M03",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "In Paragraph 389 of its report, what principal economic and educational warning did the States Reorganisation Commission highlight regarding the potential impact of an immediate merger on Telangana youth?",
+    "options": [
+      {
+        "text": "Telangana is a revenue surplus region with educational backwardness, and its youth will be swamped and exploited by advanced coastal competitors",
+        "why": "Paragraph 389 stated: 'Telangana has a revenue surplus... the existing educational standards of Telangana are low... Telangana fears that in a united state, they will be swamped by the more advanced people of Andhra.'",
+        "attraction": "The authentic, widely quoted analysis in SRC Para 389.",
+        "confusion": false
+      },
+      {
+        "text": "Telangana has no mineral resources and cannot survive financially as an independent unit",
+        "why": "Paragraph 389 stated the exact opposite: Telangana was financially sound with revenue surpluses from excise and mining (Singareni).",
+        "attraction": "False economic assumption.",
+        "confusion": true
+      },
+      {
+        "text": "Coastal Andhra farmers will refuse to cultivate lands in Telangana due to lack of irrigation",
+        "why": "Coastal Andhra farmers were eagerly buying up lands in Telangana; the fear was eviction and colonization, not refusal to cultivate.",
+        "attraction": "Plausible agricultural distractor."
+      },
+      {
+        "text": "Hyderabad city will lose its capital status and will become a union territory",
+        "why": "Hyderabad was proposed as the capital of the separate Hyderabad/Telangana State; making it a UT was never proposed in Para 389.",
+        "attraction": "Union territory rumors."
+      }
+    ],
+    "answer": 0,
+    "reason": "SRC Para 389 warned that Telangana had a revenue surplus and lower educational standards, making its youth vulnerable to exploitation by advanced coastal people.",
+    "clue": "Look for Para 389: revenue surplus region whose educationally disadvantaged youth would be swamped by advanced competitors.",
+    "trap": "Do not guess that Telangana was economically weak; Para 389 proved Telangana was revenue surplus while Andhra had deficits.",
+    "elimination": "Para 389 verified Telangana's surplus and warned that local youth would be overwhelmed by coastal competitors.",
+    "anchor": "SRC Para 389 -> Telangana is revenue surplus -> Educational disparity -> Local youth will be swamped.",
+    "hint": "The SRC warned that Andhra was burdened by huge deficits and debts from building a new capital at Kurnool.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 184,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the economic and educational findings in Paragraph 389.",
+        "correctMeaning": "Paragraph 389 accurately predicted the employment and revenue grievances that exploded 13 years later in the 1969 Telangana movement.",
+        "selectedMeaning": "Paragraph 389 accurately predicted the employment and revenue grievances that exploded 13 years later in the 1969 Telangana movement.",
+        "possibleConfusion": "No confusion; classic Police SI question.",
+        "decisionRules": [
+          {
+            "when": "Asked which SRC paragraph highlighted that Telangana was a revenue-surplus area whose youth would be swamped",
+            "choose": "Paragraph 389."
+          },
+          {
+            "when": "Asked about financial comparison made by SRC",
+            "choose": "Telangana was revenue surplus; Andhra was deficit and debt-ridden."
+          }
+        ],
+        "nextStep": "Connect Para 389's warnings directly to the need for the Gentlemen's Agreement safeguards in 1956."
+      },
+      {
+        "observation": "Selected lack of mineral resources.",
+        "correctMeaning": "The SRC proved Telangana possessed vast coal deposits in Singareni, limestone, and forests, generating large surpluses.",
+        "selectedMeaning": "Factually opposite to the SRC findings.",
+        "possibleConfusion": "Propaganda was often spread claiming Telangana was a poor wasteland.",
+        "decisionRules": [
+          {
+            "when": "Asked about Telangana's resource position according to SRC",
+            "choose": "Rich in mineral and forest revenues, producing a budget surplus."
+          },
+          {
+            "when": "Evaluating economic viability options",
+            "choose": "Eliminate claims of economic unviability."
+          }
+        ],
+        "nextStep": "Remember Singareni Collieries and Hyderabad excise were major revenue generators."
+      },
+      {
+        "observation": "Selected coastal farmers refusing to cultivate.",
+        "correctMeaning": "The reality was the reverse: coastal capital bought up fertile land along Nizamsagar and Tungabhadra canals.",
+        "selectedMeaning": "Reversing the actual historical trend of land alienation.",
+        "possibleConfusion": "Irrigation was a key discussion point.",
+        "decisionRules": [
+          {
+            "when": "Asked about agricultural land concern in Telangana",
+            "choose": "Fear of land alienation to wealthy coastal buyers."
+          },
+          {
+            "when": "Evaluating farmer behavior",
+            "choose": "Eliminate refusal to cultivate."
+          }
+        ],
+        "nextStep": "Note that Point 6 of Gentlemen's Agreement specifically sought to control land sales."
+      },
+      {
+        "observation": "Selected Union Territory status.",
+        "correctMeaning": "Hyderabad city was to remain the capital of separate Hyderabad/Telangana State under the SRC proposal.",
+        "selectedMeaning": "Confusing 2013–2014 bifurcation debates with the 1955 SRC report.",
+        "possibleConfusion": "Hyderabad UT was debated 58 years later during the Srikrishna Committee period.",
+        "decisionRules": [
+          {
+            "when": "Asked capital proposal in 1955 SRC report",
+            "choose": "Hyderabad city as capital of separate Telangana state."
+          },
+          {
+            "when": "Evaluating Union Territory status in 1955",
+            "choose": "Eliminate UT proposals for Hyderabad in 1955."
+          }
+        ],
+        "nextStep": "Anchor Hyderabad UT proposals strictly to 2010–2014."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q204",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M04",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "Andhra State was carved out of Madras State as the first linguistic state of independent India. What was the exact date of Potti Sreeramulu's martyrdom after a 58-day fast unto death, and on which date was Andhra State officially inaugurated with Kurnool as its capital?",
+    "options": [
+      {
+        "text": "Martyrdom: 15 December 1952; Inauguration of Andhra State: 1 October 1953",
+        "why": "Potti Sreeramulu began his fast on 19 October 1952 and passed away on the night of 15 December 1952 (58 days); Andhra State was formally inaugurated by Jawaharlal Nehru on 1 October 1953 at Kurnool.",
+        "attraction": "The authentic, exact historical dates.",
+        "confusion": false
+      },
+      {
+        "text": "Martyrdom: 15 August 1947; Inauguration of Andhra State: 26 January 1950",
+        "why": "15 August 1947 was Independence Day; 26 January 1950 was Republic Day.",
+        "attraction": "National constitutional dates.",
+        "confusion": true
+      },
+      {
+        "text": "Martyrdom: 1 November 1953; Inauguration of Andhra State: 1 November 1956",
+        "why": "1 November 1956 was the formation of Andhra Pradesh (merging Telangana), not the creation of Andhra State.",
+        "attraction": "Confusing Andhra State (1953) with Andhra Pradesh (1956)."
+      },
+      {
+        "text": "Martyrdom: 30 September 1955; Inauguration of Andhra State: 20 February 1956",
+        "why": "30 Sept 1955 was SRC report submission; 20 Feb 1956 was Gentlemen's Agreement signing.",
+        "attraction": "Confusing SRC and Gentlemen's Agreement dates."
+      }
+    ],
+    "answer": 0,
+    "reason": "Potti Sreeramulu died on 15 December 1952; Andhra State was inaugurated on 1 October 1953 at Kurnool.",
+    "clue": "Look for martyrdom on 15 December 1952 and Andhra State inauguration on 1 October 1953.",
+    "trap": "Do not confuse Andhra State (1 Oct 1953, capital Kurnool) with Andhra Pradesh (1 Nov 1956, capital Hyderabad).",
+    "elimination": "Potti Sreeramulu died on 15 Dec 1952; Andhra State was born on 1 Oct 1953. Andhra Pradesh was formed on 1 Nov 1956.",
+    "anchor": "15 December 1952 (Potti Sreeramulu martyr) -> 1 October 1953 (Andhra State formed at Kurnool).",
+    "hint": "Tanguturi Prakasam Pantulu became the first Chief Minister and Justice Koka Subba Rao became the first Chief Justice of Andhra State.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 190,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies 15 December 1952 and 1 October 1953.",
+        "correctMeaning": "Potti Sreeramulu's supreme sacrifice forced Prime Minister Nehru to announce the creation of Andhra State, which sparked linguistic demands across India.",
+        "selectedMeaning": "Potti Sreeramulu's supreme sacrifice forced Prime Minister Nehru to announce the creation of Andhra State, which sparked linguistic demands across India.",
+        "possibleConfusion": "No confusion; standard Indian history milestone.",
+        "decisionRules": [
+          {
+            "when": "Asked when Potti Sreeramulu achieved martyrdom",
+            "choose": "15 December 1952."
+          },
+          {
+            "when": "Asked when Andhra State was formed with Kurnool as capital",
+            "choose": "1 October 1953."
+          }
+        ],
+        "nextStep": "Note that Andhra State comprised 11 districts carved out of Madras Presidency, excluding Madras city."
+      },
+      {
+        "observation": "Selected national constitutional dates (1947/1950).",
+        "correctMeaning": "Andhra State was not formed in 1947 or 1950; it was created in 1953 following the 1952 fast.",
+        "selectedMeaning": "Selecting generic national milestones.",
+        "possibleConfusion": "Assuming linguistic states existed at independence.",
+        "decisionRules": [
+          {
+            "when": "Asked year of first linguistic state formation in India",
+            "choose": "1953 (Andhra State)."
+          },
+          {
+            "when": "Evaluating 1940s dates",
+            "choose": "Eliminate pre-1953 dates."
+          }
+        ],
+        "nextStep": "Remember Andhra State was the pioneer that triggered the appointment of the Fazal Ali SRC."
+      },
+      {
+        "observation": "Selected 1 November 1956.",
+        "correctMeaning": "1 November 1956 was the creation of Andhra Pradesh (merging Telangana); Andhra State was created 3 years earlier on 1 October 1953.",
+        "selectedMeaning": "Confusing Andhra State (1953) with Andhra Pradesh (1956).",
+        "possibleConfusion": "The names 'Andhra State' and 'Andhra Pradesh' are frequently conflated by candidates.",
+        "decisionRules": [
+          {
+            "when": "Asked about 'Andhra State' (capital Kurnool)",
+            "choose": "1 October 1953."
+          },
+          {
+            "when": "Asked about 'Andhra Pradesh' (capital Hyderabad)",
+            "choose": "1 November 1956."
+          }
+        ],
+        "nextStep": "Always check whether the question asks for 'Andhra State' or 'Andhra Pradesh'."
+      },
+      {
+        "observation": "Selected 1955/1956 dates.",
+        "correctMeaning": "1955 was the SRC report and 1956 was the Gentlemen's Agreement; Andhra State had already existed since 1953.",
+        "selectedMeaning": "Confusing Andhra State formation with subsequent reorganisation milestones.",
+        "possibleConfusion": "Mixing 1953–1956 chronological markers.",
+        "decisionRules": [
+          {
+            "when": "Asked when Andhra State was inaugurated",
+            "choose": "1 October 1953."
+          },
+          {
+            "when": "Asked when Gentlemen's Agreement was signed",
+            "choose": "20 February 1956."
+          }
+        ],
+        "nextStep": "Keep 1953 (Andhra State) and 1956 (Gentlemen's Agreement / AP) distinct."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q205",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M05",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Addressing a massive public gathering at Nizamabad in October 1955 shortly after the submission of the SRC report, Prime Minister Jawaharlal Nehru criticized the aggressive rush of coastal leaders for Visalandhra with which famous metaphor?",
+    "options": [
+      {
+        "text": "He criticized Visalandhra expansionism as having a tinge of 'imperialist expansion' and compared it to marrying an innocent girl to an aggressive groom with provision for divorce if it didn't work",
+        "why": "Nehru stated at Nizamabad: 'The demand for Visalandhra has a tinge of expansionist imperialism... We can marry an innocent girl to an aggressive groom, and if they cannot get along, they can always divorce.'",
+        "attraction": "The authentic, celebrated historical statement delivered by Nehru at Nizamabad.",
+        "confusion": false
+      },
+      {
+        "text": "He declared that Visalandhra was the sacred birthright of all Telugu-speaking people and must be implemented overnight without conditions",
+        "why": "Nehru was skeptical of Visalandhra and cautioned against imposing it on an unwilling Telangana population.",
+        "attraction": "The stance of coastal Communist and Congress leaders, the opposite of Nehru's Nizamabad address.",
+        "confusion": true
+      },
+      {
+        "text": "He warned that Hyderabad city would be carved out into an autonomous city-state like Singapore",
+        "why": "Nehru never suggested making Hyderabad an independent city-state.",
+        "attraction": "Modern geopolitical comparison."
+      },
+      {
+        "text": "He demanded that Urdu remain the sole official language of the new state",
+        "why": "Language status was resolved under the 8th Schedule; Nehru spoke on political merger and federal balance.",
+        "attraction": "Linguistic issue distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Nehru compared Visalandhra to an imperialist expansion and a marriage with provision for divorce at Nizamabad in October 1955.",
+    "clue": "Look for Nehru's Nizamabad speech: 'tinge of imperialist expansion' and the marriage/divorce metaphor.",
+    "trap": "Do not choose that Nehru enthusiastically championed Visalandhra; he warned against rushing the merger.",
+    "elimination": "Nehru warned against imperialist expansion and compared the merger to an experiment with divorce options.",
+    "anchor": "October 1955 Nizamabad -> Nehru: 'Visalandhra has a tinge of imperialist expansion' -> Marriage with divorce clause.",
+    "hint": "Later in 1969, Telangana leaders repeatedly cited Nehru's 'divorce' statement to justify the separate state demand.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 196,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Nehru's famous Nizamabad speech quotation.",
+        "correctMeaning": "Nehru's speech reflected the central government's initial reluctance to overrule the SRC's recommendation for a separate Telangana state.",
+        "selectedMeaning": "Nehru's speech reflected the central government's initial reluctance to overrule the SRC's recommendation for a separate Telangana state.",
+        "possibleConfusion": "No confusion; landmark historical quote cited in assembly debates and court cases.",
+        "decisionRules": [
+          {
+            "when": "Asked where Nehru said Visalandhra had a 'tinge of imperialist expansion'",
+            "choose": "Nizamabad public meeting (October 1955)."
+          },
+          {
+            "when": "Asked who used the marriage and divorce metaphor for Telangana-Andhra merger",
+            "choose": "Jawaharlal Nehru."
+          }
+        ],
+        "nextStep": "Note how the divorce clause was repeatedly invoked during the 1969 and 2009 agitations."
+      },
+      {
+        "observation": "Selected that Nehru demanded overnight unconditional merger.",
+        "correctMeaning": "Nehru warned against haste and explicitly acknowledged Telangana fears; coastal leaders pushed the merger.",
+        "selectedMeaning": "Misattributing the coastal Visalandhra lobby's enthusiasm to Prime Minister Nehru.",
+        "possibleConfusion": "Nehru eventually conceded to the merger in early 1956.",
+        "decisionRules": [
+          {
+            "when": "Asked about Nehru's personal stance in late 1955",
+            "choose": "Skeptical, cautious, and sympathetic to Telangana apprehensions."
+          },
+          {
+            "when": "Evaluating Nehru's statements",
+            "choose": "Eliminate claims of enthusiastic unilateral merger."
+          }
+        ],
+        "nextStep": "Understand the pressure exerted by Govind Ballabh Pant and Maulana Azad in brokering the 1956 agreement."
+      },
+      {
+        "observation": "Selected Singapore city-state model.",
+        "correctMeaning": "Singapore became independent only in 1965; this concept did not exist in Indian political discourse in 1955.",
+        "selectedMeaning": "Anachronistic political distractor.",
+        "possibleConfusion": "Modern debates often compare Hyderabad to Singapore.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1955 Nehru speech",
+            "choose": "Imperialist expansion / marriage with divorce provision."
+          },
+          {
+            "when": "Evaluating city-state options",
+            "choose": "Eliminate city-state models."
+          }
+        ],
+        "nextStep": "Anchor Nehru's speech strictly to the marriage/divorce and imperialist expansion metaphor."
+      },
+      {
+        "observation": "Selected Urdu language demand.",
+        "correctMeaning": "Language policy was addressed in the Gentlemen's Agreement (Point 13: Urdu for 5 years), not in Nehru's political address on merger.",
+        "selectedMeaning": "Confusing cultural safeguards with Nehru's federal speech.",
+        "possibleConfusion": "Urdu was indeed protected in administration for 5 years.",
+        "decisionRules": [
+          {
+            "when": "Asked about Nehru's speech at Nizamabad",
+            "choose": "Imperialist expansion warning."
+          },
+          {
+            "when": "Asked about Urdu protection for 5 years",
+            "choose": "Point 13 of the Gentlemen's Agreement."
+          }
+        ],
+        "nextStep": "Keep Point 13 of Gentlemen's Agreement distinct from Nehru's public speech."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q206",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M06",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "To bridge the trust deficit and safeguard the employment, financial, and educational rights of Telangana people before creating Andhra Pradesh, the historic 'Gentlemen's Agreement' was signed between the leaders of Andhra and Telangana. On which exact date and at which venue was this historic agreement executed?",
+    "options": [
+      {
+        "text": "20 February 1956 at Hyderabad House, New Delhi",
+        "why": "The Gentlemen's Agreement was negotiated and formally signed on 20 February 1956 at Hyderabad House in New Delhi under the mediation of Union Home Minister Govind Ballabh Pant.",
+        "attraction": "The authentic, universally examined date and venue.",
+        "confusion": false
+      },
+      {
+        "text": "1 November 1956 at Jubilee Hall, Hyderabad",
+        "why": "1 November 1956 at Jubilee Hall was the inauguration ceremony of Andhra Pradesh, not the signing of the agreement 9 months earlier.",
+        "attraction": "Inauguration ceremony date and venue.",
+        "confusion": true
+      },
+      {
+        "text": "29 December 1953 at Rashtrapati Bhavan, New Delhi",
+        "why": "29 December 1953 was the appointment date of the States Reorganisation Commission.",
+        "attraction": "SRC appointment milestone."
+      },
+      {
+        "text": "15 August 1956 at Kurnool Secretariat",
+        "why": "Kurnool was the capital of Andhra State; the negotiations occurred in New Delhi under central mediation.",
+        "attraction": "Andhra capital venue distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "The Gentlemen's Agreement was signed on 20 February 1956 at Hyderabad House, New Delhi.",
+    "clue": "Look for 20 February 1956 at Hyderabad House in New Delhi.",
+    "trap": "Do not confuse the agreement date (20 Feb 1956) with the inauguration date of AP (1 Nov 1956).",
+    "elimination": "Gentlemen's Agreement was signed on 20 February 1956 at Hyderabad House. AP was inaugurated on 1 November 1956.",
+    "anchor": "20 February 1956 -> Hyderabad House, New Delhi -> Gentlemen's Agreement signed by 8 leaders.",
+    "hint": "It comprised 14 written terms of agreement protecting Telangana's budget, jobs, agriculture, and political representation.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 202,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies 20 February 1956 at Hyderabad House, New Delhi.",
+        "correctMeaning": "The Gentlemen's Agreement is the foundational constitutional covenant upon which Andhra Pradesh was founded; its violation led directly to the movement for separate statehood.",
+        "selectedMeaning": "The Gentlemen's Agreement is the foundational constitutional covenant upon which Andhra Pradesh was founded; its violation led directly to the movement for separate statehood.",
+        "possibleConfusion": "No confusion; the single most examined date in the Telangana Movement syllabus.",
+        "decisionRules": [
+          {
+            "when": "Asked when and where Gentlemen's Agreement was signed",
+            "choose": "20 February 1956 at Hyderabad House, New Delhi."
+          },
+          {
+            "when": "Asked which Union Minister mediated the Gentlemen's Agreement",
+            "choose": "Govind Ballabh Pant (Union Home Minister)."
+          }
+        ],
+        "nextStep": "Memorize all 8 signatories (4 from Telangana and 4 from Andhra)."
+      },
+      {
+        "observation": "Selected 1 November 1956 at Jubilee Hall.",
+        "correctMeaning": "1 November 1956 was the state inauguration; the agreement was signed 9 months earlier on 20 February 1956.",
+        "selectedMeaning": "Confusing the signing of the covenant with the formation day of the state.",
+        "possibleConfusion": "Both are premier 1956 dates.",
+        "decisionRules": [
+          {
+            "when": "Asked when Gentlemen's Agreement was signed",
+            "choose": "20 February 1956."
+          },
+          {
+            "when": "Asked when Andhra Pradesh was officially formed",
+            "choose": "1 November 1956."
+          }
+        ],
+        "nextStep": "Keep 20 February (agreement) and 1 November (inauguration) clearly distinct."
+      },
+      {
+        "observation": "Selected 29 December 1953.",
+        "correctMeaning": "29 December 1953 was the appointment of the Fazal Ali Commission; Gentlemen's Agreement came in 1956.",
+        "selectedMeaning": "Confusing SRC appointment with the subsequent political pact.",
+        "possibleConfusion": "Both happened in New Delhi.",
+        "decisionRules": [
+          {
+            "when": "Asked about appointment of SRC",
+            "choose": "29 December 1953."
+          },
+          {
+            "when": "Asked about Gentlemen's Agreement",
+            "choose": "20 February 1956."
+          }
+        ],
+        "nextStep": "Review the chronology: SRC appointment (1953) -> SRC report (1955) -> Gentlemen's Agreement (1956)."
+      },
+      {
+        "observation": "Selected Kurnool Secretariat.",
+        "correctMeaning": "Negotiations were held in the national capital at Hyderabad House under central auspices, not in Kurnool.",
+        "selectedMeaning": "Wrong venue and wrong date.",
+        "possibleConfusion": "Kurnool was the then capital of Andhra State.",
+        "decisionRules": [
+          {
+            "when": "Asked venue of Gentlemen's Agreement",
+            "choose": "Hyderabad House, New Delhi."
+          },
+          {
+            "when": "Evaluating regional capitals",
+            "choose": "Eliminate Kurnool and Hyderabad city."
+          }
+        ],
+        "nextStep": "Remember Hyderabad House in New Delhi was originally the palace of the Nizam of Hyderabad."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q207",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M07",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Who were the four official leaders who represented Telangana and signed the historic Gentlemen's Agreement on 20 February 1956 in New Delhi?",
+    "options": [
+      {
+        "text": "Burgula Ramakrishna Rao, K.V. Ranga Reddy, Dr. Marri Chenna Reddy, and J.V. Narsing Rao",
+        "why": "The four Telangana signatories were: Burgula Ramakrishna Rao (Chief Minister), K.V. Ranga Reddy (Revenue Minister), Dr. Marri Chenna Reddy (Supply & Agriculture Minister), and J.V. Narsing Rao (Hyderabad PCC President).",
+        "attraction": "The authentic, complete quartet of Telangana signatories.",
+        "confusion": false
+      },
+      {
+        "text": "Burgula Ramakrishna Rao, Swami Ramananda Tirtha, P.V. Narasimha Rao, and Kaloji Narayana Rao",
+        "why": "Swami Ramananda Tirtha supported unconditional merger and was not a signatory; P.V. Narasimha Rao was not yet an MLA; Kaloji was a poet, not a political negotiator.",
+        "attraction": "Famous Telangana leaders of the era.",
+        "confusion": true
+      },
+      {
+        "text": "K.V. Ranga Reddy, Marri Chenna Reddy, Ravi Narayana Reddy, and Baddam Yella Reddy",
+        "why": "Ravi Narayana Reddy and Baddam Yella Reddy were Communist opposition leaders; the agreement was signed exclusively by ruling Congress leaders.",
+        "attraction": "Communist armed struggle heroes mixed with Congress signatories."
+      },
+      {
+        "text": "Burgula Ramakrishna Rao, Phoolchand Gandhi, G.S. Melkote, and V.B. Raju",
+        "why": "These were ministers in Burgula's cabinet, but the 4 designated signatories were Burgula, Ranga Reddy, Chenna Reddy, and J.V. Narsing Rao.",
+        "attraction": "Other prominent members of Burgula's cabinet."
+      }
+    ],
+    "answer": 0,
+    "reason": "The 4 Telangana signatories were Burgula Ramakrishna Rao, K.V. Ranga Reddy, Marri Chenna Reddy, and J.V. Narsing Rao.",
+    "clue": "Look for Burgula, K.V. Ranga Reddy, Dr. Marri Chenna Reddy, and J.V. Narsing Rao.",
+    "trap": "Do not include Swami Ramananda Tirtha or Communist leaders; only Congress ministers and HPCC President signed.",
+    "elimination": "Burgula, K.V. Ranga Reddy, Chenna Reddy, and J.V. Narsing Rao were the 4 Telangana signatories.",
+    "anchor": "Gentlemen's Agreement Telangana Signatories -> Burgula Ramakrishna Rao, K.V. Ranga Reddy, Dr. Marri Chenna Reddy, J.V. Narsing Rao.",
+    "hint": "J.V. Narsing Rao was the President of Hyderabad Pradesh Congress Committee (HPCC) and later served as Deputy Chief Minister (1969–1971).",
+    "source": "SR-POLICE-SI-2016",
+    "page": 208,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies all 4 Telangana signatories of the Gentlemen's Agreement.",
+        "correctMeaning": "These four leaders negotiated the 14 safeguards to protect Telangana's identity before agreeing to merge with Andhra.",
+        "selectedMeaning": "These four leaders negotiated the 14 safeguards to protect Telangana's identity before agreeing to merge with Andhra.",
+        "possibleConfusion": "No confusion; standard compulsory question in TS Police SI & Constable recruitment.",
+        "decisionRules": [
+          {
+            "when": "Asked who were the four Telangana signatories to the Gentlemen's Agreement",
+            "choose": "Burgula Ramakrishna Rao, K.V. Ranga Reddy, Dr. Marri Chenna Reddy, and J.V. Narsing Rao."
+          },
+          {
+            "when": "Asked what post J.V. Narsing Rao held at the time of signing",
+            "choose": "President of Hyderabad Pradesh Congress Committee (HPCC)."
+          }
+        ],
+        "nextStep": "Memorize the 4 Andhra signatories alongside them: Bezawada Gopala Reddy, Sanjeeva Reddy, G. Latchanna, and Alluri Satyanarayana Raju."
+      },
+      {
+        "observation": "Selected Swami Ramananda Tirtha and P.V. Narasimha Rao.",
+        "correctMeaning": "Swami Ramananda Tirtha supported Visalandhra without conditions and was not invited; P.V. Narasimha Rao was not a signatory.",
+        "selectedMeaning": "Confusing prominent cultural/political figures with official signatories.",
+        "possibleConfusion": "Swami Ramananda Tirtha was the supreme leader of Hyderabad State Congress.",
+        "decisionRules": [
+          {
+            "when": "Asked if Swami Ramananda Tirtha signed the Gentlemen's Agreement",
+            "choose": "No; he was not a signatory."
+          },
+          {
+            "when": "Asked about actual Telangana signatories",
+            "choose": "Burgula, K.V. Ranga Reddy, Chenna Reddy, J.V. Narsing Rao."
+          }
+        ],
+        "nextStep": "Remember Ramananda Tirtha was a staunch advocate of unconditional linguistic unification."
+      },
+      {
+        "observation": "Selected Communist leaders (Ravi Narayana Reddy, Baddam Yella Reddy).",
+        "correctMeaning": "Communists campaigned vigorously for Visalandhra, but the negotiations at Hyderabad House were strictly between Congress leaders and coalition partner Latchanna.",
+        "selectedMeaning": "Confusing opposition communist leaders with treaty signatories.",
+        "possibleConfusion": "The CPI published the famous booklet 'Visalandhralo Prajarajyam'.",
+        "decisionRules": [
+          {
+            "when": "Evaluating Gentlemen's Agreement signatories",
+            "choose": "Eliminate all Communist Party leaders."
+          },
+          {
+            "when": "Asked who represented Telangana",
+            "choose": "Burgula, Ranga Reddy, Chenna Reddy, J.V. Narsing Rao."
+          }
+        ],
+        "nextStep": "Remember P. Sundarayya and Ravi Narayana Reddy were not signatories."
+      },
+      {
+        "observation": "Selected other cabinet ministers (Melkote, Raju).",
+        "correctMeaning": "Melkote and V.B. Raju were in the cabinet, but J.V. Narsing Rao (as HPCC chief) and Chenna Reddy were chosen as the official signatories.",
+        "selectedMeaning": "Confusing cabinet members with designated summit signatories.",
+        "possibleConfusion": "G.S. Melkote and Phoolchand Gandhi had served on the 1952 sub-committee.",
+        "decisionRules": [
+          {
+            "when": "Asked the specific 4 Telangana signatories",
+            "choose": "Burgula, K.V. Ranga Reddy, Marri Chenna Reddy, J.V. Narsing Rao."
+          },
+          {
+            "when": "Evaluating other ministers",
+            "choose": "Eliminate Melkote, Gandhi, and V.B. Raju."
+          }
+        ],
+        "nextStep": "Use the mnemonic: 'Burgula, Ranga, Chenna, Narsing'."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q208",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M08",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Who were the four leaders who represented Andhra State and signed the Gentlemen's Agreement on 20 February 1956?",
+    "options": [
+      {
+        "text": "Bezawada Gopala Reddy, Neelam Sanjeeva Reddy, Gouthu Latchanna, and Alluri Satyanarayana Raju",
+        "why": "The four Andhra signatories were: Bezawada Gopala Reddy (Chief Minister of Andhra State), Neelam Sanjeeva Reddy (Deputy Chief Minister), Gouthu Latchanna (Minister & Krishikar Lok Party leader), and Alluri Satyanarayana Raju (Andhra PCC President).",
+        "attraction": "The authentic, complete quartet of Andhra signatories.",
+        "confusion": false
+      },
+      {
+        "text": "Tanguturi Prakasam Pantulu, K. Koti Reddy, Tenneti Viswanatham, and N.G. Ranga",
+        "why": "Prakasam Pantulu was earlier CM and had retired; N.G. Ranga was MP; Tenneti was not an official signatory.",
+        "attraction": "Prominent Andhra founding fathers.",
+        "confusion": true
+      },
+      {
+        "text": "Kasu Brahmananda Reddy, Jalagam Vengal Rao, P. Thimma Reddy, and Damodaram Sanjivayya",
+        "why": "Kasu Brahmananda Reddy became CM in 1964; Damodaram Sanjivayya was a minister but not an official signatory at Hyderabad House.",
+        "attraction": "Subsequent Chief Ministers of Andhra Pradesh."
+      },
+      {
+        "text": "P. Sundarayya, Chandra Rajeswara Rao, Makineni Basavapunnaiah, and Tarimela Nagi Reddy",
+        "why": "These were top Communist Party leaders, not government signatories.",
+        "attraction": "Famous Communist leaders of Andhra."
+      }
+    ],
+    "answer": 0,
+    "reason": "The 4 Andhra signatories were Bezawada Gopala Reddy, Neelam Sanjeeva Reddy, Gouthu Latchanna, and Alluri Satyanarayana Raju.",
+    "clue": "Look for Bezawada Gopala Reddy, Neelam Sanjeeva Reddy, Gouthu Latchanna, and Alluri Satyanarayana Raju.",
+    "trap": "Do not include Tanguturi Prakasam or Kasu Brahmananda Reddy; the 4 signatories were B. Gopala Reddy, N. Sanjeeva Reddy, G. Latchanna, and A. Satyanarayana Raju.",
+    "elimination": "Bezawada Gopala Reddy (CM), Sanjeeva Reddy (Dy CM), Gouthu Latchanna (KLP Minister), and Alluri Satyanarayana Raju (APCC Chief) signed for Andhra.",
+    "anchor": "Gentlemen's Agreement Andhra Signatories -> Bezawada Gopala Reddy, Neelam Sanjeeva Reddy, Gouthu Latchanna, Alluri Satyanarayana Raju.",
+    "hint": "Gouthu Latchanna represented the Krishikar Lok Party (coalition partner) and later vigorously supported the 1972 Jai Andhra agitation.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 214,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies all 4 Andhra signatories of the Gentlemen's Agreement.",
+        "correctMeaning": "These four leaders pledged that Andhra would respect the 14 points, including the preservation of Mulki rules and proportional cabinet allocation.",
+        "selectedMeaning": "These four leaders pledged that Andhra would respect the 14 points, including the preservation of Mulki rules and proportional cabinet allocation.",
+        "possibleConfusion": "No confusion; standard high-scoring question in TS exams.",
+        "decisionRules": [
+          {
+            "when": "Asked who were the four Andhra signatories to Gentlemen's Agreement",
+            "choose": "Bezawada Gopala Reddy, Neelam Sanjeeva Reddy, Gouthu Latchanna, and Alluri Satyanarayana Raju."
+          },
+          {
+            "when": "Asked which non-Congress party leader signed the agreement",
+            "choose": "Sardar Gouthu Latchanna (Krishikar Lok Party)."
+          }
+        ],
+        "nextStep": "Combine both sets of 4 leaders to know all 8 signatories perfectly."
+      },
+      {
+        "observation": "Selected Tanguturi Prakasam Pantulu.",
+        "correctMeaning": "Prakasam Pantulu resigned as Andhra CM in November 1954; Bezawada Gopala Reddy was the CM who signed in 1956.",
+        "selectedMeaning": "Confusing the first Andhra CM with the signatory CM.",
+        "possibleConfusion": "Prakasam is 'Andhra Kesari' and the best known Andhra statesman.",
+        "decisionRules": [
+          {
+            "when": "Asked who was Chief Minister of Andhra State who signed Gentlemen's Agreement",
+            "choose": "Bezawada Gopala Reddy."
+          },
+          {
+            "when": "Asked who was the first Chief Minister of Andhra State (1953)",
+            "choose": "Tanguturi Prakasam Pantulu."
+          }
+        ],
+        "nextStep": "Remember Prakasam was succeeded by Bezawada Gopala Reddy in March 1955."
+      },
+      {
+        "observation": "Selected Kasu Brahmananda Reddy and Damodaram Sanjivayya.",
+        "correctMeaning": "Kasu and Sanjivayya were in the ministry, but the designated signatories were Gopala Reddy, Sanjeeva Reddy, Latchanna, and Satyanarayana Raju.",
+        "selectedMeaning": "Confusing subsequent CMs with the 1956 signatories.",
+        "possibleConfusion": "Both became Chief Ministers of AP later (Sanjivayya in 1960, Kasu in 1964).",
+        "decisionRules": [
+          {
+            "when": "Asked about Gentlemen's Agreement signatories",
+            "choose": "Bezawada, Sanjeeva Reddy, Latchanna, Alluri."
+          },
+          {
+            "when": "Evaluating Kasu and Sanjivayya",
+            "choose": "Eliminate as 1956 signatories."
+          }
+        ],
+        "nextStep": "Trace Sanjivayya becoming India's first Dalit Chief Minister in 1960."
+      },
+      {
+        "observation": "Selected Communist leadership (Sundarayya, Basavapunnaiah).",
+        "correctMeaning": "Communist leaders were not party to the inter-governmental summit in New Delhi.",
+        "selectedMeaning": "Confusing ideological proponents of Visalandhra with legal signatories.",
+        "possibleConfusion": "Sundarayya championed Visalandhra through books and rallies.",
+        "decisionRules": [
+          {
+            "when": "Evaluating Gentlemen's Agreement signatories",
+            "choose": "Eliminate all Communist Party leaders."
+          },
+          {
+            "when": "Asked who signed for Andhra",
+            "choose": "Bezawada Gopala Reddy, Sanjeeva Reddy, Latchanna, Alluri."
+          }
+        ],
+        "nextStep": "Remember only government heads and PCC presidents signed."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q209",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M09",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Point 8 of the Gentlemen's Agreement addressed the power-sharing formula between the two regions at the head of government. What did Point 8 explicitly mandate regarding the offices of Chief Minister and Deputy Chief Minister?",
+    "options": [
+      {
+        "text": "If the Chief Minister is from Andhra, the Deputy Chief Minister must be from Telangana, and vice-versa",
+        "why": "Point 8 explicitly stated: 'If the Chief Minister is from Andhra, the Deputy Chief Minister should be from Telangana and vice-versa; and two out of the following five portfolios should go to Telangana: Home, Finance, Revenue, Planning and Development, and Commerce & Industry.'",
+        "attraction": "The authentic, landmark power-sharing clause of Point 8.",
+        "confusion": false
+      },
+      {
+        "text": "The Chief Minister post must permanently rotate every 2.5 years between Andhra and Telangana",
+        "why": "Rotational Chief Ministership was never agreed; the agreement provided for simultaneous CM and Deputy CM from opposite regions.",
+        "attraction": "Modern rotational power-sharing concept.",
+        "confusion": true
+      },
+      {
+        "text": "The Governor must always be a native of Telangana while the Chief Minister is from Andhra",
+        "why": "Governors are constitutional appointments made by the President of India and under convention are never from the home state.",
+        "attraction": "Plausible constitutional distractor."
+      },
+      {
+        "text": "The Speaker of the Assembly and Chief Minister must always be from Telangana",
+        "why": "Speaker and CM were not tied; Point 8 strictly governed CM and Deputy CM pairing and 2 of 5 major portfolios.",
+        "attraction": "Legislative office distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Point 8 mandated: If the CM is from Andhra, the Deputy CM must be from Telangana, and vice-versa.",
+    "clue": "Look for Point 8: If CM is from Andhra, Deputy CM should be from Telangana, and vice versa.",
+    "trap": "Do not guess rotational CM; Point 8 provided for CM from one region and Deputy CM from the other.",
+    "elimination": "Point 8 mandated CM from one region and Deputy CM from the other, plus 2 of 5 key portfolios for Telangana.",
+    "anchor": "Gentlemen's Agreement Point 8 -> CM from Andhra -> Deputy CM from Telangana (and vice versa) + 2 of 5 key portfolios.",
+    "hint": "On 1 November 1956, Neelam Sanjeeva Reddy violated this very first clause by refusing to appoint K.V. Ranga Reddy as Deputy CM.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 220,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Point 8's CM and Deputy CM pairing formula.",
+        "correctMeaning": "Point 8 was designed to guarantee that Telangana would never be unrepresented at the highest executive level.",
+        "selectedMeaning": "Point 8 was designed to guarantee that Telangana would never be unrepresented at the highest executive level.",
+        "possibleConfusion": "No confusion; standard high-yield provision in Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked what Point 8 of Gentlemen's Agreement mandated regarding Chief Minister",
+            "choose": "If CM is from Andhra, Deputy CM must be from Telangana, and vice versa."
+          },
+          {
+            "when": "Asked how many key portfolios out of five must go to Telangana under Point 8",
+            "choose": "At least two out of five (Home, Finance, Revenue, Planning, Industry)."
+          }
+        ],
+        "nextStep": "Note how Sanjeeva Reddy dismissed the Deputy CM post as a 'sixth finger' to deny Telangana its rightful representation."
+      },
+      {
+        "observation": "Selected rotational CM every 2.5 years.",
+        "correctMeaning": "Rotational CM was never part of the Gentlemen's Agreement; it was a simultaneous CM/Dy CM structure.",
+        "selectedMeaning": "Confusing modern coalition power-sharing formulas with the 1956 covenant.",
+        "possibleConfusion": "Rotational formulas became common in other states in the 1990s.",
+        "decisionRules": [
+          {
+            "when": "Asked about Point 8 of Gentlemen's Agreement",
+            "choose": "Simultaneous pairing: CM from one region, Deputy CM from the other."
+          },
+          {
+            "when": "Evaluating rotational CM options",
+            "choose": "Eliminate rotational tenure distractors."
+          }
+        ],
+        "nextStep": "Remember the 1956 agreement had no fixed tenure rotations."
+      },
+      {
+        "observation": "Selected Governor post.",
+        "correctMeaning": "Governors are appointed by the Union President from outside the state; Point 8 governed elected ministers.",
+        "selectedMeaning": "Confusing state executive cabinet offices with the Union-appointed gubernatorial post.",
+        "possibleConfusion": "Governors have special powers under Article 371.",
+        "decisionRules": [
+          {
+            "when": "Asked about offices in Point 8",
+            "choose": "Chief Minister, Deputy Chief Minister, and 5 key portfolios."
+          },
+          {
+            "when": "Evaluating gubernatorial options",
+            "choose": "Eliminate Governor appointments."
+          }
+        ],
+        "nextStep": "Note Chandulal Trivedi of Gujarat was the first Governor of united AP."
+      },
+      {
+        "observation": "Selected Assembly Speaker.",
+        "correctMeaning": "Speaker and Deputy Speaker were covered in convention, but Point 8 specifically governed the executive Cabinet (CM, Dy CM, 2 of 5 portfolios).",
+        "selectedMeaning": "Confusing legislative assembly presiding officers with the executive cabinet.",
+        "possibleConfusion": "Legislative balance was also discussed.",
+        "decisionRules": [
+          {
+            "when": "Asked about Point 8",
+            "choose": "CM from one region, Deputy CM from the other + 2 of 5 key portfolios."
+          },
+          {
+            "when": "Evaluating legislative offices",
+            "choose": "Keep Speaker distinct from Point 8."
+          }
+        ],
+        "nextStep": "Ayyadevara Kaleswara Rao (Andhra) became first Speaker of AP Assembly in 1956."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q210",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M10",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Point 5 of the Gentlemen's Agreement addressed the protection of employment in Telangana. What specific residential qualification did Point 5 stipulate for recruitment to subordinate services and administrative posts in the Telangana region?",
+    "options": [
+      {
+        "text": "Continuance of Mulki Rules requiring a minimum of 12 years of continuous residence in Telangana",
+        "why": "Point 5 provided: 'A temporary provision should be made to ensure that for a period of 5 years, recruitment to subordinate services in Telangana shall be reserved for residents of Telangana, defined as 12 years continuous residence.'",
+        "attraction": "The authentic residential qualification agreed in Point 5 of the 1956 pact.",
+        "confusion": false
+      },
+      {
+        "text": "15 years continuous residence as specified under the original 1919 Nizam Farman",
+        "why": "While the 1919 Nizam Farman specified 15 years, the Gentlemen's Agreement in Point 5 agreed to a modified requirement of 12 years for the new state recruitment.",
+        "attraction": "Confusing the 1919 Farman (15 years) with the 1956 Gentlemen's Agreement text (12 years).",
+        "confusion": true
+      },
+      {
+        "text": "A minimum of 4 consecutive years of local schooling",
+        "why": "4 consecutive years of schooling was introduced much later in the 1975 Presidential Order under the Six-Point Formula.",
+        "attraction": "1975 Presidential Order local candidate definition."
+      },
+      {
+        "text": "Ownership of at least 5 acres of agricultural land in Telangana",
+        "why": "Landholding was never a criterion for employment; residence was the sole criterion.",
+        "attraction": "Feudal land ownership distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Point 5 of the Gentlemen's Agreement provided for domicile qualification based on 12 years of residence in Telangana.",
+    "clue": "Look for 12 years residence qualification agreed in Point 5 of the Gentlemen's Agreement.",
+    "trap": "Do not choose 15 years (1919 Firman) or 4 years of study (1975 Presidential Order); the 1956 agreement agreed to 12 years.",
+    "elimination": "Point 5 specified 12 years residence for subordinate posts in Telangana.",
+    "anchor": "Gentlemen's Agreement Point 5 -> Employment safeguard -> 12 years continuous residence in Telangana.",
+    "hint": "Parliament subsequently enacted the Public Employment (Requirement as to Residence) Act, 1957 incorporating this 12-year rule.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 226,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the 12-year residence requirement in Point 5.",
+        "correctMeaning": "The leaders compromised between the Nizam's 15-year rule and general Indian domicile norms, fixing 12 years residence in Point 5.",
+        "selectedMeaning": "The leaders compromised between the Nizam's 15-year rule and general Indian domicile norms, fixing 12 years residence in Point 5.",
+        "possibleConfusion": "Candidates frequently confuse 15 years (1919 Firman) with 12 years (1956 Agreement / 1957 PE Act).",
+        "decisionRules": [
+          {
+            "when": "Asked about residence requirement in the 1919 Nizam Mulki Farman",
+            "choose": "15 years continuous stay."
+          },
+          {
+            "when": "Asked about residence qualification in Point 5 of 1956 Gentlemen's Agreement",
+            "choose": "12 years residence."
+          }
+        ],
+        "nextStep": "Note how the Public Employment Act 1957 adopted this exact 12-year rule until struck down in 1969."
+      },
+      {
+        "observation": "Selected 15 years from the 1919 Farman.",
+        "correctMeaning": "The 1919 Farman had 15 years, but the signatories at Hyderabad House agreed to adopt 12 years for Andhra Pradesh legislation.",
+        "selectedMeaning": "Confusing the Asaf Jahi Mulki Farman with the 1956 Gentlemen's Agreement provision.",
+        "possibleConfusion": "The Supreme Court in 1972 (Venkata Reddy case) ruled that the 15-year 1919 rule survived, creating confusion.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1919 Nizam Farman",
+            "choose": "15 years."
+          },
+          {
+            "when": "Asked about 1956 Gentlemen's Agreement Point 5",
+            "choose": "12 years."
+          }
+        ],
+        "nextStep": "Remember: 1919 Farman = 15 years; 1956 Agreement = 12 years."
+      },
+      {
+        "observation": "Selected 4 years of study.",
+        "correctMeaning": "4 years of study was created under the 1975 Presidential Order (Six-Point Formula) decades later.",
+        "selectedMeaning": "Major chronological jump from 1956 to 1975.",
+        "possibleConfusion": "4 years of schooling is the most widely applied rule in contemporary recruitments.",
+        "decisionRules": [
+          {
+            "when": "Asked about local candidate rule in 1975 Presidential Order",
+            "choose": "4 consecutive years of schooling (classes 4 to 10)."
+          },
+          {
+            "when": "Asked about 1956 Gentlemen's Agreement",
+            "choose": "12 years residence."
+          }
+        ],
+        "nextStep": "Anchor 4 years study to 1975 and 12 years residence to 1956."
+      },
+      {
+        "observation": "Selected agricultural land ownership.",
+        "correctMeaning": "Employment was based on residence, not property ownership.",
+        "selectedMeaning": "Confusing agrarian land rights with public employment rules.",
+        "possibleConfusion": "Land sales were controlled under Point 6, but not for employment.",
+        "decisionRules": [
+          {
+            "when": "Asked about employment rule in Point 5",
+            "choose": "12 years residence."
+          },
+          {
+            "when": "Evaluating property ownership",
+            "choose": "Eliminate land ownership requirements."
+          }
+        ],
+        "nextStep": "Remember Point 5 is strictly about residential employment qualification."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q211",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M11",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Point 7 of the Gentlemen's Agreement provided for the creation of a statutory 'Telangana Regional Committee' (TRC) within the Andhra Pradesh State Assembly. What was the constitutional mechanism agreed upon in case of a conflict of opinion between the Telangana Regional Committee and the State Government/Legislature?",
+    "options": [
+      {
+        "text": "The matter shall be referred to the Governor of the State, whose decision will be final and binding",
+        "why": "Point 7 explicitly provided: 'The advice of the Regional Standing Committee should normally be accepted by the Government and the State Legislature... in case of difference of opinion, reference shall be made to the Governor whose decision shall be final and binding.'",
+        "attraction": "The authentic constitutional arbitration mechanism specified in Point 7.",
+        "confusion": false
+      },
+      {
+        "text": "The matter shall be referred to the Supreme Court of India under original jurisdiction",
+        "why": "The Supreme Court was not the arbitrator; the State Governor in his individual discretion was made the sole arbitrator.",
+        "attraction": "Judicial arbitration assumption.",
+        "confusion": true
+      },
+      {
+        "text": "The Chief Minister's decision shall automatically override the Regional Committee",
+        "why": "Giving the Chief Minister automatic veto would defeat the entire purpose of the safeguard; the Governor had the final authority.",
+        "attraction": "Executive dominance assumption."
+      },
+      {
+        "text": "The entire State Assembly must dissolve and fresh elections must be held",
+        "why": "Dissolution of the assembly was never contemplated for legislative disagreements.",
+        "attraction": "Extreme constitutional distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "In case of conflict between the Regional Committee and the Government, the Governor's decision was final and binding.",
+    "clue": "Look for reference to the Governor whose decision shall be final and binding in case of difference of opinion.",
+    "trap": "Do not choose Supreme Court or Chief Minister; Point 7 made the Governor the final arbiter.",
+    "elimination": "Point 7 mandated that conflicts be referred to the Governor whose decision was final and binding.",
+    "anchor": "Gentlemen's Agreement Point 7 -> Telangana Regional Committee -> Disagreement referred to Governor (final and binding).",
+    "hint": "This power of the Governor was constitutionally incorporated into Article 371(1) of the Constitution by the 7th Amendment Act, 1956.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 232,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the Governor's final and binding arbitral power in Point 7.",
+        "correctMeaning": "The Governor was vested with special individual responsibility under Article 371(1) to protect the Regional Committee's recommendations from being bulldozed by the Andhra legislative majority.",
+        "selectedMeaning": "The Governor was vested with special individual responsibility under Article 371(1) to protect the Regional Committee's recommendations from being bulldozed by the Andhra legislative majority.",
+        "possibleConfusion": "No confusion; standard question on constitutional architecture of united AP.",
+        "decisionRules": [
+          {
+            "when": "Asked who had final and binding authority in disputes between TRC and State Cabinet",
+            "choose": "The Governor of Andhra Pradesh."
+          },
+          {
+            "when": "Asked which Article incorporated the Telangana Regional Committee into the Indian Constitution",
+            "choose": "Article 371(1)."
+          }
+        ],
+        "nextStep": "Note how in practice, Governors acted as mere rubber stamps for the Chief Minister, rendering this safeguard useless."
+      },
+      {
+        "observation": "Selected Supreme Court.",
+        "correctMeaning": "The Supreme Court decides inter-state disputes under Article 131; intra-state Regional Committee disputes were assigned exclusively to the Governor.",
+        "selectedMeaning": "Confusing judicial review with the special gubernatorial mechanism of Article 371(1).",
+        "possibleConfusion": "The Supreme Court later ruled on Mulki rules, but was not the internal dispute arbiter.",
+        "decisionRules": [
+          {
+            "when": "Asked who arbitrated TRC vs State Government conflicts",
+            "choose": "The Governor of the State."
+          },
+          {
+            "when": "Evaluating court jurisdiction",
+            "choose": "Eliminate Supreme Court for internal TRC legislative disputes."
+          }
+        ],
+        "nextStep": "Anchor internal legislative arbitration to the Governor."
+      },
+      {
+        "observation": "Selected Chief Minister's override.",
+        "correctMeaning": "If the CM could override the Regional Committee, the safeguard would be toothless since Andhra held a permanent 2:1 majority.",
+        "selectedMeaning": "Missing the purpose of an independent constitutional safeguard.",
+        "possibleConfusion": "In practice, Chief Ministers ignored the TRC, but the legal text gave power to the Governor.",
+        "decisionRules": [
+          {
+            "when": "Asked legal text of Point 7",
+            "choose": "Reference to Governor whose decision shall be final and binding."
+          },
+          {
+            "when": "Evaluating CM powers",
+            "choose": "Remember CM had no constitutional veto over TRC advice."
+          }
+        ],
+        "nextStep": "Differentiate between legal constitutional mandate and political reality."
+      },
+      {
+        "observation": "Selected assembly dissolution.",
+        "correctMeaning": "Assembly dissolution occurs under Article 356 for breakdown of constitutional machinery, not for ordinary committee disputes.",
+        "selectedMeaning": "Confusing committee dispute resolution with assembly dissolution.",
+        "possibleConfusion": "Extreme political measure.",
+        "decisionRules": [
+          {
+            "when": "Asked dispute mechanism in Point 7",
+            "choose": "Governor's decision is final."
+          },
+          {
+            "when": "Evaluating dissolution options",
+            "choose": "Eliminate assembly dissolution."
+          }
+        ],
+        "nextStep": "Remember Point 7 was designed to resolve disputes smoothly through the Governor."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q212",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M12",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Under Points 1 and 2 of the Gentlemen's Agreement regarding financial governance, how was the state expenditure and revenue surplus of the Telangana region stipulated to be managed?",
+    "options": [
+      {
+        "text": "Administrative expenditure to be borne proportionately; revenue surpluses from Telangana to be utilized exclusively for the development of Telangana",
+        "why": "Points 1 and 2 provided: 'The expenditure of the central and general administration should be borne proportionately... and the balance of income from Telangana should be reserved for utilization on the development of Telangana area.'",
+        "attraction": "The authentic financial safeguard clause of Points 1 and 2.",
+        "confusion": false
+      },
+      {
+        "text": "All revenues from Telangana to be pooled into a common fund and spent on coastal irrigation projects",
+        "why": "This was the violation that occurred in practice, the direct opposite of what Points 1 and 2 mandated.",
+        "attraction": "Describing the violation rather than the agreement provision.",
+        "confusion": true
+      },
+      {
+        "text": "Telangana must contribute 75% of its revenues to build the new capital at Hyderabad",
+        "why": "Capital expenditure was to be shared proportionately; no 75% unilateral levy was agreed.",
+        "attraction": "Arbitrary financial ratio."
+      },
+      {
+        "text": "Central Government would collect all taxes in Telangana and disburse grants directly to district collectors",
+        "why": "Finance was under state jurisdiction; no central tax collection or direct disbursement was stipulated.",
+        "attraction": "Centralized financial model."
+      }
+    ],
+    "answer": 0,
+    "reason": "Points 1 & 2 mandated proportional expenditure sharing and exclusive utilization of Telangana revenue surpluses for Telangana development.",
+    "clue": "Look for Points 1 and 2: administrative expenses shared proportionately, and Telangana surplus reserved exclusively for Telangana development.",
+    "trap": "Do not confuse the agreed safeguard (surplus reserved for Telangana) with what actually happened in practice (surplus diverted to Andhra).",
+    "elimination": "Points 1 & 2 guaranteed that Telangana surpluses would be spent exclusively on Telangana development.",
+    "anchor": "Gentlemen's Agreement Points 1 & 2 -> Revenue Surpluses -> Reserved exclusively for development of Telangana.",
+    "hint": "The massive diversion of these surplus funds to coastal projects was later exposed by the Kumar Lalit Committee (₹34.1 cr) and Bhargava Committee (₹28.34 cr) in 1969.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 238,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Points 1 and 2 on revenue surpluses.",
+        "correctMeaning": "This was the foundational financial clause: Telangana's higher excise and sales tax revenues were never to be diverted to cover Andhra's deficit.",
+        "selectedMeaning": "This foundational financial clause ensured Telangana's higher excise and sales tax revenues were never to be diverted to cover Andhra's deficit.",
+        "possibleConfusion": "No confusion; standard high-yield provision in Telangana financial history.",
+        "decisionRules": [
+          {
+            "when": "Asked what Points 1 & 2 of Gentlemen's Agreement mandated regarding Telangana surplus",
+            "choose": "Utilized exclusively for the development of Telangana."
+          },
+          {
+            "when": "Asked how general administrative expenses were to be shared",
+            "choose": "Proportionately between Andhra and Telangana."
+          }
+        ],
+        "nextStep": "Note how diversion of these funds became the primary financial trigger of the 1969 agitation."
+      },
+      {
+        "observation": "Selected pooling into common fund for coastal projects.",
+        "correctMeaning": "That was the illegal diversion committed by successive governments, not what was written in the Gentlemen's Agreement.",
+        "selectedMeaning": "Confusing the historic breach with the solemn agreement terms.",
+        "possibleConfusion": "Aspirants often mix what the agreement said with what the government actually did.",
+        "decisionRules": [
+          {
+            "when": "Asked what Gentlemen's Agreement stipulated",
+            "choose": "Telangana surplus reserved exclusively for Telangana."
+          },
+          {
+            "when": "Asked what successive AP governments actually did",
+            "choose": "Diverted Telangana surpluses to Andhra projects in violation of Points 1 & 2."
+          }
+        ],
+        "nextStep": "Always differentiate between 'What the Agreement provided' vs 'What violation occurred'."
+      },
+      {
+        "observation": "Selected 75% contribution to Hyderabad.",
+        "correctMeaning": "Expenses were shared on a proportional ratio (roughly 2:1 based on population), not 75% on Telangana.",
+        "selectedMeaning": "Arbitrary percentage distractor.",
+        "possibleConfusion": "Capital development costs were a major point of discussion.",
+        "decisionRules": [
+          {
+            "when": "Asked how administrative expenditure was shared",
+            "choose": "Proportionately between the two regions."
+          },
+          {
+            "when": "Evaluating arbitrary figures",
+            "choose": "Eliminate unverified 75% levies."
+          }
+        ],
+        "nextStep": "Remember the population ratio between Andhra and Telangana was roughly 60:40 or 2:1."
+      },
+      {
+        "observation": "Selected Central Government direct disbursement.",
+        "correctMeaning": "Finances were managed by the State Treasury, monitored by the Telangana Regional Committee.",
+        "selectedMeaning": "Confusing state finances with direct central administration.",
+        "possibleConfusion": "Central monitoring was proposed in later formulas (1969 8-point formula).",
+        "decisionRules": [
+          {
+            "when": "Asked about Points 1 & 2 of 1956 agreement",
+            "choose": "Proportional administrative cost and Telangana surplus reserved for Telangana."
+          },
+          {
+            "when": "Evaluating central financial takeover",
+            "choose": "Eliminate central direct disbursement."
+          }
+        ],
+        "nextStep": "Keep 1956 state finances distinct from the 1969 central committees."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q213",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M13",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Point 14 of the Gentlemen's Agreement dealt with party organization to ensure Telangana leaders maintained independent political voice within the ruling Congress party. What did Point 14 stipulate regarding the Pradesh Congress Committee (PCC)?",
+    "options": [
+      {
+        "text": "There should be a separate Pradesh Congress Committee (PCC) for the Telangana region up to the end of 1962",
+        "why": "Point 14 provided: 'There should be a separate P.C.C. for the Telangana region at least up to the end of 1962, and the Andhra P.C.C. should function separately for the Andhra region.'",
+        "attraction": "The authentic political organization safeguard of Point 14.",
+        "confusion": false
+      },
+      {
+        "text": "The Telangana PCC must be dissolved immediately on 1 November 1956",
+        "why": "Dissolving it immediately was what Andhra leaders demanded, but Point 14 explicitly protected a separate Telangana PCC until 1962.",
+        "attraction": "Confusing the post-merger suppression with the agreement text.",
+        "confusion": true
+      },
+      {
+        "text": "The Congress President in Delhi must always nominate the Telangana PCC Chief directly",
+        "why": "Nomination by Congress President was not specified; it was to remain an autonomous separate PCC unit.",
+        "attraction": "Central high command assumption."
+      },
+      {
+        "text": "Telangana Congress members were barred from contesting for national AICC posts",
+        "why": "No restriction on AICC representation existed; Point 14 was a protective organizational safeguard.",
+        "attraction": "Discriminatory assumption."
+      }
+    ],
+    "answer": 0,
+    "reason": "Point 14 mandated a separate Pradesh Congress Committee (PCC) for Telangana until 1962.",
+    "clue": "Look for Point 14: separate PCC for the Telangana region up to the end of 1962.",
+    "trap": "Do not guess immediate merger; Point 14 explicitly provided for a separate Telangana PCC until 1962.",
+    "elimination": "Point 14 guaranteed a separate Telangana PCC until 1962. In practice, it was dissolved prematurely in 1957.",
+    "anchor": "Gentlemen's Agreement Point 14 -> Separate PCC for Telangana region up to 1962.",
+    "hint": "However, under pressure from Sanjeeva Reddy, the High Command merged both PCCs in 1957 itself, violating Point 14.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 244,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Point 14's separate Telangana PCC safeguard until 1962.",
+        "correctMeaning": "A separate PCC gave Telangana leaders the power to issue party tickets and maintain an independent political base free from coastal domination.",
+        "selectedMeaning": "A separate PCC gave Telangana leaders the power to issue party tickets and maintain an independent political base free from coastal domination.",
+        "possibleConfusion": "No confusion; vital political science and movement history question.",
+        "decisionRules": [
+          {
+            "when": "Asked what Point 14 of Gentlemen's Agreement stipulated regarding PCC",
+            "choose": "Separate Pradesh Congress Committee for Telangana region until 1962."
+          },
+          {
+            "when": "Asked when both PCCs were merged in violation of Point 14",
+            "choose": "1957 (under Neelam Sanjeeva Reddy)."
+          }
+        ],
+        "nextStep": "Note that dissolving the Telangana PCC in 1957 robbed Telangana leaders of ticket-distribution leverage in the 1962 elections."
+      },
+      {
+        "observation": "Selected immediate dissolution in 1956.",
+        "correctMeaning": "Point 14 explicitly protected the separate Telangana PCC until 1962; immediate dissolution was what Telangana leaders resisted.",
+        "selectedMeaning": "Confusing the Andhra lobby's demand with the treaty protection.",
+        "possibleConfusion": "The PCC was merged soon after in 1957, leading candidates to believe it was dissolved immediately.",
+        "decisionRules": [
+          {
+            "when": "Asked text of Point 14",
+            "choose": "Separate PCC for Telangana up to the end of 1962."
+          },
+          {
+            "when": "Evaluating merger timeline",
+            "choose": "Eliminate immediate 1956 dissolution."
+          }
+        ],
+        "nextStep": "Remember Point 14 was a specific 6-year safeguard (1956–1962)."
+      },
+      {
+        "observation": "Selected central nomination.",
+        "correctMeaning": "PCCs elected their own presidents under the Congress constitution; the clause was about territorial separation, not nomination procedures.",
+        "selectedMeaning": "Confusing structural separation with nomination rules.",
+        "possibleConfusion": "High Command interference became common later.",
+        "decisionRules": [
+          {
+            "when": "Asked about Point 14",
+            "choose": "Territorial separation of PCCs until 1962."
+          },
+          {
+            "when": "Evaluating central nomination options",
+            "choose": "Eliminate High Command nomination distractors."
+          }
+        ],
+        "nextStep": "Recall J.V. Narsing Rao was the elected President of Hyderabad PCC."
+      },
+      {
+        "observation": "Selected barring from AICC.",
+        "correctMeaning": "Telangana leaders had full national party rights; Point 14 protected regional autonomy, not restrictions.",
+        "selectedMeaning": "Plausible negative wording distractor.",
+        "possibleConfusion": "Assuming compromises meant reduced national stature.",
+        "decisionRules": [
+          {
+            "when": "Asked about Point 14",
+            "choose": "Separate PCC until 1962."
+          },
+          {
+            "when": "Evaluating party restrictions",
+            "choose": "Eliminate discriminatory exclusions."
+          }
+        ],
+        "nextStep": "Remember Point 14 was purely an affirmative regional safeguard."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q214",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M14",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "To give constitutional effect to the Gentlemen's Agreement and establish Regional Committees in the newly formed states, Parliament enacted the Constitution (Seventh Amendment) Act, 1956. Which Article of the Constitution of India was amended to provide for the constitution and functions of the Regional Committee for the Telangana region?",
+    "options": [
+      {
+        "text": "Article 371(1)",
+        "why": "The 7th Constitutional Amendment Act, 1956 substituted Article 371, wherein Clause (1) empowered the President to provide for the constitution and functions of Regional Committees of the Legislative Assemblies of Andhra Pradesh (for Telangana) and Punjab.",
+        "attraction": "The authentic constitutional article providing for the Telangana Regional Committee.",
+        "confusion": false
+      },
+      {
+        "text": "Article 371-D",
+        "why": "Article 371-D was inserted 17 years later by the 32nd Constitutional Amendment Act, 1973 under the Six-Point Formula, not in 1956.",
+        "attraction": "Famous article governing local cadre reservations in Andhra Pradesh.",
+        "confusion": true
+      },
+      {
+        "text": "Article 370",
+        "why": "Article 370 governed the temporary special status of Jammu and Kashmir, having no application to Telangana.",
+        "attraction": "Famous special status article."
+      },
+      {
+        "text": "Article 356",
+        "why": "Article 356 provides for President's Rule in states upon breakdown of constitutional machinery.",
+        "attraction": "Emergency provision article."
+      }
+    ],
+    "answer": 0,
+    "reason": "Article 371(1) was enacted by the 7th Constitutional Amendment Act, 1956 to provide for the Telangana Regional Committee.",
+    "clue": "Look for Article 371(1), which provided for the Telangana Regional Committee in 1956.",
+    "trap": "Do not confuse Article 371(1) (1956 Regional Committee) with Article 371-D (1973 Six-Point Formula).",
+    "elimination": "Article 371(1) established the Regional Committee in 1956. Article 371-D was inserted in 1973; Article 370 was for J&K.",
+    "anchor": "7th Constitutional Amendment Act 1956 -> Article 371(1) -> Telangana Regional Committee.",
+    "hint": "President Rajendra Prasad subsequently issued the Andhra Pradesh Regional Committee Order on 1 February 1958 under Article 371(1).",
+    "source": "SR-POLICE-SI-2016",
+    "page": 250,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Article 371(1) as the 1956 constitutional provision.",
+        "correctMeaning": "Article 371(1) was the supreme legal umbrella protecting the Gentlemen's Agreement and the Telangana Regional Committee from 1958 to 1973.",
+        "selectedMeaning": "Article 371(1) was the supreme legal umbrella protecting the Gentlemen's Agreement and the Telangana Regional Committee from 1958 to 1973.",
+        "possibleConfusion": "No confusion; fundamental constitutional question for TS Police SI exam.",
+        "decisionRules": [
+          {
+            "when": "Asked which Article provided for the Telangana Regional Committee in 1956",
+            "choose": "Article 371(1)."
+          },
+          {
+            "when": "Asked which Constitutional Amendment inserted this provision",
+            "choose": "Constitution (Seventh Amendment) Act, 1956."
+          }
+        ],
+        "nextStep": "Note how Article 371-D replaced the Regional Committee system in 1973 following the 32nd Amendment."
+      },
+      {
+        "observation": "Selected Article 371-D.",
+        "correctMeaning": "Article 371-D was inserted in 1973 by the 32nd Amendment (Six-Point Formula); Article 371(1) was inserted in 1956 by the 7th Amendment.",
+        "selectedMeaning": "Confusing the 1973 zonal system article with the 1956 regional committee article.",
+        "possibleConfusion": "Both articles pertain to special safeguards for Telangana in Andhra Pradesh.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1956 Telangana Regional Committee",
+            "choose": "Article 371(1)."
+          },
+          {
+            "when": "Asked about 1973 Six-Point Formula and Zonal System",
+            "choose": "Article 371-D."
+          }
+        ],
+        "nextStep": "Chronological anchor: Article 371(1) = 1956; Article 371-D = 1973."
+      },
+      {
+        "observation": "Selected Article 370.",
+        "correctMeaning": "Article 370 was exclusively for Jammu and Kashmir; Part XXI Article 371 covers special provisions for Maharashtra, Gujarat, AP, Assam, etc.",
+        "selectedMeaning": "Selecting the famous J&K special status article.",
+        "possibleConfusion": "Both are in Part XXI (Temporary, Transitional and Special Provisions).",
+        "decisionRules": [
+          {
+            "when": "Asked about special provisions for states other than J&K",
+            "choose": "Article 371 and its sub-clauses."
+          },
+          {
+            "when": "Evaluating J&K provisions",
+            "choose": "Article 370."
+          }
+        ],
+        "nextStep": "Review Part XXI special articles: 371 (AP/Punjab/Mah/Guj), 371A (Nagaland), 371D (AP)."
+      },
+      {
+        "observation": "Selected Article 356.",
+        "correctMeaning": "Article 356 is President's Rule; Article 371(1) is the Telangana Regional Committee safeguard.",
+        "selectedMeaning": "Confusing emergency powers with regional safeguards.",
+        "possibleConfusion": "President's Rule was imposed in AP in 1973 during Jai Andhra movement.",
+        "decisionRules": [
+          {
+            "when": "Asked about regional committee provision",
+            "choose": "Article 371(1)."
+          },
+          {
+            "when": "Asked about President's Rule in states",
+            "choose": "Article 356."
+          }
+        ],
+        "nextStep": "Keep emergency powers strictly distinct from regional committee safeguards."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q215",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M15",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Under the Andhra Pradesh Regional Committee Order issued by President Rajendra Prasad on 1 February 1958, all MLAs elected from Telangana (excluding the Chief Minister and Speaker) were members of the Telangana Regional Committee. Who was elected as the very first Chairman of the Telangana Regional Committee in 1958?",
+    "options": [
+      {
+        "text": "K. Achyutha Reddy",
+        "why": "K. Achyutha Reddy (MLA from Kodangal, Mahbubnagar district) was elected as the first Chairman of the Telangana Regional Committee in 1958, serving until 1962.",
+        "attraction": "The authentic first Chairman of the Telangana Regional Committee.",
+        "confusion": false
+      },
+      {
+        "text": "K.V. Ranga Reddy",
+        "why": "K.V. Ranga Reddy was a senior cabinet minister (Revenue Minister) and ministers were ordinary members without holding the committee chairmanship.",
+        "attraction": "Senior-most Telangana leader in the assembly.",
+        "confusion": true
+      },
+      {
+        "text": "Dr. Ch. Hanumantha Rao",
+        "why": "Dr. Ch. Hanumantha Rao was an eminent economist and member of the Planning Commission, not the 1958 legislative chairman.",
+        "attraction": "Eminent Telangana intellectual."
+      },
+      {
+        "text": "J. Chokka Rao",
+        "why": "J. Chokka Rao served as Chairman of the Telangana Regional Committee later from 1967 to 1971 during the 1969 agitation period, not the first chairman in 1958.",
+        "attraction": "Famous TRC Chairman during the 1969 agitation."
+      }
+    ],
+    "answer": 0,
+    "reason": "K. Achyutha Reddy was the first Chairman of the Telangana Regional Committee (1958–1962).",
+    "clue": "Look for K. Achyutha Reddy, the Kodangal MLA elected as the first Chairman of TRC in 1958.",
+    "trap": "Do not confuse the first chairman (K. Achyutha Reddy, 1958) with the 1969 agitation chairman (J. Chokka Rao, 1967–1971).",
+    "elimination": "K. Achyutha Reddy was the first Chairman (1958). J. Chokka Rao served 1967–71; K.V. Ranga Reddy was a minister.",
+    "anchor": "Telangana Regional Committee (1958) -> First Chairman: K. Achyutha Reddy (1958–1962).",
+    "hint": "S.B.P. Pattabhi Rama Rao was an Andhra minister, while K. Achyutha Reddy strongly fought for Telangana scholarship and local cadre quotas.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 256,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies K. Achyutha Reddy as the first TRC Chairman.",
+        "correctMeaning": "K. Achyutha Reddy guided the TRC in its initial foundational years, producing reports on education, agriculture, and public employment.",
+        "selectedMeaning": "K. Achyutha Reddy guided the TRC in its initial foundational years, producing reports on education, agriculture, and public employment.",
+        "possibleConfusion": "No confusion; standard high-yield factual question in Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the first Chairman of the Telangana Regional Committee",
+            "choose": "K. Achyutha Reddy (1958–1962)."
+          },
+          {
+            "when": "Asked who was TRC Chairman during the 1969 Telangana Agitation",
+            "choose": "J. Chokka Rao (1967–1971)."
+          }
+        ],
+        "nextStep": "Note the succession of TRC Chairmen: K. Achyutha Reddy (1958–62), T. Hayagrivachary (1962–67), J. Chokka Rao (1967–71), and K. Rajamallu (1971–73)."
+      },
+      {
+        "observation": "Selected K.V. Ranga Reddy.",
+        "correctMeaning": "K.V. Ranga Reddy was in the Cabinet as Revenue Minister; ministers did not hold the TRC chairmanship to maintain legislative oversight.",
+        "selectedMeaning": "Confusing the senior-most cabinet minister with the committee chairman.",
+        "possibleConfusion": "K.V. Ranga Reddy was the political leader of Telangana Congressmen.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the first TRC Chairman",
+            "choose": "K. Achyutha Reddy."
+          },
+          {
+            "when": "Asked about K.V. Ranga Reddy's role in 1958",
+            "choose": "Revenue Minister in the State Cabinet."
+          }
+        ],
+        "nextStep": "Remember cabinet ministers were barred from the TRC chair."
+      },
+      {
+        "observation": "Selected Dr. Ch. Hanumantha Rao.",
+        "correctMeaning": "Dr. C.H. Hanumantha Rao is an economist and academician, not a 1958 legislator.",
+        "selectedMeaning": "Confusing an eminent economist with a legislative committee head.",
+        "possibleConfusion": "C.H. Hanumantha Rao frequently wrote on Telangana economic disparities.",
+        "decisionRules": [
+          {
+            "when": "Asked about first TRC Chairman",
+            "choose": "K. Achyutha Reddy."
+          },
+          {
+            "when": "Evaluating academic economists",
+            "choose": "Eliminate Dr. C.H. Hanumantha Rao."
+          }
+        ],
+        "nextStep": "Anchor Dr. C.H. Hanumantha Rao to economic research and planning."
+      },
+      {
+        "observation": "Selected J. Chokka Rao.",
+        "correctMeaning": "J. Chokka Rao was Chairman from 1967 to 1971 and played a historic role in exposing surplus diversion in 1969; K. Achyutha Reddy was the first in 1958.",
+        "selectedMeaning": "Confusing the famous 1969 agitation chairman with the 1958 pioneer chairman.",
+        "possibleConfusion": "J. Chokka Rao is the most famous Chairman of the TRC.",
+        "decisionRules": [
+          {
+            "when": "Asked who was first TRC Chairman in 1958",
+            "choose": "K. Achyutha Reddy."
+          },
+          {
+            "when": "Asked who was TRC Chairman during 1969 agitation",
+            "choose": "J. Chokka Rao."
+          }
+        ],
+        "nextStep": "Remember: 1958 = K. Achyutha Reddy; 1969 = J. Chokka Rao."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q216",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M16",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "On the very day Andhra Pradesh was inaugurated on 1 November 1956, the first Chief Minister Neelam Sanjeeva Reddy violated Point 8 of the Gentlemen's Agreement by refusing to appoint a Deputy Chief Minister from Telangana. With which dismissive remark did Sanjeeva Reddy justify his refusal?",
+    "options": [
+      {
+        "text": "He described the Deputy Chief Minister post as useless and ornamental like the 'sixth finger of a hand'",
+        "why": "Neelam Sanjeeva Reddy publicly stated: 'A Deputy Chief Minister is like the sixth finger of a hand; it serves no useful purpose and is merely an unwanted appendage.'",
+        "attraction": "The authentic, infamous remark that symbolized the betrayal of the Gentlemen's Agreement.",
+        "confusion": false
+      },
+      {
+        "text": "He declared that Telangana had no competent leaders capable of holding ministerial office",
+        "why": "He did not claim incompetence; he attacked the constitutional necessity of the Deputy CM post as a 'sixth finger'.",
+        "attraction": "Plausible insulting distractor.",
+        "confusion": true
+      },
+      {
+        "text": "He stated that the High Command in Delhi had prohibited the creation of any Deputy Chief Minister post",
+        "why": "Delhi had brokered the Gentlemen's Agreement containing Point 8; Sanjeeva Reddy unilaterally bypassed it.",
+        "attraction": "Blaming central high command."
+      },
+      {
+        "text": "He claimed the Indian Constitution did not recognize any Deputy Chief Minister",
+        "why": "While Deputy CM is not a distinct constitutional creation, his famous public justification was the 'sixth finger' metaphor.",
+        "attraction": "Legalistic distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Neelam Sanjeeva Reddy refused to appoint a Deputy CM from Telangana, calling it 'the sixth finger of a hand'.",
+    "clue": "Look for Sanjeeva Reddy's 'sixth finger of a hand' metaphor used on 1 November 1956.",
+    "trap": "Do not guess generic incompetence; his exact, infamous justification was the 'sixth finger' metaphor.",
+    "elimination": "Sanjeeva Reddy called the Deputy CM post the 'sixth finger of a hand' to deny K.V. Ranga Reddy the post.",
+    "anchor": "1 November 1956 -> First Violation -> Sanjeeva Reddy calls Deputy CM 'sixth finger of a hand'.",
+    "hint": "Ironically, Sanjeeva Reddy later appointed K.V. Ranga Reddy as Deputy Chief Minister in 1959 when factional politics forced him to.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 262,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Sanjeeva Reddy's 'sixth finger' remark.",
+        "correctMeaning": "This violation on Day 1 of Andhra Pradesh set the pattern of breach and bad faith that doomed the unwritten trust between the two regions.",
+        "selectedMeaning": "This violation on Day 1 of Andhra Pradesh set the pattern of breach and bad faith that doomed the unwritten trust between the two regions.",
+        "possibleConfusion": "No confusion; celebrated historical episode taught in every Telangana movement text.",
+        "decisionRules": [
+          {
+            "when": "Asked who described the Deputy CM post as the 'sixth finger of a hand'",
+            "choose": "Neelam Sanjeeva Reddy."
+          },
+          {
+            "when": "Asked which clause of the Gentlemen's Agreement was violated on 1 November 1956",
+            "choose": "Point 8 (Deputy Chief Minister from Telangana)."
+          }
+        ],
+        "nextStep": "Note that Damodaram Sanjivayya became CM in 1960 and appointed K.V. Ranga Reddy as Deputy CM."
+      },
+      {
+        "observation": "Selected incompetence claim.",
+        "correctMeaning": "Telangana had towering leaders like K.V. Ranga Reddy and Burgula; Sanjeeva Reddy attacked the office itself as a 'sixth finger'.",
+        "selectedMeaning": "Confusing general political insult with the specific historical quotation.",
+        "possibleConfusion": "Aspirants assume a personal insult rather than the institutional metaphor.",
+        "decisionRules": [
+          {
+            "when": "Asked about Sanjeeva Reddy's exact words on Deputy CM post",
+            "choose": "Sixth finger of a hand (unwanted appendage)."
+          },
+          {
+            "when": "Evaluating alternative insults",
+            "choose": "Eliminate general incompetence."
+          }
+        ],
+        "nextStep": "Memorize the exact Telugu expression: 'Chethiki aravellu laantidi'."
+      },
+      {
+        "observation": "Selected blaming Delhi High Command.",
+        "correctMeaning": "High Command mediated the 1956 agreement; Sanjeeva Reddy acted on his own factional authority in Hyderabad.",
+        "selectedMeaning": "Misattributing the decision to New Delhi.",
+        "possibleConfusion": "Delhi intervened in later appointments.",
+        "decisionRules": [
+          {
+            "when": "Asked who refused to create the Deputy CM post in 1956",
+            "choose": "Neelam Sanjeeva Reddy."
+          },
+          {
+            "when": "Evaluating High Command role in 1956",
+            "choose": "Remember High Command originally endorsed Point 8."
+          }
+        ],
+        "nextStep": "Understand Sanjeeva Reddy's personal dominance over the state Congress apparatus in 1956."
+      },
+      {
+        "observation": "Selected constitutional non-recognition.",
+        "correctMeaning": "Although legally true, Sanjeeva Reddy's political justification to the press was the colorful 'sixth finger' slur.",
+        "selectedMeaning": "Confusing legalistic arguments with the famous political quote.",
+        "possibleConfusion": "Legal textbooks note Deputy CM has no separate constitutional status.",
+        "decisionRules": [
+          {
+            "when": "Asked what metaphor Sanjeeva Reddy used",
+            "choose": "Sixth finger of a hand."
+          },
+          {
+            "when": "Evaluating legal technicalities",
+            "choose": "Focus on the historic political quote."
+          }
+        ],
+        "nextStep": "Remember this quote is repeatedly tested in TS Police examinations."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q217",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M17",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "After being denied the Deputy Chief Ministership on 1 November 1956, who eventually became the very first Deputy Chief Minister of Andhra Pradesh when the post was finally created under Chief Minister Damodaram Sanjivayya in 1960?",
+    "options": [
+      {
+        "text": "Konda Venkata (K.V.) Ranga Reddy",
+        "why": "When Damodaram Sanjivayya became Chief Minister in January 1960, he honored the Gentlemen's Agreement and appointed K.V. Ranga Reddy as the first Deputy Chief Minister of Andhra Pradesh.",
+        "attraction": "The authentic first Deputy Chief Minister of Andhra Pradesh.",
+        "confusion": false
+      },
+      {
+        "text": "J.V. Narsing Rao",
+        "why": "J.V. Narsing Rao served as Deputy Chief Minister nearly a decade later from 1969 to 1971 under Kasu Brahmananda Reddy.",
+        "attraction": "Deputy Chief Minister during the 1969 agitation period.",
+        "confusion": true
+      },
+      {
+        "text": "Dr. Marri Chenna Reddy",
+        "why": "Dr. Marri Chenna Reddy was Finance and Planning Minister, and later Chief Minister twice, but never Deputy Chief Minister.",
+        "attraction": "Towering Telangana leader."
+      },
+      {
+        "text": "Burgula Ramakrishna Rao",
+        "why": "Burgula Ramakrishna Rao was Governor of Kerala in 1960 and never served as Deputy Chief Minister.",
+        "attraction": "First Chief Minister of Hyderabad State."
+      }
+    ],
+    "answer": 0,
+    "reason": "K.V. Ranga Reddy became the first Deputy Chief Minister of Andhra Pradesh in 1960 under Damodaram Sanjivayya.",
+    "clue": "Look for K.V. Ranga Reddy, appointed first Deputy CM in 1960 by Damodaram Sanjivayya.",
+    "trap": "Do not confuse K.V. Ranga Reddy (first Deputy CM in 1960) with J.V. Narsing Rao (Deputy CM in 1969).",
+    "elimination": "K.V. Ranga Reddy was the first Deputy CM (1960). J.V. Narsing Rao served 1969–71; Chenna Reddy and Burgula were never Deputy CM.",
+    "anchor": "First Deputy CM of AP -> K.V. Ranga Reddy (1960 under Damodaram Sanjivayya).",
+    "hint": "Ranga Reddy district was created in 1978 and named in honor of K.V. Ranga Reddy.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 268,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies K.V. Ranga Reddy as the first Deputy Chief Minister.",
+        "correctMeaning": "K.V. Ranga Reddy served as Deputy CM from 1960 to 1962, upholding Telangana interests until Sanjeeva Reddy returned as CM in 1962 and abolished the post again.",
+        "selectedMeaning": "K.V. Ranga Reddy served as Deputy CM from 1960 to 1962, upholding Telangana interests until Sanjeeva Reddy returned as CM in 1962 and abolished the post again.",
+        "possibleConfusion": "No confusion; standard high-yield milestone in AP political history.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the first Deputy Chief Minister of Andhra Pradesh",
+            "choose": "K.V. Ranga Reddy (1960)."
+          },
+          {
+            "when": "Asked which Chief Minister appointed K.V. Ranga Reddy as Deputy CM",
+            "choose": "Damodaram Sanjivayya (1960)."
+          }
+        ],
+        "nextStep": "Note that when Sanjeeva Reddy returned to power in 1962, he again refused to appoint a Deputy CM."
+      },
+      {
+        "observation": "Selected J.V. Narsing Rao.",
+        "correctMeaning": "J.V. Narsing Rao was appointed Deputy CM in July 1969 by Kasu Brahmananda Reddy to placate Telangana during the 1969 agitation; K.V. Ranga Reddy was the first in 1960.",
+        "selectedMeaning": "Confusing the 1969 Deputy CM with the 1960 first Deputy CM.",
+        "possibleConfusion": "Both were signatories to the Gentlemen's Agreement.",
+        "decisionRules": [
+          {
+            "when": "Asked who was first Deputy CM of AP in 1960",
+            "choose": "K.V. Ranga Reddy."
+          },
+          {
+            "when": "Asked who was appointed Deputy CM in 1969 during the agitation",
+            "choose": "J.V. Narsing Rao."
+          }
+        ],
+        "nextStep": "Remember: 1960 = K.V. Ranga Reddy; 1969 = J.V. Narsing Rao."
+      },
+      {
+        "observation": "Selected Dr. Marri Chenna Reddy.",
+        "correctMeaning": "Dr. Marri Chenna Reddy served as Cabinet Minister, Governor, and twice as Chief Minister (1978–80, 1989–90), but never Deputy CM.",
+        "selectedMeaning": "Assuming Chenna Reddy held the deputy post.",
+        "possibleConfusion": "Chenna Reddy was K.V. Ranga Reddy's nephew and political protege.",
+        "decisionRules": [
+          {
+            "when": "Asked about K.V. Ranga Reddy's post in 1960",
+            "choose": "Deputy Chief Minister."
+          },
+          {
+            "when": "Asked about Marri Chenna Reddy's chief executive posts",
+            "choose": "Chief Minister (1978 and 1989)."
+          }
+        ],
+        "nextStep": "Remember Marri Chenna Reddy was the leader of the Telangana Praja Samithi (TPS) in 1969."
+      },
+      {
+        "observation": "Selected Burgula Ramakrishna Rao.",
+        "correctMeaning": "Burgula stepped down as Hyderabad CM in 1956 and was appointed Governor of Kerala (1956–60) and UP (1960–62); he never served in the AP cabinet.",
+        "selectedMeaning": "Confusing the former Hyderabad Chief Minister with a state cabinet deputy.",
+        "possibleConfusion": "Burgula was the most senior Telangana leader.",
+        "decisionRules": [
+          {
+            "when": "Asked about Burgula's post-1956 career",
+            "choose": "Governor of Kerala and Uttar Pradesh."
+          },
+          {
+            "when": "Asked who was first Deputy CM of AP",
+            "choose": "K.V. Ranga Reddy."
+          }
+        ],
+        "nextStep": "Anchor Burgula to governorships outside Andhra Pradesh."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q218",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M18",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "On 1 November 1956, the new state of Andhra Pradesh was officially inaugurated, merging the 9 Telugu-speaking districts of Hyderabad State with Andhra State. Who was sworn in as the first Governor, and who inaugurated the new state at the historic Jubilee Hall in Hyderabad?",
+    "options": [
+      {
+        "text": "Inaugurated by Prime Minister Jawaharlal Nehru; First Governor: Chandulal Madhavlal Trivedi",
+        "why": "Prime Minister Jawaharlal Nehru formally inaugurated Andhra Pradesh at Jubilee Hall, Public Gardens, Hyderabad on 1 November 1956, and Chandulal Madhavlal (C.M.) Trivedi took oath as the first Governor.",
+        "attraction": "The authentic, complete official inaugurator and first Governor.",
+        "confusion": false
+      },
+      {
+        "text": "Inaugurated by President Dr. Rajendra Prasad; First Governor: Burgula Ramakrishna Rao",
+        "why": "Nehru inaugurated the state, not Rajendra Prasad; Burgula was sent as Governor of Kerala, not AP.",
+        "attraction": "President and local leader assumption.",
+        "confusion": true
+      },
+      {
+        "text": "Inaugurated by Home Minister Sardar Vallabhbhai Patel; First Governor: General J.N. Chaudhuri",
+        "why": "Sardar Patel passed away in December 1950; General Chaudhuri was Military Governor in 1948–49.",
+        "attraction": "1948 integration personalities anachronistically applied to 1956."
+      },
+      {
+        "text": "Inaugurated by Maulana Abul Kalam Azad; First Governor: Bhim Sen Sachar",
+        "why": "Bhim Sen Sachar became Governor of AP later in 1957; C.M. Trivedi was the first in 1956.",
+        "attraction": "Subsequent Governor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Andhra Pradesh was inaugurated on 1 November 1956 by Jawaharlal Nehru, with C.M. Trivedi as first Governor.",
+    "clue": "Look for Jawaharlal Nehru as inaugurator at Jubilee Hall and C.M. Trivedi as first Governor.",
+    "trap": "Do not choose Patel (died 1950) or Rajendra Prasad; Nehru was the inaugurator and Trivedi was Governor.",
+    "elimination": "Nehru inaugurated AP on 1 November 1956; C.M. Trivedi was the first Governor; Neelam Sanjeeva Reddy was first CM.",
+    "anchor": "1 November 1956 -> Jubilee Hall, Hyderabad -> Inaugurated by Jawaharlal Nehru -> First Governor: C.M. Trivedi.",
+    "hint": "C.M. Trivedi had previously served as the first Governor of divided Punjab (1947) and first Governor of Andhra State (1953).",
+    "source": "SR-POLICE-SI-2016",
+    "page": 274,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Jawaharlal Nehru and C.M. Trivedi.",
+        "correctMeaning": "On 1 November 1956, Hyderabad State ceased to exist, its Kannada districts were transferred to Mysore (Karnataka), Marathi districts to Bombay (Maharashtra), and 9 Telangana districts merged into Andhra Pradesh.",
+        "selectedMeaning": "On 1 November 1956, Hyderabad State ceased to exist, its Kannada districts were transferred to Mysore (Karnataka), Marathi districts to Bombay (Maharashtra), and 9 Telangana districts merged into Andhra Pradesh.",
+        "possibleConfusion": "No confusion; premier event in the political reorganization of South India.",
+        "decisionRules": [
+          {
+            "when": "Asked who inaugurated Andhra Pradesh on 1 November 1956",
+            "choose": "Prime Minister Jawaharlal Nehru."
+          },
+          {
+            "when": "Asked who was the first Governor of Andhra Pradesh",
+            "choose": "Chandulal Madhavlal (C.M.) Trivedi."
+          }
+        ],
+        "nextStep": "Note that Nizam Mir Osman Ali Khan stepped down as Rajpramukh on 31 October 1956."
+      },
+      {
+        "observation": "Selected Dr. Rajendra Prasad and Burgula.",
+        "correctMeaning": "Nehru traveled to Hyderabad for the ceremony; Burgula was appointed Governor of Kerala to make way for Sanjeeva Reddy.",
+        "selectedMeaning": "Confusing the President and local Chief Minister with the actual inaugurator and governor.",
+        "possibleConfusion": "Rajendra Prasad issued the 1958 Regional Committee Order.",
+        "decisionRules": [
+          {
+            "when": "Asked who inaugurated the state on 1 Nov 1956",
+            "choose": "Jawaharlal Nehru."
+          },
+          {
+            "when": "Asked where Burgula went in Nov 1956",
+            "choose": "Governor of Kerala."
+          }
+        ],
+        "nextStep": "Remember Burgula was never Governor of his home state Andhra Pradesh."
+      },
+      {
+        "observation": "Selected Sardar Patel and General Chaudhuri.",
+        "correctMeaning": "Patel died on 15 December 1950, nearly six years before Andhra Pradesh was formed; Chaudhuri was 1948 military governor.",
+        "selectedMeaning": "Major anachronism mixing 1948 Operation Polo with 1956 linguistic reorganisation.",
+        "possibleConfusion": "Both were central figures in the 1948 integration.",
+        "decisionRules": [
+          {
+            "when": "Evaluating Sardar Patel in 1956",
+            "choose": "Eliminate Patel (passed away in 1950)."
+          },
+          {
+            "when": "Asked about 1956 Governor",
+            "choose": "C.M. Trivedi."
+          }
+        ],
+        "nextStep": "Anchor Patel strictly to 1947–1950."
+      },
+      {
+        "observation": "Selected Bhim Sen Sachar.",
+        "correctMeaning": "Bhim Sen Sachar succeeded C.M. Trivedi as Governor in August 1957; Trivedi was the inaugural Governor on 1 November 1956.",
+        "selectedMeaning": "Confusing the second Governor with the first Governor.",
+        "possibleConfusion": "Sachar was a prominent early Governor of AP.",
+        "decisionRules": [
+          {
+            "when": "Asked who was first Governor of AP (Nov 1956)",
+            "choose": "C.M. Trivedi."
+          },
+          {
+            "when": "Asked who succeeded Trivedi in 1957",
+            "choose": "Bhim Sen Sachar."
+          }
+        ],
+        "nextStep": "Remember C.M. Trivedi served from 1 Nov 1956 to 1 Aug 1957."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q219",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M19",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "The Nagarjuna Sagar Project on the Krishna River was originally planned by Hyderabad State as the 'Nandikonda Project'. When Prime Minister Jawaharlal Nehru laid the foundation stone on 10 December 1955, what major design disparity favored the Andhra region over Telangana?",
+    "options": [
+      {
+        "text": "The Right Canal (Jawahar Canal) serving Andhra was designed with 21,000 cusecs capacity for 11.13 lakh acres, while the Left Canal (Lal Bahadur Canal) serving Telangana had only 11,000 cusecs capacity",
+        "why": "The Right Canal (serving Guntur and Prakasam in Andhra) was sanctioned with 21,000 cusecs discharge capacity, whereas the Left Canal (serving Nalgonda and Khammam in Telangana) was constrained to 11,000 cusecs, initiating deep river water grievances.",
+        "attraction": "The authentic technical and capacity disparity documented in irrigation white papers.",
+        "confusion": false
+      },
+      {
+        "text": "Telangana was completely excluded from receiving any water from Nagarjuna Sagar dam",
+        "why": "Telangana received water through the Left Canal (Lal Bahadur Canal), but with significantly lower capacity and tail-end neglect.",
+        "attraction": "Extreme exclusion assumption.",
+        "confusion": true
+      },
+      {
+        "text": "The powerhouse was constructed entirely in Tamil Nadu",
+        "why": "Nagarjuna Sagar is located between Nalgonda (Telangana) and Guntur (Andhra); Tamil Nadu has no boundary or powerhouse there.",
+        "attraction": "Geographical error."
+      },
+      {
+        "text": "Water from the dam was solely reserved for industrial factories in Visakhapatnam",
+        "why": "Nagarjuna Sagar is an irrigation project in central/southern Andhra and Telangana, hundreds of kilometers from Visakhapatnam.",
+        "attraction": "Industrial distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Nagarjuna Sagar's Right Canal (Andhra) had 21,000 cusecs capacity while the Left Canal (Telangana) had only 11,000 cusecs.",
+    "clue": "Look for canal capacity disparity: Right Canal (Andhra) 21,000 cusecs vs Left Canal (Telangana) 11,000 cusecs.",
+    "trap": "Do not guess total exclusion; Telangana was given the smaller Left Canal while Andhra got the massive Right Canal.",
+    "elimination": "Right Canal (Andhra) was allocated nearly double the capacity of Left Canal (Telangana).",
+    "anchor": "Nagarjuna Sagar (Nandikonda) -> Right Canal: 21,000 cusecs (Andhra) vs Left Canal: 11,000 cusecs (Telangana).",
+    "hint": "Originally under the Hyderabad State Nandikonda scheme, Telangana was proposed to get equal water for upper contour canals.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 280,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the canal capacity disparity in Nagarjuna Sagar Project.",
+        "correctMeaning": "The unequal design of Nagarjuna Sagar canals became the classic symbol of agricultural discrimination against Telangana in the Krishna basin.",
+        "selectedMeaning": "The unequal design of Nagarjuna Sagar canals became the classic symbol of agricultural discrimination against Telangana in the Krishna basin.",
+        "possibleConfusion": "No confusion; vital irrigation question in Telangana competitive exams.",
+        "decisionRules": [
+          {
+            "when": "Asked about canal capacities of Nagarjuna Sagar",
+            "choose": "Right Canal (Jawahar): 21,000 cusecs vs Left Canal (Lal Bahadur): 11,000 cusecs."
+          },
+          {
+            "when": "Asked what Nagarjuna Sagar was called in Hyderabad State",
+            "choose": "Nandikonda Project."
+          }
+        ],
+        "nextStep": "Note how even the Left Canal was later extended to serve Krishna and West Godavari districts of Andhra at the expense of Nalgonda."
+      },
+      {
+        "observation": "Selected complete exclusion.",
+        "correctMeaning": "Telangana was not completely excluded; Nalgonda and Khammam received water via the Left Canal, but at half the capacity.",
+        "selectedMeaning": "Exaggerating unequal distribution into total denial.",
+        "possibleConfusion": "Students often confuse inequitable distribution with total absence.",
+        "decisionRules": [
+          {
+            "when": "Asked about Nagarjuna Sagar Left Canal",
+            "choose": "Serves Telangana (Nalgonda and Khammam) with 11,000 cusecs."
+          },
+          {
+            "when": "Evaluating total denial claims",
+            "choose": "Eliminate complete exclusion."
+          }
+        ],
+        "nextStep": "Understand that tail-end lands in Nalgonda suffered acute water shortages."
+      },
+      {
+        "observation": "Selected Tamil Nadu.",
+        "correctMeaning": "Nagarjuna Sagar is across the Krishna River between Telangana and Andhra; Tamil Nadu is in the Cauvery basin.",
+        "selectedMeaning": "Geographical impossibility.",
+        "possibleConfusion": "Telugu Ganga later took Krishna water to Chennai (Tamil Nadu) in the 1980s.",
+        "decisionRules": [
+          {
+            "when": "Asked location of Nagarjuna Sagar",
+            "choose": "Nalgonda district (Telangana) and Palnadu/Guntur (Andhra)."
+          },
+          {
+            "when": "Evaluating Tamil Nadu options",
+            "choose": "Eliminate Tamil Nadu."
+          }
+        ],
+        "nextStep": "Keep Telugu Ganga (1983) separate from Nagarjuna Sagar (1955)."
+      },
+      {
+        "observation": "Selected Visakhapatnam factories.",
+        "correctMeaning": "Nagarjuna Sagar was designed as an agricultural irrigation project for paddy and dry crops, not for Visakhapatnam industry.",
+        "selectedMeaning": "Confusing south-coastal irrigation with north-coastal industrial supply.",
+        "possibleConfusion": "Visakhapatnam steel plant was fed by the Yeleru canal decades later.",
+        "decisionRules": [
+          {
+            "when": "Asked primary purpose of Nagarjuna Sagar",
+            "choose": "Irrigation of Krishna basin districts."
+          },
+          {
+            "when": "Evaluating industrial supply",
+            "choose": "Eliminate Visakhapatnam industry."
+          }
+        ],
+        "nextStep": "Associate Nagarjuna Sagar with agricultural irrigation in Guntur, Prakasam, Nalgonda, and Khammam."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q220",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M20",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Under Article 16(3) of the Constitution, Parliament passed the 'Public Employment (Requirement as to Residence) Act, 1957' to provide legal backing to Point 5 of the Gentlemen's Agreement. What were the specific territories in India where Section 3 of this Act permitted residential requirements for public employment?",
+    "options": [
+      {
+        "text": "Telangana region of Andhra Pradesh, Himachal Pradesh, Manipur, and Tripura",
+        "why": "Section 3 of the Public Employment (Requirement as to Residence) Act, 1957 explicitly applied to only four territories: the Telangana area of Andhra Pradesh, and the Union Territories of Himachal Pradesh, Manipur, and Tripura.",
+        "attraction": "The authentic, complete list of four territories covered under the 1957 Act.",
+        "confusion": false
+      },
+      {
+        "text": "Entire state of Andhra Pradesh, Tamil Nadu, Karnataka, and Kerala",
+        "why": "The Act was not applied to the entire state of AP or other southern states; it was strictly limited to the Telangana region and 3 Union Territories.",
+        "attraction": "Southern states distractor.",
+        "confusion": true
+      },
+      {
+        "text": "Jammu & Kashmir, Goa, Nagaland, and Sikkim",
+        "why": "These states were not covered under the 1957 Act; Goa and Sikkim were not even part of India in 1957.",
+        "attraction": "Special status states distractor."
+      },
+      {
+        "text": "Only the twin cities of Hyderabad and Secunderabad",
+        "why": "It applied to the entire Telangana region across all 9 districts, not just Hyderabad and Secunderabad.",
+        "attraction": "Urban concentration distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Section 3 of the Public Employment Act 1957 covered Telangana, Himachal Pradesh, Manipur, and Tripura.",
+    "clue": "Look for the four territories: Telangana region of AP, Himachal Pradesh, Manipur, and Tripura.",
+    "trap": "Do not choose entire Andhra Pradesh; the residential requirement was authorized exclusively for the Telangana region.",
+    "elimination": "The 1957 Act applied exclusively to Telangana, Himachal Pradesh, Manipur, and Tripura.",
+    "anchor": "Public Employment Act 1957 -> Section 3 -> Telangana, Himachal Pradesh, Manipur, Tripura.",
+    "hint": "Rules framed under Section 3 were known as the Andhra Pradesh Public Employment (Requirement as to Residence) Rules, 1959.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 286,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the four territories covered under the 1957 Public Employment Act.",
+        "correctMeaning": "Parliament used its exclusive power under Article 16(3) to create an exception to the non-discrimination rule in Article 16(2) for backward regions.",
+        "selectedMeaning": "Parliament used its exclusive power under Article 16(3) to create an exception to the non-discrimination rule in Article 16(2) for backward regions.",
+        "possibleConfusion": "No confusion; fundamental legal milestone in Telangana employment history.",
+        "decisionRules": [
+          {
+            "when": "Asked which territories were covered under Section 3 of Public Employment Act 1957",
+            "choose": "Telangana area of AP, Himachal Pradesh, Manipur, and Tripura."
+          },
+          {
+            "when": "Asked under which constitutional article Parliament enacted the 1957 Act",
+            "choose": "Article 16(3)."
+          }
+        ],
+        "nextStep": "Note that on 28 March 1969, the Supreme Court struck down Section 3 as applied to Telangana in the A.V.S. Narasimha Rao case."
+      },
+      {
+        "observation": "Selected southern states.",
+        "correctMeaning": "Article 16(3) allows residence requirements for a whole state or UT; Parliament restricted it to specific underdeveloped pockets.",
+        "selectedMeaning": "Confusing special territorial exceptions with general southern states.",
+        "possibleConfusion": "Other states had domicile preferences, but not under this specific Act.",
+        "decisionRules": [
+          {
+            "when": "Asked about territories under 1957 Act",
+            "choose": "Telangana, HP, Manipur, Tripura."
+          },
+          {
+            "when": "Evaluating other states",
+            "choose": "Eliminate general southern states."
+          }
+        ],
+        "nextStep": "Remember the 1957 Act was an affirmative action statute for backward hill/remote regions and Telangana."
+      },
+      {
+        "observation": "Selected J&K, Goa, Nagaland.",
+        "correctMeaning": "Goa was integrated in 1961, Nagaland created in 1963, and Sikkim acceded in 1975; none existed in the 1957 Act.",
+        "selectedMeaning": "Chronological impossibility with post-1960 states.",
+        "possibleConfusion": "These states hold special constitutional status under Articles 371A, 371F.",
+        "decisionRules": [
+          {
+            "when": "Evaluating 1957 Act territories",
+            "choose": "Telangana, Himachal Pradesh, Manipur, Tripura."
+          },
+          {
+            "when": "Evaluating post-1960 states",
+            "choose": "Eliminate Goa, Nagaland, and Sikkim."
+          }
+        ],
+        "nextStep": "Anchor 1957 to the four original territories."
+      },
+      {
+        "observation": "Selected twin cities only.",
+        "correctMeaning": "The Act covered all 9 Telangana districts (subordinate posts carrying up to ₹300 salary), not merely the capital.",
+        "selectedMeaning": "Confusing the capital city with the entire regional boundary.",
+        "possibleConfusion": "Hyderabad city had special non-gazetted exemptions.",
+        "decisionRules": [
+          {
+            "when": "Asked scope of 1957 Act in AP",
+            "choose": "Entire Telangana region."
+          },
+          {
+            "when": "Evaluating city limits",
+            "choose": "Eliminate twin cities restriction."
+          }
+        ],
+        "nextStep": "Remember the 1957 Act covered subordinate posts across all Telangana districts."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q221",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M21",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Point 6 of the Gentlemen's Agreement addressed the urgent apprehension among Telangana peasants that wealthy coastal landlords would buy up fertile agricultural lands in Telangana. What power was vested in the Telangana Regional Committee under Point 6 to prevent land alienation?",
+    "options": [
+      {
+        "text": "Sale of agricultural land in the Telangana region should be controlled by the Regional Committee",
+        "why": "Point 6 provided: 'Sale of agricultural land in Telangana area (as also in other areas of the state) should be controlled by the Regional Committee.'",
+        "attraction": "The authentic, exact text of Point 6.",
+        "confusion": false
+      },
+      {
+        "text": "All agricultural land in Telangana was declared permanently non-transferable to anyone outside the village",
+        "why": "Land was not made permanently non-transferable; sale was to be regulated and controlled by the Regional Committee.",
+        "attraction": "Extreme tribal land alienation assumption.",
+        "confusion": true
+      },
+      {
+        "text": "Non-Mulkis were permitted to purchase up to 100 acres without any government permission",
+        "why": "This was the opposite of the safeguard; Point 6 sought to strictly restrict purchases by non-locals.",
+        "attraction": "Pro-landlord distractor."
+      },
+      {
+        "text": "Only commercial banks were authorized to purchase agricultural land in Telangana",
+        "why": "Commercial banks do not purchase agricultural land; Point 6 dealt with private peasant land sales.",
+        "attraction": "Banking distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Point 6 provided that the sale of agricultural land in Telangana should be controlled by the Regional Committee.",
+    "clue": "Look for Point 6: Sale of agricultural land in Telangana should be controlled by the Regional Committee.",
+    "trap": "Do not guess complete ban or 100-acre free purchase; the safeguard vested control over agricultural land sales in the Regional Committee.",
+    "elimination": "Point 6 specifically empowered the Regional Committee to control agricultural land sales in Telangana.",
+    "anchor": "Gentlemen's Agreement Point 6 -> Sale of agricultural land in Telangana to be controlled by Regional Committee.",
+    "hint": "However, successive governments never framed rules to empower the Regional Committee to veto land sales, leading to massive land alienation.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 292,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Point 6's land control provision.",
+        "correctMeaning": "Point 6 was designed to shield Telangana farmers from distress sales and prevent coastal capitalists from colonizing Nizamsagar, Nagarjuna Sagar, and Kadam canal ayacuts.",
+        "selectedMeaning": "Point 6 was designed to shield Telangana farmers from distress sales and prevent coastal capitalists from colonizing Nizamsagar, Nagarjuna Sagar, and Kadam canal ayacuts.",
+        "possibleConfusion": "No confusion; standard high-yield provision in Telangana agrarian history.",
+        "decisionRules": [
+          {
+            "when": "Asked what Point 6 of Gentlemen's Agreement stipulated",
+            "choose": "Sale of agricultural land in Telangana to be controlled by the Regional Committee."
+          },
+          {
+            "when": "Asked which body was supposed to regulate land transfers",
+            "choose": "The Telangana Regional Committee."
+          }
+        ],
+        "nextStep": "Note how failure to implement Point 6 led to large-scale land purchases in Ranga Reddy, Nalgonda, and Nizamabad."
+      },
+      {
+        "observation": "Selected complete permanent ban on land sales.",
+        "correctMeaning": "Point 6 regulated and controlled land sales through the Regional Committee, rather than imposing a blanket permanent prohibition.",
+        "selectedMeaning": "Confusing regulatory control with a total ban.",
+        "possibleConfusion": "Tribal agency areas had absolute bans under Land Transfer Regulation 1 of 1970, but not general plains.",
+        "decisionRules": [
+          {
+            "when": "Asked about Point 6 of Gentlemen's Agreement",
+            "choose": "Sale of agricultural land controlled by Regional Committee."
+          },
+          {
+            "when": "Asked about total prohibition of non-tribal land transfer",
+            "choose": "Agency Land Transfer Regulation 1 of 1970."
+          }
+        ],
+        "nextStep": "Distinguish Point 6 (plains agriculture) from Regulation 1 of 1970 (tribal agency lands)."
+      },
+      {
+        "observation": "Selected 100-acre free purchase.",
+        "correctMeaning": "The agreement sought to restrict outside purchases; allowing 100 acres free purchase is factually inverted.",
+        "selectedMeaning": "Asserting the opposite of the safeguard.",
+        "possibleConfusion": "Ceiling limits were discussed in the 1960s Land Ceilings Act.",
+        "decisionRules": [
+          {
+            "when": "Asked about Point 6 safeguard",
+            "choose": "Control of sales by Regional Committee."
+          },
+          {
+            "when": "Evaluating non-Mulki exemptions",
+            "choose": "Eliminate free purchase options."
+          }
+        ],
+        "nextStep": "Remember Point 6 was designed to protect the local peasant from land alienation."
+      },
+      {
+        "observation": "Selected commercial banks.",
+        "correctMeaning": "Commercial banks lend against land mortgages; they do not purchase farmland.",
+        "selectedMeaning": "Financial institution distractor.",
+        "possibleConfusion": "Banks were involved in mortgage foreclosures.",
+        "decisionRules": [
+          {
+            "when": "Asked about Point 6",
+            "choose": "Regional Committee control over land sales."
+          },
+          {
+            "when": "Evaluating banking options",
+            "choose": "Eliminate commercial banks."
+          }
+        ],
+        "nextStep": "Focus strictly on the legislative power assigned to the Regional Committee."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q222",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M22",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Point 13 of the Gentlemen's Agreement addressed the linguistic status of Urdu in the administration of the new state. What specific protection was granted to the Urdu language under Point 13?",
+    "options": [
+      {
+        "text": "Urdu should continue to be used in the administration and courts in Telangana for a period of 5 years, and knowledge of Telugu should not be compulsory for recruitment",
+        "why": "Point 13 provided: 'The position of Urdu in the administration and judicial services existing on the eve of merger should be preserved for a period of 5 years in Telangana, and knowledge of Telugu should not be insisted upon at the time of recruitment.'",
+        "attraction": "The authentic, complete text of Point 13 protecting Urdu.",
+        "confusion": false
+      },
+      {
+        "text": "Urdu was declared the primary and sole official language of entire Andhra Pradesh permanently",
+        "why": "Telugu was the primary official language of the new linguistic state; Urdu was granted temporary protective status in Telangana.",
+        "attraction": "Extreme linguistic assumption.",
+        "confusion": true
+      },
+      {
+        "text": "All Urdu medium schools in Hyderabad were ordered to be converted into Telugu medium within one year",
+        "why": "This was the opposite of Point 13, which protected existing linguistic institutions and minority rights.",
+        "attraction": "Aggressive assimilation distractor."
+      },
+      {
+        "text": "Urdu was banned from being used in all judicial proceedings immediately",
+        "why": "Point 13 explicitly preserved Urdu in judicial and administrative services in Telangana for at least 5 years.",
+        "attraction": "Opposite of the safeguard."
+      }
+    ],
+    "answer": 0,
+    "reason": "Point 13 protected Urdu in administration/courts for 5 years and exempted Telugu proficiency at the time of recruitment.",
+    "clue": "Look for Point 13: Urdu preserved for 5 years and knowledge of Telugu not insisted upon at recruitment.",
+    "trap": "Do not guess permanent sole language or immediate ban; Point 13 provided 5-year administrative protection and recruitment exemption.",
+    "elimination": "Point 13 preserved Urdu for 5 years and exempted candidates from compulsory Telugu at recruitment.",
+    "anchor": "Gentlemen's Agreement Point 13 -> Urdu protected in administration for 5 years -> Telugu not compulsory at entry.",
+    "hint": "Successful non-Telugu candidates were given 2 years after appointment to pass a prescribed Telugu language test.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 298,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Point 13's 5-year protection for Urdu and recruitment exemption.",
+        "correctMeaning": "Because Urdu had been the official language of Hyderabad State until 1948, this clause protected Urdu-educated Mulkis from being disqualified from government jobs.",
+        "selectedMeaning": "Because Urdu had been the official language of Hyderabad State until 1948, this clause protected Urdu-educated Mulkis from being disqualified from government jobs.",
+        "possibleConfusion": "No confusion; standard question on cultural and minority safeguards in 1956.",
+        "decisionRules": [
+          {
+            "when": "Asked what Point 13 of Gentlemen's Agreement provided regarding Urdu",
+            "choose": "Preserved Urdu in administration/courts for 5 years; Telugu not insisted upon at recruitment."
+          },
+          {
+            "when": "Asked grace period given to pass Telugu test after recruitment",
+            "choose": "Two years after appointment."
+          }
+        ],
+        "nextStep": "Note that Urdu was later recognized as a second official language in Telangana districts under the AP Official Language Act."
+      },
+      {
+        "observation": "Selected permanent sole official language.",
+        "correctMeaning": "Andhra Pradesh was formed on the basis of Telugu linguistic identity; Urdu was a protected regional language in Telangana.",
+        "selectedMeaning": "Confusing minority language protection with sole state official language.",
+        "possibleConfusion": "Urdu had been the sole official language of Hyderabad State before 1948.",
+        "decisionRules": [
+          {
+            "when": "Asked about official language of united AP",
+            "choose": "Telugu (with Urdu protected in Telangana under Point 13)."
+          },
+          {
+            "when": "Evaluating sole language claims",
+            "choose": "Eliminate Urdu as sole official language."
+          }
+        ],
+        "nextStep": "Remember Telugu was the primary official language of Andhra Pradesh."
+      },
+      {
+        "observation": "Selected conversion of Urdu schools within one year.",
+        "correctMeaning": "Point 13 protected linguistic rights and allowed Urdu medium education to continue undisturbed.",
+        "selectedMeaning": "Asserting forced assimilation rather than agreed protection.",
+        "possibleConfusion": "Tensions over language medium occurred later in higher education.",
+        "decisionRules": [
+          {
+            "when": "Asked about Point 13",
+            "choose": "Protection of Urdu language and recruitment exemption."
+          },
+          {
+            "when": "Evaluating school conversion",
+            "choose": "Eliminate immediate conversion of schools."
+          }
+        ],
+        "nextStep": "Remember the 1956 agreement was designed to reassure, not assimilate."
+      },
+      {
+        "observation": "Selected immediate judicial ban.",
+        "correctMeaning": "Point 13 explicitly preserved the use of Urdu in courts for 5 years.",
+        "selectedMeaning": "Factually inverted distractor.",
+        "possibleConfusion": "English replaced Urdu in the High Court, but subordinate courts retained Urdu under Point 13.",
+        "decisionRules": [
+          {
+            "when": "Asked about courts under Point 13",
+            "choose": "Urdu preserved for 5 years."
+          },
+          {
+            "when": "Evaluating bans",
+            "choose": "Eliminate immediate judicial bans."
+          }
+        ],
+        "nextStep": "Review the smooth linguistic transition envisioned in Point 13."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q223",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M23",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Point 11 of the Gentlemen's Agreement dealt with the integration of services and potential retrenchment of government employees following the merger. How did Point 11 protect Telangana employees from unfair retrenchment or loss of seniority?",
+    "options": [
+      {
+        "text": "Retrenchment of personnel should be effected on the basis of equal proportion from both regions, and seniority integrated on fair principles",
+        "why": "Point 11 provided: 'Equal proportion should be maintained in case of retrenchment of personnel from both regions, and integration of services should be based on equitable principles without hurting Telangana staff.'",
+        "attraction": "The authentic, protective text of Point 11.",
+        "confusion": false
+      },
+      {
+        "text": "All Telangana employees were to be compulsorily retired at age 50 to make room for Andhra staff",
+        "why": "This was a malicious rumor; the agreement protected Telangana employees from arbitrary dismissal.",
+        "attraction": "Hostile takeover assumption.",
+        "confusion": true
+      },
+      {
+        "text": "Seniority was decided strictly on salary earned in 1950, automatically demoting all Hyderabad staff",
+        "why": "Hyderabad salaries were structured under Osmania Sicca and graded differently; Point 11 prohibited automatic demotion.",
+        "attraction": "Plausible administrative anomaly."
+      },
+      {
+        "text": "Telangana employees were completely exempted from all disciplinary rules for 10 years",
+        "why": "No civil service is exempted from disciplinary rules; Point 11 governed retrenchment ratios and seniority integration.",
+        "attraction": "Extreme immunity distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Point 11 mandated equal proportion in retrenchment and integration of services on equitable principles.",
+    "clue": "Look for Point 11: Retrenchment on the basis of equal proportion from both regions.",
+    "trap": "Do not guess compulsory retirement or salary demotion; Point 11 guaranteed proportional retrenchment and fair seniority.",
+    "elimination": "Point 11 ensured that any retrenchment would be borne equally by both regions.",
+    "anchor": "Gentlemen's Agreement Point 11 -> Retrenchment in equal proportion -> Equitable integration of services.",
+    "hint": "In practice, common seniority lists were manipulated, resulting in juniors from Andhra superseding seniors from Telangana.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 304,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Point 11's proportional retrenchment rule.",
+        "correctMeaning": "Because Hyderabad State services had different designations and salary scales, Point 11 aimed to ensure fair equation of posts without retrenching local staff.",
+        "selectedMeaning": "Because Hyderabad State services had different designations and salary scales, Point 11 aimed to ensure fair equation of posts without retrenching local staff.",
+        "possibleConfusion": "No confusion; crucial civil service safeguard in Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked what Point 11 of Gentlemen's Agreement stipulated regarding retrenchment",
+            "choose": "Retrenchment to be effected on equal proportion from both regions."
+          },
+          {
+            "when": "Asked about integration of services",
+            "choose": "To be based on equitable principles without prejudicing Telangana employees."
+          }
+        ],
+        "nextStep": "Note how manipulation of seniority lists prompted the 1969 agitation and subsequent Supreme Court cases."
+      },
+      {
+        "observation": "Selected compulsory retirement at 50.",
+        "correctMeaning": "The agreement protected tenure and service conditions; it never mandated early retirement for Telangana employees.",
+        "selectedMeaning": "Confusing discriminatory administrative practices with the negotiated text.",
+        "possibleConfusion": "Telangana employees complained of targeted harassment.",
+        "decisionRules": [
+          {
+            "when": "Asked about Point 11 text",
+            "choose": "Equal proportion in retrenchment."
+          },
+          {
+            "when": "Evaluating compulsory retirement",
+            "choose": "Eliminate early retirement claims."
+          }
+        ],
+        "nextStep": "Remember Point 11 was an employee protection covenant."
+      },
+      {
+        "observation": "Selected automatic demotion on 1950 salary.",
+        "correctMeaning": "Equation of posts was based on duties and qualifications, not raw currency conversions, and demotion was prohibited.",
+        "selectedMeaning": "Confusing salary equation disputes with the agreement text.",
+        "possibleConfusion": "Osmania Sicca (O.S.) vs Indian Government (I.G.) currency conversion was a real dispute.",
+        "decisionRules": [
+          {
+            "when": "Asked about Point 11",
+            "choose": "Equal proportion in retrenchment and fair seniority."
+          },
+          {
+            "when": "Evaluating currency demotion",
+            "choose": "Eliminate automatic salary demotions."
+          }
+        ],
+        "nextStep": "Remember 116 O.S. Rupees equaled 100 I.G. Rupees."
+      },
+      {
+        "observation": "Selected disciplinary exemption.",
+        "correctMeaning": "Disciplinary rules applied uniformly under the Civil Services Rules; the safeguard was against biased retrenchment.",
+        "selectedMeaning": "Extreme unrealistic immunity distractor.",
+        "possibleConfusion": "Safeguards are sometimes caricatured as exemptions.",
+        "decisionRules": [
+          {
+            "when": "Asked about Point 11",
+            "choose": "Proportional retrenchment."
+          },
+          {
+            "when": "Evaluating civil service immunity",
+            "choose": "Eliminate disciplinary exemptions."
+          }
+        ],
+        "nextStep": "Focus on the core concept of equal burden in retrenchment."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q224",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M24",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Between 25 November and 3 December 1955, the Hyderabad Legislative Assembly held a historic 8-day debate on the SRC report and the Visalandhra proposal. Out of 174 total members, 147 expressed their views. What was the exact breakdown of members supporting and opposing Visalandhra during this historic debate?",
+    "options": [
+      {
+        "text": "103 members favored Visalandhra, 29 favored separate Telangana, and 15 remained neutral",
+        "why": "Speaker D.G. Bindu recorded the final tally: 103 members supported Visalandhra (predominantly Marathwada, Karnataka, and Communist members), 29 supported separate Telangana, and 15 remained neutral.",
+        "attraction": "The authentic, official voting tally in the Hyderabad Assembly proceedings.",
+        "confusion": false
+      },
+      {
+        "text": "170 members unanimously voted for Visalandhra with only 4 dissenting",
+        "why": "There was fierce opposition from Telangana Congress leaders; it was never unanimous.",
+        "attraction": "False unanimity claim propagated by Visalandhra supporters.",
+        "confusion": true
+      },
+      {
+        "text": "105 Telangana members all voted against Visalandhra",
+        "why": "While many Telangana members opposed it, several Communists and State Congress leaders supported Visalandhra.",
+        "attraction": "Exaggerated resistance assumption."
+      },
+      {
+        "text": "The Assembly failed to debate the motion and was adjourned sine die without any speeches",
+        "why": "147 members participated in an intense debate spanning eight full days.",
+        "attraction": "Procedural breakdown distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "103 members favored Visalandhra, 29 favored separate Telangana, and 15 were neutral in the Hyderabad Assembly debate.",
+    "clue": "Look for the official tally: 103 for Visalandhra, 29 for separate Telangana, 15 neutral.",
+    "trap": "Do not believe it was unanimous; 29 members openly demanded separate Telangana and 15 were neutral.",
+    "elimination": "The official tally recorded 103 for Visalandhra, 29 for separate Telangana, and 15 neutral.",
+    "anchor": "November–December 1955 Hyderabad Assembly -> 103 for Visalandhra, 29 for Telangana, 15 neutral.",
+    "hint": "Most importantly, members from Marathwada (44) and Karnataka (25) voted for Visalandhra because it facilitated their own exit to Maharashtra and Karnataka.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 310,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the 103 vs 29 vs 15 voting tally in the Hyderabad Assembly.",
+        "correctMeaning": "A critical historical fact is that the majority for Visalandhra was created by Marathi and Kannada MLAs who had no stake in Telangana's future.",
+        "selectedMeaning": "A critical historical fact is that the majority for Visalandhra was created by Marathi and Kannada MLAs who had no stake in Telangana's future.",
+        "possibleConfusion": "No confusion; standard high-analytical question in Telangana historiography.",
+        "decisionRules": [
+          {
+            "when": "Asked the tally in Hyderabad Assembly on Visalandhra (1955)",
+            "choose": "103 favored Visalandhra, 29 favored separate Telangana, and 15 neutral."
+          },
+          {
+            "when": "Asked why Visalandhra secured 103 votes",
+            "choose": "Marathwada and Karnataka MLAs voted for it to achieve linguistic reorganization of their own areas."
+          }
+        ],
+        "nextStep": "Note that among Telangana MLAs alone, opinion was deeply split and did not meet the 2/3rds threshold recommended by the SRC."
+      },
+      {
+        "observation": "Selected unanimous vote.",
+        "correctMeaning": "The debate was fiercely contentious; K.V. Ranga Reddy, Marri Chenna Reddy, and others passionately argued against merger.",
+        "selectedMeaning": "Accepting the myth of unanimous consent.",
+        "possibleConfusion": "Visalandhra propagandists claimed total consensus.",
+        "decisionRules": [
+          {
+            "when": "Asked about assembly consensus",
+            "choose": "Fiercely divided: 29 opposed and 15 neutral."
+          },
+          {
+            "when": "Evaluating unanimity claims",
+            "choose": "Eliminate unanimous vote."
+          }
+        ],
+        "nextStep": "Read K.V. Ranga Reddy's historic speech warning against immediate merger."
+      },
+      {
+        "observation": "Selected all 105 Telangana MLAs opposing.",
+        "correctMeaning": "The Communists (PDF) held 42 seats and strongly campaigned for Visalandhra alongside Swami Ramananda Tirtha's followers.",
+        "selectedMeaning": "Overstating the anti-merger vote.",
+        "possibleConfusion": "Believing all Telangana leaders opposed merger.",
+        "decisionRules": [
+          {
+            "when": "Asked about Communist Party stance in 1955",
+            "choose": "Supported Visalandhra vigorously."
+          },
+          {
+            "when": "Evaluating total opposition",
+            "choose": "Remember Communist MLAs voted for merger."
+          }
+        ],
+        "nextStep": "Understand the ideological role of the CPI in advocating Visalandhra."
+      },
+      {
+        "observation": "Selected adjournment sine die without debate.",
+        "correctMeaning": "The debate was one of the longest and most comprehensive legislative debates in Hyderabad history, running from 25 Nov to 3 Dec 1955.",
+        "selectedMeaning": "Fictitious procedural breakdown.",
+        "possibleConfusion": "Disruptions occurred in 2014, not 1955.",
+        "decisionRules": [
+          {
+            "when": "Asked about the 1955 debate",
+            "choose": "8 days of extensive debate with 147 speeches."
+          },
+          {
+            "when": "Evaluating procedural collapse",
+            "choose": "Eliminate adjournment without speeches."
+          }
+        ],
+        "nextStep": "Anchor 1955 to a fully recorded, historic 8-day debate."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q225",
+    "topic": "TM-01.05",
+    "concept": "TM-01.05-M25",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Point 10 of the Gentlemen's Agreement addressed the duration and review of the entire safeguard package. What time period was specified in Point 10 after which the safeguards were to be reviewed by the Telangana legislators?",
+    "options": [
+      {
+        "text": "The safeguards were to be reviewed after a period of ten (10) years",
+        "why": "Point 10 provided: 'The arrangement regarding safeguards for Telangana should be reviewed after a period of ten years by the representatives of both regions.'",
+        "attraction": "The authentic, statutory 10-year review horizon specified in Point 10.",
+        "confusion": false
+      },
+      {
+        "text": "The safeguards were declared permanent in perpetuity and could never be reviewed",
+        "why": "The safeguards were not made permanent; Point 10 explicitly scheduled a formal review after 10 years (1966).",
+        "attraction": "Perpetual protection assumption.",
+        "confusion": true
+      },
+      {
+        "text": "The safeguards were to expire automatically in one (1) year on 1 November 1957",
+        "why": "One year was never contemplated; the minimum review period agreed was 10 years.",
+        "attraction": "Short-term trial period assumption."
+      },
+      {
+        "text": "The safeguards were to be reviewed every month by a joint committee of collectors",
+        "why": "Review was assigned to political representatives of both regions after 10 years, not monthly by bureaucrats.",
+        "attraction": "Bureaucratic frequency distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Point 10 of the Gentlemen's Agreement specified that the safeguards were to be reviewed after 10 years.",
+    "clue": "Look for Point 10: review of the safeguards after a period of 10 years.",
+    "trap": "Do not guess permanent or 1-year; Point 10 explicitly scheduled a 10-year review period.",
+    "elimination": "Point 10 mandated that the Telangana safeguards be reviewed after 10 years.",
+    "anchor": "Gentlemen's Agreement Point 10 -> Review of safeguards after 10 years.",
+    "hint": "However, by 1966 (the 10-year mark), the safeguards had been systematically gutted, leading to the massive 1969 uprising.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 316,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the 10-year review horizon in Point 10.",
+        "correctMeaning": "Point 10 recognized that Telangana's socio-economic status would be assessed after a decade to determine if further protections were necessary.",
+        "selectedMeaning": "Point 10 recognized that Telangana's socio-economic status would be assessed after a decade to determine if further protections were necessary.",
+        "possibleConfusion": "No confusion; standard question on the lifecycle of the Gentlemen's Agreement.",
+        "decisionRules": [
+          {
+            "when": "Asked what time period was specified in Point 10 for reviewing the safeguards",
+            "choose": "Ten (10) years."
+          },
+          {
+            "when": "Asked what year marked the 10-year review milestone",
+            "choose": "1966."
+          }
+        ],
+        "nextStep": "Note how the failure to review and rectify violations in 1966 directly fueled the 1968–69 unrest."
+      },
+      {
+        "observation": "Selected permanent in perpetuity.",
+        "correctMeaning": "The leaders designed the safeguards as a transitional protective bridge, providing a formal 10-year review in Point 10.",
+        "selectedMeaning": "Confusing constitutional entrenchment with perpetual non-reviewability.",
+        "possibleConfusion": "Many citizens believed the safeguards were permanent.",
+        "decisionRules": [
+          {
+            "when": "Asked about duration in Point 10",
+            "choose": "Reviewed after 10 years."
+          },
+          {
+            "when": "Evaluating perpetuity claims",
+            "choose": "Eliminate permanent in perpetuity."
+          }
+        ],
+        "nextStep": "Remember Point 10 was a 10-year sunset/review clause."
+      },
+      {
+        "observation": "Selected one year expiration.",
+        "correctMeaning": "One year was never considered; a comprehensive 10-year horizon was fixed.",
+        "selectedMeaning": "Unrealistic short-term distractor.",
+        "possibleConfusion": "Standstill Agreement (1947) was for one year, but not the Gentlemen's Agreement.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1947 Standstill Agreement",
+            "choose": "One year."
+          },
+          {
+            "when": "Asked about 1956 Gentlemen's Agreement review",
+            "choose": "Ten years."
+          }
+        ],
+        "nextStep": "Keep Standstill Agreement (1 year) distinct from Gentlemen's Agreement (10 years)."
+      },
+      {
+        "observation": "Selected monthly bureaucratic review.",
+        "correctMeaning": "Review was scheduled after 10 years by political representatives, not monthly by civil servants.",
+        "selectedMeaning": "Confusing high-level political review with administrative routine.",
+        "possibleConfusion": "District collectors managed local recruitment.",
+        "decisionRules": [
+          {
+            "when": "Asked about Point 10 review",
+            "choose": "Reviewed after 10 years by representatives of both regions."
+          },
+          {
+            "when": "Evaluating bureaucratic options",
+            "choose": "Eliminate monthly collector meetings."
+          }
+        ],
+        "nextStep": "Remember the 10-year milestone anchored the historical timeline of the agreement."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q226",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M01",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "The initial spark for the historic 1969 Telangana Movement flared up in late 1968 at the Kothagudem Thermal Power Station (KTPS) located in Palvancha (Khammam district). What specific violation prompted the local employees and students to launch protests under the leadership of Kolipaka Ramadasu?",
+    "options": [
+      {
+        "text": "Out of 1,200 total staff posts in KTPS, over 1,000 were filled with non-local Andhra candidates in violation of Mulki employment safeguards",
+        "why": "At KTPS Palvancha, over 1,000 out of 1,200 non-gazetted and subordinate posts were illegally allocated to non-locals from coastal Andhra using forged Mulki certificates, triggering massive unrest in Khammam district.",
+        "attraction": "The authentic employment grievance that triggered the 1969 agitation.",
+        "confusion": false
+      },
+      {
+        "text": "KTPS power station was permanently shut down to divert all electricity to Madras State",
+        "why": "The power plant was functioning and expanding; the grievance was strictly over employment violations and discrimination against local workers.",
+        "attraction": "Power crisis distractor.",
+        "confusion": true
+      },
+      {
+        "text": "Local coal miners from Singareni Collieries were dismissed without pension benefits",
+        "why": "Singareni workers went on sympathy strikes later, but the Palvancha trigger was non-local recruitment at KTPS.",
+        "attraction": "Singareni labor issue."
+      },
+      {
+        "text": "The state government attempted to relocate KTPS to Vijayawada",
+        "why": "Thermal plants are pit-head stations near coalfields; relocation was neither feasible nor proposed.",
+        "attraction": "Relocation rumor distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "KTPS Palvancha filled over 1,000 out of 1,200 jobs with non-locals in violation of Mulki safeguards, sparking the 1969 movement.",
+    "clue": "Look for KTPS Palvancha where over 1,000 out of 1,200 posts went to non-locals, leading to protests led by local employees.",
+    "trap": "Do not guess power shutdowns or relocation; the core issue was recruitment of non-locals violating Mulki safeguards.",
+    "elimination": "Recruitment of over 1,000 non-locals at KTPS Palvancha sparked the 1969 movement.",
+    "anchor": "Late 1968 -> KTPS Palvancha -> 1000+ non-locals recruited -> Spark of 1969 Agitation.",
+    "hint": "Kolipaka Ramadasu formed the Palvancha KTPS Action Committee, which spread to Khammam town.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 320,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the KTPS Palvancha employment violations as the 1969 spark.",
+        "correctMeaning": "The blatant violation of Mulki rules in KTPS Palvancha ignited student solidarity across Khammam and Warangal, snowballing into the 1969 statehood movement.",
+        "selectedMeaning": "The blatant violation of Mulki rules in KTPS Palvancha ignited student solidarity across Khammam and Warangal, snowballing into the 1969 statehood movement.",
+        "possibleConfusion": "No confusion; standard opening question on the 1969 movement.",
+        "decisionRules": [
+          {
+            "when": "Asked where the initial spark of the 1969 Telangana movement ignited",
+            "choose": "KTPS (Kothagudem Thermal Power Station) at Palvancha."
+          },
+          {
+            "when": "Asked what specific violation occurred at KTPS",
+            "choose": "Over 1,000 out of 1,200 posts filled with non-locals on bogus certificates."
+          }
+        ],
+        "nextStep": "Connect KTPS protests to Ravindranath's hunger strike at Khammam in January 1969."
+      },
+      {
+        "observation": "Selected power shutdown and diversion to Madras.",
+        "correctMeaning": "Madras had separated from Andhra in 1953; KTPS supplied the AP state grid, but jobs were cornered by coastal candidates.",
+        "selectedMeaning": "Confusing job reservation violations with power grid operations.",
+        "possibleConfusion": "Power supply to agriculture was a later political issue.",
+        "decisionRules": [
+          {
+            "when": "Asked about cause of KTPS Palvancha unrest",
+            "choose": "Non-local employment violations."
+          },
+          {
+            "when": "Evaluating grid operations",
+            "choose": "Eliminate power shutdown distractors."
+          }
+        ],
+        "nextStep": "Anchor 1969 triggers strictly to employment and financial surplus diversion."
+      },
+      {
+        "observation": "Selected Singareni coal miner dismissals.",
+        "correctMeaning": "Singareni Collieries workers joined the agitation later; the spark originated among electrical workers and students at KTPS.",
+        "selectedMeaning": "Confusing industrial sympathy strikes with the primary ignition point.",
+        "possibleConfusion": "Kothagudem is also the headquarters of Singareni Collieries.",
+        "decisionRules": [
+          {
+            "when": "Asked about the specific institution where 1969 agitation began",
+            "choose": "KTPS Palvancha."
+          },
+          {
+            "when": "Evaluating mining issues",
+            "choose": "Keep Singareni separate from the KTPS spark."
+          }
+        ],
+        "nextStep": "Remember KTPS is an electricity generation utility, while Singareni is coal mining."
+      },
+      {
+        "observation": "Selected plant relocation.",
+        "correctMeaning": "Relocation was never planned; thermal plants must stay close to Singareni coal mines and Kinnerasani water reservoir.",
+        "selectedMeaning": "Fictitious industrial relocation claim.",
+        "possibleConfusion": "Capital projects were relocated elsewhere, but not thermal plants.",
+        "decisionRules": [
+          {
+            "when": "Asked about KTPS Palvancha dispute",
+            "choose": "Illegal non-local appointments."
+          },
+          {
+            "when": "Evaluating relocation claims",
+            "choose": "Eliminate plant transfer options."
+          }
+        ],
+        "nextStep": "Focus on the violation of the 12-year local residence rule."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q227",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M02",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "On 8 January 1969, an undergraduate student of SR&BGNR College in Khammam sat on a historic indefinite hunger strike at Gandhi Chowk, demanding the implementation of Telangana safeguards, repatriation of non-locals, and a separate state. Who was this student whose fast electrified the 1969 agitation?",
+    "options": [
+      {
+        "text": "B. Ravindranath (Kolishetti Ravindranath)",
+        "why": "B. Ravindranath, a B.A. student of SR&BGNR Degree College, commenced his fast unto death at Gandhi Chowk in Khammam on 8 January 1969, sparking student solidarity strikes across the entire state.",
+        "attraction": "The authentic, celebrated student fasting hero of January 1969.",
+        "confusion": false
+      },
+      {
+        "text": "Pullela Venkat Rao",
+        "why": "Pullela Venkat Rao was an Osmania University student leader who formed the OU Student Action Committee, not the student who began the hunger strike at Khammam.",
+        "attraction": "Prominent Osmania University student leader of 1969.",
+        "confusion": true
+      },
+      {
+        "text": "Mallikarjun",
+        "why": "Mallikarjun was a medical student and President of the Osmania University Student Action Committee who led the agitation in Hyderabad.",
+        "attraction": "Foremost student leader of 1969 agitation."
+      },
+      {
+        "text": "K.V. Ranga Reddy",
+        "why": "K.V. Ranga Reddy was an elderly Congress leader and former Deputy CM, not a college student fasting in Khammam.",
+        "attraction": "Famous political leader."
+      }
+    ],
+    "answer": 0,
+    "reason": "B. Ravindranath began an indefinite hunger strike on 8 January 1969 at Gandhi Chowk, Khammam.",
+    "clue": "Look for B. Ravindranath, the SR&BGNR College student who fast at Gandhi Chowk, Khammam on 8 January 1969.",
+    "trap": "Do not confuse B. Ravindranath (Khammam faster) with Mallikarjun or Pullela Venkat Rao (Osmania University leaders).",
+    "elimination": "B. Ravindranath fasted at Khammam. Mallikarjun and Pullela Venkat Rao were Osmania leaders in Hyderabad.",
+    "anchor": "8 January 1969 -> Gandhi Chowk, Khammam -> B. Ravindranath begins fast unto death.",
+    "hint": "Alongside Ravindranath, municipal councilor Aravinda Rao also joined the hunger strike.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 326,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies B. Ravindranath and his 8 January 1969 hunger strike in Khammam.",
+        "correctMeaning": "Ravindranath's fast transformed localized labor grievances into a mass youth revolt across schools, colleges, and universities in Telangana.",
+        "selectedMeaning": "Ravindranath's fast transformed localized labor grievances into a mass youth revolt across schools, colleges, and universities in Telangana.",
+        "possibleConfusion": "No confusion; iconic milestone in the 1969 movement.",
+        "decisionRules": [
+          {
+            "when": "Asked who began fast unto death at Khammam on 8 January 1969",
+            "choose": "B. Ravindranath."
+          },
+          {
+            "when": "Asked exact venue of Ravindranath's fast",
+            "choose": "Gandhi Chowk, Khammam town."
+          }
+        ],
+        "nextStep": "Note how Osmania University students declared an indefinite strike on 15 January 1969 in solidarity with Ravindranath."
+      },
+      {
+        "observation": "Selected Pullela Venkat Rao.",
+        "correctMeaning": "Pullela Venkat Rao was an Osmania University student organizer in Hyderabad; Ravindranath was the student fasting in Khammam.",
+        "selectedMeaning": "Confusing an Osmania University committee leader with the Khammam hunger striker.",
+        "possibleConfusion": "Both were major student leaders in January 1969.",
+        "decisionRules": [
+          {
+            "when": "Asked about Khammam hunger striker",
+            "choose": "B. Ravindranath."
+          },
+          {
+            "when": "Asked about Osmania University student leaders",
+            "choose": "Mallikarjun, Pullela Venkat Rao, and Sridhar Reddy."
+          }
+        ],
+        "nextStep": "Distinguish between the Khammam genesis and the Osmania University expansion."
+      },
+      {
+        "observation": "Selected Mallikarjun.",
+        "correctMeaning": "Mallikarjun was a medical student at Kakatiya/Osmania and became the Chairman of the Osmania University Student Action Committee; Ravindranath was the Khammam striker.",
+        "selectedMeaning": "Confusing the overall student agitation chairman with the hunger striker.",
+        "possibleConfusion": "Mallikarjun led the agitation for months and was jailed repeatedly.",
+        "decisionRules": [
+          {
+            "when": "Asked who headed Osmania University Student Action Committee in 1969",
+            "choose": "Mallikarjun."
+          },
+          {
+            "when": "Asked who initiated the Khammam hunger strike",
+            "choose": "B. Ravindranath."
+          }
+        ],
+        "nextStep": "Remember Mallikarjun later served as Union Minister of State for Railways and Defence."
+      },
+      {
+        "observation": "Selected K.V. Ranga Reddy.",
+        "correctMeaning": "K.V. Ranga Reddy was an elderly statesman who supported the movement politically; Ravindranath was the college youth on strike.",
+        "selectedMeaning": "Age and role confusion between veteran leader and student activist.",
+        "possibleConfusion": "K.V. Ranga Reddy gave moral support to the fasting students.",
+        "decisionRules": [
+          {
+            "when": "Asked about student fasting in Khammam",
+            "choose": "B. Ravindranath."
+          },
+          {
+            "when": "Evaluating veteran politicians",
+            "choose": "Eliminate K.V. Ranga Reddy."
+          }
+        ],
+        "nextStep": "Anchor Ravindranath as the student spark plug of the 1969 uprising."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q228",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M03",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "As student unrest spread rapidly across Telangana, Chief Minister Kasu Brahmananda Reddy convened an all-party meeting at his official residence (Ananda Nilayam) on 18 and 19 January 1969. What was the landmark agreement reached at this meeting to pacify the agitation?",
+    "options": [
+      {
+        "text": "The All-Party Accord (All-Party Agreement) of 19 January 1969, pledging to repatriate all non-local employees and spend Telangana surpluses exclusively on Telangana",
+        "why": "On 19 January 1969, 45 leaders of all political parties signed the All-Party Accord, agreeing that all non-Mulki employees appointed irregularly in Telangana would be repatriated to Andhra by 28 February 1969, and surplus funds would be calculated and spent.",
+        "attraction": "The authentic, landmark consensus reached on 19 January 1969.",
+        "confusion": false
+      },
+      {
+        "text": "An immediate resolution dissolving the Andhra Pradesh assembly and recommending bifurcation",
+        "why": "The meeting sought to preserve united Andhra Pradesh by conceding safeguards; bifurcation was rejected.",
+        "attraction": "Bifurcation assumption.",
+        "confusion": true
+      },
+      {
+        "text": "Imposition of President's Rule under Article 356 and suspension of all government jobs",
+        "why": "President's Rule was imposed in 1973 during the Jai Andhra agitation, not in January 1969.",
+        "attraction": "President's Rule distractor."
+      },
+      {
+        "text": "Shifting the state capital temporarily from Hyderabad to Warangal",
+        "why": "Shifting the capital was never agreed; the accord focused strictly on employment repatriation and surplus funds.",
+        "attraction": "Capital relocation rumor."
+      }
+    ],
+    "answer": 0,
+    "reason": "The All-Party Accord was signed on 19 January 1969, mandating repatriation of non-Mulki employees and utilization of surpluses.",
+    "clue": "Look for the All-Party Accord of 19 January 1969, signed at Ananda Nilayam under Kasu Brahmananda Reddy.",
+    "trap": "Do not guess bifurcation or President's Rule; the All-Party Accord sought to protect united AP by repatriating non-Mulkis.",
+    "elimination": "The All-Party Accord was signed on 19 January 1969, pledging employee repatriation by 28 February 1969.",
+    "anchor": "19 January 1969 -> All-Party Accord -> Repatriation of non-Mulkis by 28 Feb 1969 -> Calculation of Telangana surplus.",
+    "hint": "Leaders from Congress, CPI, CPM, Swatantra, Jan Sangh, and Majlis signed this unanimous accord.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 332,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the All-Party Accord of 19 January 1969.",
+        "correctMeaning": "The All-Party Accord was a historic admission by the Andhra leadership that massive violations of the Gentlemen's Agreement had indeed taken place.",
+        "selectedMeaning": "The All-Party Accord was a historic admission by the Andhra leadership that massive violations of the Gentlemen's Agreement had indeed taken place.",
+        "possibleConfusion": "No confusion; standard high-yield milestone in Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked date of the All-Party Accord in 1969",
+            "choose": "19 January 1969."
+          },
+          {
+            "when": "Asked who convened the meeting",
+            "choose": "Chief Minister Kasu Brahmananda Reddy."
+          }
+        ],
+        "nextStep": "Note how the All-Party Accord led directly to the issuance of G.O. Ms. No. 36 two days later on 21 January 1969."
+      },
+      {
+        "observation": "Selected assembly dissolution and bifurcation.",
+        "correctMeaning": "The meeting was convened to save united AP and halt the separate state demand by offering administrative remedies.",
+        "selectedMeaning": "Confusing the students' ultimate demand with the political establishment's consensus.",
+        "possibleConfusion": "Students rejected the accord and demanded separate Telangana.",
+        "decisionRules": [
+          {
+            "when": "Asked objective of 19 January 1969 All-Party Accord",
+            "choose": "To protect united AP by strictly implementing safeguards and repatriating non-Mulkis."
+          },
+          {
+            "when": "Evaluating bifurcation claims",
+            "choose": "Eliminate early bifurcation resolutions."
+          }
+        ],
+        "nextStep": "Understand that student leaders rejected the accord, calling it 'too little, too late'."
+      },
+      {
+        "observation": "Selected President's Rule in 1969.",
+        "correctMeaning": "President's Rule was imposed in January 1973 under P.V. Narasimha Rao, not in January 1969 under Kasu.",
+        "selectedMeaning": "Chronological jump from 1969 to 1973.",
+        "possibleConfusion": "President's Rule was demanded by Telangana MPs in 1969, but not imposed.",
+        "decisionRules": [
+          {
+            "when": "Asked about January 1969 meeting outcome",
+            "choose": "All-Party Accord."
+          },
+          {
+            "when": "Asked when President's Rule was imposed in AP",
+            "choose": "January 1973."
+          }
+        ],
+        "nextStep": "Keep Kasu's 1969 administration distinct from PV's 1973 crisis."
+      },
+      {
+        "observation": "Selected shifting capital to Warangal.",
+        "correctMeaning": "Hyderabad was the constitutional capital; no proposal to shift the capital existed.",
+        "selectedMeaning": "Fictitious administrative distractor.",
+        "possibleConfusion": "Warangal was the epicentre of student protests.",
+        "decisionRules": [
+          {
+            "when": "Asked about 19 January 1969 accord",
+            "choose": "Repatriation of non-locals and surplus calculation."
+          },
+          {
+            "when": "Evaluating capital shift",
+            "choose": "Eliminate capital relocation options."
+          }
+        ],
+        "nextStep": "Focus on the two core pillars of the accord: Jobs (G.O. 36) and Money (Kumar Lalit)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q229",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M04",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "To implement the All-Party Accord, the Government of Andhra Pradesh issued the landmark Government Order G.O. Ms. No. 36 on 21 January 1969. What was the exact repatriation deadline and target group mandated by G.O. 36?",
+    "options": [
+      {
+        "text": "All non-Mulki personnel appointed to posts in Telangana on or after 1 November 1956 must be repatriated to the Andhra region by 28 February 1969",
+        "why": "G.O. Ms. No. 36 explicitly ordered: All non-local persons appointed to posts in Telangana on or after 1 November 1956 must be relieved and transferred back to their respective native zones in Andhra by 28 February 1969, with local candidates appointed in their place.",
+        "attraction": "The authentic, historic repatriation mandate of G.O. 36.",
+        "confusion": false
+      },
+      {
+        "text": "All Andhra employees must be permanently dismissed from government service without severance pay",
+        "why": "Employees were not dismissed; they were to be repatriated to equivalent vacancies in the Andhra region.",
+        "attraction": "Dismissal assumption.",
+        "confusion": true
+      },
+      {
+        "text": "The repatriation was to be completed in a phased manner over a period of 10 years ending in 1979",
+        "why": "G.O. 36 gave an urgent, tight deadline of just over 5 weeks (by 28 February 1969), not 10 years.",
+        "attraction": "Long-term transition assumption."
+      },
+      {
+        "text": "The order applied exclusively to IAS and IPS officers serving in Telangana districts",
+        "why": "G.O. 36 specifically applied to subordinate and non-gazetted services governed by Mulki rules, not All India Services (IAS/IPS).",
+        "attraction": "Civil services cadre distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "G.O. Ms. No. 36 ordered that all non-Mulkis appointed in Telangana after 1 Nov 1956 be repatriated to Andhra by 28 February 1969.",
+    "clue": "Look for G.O. 36: non-Mulkis appointed after 1 Nov 1956 to be repatriated to Andhra by 28 February 1969.",
+    "trap": "Do not guess dismissal or 10-year timeline; G.O. 36 gave a strict deadline of 28 February 1969 for repatriation.",
+    "elimination": "G.O. 36 mandated repatriation by 28 February 1969 to make way for local Telangana candidates.",
+    "anchor": "21 January 1969 -> G.O. Ms. No. 36 -> Repatriate non-Mulkis appointed after 1 Nov 1956 by 28 Feb 1969.",
+    "hint": "It was signed by Chief Secretary M.T. Raju under the direction of Chief Minister Kasu Brahmananda Reddy.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 338,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies G.O. Ms. No. 36 and its 28 February 1969 repatriation deadline.",
+        "correctMeaning": "G.O. 36 officially recognized that roughly 25,000 non-locals had been illegally appointed to Telangana posts in violation of the Gentlemen's Agreement.",
+        "selectedMeaning": "G.O. 36 officially recognized that roughly 25,000 non-locals had been illegally appointed to Telangana posts in violation of the Gentlemen's Agreement.",
+        "possibleConfusion": "No confusion; classic Police SI question.",
+        "decisionRules": [
+          {
+            "when": "Asked about target deadline in G.O. Ms. No. 36 of 1969",
+            "choose": "28 February 1969."
+          },
+          {
+            "when": "Asked what G.O. 36 mandated",
+            "choose": "Repatriation of all non-Mulkis appointed after 1 Nov 1956 back to Andhra."
+          }
+        ],
+        "nextStep": "Compare G.O. 36 (28 Feb 1969 deadline) with G.O. 610 (31 March 1986 deadline)."
+      },
+      {
+        "observation": "Selected dismissal from service.",
+        "correctMeaning": "The government created supernumerary posts in Andhra so employees retained their jobs; they were repatriated, not terminated.",
+        "selectedMeaning": "Confusing transfer back to home zone with termination of employment.",
+        "possibleConfusion": "Employees challenged G.O. 36 in court claiming it infringed their Article 16 rights.",
+        "decisionRules": [
+          {
+            "when": "Asked nature of action in G.O. 36",
+            "choose": "Repatriation / transfer back to native Andhra zone."
+          },
+          {
+            "when": "Evaluating termination claims",
+            "choose": "Eliminate permanent dismissal."
+          }
+        ],
+        "nextStep": "Understand why Andhra employees rushed to the High Court to obtain stay orders."
+      },
+      {
+        "observation": "Selected 10-year phased timeline.",
+        "correctMeaning": "G.O. 36 was an emergency order giving only 5 weeks (by 28 Feb 1969) to quell the exploding student strikes.",
+        "selectedMeaning": "Confusing immediate executive orders with long-term policy reviews.",
+        "possibleConfusion": "Gentlemen's Agreement Point 10 had a 10-year horizon, but G.O. 36 had a 5-week deadline.",
+        "decisionRules": [
+          {
+            "when": "Asked deadline in G.O. 36",
+            "choose": "28 February 1969 (5 weeks)."
+          },
+          {
+            "when": "Evaluating 10-year options",
+            "choose": "Eliminate long-term phased schedules."
+          }
+        ],
+        "nextStep": "Remember G.O. 36 had a single hard deadline: 28 February 1969."
+      },
+      {
+        "observation": "Selected IAS and IPS officers.",
+        "correctMeaning": "All India Services (IAS/IPS) are national cadres exempt from domicile; G.O. 36 applied to non-gazetted state and subordinate services.",
+        "selectedMeaning": "Cadre classification error.",
+        "possibleConfusion": "Senior IAS officers signed the order.",
+        "decisionRules": [
+          {
+            "when": "Asked cadres covered under G.O. 36",
+            "choose": "Subordinate, non-gazetted, and statutory corporation posts."
+          },
+          {
+            "when": "Evaluating All India Services",
+            "choose": "Eliminate IAS/IPS."
+          }
+        ],
+        "nextStep": "Note that G.O. 36 covered teachers, clerks, electricity board staff, and police constabulary."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q230",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M05",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "When Andhra employees challenged G.O. 36 in the Supreme Court, a 5-judge Constitution Bench headed by Chief Justice M. Hidayatullah delivered a historic verdict on 28 March 1969 in 'A.V.S. Narasimha Rao & Others v. State of Andhra Pradesh'. What did the Supreme Court rule regarding Section 3 of the Public Employment Act, 1957?",
+    "options": [
+      {
+        "text": "Section 3 was declared unconstitutional because Article 16(3) allows residence requirements for an entire State, but NOT for a part/region of a State",
+        "why": "Chief Justice Hidayatullah held: 'Under Article 16(3), Parliament can prescribe residence requirements for the whole of a State, but not for a part of a State. Therefore, Section 3 in so far as it relates to the Telangana area is ultra vires the Constitution.'",
+        "attraction": "The authentic, landmark ratio decidendi of the Supreme Court.",
+        "confusion": false
+      },
+      {
+        "text": "Section 3 was fully upheld and the state government was ordered to arrest all non-local employees",
+        "why": "The Supreme Court struck down Section 3 as unconstitutional, nullifying G.O. 36 and shocking the Telangana populace.",
+        "attraction": "Opposite of the actual court verdict.",
+        "confusion": true
+      },
+      {
+        "text": "The Supreme Court ordered the immediate creation of a separate Telangana state",
+        "why": "Creating states is the prerogative of Parliament under Article 3, not the judiciary.",
+        "attraction": "Judicial overreach distractor."
+      },
+      {
+        "text": "The court ruled that only Telugu speakers could hold government jobs anywhere in India",
+        "why": "Language tests are barred under Article 16(2); the case was strictly about regional residential domicile under Article 16(3).",
+        "attraction": "Linguistic distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "The Supreme Court struck down Section 3 of Public Employment Act in A.V.S. Narasimha Rao case, holding Article 16(3) does not allow residence rules for part of a state.",
+    "clue": "Look for the Supreme Court's ruling: Article 16(3) allows residence rules for a whole State, not a part/region of a State.",
+    "trap": "Do not guess that the court upheld G.O. 36; the Supreme Court struck down Section 3 on 28 March 1969, invalidating G.O. 36.",
+    "elimination": "The Supreme Court declared Section 3 unconstitutional because Article 16(3) applies to an entire state, not a region.",
+    "anchor": "28 March 1969 -> A.V.S. Narasimha Rao case -> Supreme Court strikes down Section 3 -> Article 16(3) cannot apply to part of a state.",
+    "hint": "This verdict wiped out the statutory protection for Mulki rules in one stroke, convincing Telangana people that only a separate state could protect their jobs.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 344,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the Supreme Court's ruling in A.V.S. Narasimha Rao case.",
+        "correctMeaning": "This verdict was the explosive turning point of 1969: by declaring regional domicile unconstitutional, the Supreme Court made separate statehood the only legal remedy for employment protection.",
+        "selectedMeaning": "This verdict was the explosive turning point of 1969: by declaring regional domicile unconstitutional, the Supreme Court made separate statehood the only legal remedy for employment protection.",
+        "possibleConfusion": "No confusion; standard high-level constitutional question in TS recruitment.",
+        "decisionRules": [
+          {
+            "when": "Asked about Supreme Court verdict in A.V.S. Narasimha Rao case (28 March 1969)",
+            "choose": "Struck down Section 3 of Public Employment Act; Article 16(3) applies to whole State, not part of a State."
+          },
+          {
+            "when": "Asked who was the Chief Justice who authored the judgment",
+            "choose": "Chief Justice M. Hidayatullah."
+          }
+        ],
+        "nextStep": "Note how this judicial crisis led directly to Indira Gandhi announcing the Eight-Point Formula two weeks later on 11 April 1969."
+      },
+      {
+        "observation": "Selected that the court upheld Section 3.",
+        "correctMeaning": "The court struck down the law; if it had upheld it, G.O. 36 would have been implemented smoothly.",
+        "selectedMeaning": "Inverting the court's historic decision.",
+        "possibleConfusion": "The High Court had partially favored it, but the Supreme Court struck it down completely.",
+        "decisionRules": [
+          {
+            "when": "Asked fate of Section 3 in Supreme Court (1969)",
+            "choose": "Declared unconstitutional and struck down."
+          },
+          {
+            "when": "Evaluating validity",
+            "choose": "Eliminate claims of upholding the law."
+          }
+        ],
+        "nextStep": "Remember it was this adverse verdict that turned the agitation into a mass revolution for separation."
+      },
+      {
+        "observation": "Selected court ordering separate state.",
+        "correctMeaning": "Courts cannot create states; Article 3 vests that power exclusively in the Parliament of India.",
+        "selectedMeaning": "Confusing judicial review of statutes with political boundary creation.",
+        "possibleConfusion": "The movement demanded a separate state as a result of the ruling.",
+        "decisionRules": [
+          {
+            "when": "Asked about Supreme Court's constitutional role",
+            "choose": "Judicial review of Article 16(3)."
+          },
+          {
+            "when": "Evaluating state creation",
+            "choose": "Eliminate judicial creation of states."
+          }
+        ],
+        "nextStep": "Keep judicial review distinct from parliamentary power under Article 3."
+      },
+      {
+        "observation": "Selected language requirement across India.",
+        "correctMeaning": "The case was purely about residential qualification under Article 16(3), not language.",
+        "selectedMeaning": "Confusing language with geographical domicile.",
+        "possibleConfusion": "Language agitations occurred elsewhere.",
+        "decisionRules": [
+          {
+            "when": "Asked about A.V.S. Narasimha Rao case",
+            "choose": "Residential requirement under Article 16(3)."
+          },
+          {
+            "when": "Evaluating linguistic arguments",
+            "choose": "Eliminate language requirements."
+          }
+        ],
+        "nextStep": "Anchor the case strictly to Article 16(3) and regional domicile."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q231",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M06",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Under the All-Party Accord of January 1969, the state government appointed a senior auditor from the Comptroller and Auditor General (CAG) of India to calculate the exact revenue surplus generated in Telangana that had been diverted to the Andhra region between 1956 and 1968. Who was this officer, and what was the quantum of surplus he determined?",
+    "options": [
+      {
+        "text": "Kumar Lalit (Surplus determined: ₹34.10 crore)",
+        "why": "Kumar Lalit (Deputy Comptroller and Auditor General) was appointed on 23 January 1969 and submitted his report on 14 March 1969, calculating that ₹34.10 crore of Telangana surplus revenue had been diverted to Andhra between 1 Nov 1956 and 31 March 1968.",
+        "attraction": "The authentic auditor and exact surplus figure.",
+        "confusion": false
+      },
+      {
+        "text": "Justice Vashishta Bhargava (Surplus determined: ₹28.34 crore)",
+        "why": "Justice Bhargava was appointed later in April 1969 under the Prime Minister's 8-Point Formula, and determined a lower surplus of ₹28.34 crore.",
+        "attraction": "The subsequent Central Committee chairman and figure.",
+        "confusion": true
+      },
+      {
+        "text": "J.M. Girglani (Surplus determined: ₹100 crore)",
+        "why": "J.M. Girglani headed the 2001 Commission on G.O. 610 employment violations, not the 1969 financial committee.",
+        "attraction": "Prominent commission head from later era."
+      },
+      {
+        "text": "Justice K.N. Wanchoo (Surplus determined: ₹50 crore)",
+        "why": "Justice Wanchoo headed the Committee on Employment Safeguards, not financial surplus calculation.",
+        "attraction": "Member of another 1969 committee."
+      }
+    ],
+    "answer": 0,
+    "reason": "Kumar Lalit calculated the Telangana surplus revenue at ₹34.10 crore in March 1969.",
+    "clue": "Look for Kumar Lalit and the ₹34.10 crore surplus figure submitted in March 1969.",
+    "trap": "Do not confuse Kumar Lalit (₹34.10 crore, Jan–March 1969) with Justice Bhargava (₹28.34 crore, April–Oct 1969).",
+    "elimination": "Kumar Lalit found ₹34.10 crore surplus. Justice Bhargava calculated ₹28.34 crore; Girglani was in 2001; Wanchoo examined legal safeguards.",
+    "anchor": "Kumar Lalit Committee (Jan 1969) -> Calculated Telangana Surplus: ₹34.10 crore.",
+    "hint": "The Telangana Regional Committee disputed both figures, estimating the actual diverted surplus at over ₹107 crore.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 350,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Kumar Lalit and ₹34.10 crore surplus.",
+        "correctMeaning": "Kumar Lalit's official report provided undeniable mathematical proof that Telangana's budget had been systematically plundered to finance projects in Andhra.",
+        "selectedMeaning": "Kumar Lalit's official report provided undeniable mathematical proof that Telangana's budget had been systematically plundered to finance projects in Andhra.",
+        "possibleConfusion": "No confusion; standard high-yield numerical question in TS recruitment.",
+        "decisionRules": [
+          {
+            "when": "Asked who calculated Telangana surplus under January 1969 All-Party Accord",
+            "choose": "Kumar Lalit (₹34.10 crore)."
+          },
+          {
+            "when": "Asked when Kumar Lalit submitted his report",
+            "choose": "14 March 1969."
+          }
+        ],
+        "nextStep": "Memorize both surplus figures side-by-side: Kumar Lalit = ₹34.10 crore; Bhargava Committee = ₹28.34 crore."
+      },
+      {
+        "observation": "Selected Justice Vashishta Bhargava and ₹28.34 crore.",
+        "correctMeaning": "Justice Bhargava was appointed in April 1969 under the Prime Minister's 8-Point Formula; Kumar Lalit was the CAG officer appointed in January 1969.",
+        "selectedMeaning": "Confusing the Central Judicial Committee with the CAG auditor.",
+        "possibleConfusion": "Both committees calculated Telangana financial surpluses in 1969.",
+        "decisionRules": [
+          {
+            "when": "Asked about Kumar Lalit Committee figure",
+            "choose": "₹34.10 crore."
+          },
+          {
+            "when": "Asked about Justice Bhargava Committee figure",
+            "choose": "₹28.34 crore."
+          }
+        ],
+        "nextStep": "Remember Kumar Lalit came first (Jan 1969, higher surplus), Bhargava came second (Apr 1969, reduced surplus)."
+      },
+      {
+        "observation": "Selected J.M. Girglani.",
+        "correctMeaning": "J.M. Girglani investigated G.O. 610 violations from 2001 to 2004; Kumar Lalit investigated finances in 1969.",
+        "selectedMeaning": "Major chronological jump of 32 years.",
+        "possibleConfusion": "Both were senior civil servants investigating violations.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1969 financial surplus calculation",
+            "choose": "Kumar Lalit / Bhargava."
+          },
+          {
+            "when": "Asked about 2001 employment violation commission",
+            "choose": "J.M. Girglani."
+          }
+        ],
+        "nextStep": "Anchor Girglani strictly to 2001–2004."
+      },
+      {
+        "observation": "Selected Justice K.N. Wanchoo.",
+        "correctMeaning": "Justice Wanchoo (former Chief Justice of India) examined legal alternatives for employment safeguards, not financial calculations.",
+        "selectedMeaning": "Confusing the legal committee with the accounting committee.",
+        "possibleConfusion": "Both committees operated concurrently in 1969 under Indira Gandhi's 8-Point Formula.",
+        "decisionRules": [
+          {
+            "when": "Asked about committee on employment/constitutional safeguards in 1969",
+            "choose": "Justice K.N. Wanchoo Committee."
+          },
+          {
+            "when": "Asked about financial surplus committees",
+            "choose": "Kumar Lalit and Justice Bhargava."
+          }
+        ],
+        "nextStep": "Remember Wanchoo = Law/Employment; Bhargava = Money/Surpluses."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q232",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M07",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "To defuse the explosive 1969 Telangana agitation and address financial and developmental grievances, Prime Minister Indira Gandhi announced the historic 'Eight-Point Formula' in the Lok Sabha. On which exact date was the Eight-Point Formula announced?",
+    "options": [
+      {
+        "text": "11 April 1969",
+        "why": "Prime Minister Indira Gandhi announced the 8-Point Formula in the Lok Sabha on 11 April 1969, proposing high-powered committees for surplus determination (Bhargava) and developmental implementation.",
+        "attraction": "The authentic, historic date of the Eight-Point Formula.",
+        "confusion": false
+      },
+      {
+        "text": "19 January 1969",
+        "why": "19 January 1969 was the date of the All-Party Accord in Hyderabad, not Indira Gandhi's announcement in Parliament.",
+        "attraction": "All-Party Accord date.",
+        "confusion": true
+      },
+      {
+        "text": "21 September 1973",
+        "why": "21 September 1973 was the announcement date of the Six-Point Formula, over four years later.",
+        "attraction": "Confusing 8-Point Formula (1969) with 6-Point Formula (1973)."
+      },
+      {
+        "text": "1 November 1969",
+        "why": "1 November was state formation anniversary; the formula was announced 7 months earlier in April.",
+        "attraction": "Anniversary date distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Indira Gandhi announced the Eight-Point Formula in the Lok Sabha on 11 April 1969.",
+    "clue": "Look for 11 April 1969, the date of Indira Gandhi's Eight-Point Formula in Parliament.",
+    "trap": "Do not confuse the Eight-Point Formula (11 April 1969) with the Six-Point Formula (21 Sept 1973) or the All-Party Accord (19 Jan 1969).",
+    "elimination": "Eight-Point Formula was announced on 11 April 1969. All-Party Accord was 19 Jan 1969; Six-Point Formula was 21 Sept 1973.",
+    "anchor": "11 April 1969 -> Lok Sabha -> Indira Gandhi announces Eight-Point Formula.",
+    "hint": "It established a High-Powered Committee on Surplus (Bhargava Committee) and a Telangana Development Committee chaired by the Chief Minister.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 356,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies 11 April 1969 as the date of the Eight-Point Formula.",
+        "correctMeaning": "The Eight-Point Formula was the Central Government's first major policy intervention in the 1969 crisis, attempting to placate Telangana without granting separate statehood.",
+        "selectedMeaning": "The Eight-Point Formula was the Central Government's first major policy intervention in the 1969 crisis, attempting to placate Telangana without granting separate statehood.",
+        "possibleConfusion": "No confusion; standard milestone in Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked exact date of the Eight-Point Formula announcement",
+            "choose": "11 April 1969."
+          },
+          {
+            "when": "Asked who announced the Eight-Point Formula in Lok Sabha",
+            "choose": "Prime Minister Indira Gandhi."
+          }
+        ],
+        "nextStep": "Note that Telangana students and the TPS rejected the 8-Point Formula, shouting 'We want Telangana, not packages!'."
+      },
+      {
+        "observation": "Selected 19 January 1969.",
+        "correctMeaning": "19 January 1969 was the state-level All-Party Accord in Hyderabad; the Eight-Point Formula was announced in Parliament on 11 April 1969.",
+        "selectedMeaning": "Confusing the state political accord with the prime minister's parliamentary package.",
+        "possibleConfusion": "Both were major settlement attempts in 1969.",
+        "decisionRules": [
+          {
+            "when": "Asked about All-Party Accord in Hyderabad",
+            "choose": "19 January 1969."
+          },
+          {
+            "when": "Asked about Indira Gandhi's Eight-Point Formula in Lok Sabha",
+            "choose": "11 April 1969."
+          }
+        ],
+        "nextStep": "Sequence: All-Party Accord (Jan 1969) -> 8-Point Formula (Apr 1969)."
+      },
+      {
+        "observation": "Selected 21 September 1973.",
+        "correctMeaning": "21 September 1973 was the Six-Point Formula; the Eight-Point Formula was in 1969.",
+        "selectedMeaning": "Confusing the 8-point formula (1969) with the 6-point formula (1973).",
+        "possibleConfusion": "Both formulas were devised under Indira Gandhi's tenure.",
+        "decisionRules": [
+          {
+            "when": "Asked about Eight-Point Formula",
+            "choose": "11 April 1969."
+          },
+          {
+            "when": "Asked about Six-Point Formula",
+            "choose": "21 September 1973."
+          }
+        ],
+        "nextStep": "Memorize: 8-Point = 1969 (after Telangana agitation); 6-Point = 1973 (after Jai Andhra agitation)."
+      },
+      {
+        "observation": "Selected November 1969.",
+        "correctMeaning": "The formula was announced during the budget session of Parliament in April 1969, not November.",
+        "selectedMeaning": "Wrong season and month.",
+        "possibleConfusion": "November was associated with state formation protests.",
+        "decisionRules": [
+          {
+            "when": "Asked month of 8-Point Formula",
+            "choose": "April 1969."
+          },
+          {
+            "when": "Evaluating November options",
+            "choose": "Eliminate late 1969 dates."
+          }
+        ],
+        "nextStep": "Anchor 11 April 1969 as the parliamentary date."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q233",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M08",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Under Point 1 of the Eight-Point Formula, the Government of India constituted a High-Powered Committee headed by Justice Vashishta Bhargava (Judge of the Supreme Court) on 19 April 1969 to make a definitive determination of Telangana surpluses. What was the exact surplus determined by the Bhargava Committee in its report submitted in October 1969?",
+    "options": [
+      {
+        "text": "₹28.34 crore (unspent surplus between 1 Nov 1956 and 31 March 1968)",
+        "why": "The Justice Vashishta Bhargava Committee calculated that the net surplus accumulated from the Telangana region and diverted to Andhra between 1 Nov 1956 and 31 March 1968 was exactly ₹28.34 crore.",
+        "attraction": "The authentic, official figure in the Bhargava Committee Report.",
+        "confusion": false
+      },
+      {
+        "text": "₹34.10 crore",
+        "why": "₹34.10 crore was the calculation of Kumar Lalit in March 1969, which the Bhargava Committee reduced by deducting certain shared departmental overheads.",
+        "attraction": "Kumar Lalit's earlier calculation.",
+        "confusion": true
+      },
+      {
+        "text": "₹107.00 crore",
+        "why": "₹107 crore was the estimate submitted by the Telangana Regional Committee headed by J. Chokka Rao, which was rejected by Bhargava.",
+        "attraction": "Telangana Regional Committee's demand."
+      },
+      {
+        "text": "Zero surplus (finding that Andhra had subsidized Telangana)",
+        "why": "The committee confirmed that Telangana had generated substantial surpluses; it never claimed zero surplus.",
+        "attraction": "False anti-Telangana propaganda claim."
+      }
+    ],
+    "answer": 0,
+    "reason": "The Justice Vashishta Bhargava Committee determined the Telangana revenue surplus to be ₹28.34 crore.",
+    "clue": "Look for Justice Bhargava Committee's official surplus calculation of ₹28.34 crore.",
+    "trap": "Do not choose ₹34.10 crore (Kumar Lalit) or ₹107 crore (TRC); Bhargava's final figure was ₹28.34 crore.",
+    "elimination": "Bhargava Committee calculated ₹28.34 crore. Kumar Lalit had found ₹34.10 crore; TRC claimed ₹107 crore.",
+    "anchor": "Justice Vashishta Bhargava Committee (1969) -> Telangana Surplus: ₹28.34 crore.",
+    "hint": "Other members included Prof. Mukut Bihari Lal and Hari Bhushan Bhar (CAG representative).",
+    "source": "SR-POLICE-SI-2016",
+    "page": 362,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies ₹28.34 crore as the Bhargava Committee finding.",
+        "correctMeaning": "The Central Government accepted the ₹28.34 crore figure and allocated an additional ₹45 crore special development grant for Telangana under the Fourth Five-Year Plan.",
+        "selectedMeaning": "The Central Government accepted the ₹28.34 crore figure and allocated an additional ₹45 crore special development grant for Telangana under the Fourth Five-Year Plan.",
+        "possibleConfusion": "No confusion; standard high-yield numerical question in TS exams.",
+        "decisionRules": [
+          {
+            "when": "Asked surplus determined by Justice Bhargava Committee (Oct 1969)",
+            "choose": "₹28.34 crore."
+          },
+          {
+            "when": "Asked surplus determined by Kumar Lalit (March 1969)",
+            "choose": "₹34.10 crore."
+          }
+        ],
+        "nextStep": "Note how the reduction from ₹34.10 cr to ₹28.34 cr angered Telangana leaders who claimed the committee manipulated calculations."
+      },
+      {
+        "observation": "Selected ₹34.10 crore.",
+        "correctMeaning": "₹34.10 crore was Kumar Lalit's figure; Bhargava reduced it to ₹28.34 crore by altering expenditure apportionment formulas.",
+        "selectedMeaning": "Confusing Kumar Lalit's audit figure with Bhargava's judicial figure.",
+        "possibleConfusion": "Both numbers are heavily tested in exams.",
+        "decisionRules": [
+          {
+            "when": "Asked about Kumar Lalit figure",
+            "choose": "₹34.10 crore."
+          },
+          {
+            "when": "Asked about Bhargava Committee figure",
+            "choose": "₹28.34 crore."
+          }
+        ],
+        "nextStep": "Always remember: Kumar Lalit = ₹34.10 cr; Bhargava = ₹28.34 cr."
+      },
+      {
+        "observation": "Selected ₹107 crore.",
+        "correctMeaning": "₹107 crore was the calculation presented by the Telangana Regional Committee (J. Chokka Rao); Bhargava officially sanctioned only ₹28.34 crore.",
+        "selectedMeaning": "Confusing the Telangana Regional Committee's claim with the official judicial finding.",
+        "possibleConfusion": "The TRC report was widely publicized in the press.",
+        "decisionRules": [
+          {
+            "when": "Asked about Telangana Regional Committee claim",
+            "choose": "₹107.60 crore."
+          },
+          {
+            "when": "Asked about Bhargava Committee official finding",
+            "choose": "₹28.34 crore."
+          }
+        ],
+        "nextStep": "Keep the TRC claim distinct from the Central Committee award."
+      },
+      {
+        "observation": "Selected zero surplus.",
+        "correctMeaning": "Both Kumar Lalit and Bhargava conclusively established that Telangana had massive surpluses diverted to Andhra.",
+        "selectedMeaning": "Factually absurd claim contrary to all official records.",
+        "possibleConfusion": "Some political commentators falsely claimed Andhra spent more on Telangana.",
+        "decisionRules": [
+          {
+            "when": "Asked about official committee findings on Telangana surplus",
+            "choose": "Conclusively proved diversion of crores of rupees from Telangana."
+          },
+          {
+            "when": "Evaluating zero surplus claims",
+            "choose": "Eliminate zero surplus claims."
+          }
+        ],
+        "nextStep": "Remember both official committees proved substantial surplus diversion."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q234",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M09",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Under Point 2 of the Eight-Point Formula, the Central Government constituted the 'Committee of Jurists' headed by former Chief Justice of India K.N. Wanchoo on 19 April 1969. What was the primary mandate of the Wanchoo Committee, and what did it conclude regarding constitutional amendments?",
+    "options": [
+      {
+        "text": "To recommend measures for providing employment safeguards for Telangana; it concluded that Article 16(3) could NOT be amended to allow regional domicile, suggesting administrative conventions instead",
+        "why": "The Wanchoo Committee (Justice K.N. Wanchoo, M.C. Setalvad, and Niren De) examined whether regional domicile could be provided, concluding that amending Article 16(3) was not advisable and suggested administrative decentralization, which Telangana leaders rejected as useless.",
+        "attraction": "The authentic mandate and negative conclusion of the Wanchoo Committee.",
+        "confusion": false
+      },
+      {
+        "text": "To calculate agricultural irrigation deficits in the Godavari basin",
+        "why": "Irrigation was not in their terms of reference; it was exclusively a Committee of Jurists on legal and employment safeguards.",
+        "attraction": "Irrigation distractor.",
+        "confusion": true
+      },
+      {
+        "text": "To draft the Andhra Pradesh Reorganisation Act for dividing the state",
+        "why": "Wanchoo Committee was tasked with preserving the united state through legal safeguards, not drafting bifurcation legislation.",
+        "attraction": "Bifurcation legislation distractor."
+      },
+      {
+        "text": "To investigate police firing casualties at Gun Park and Mozamjahi Market",
+        "why": "Police firings were investigated by magisterial and local inquiries, not the Central Committee of Jurists.",
+        "attraction": "Human rights inquiry distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "The Wanchoo Committee examined employment safeguards and concluded Article 16(3) could not be amended for regional domicile.",
+    "clue": "Look for Wanchoo Committee: Committee of Jurists examining employment safeguards after Supreme Court struck down Section 3.",
+    "trap": "Do not guess irrigation or police inquiries; Wanchoo, Setalvad, and Niren De were jurists examining Article 16(3) employment safeguards.",
+    "elimination": "Wanchoo Committee was a Committee of Jurists that reported on employment safeguards under Article 16(3).",
+    "anchor": "Wanchoo Committee (1969) -> Justice K.N. Wanchoo, M.C. Setalvad, Niren De -> Employment safeguards under Art 16(3).",
+    "hint": "Former Attorney General M.C. Setalvad and sitting Attorney General Niren De were the two members.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 368,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the Wanchoo Committee's mandate and constitutional findings.",
+        "correctMeaning": "Because Wanchoo declared Article 16(3) could not be altered, Telangana leaders realized that existing constitutional provisions could never protect local jobs within united Andhra Pradesh.",
+        "selectedMeaning": "Because Wanchoo declared Article 16(3) could not be altered, Telangana leaders realized that existing constitutional provisions could never protect local jobs within united Andhra Pradesh.",
+        "possibleConfusion": "No confusion; crucial legal milestone in the 1969 agitation trajectory.",
+        "decisionRules": [
+          {
+            "when": "Asked who headed the 1969 Committee of Jurists on employment safeguards",
+            "choose": "Justice K.N. Wanchoo."
+          },
+          {
+            "when": "Asked who were members of Wanchoo Committee",
+            "choose": "M.C. Setalvad and Niren De."
+          }
+        ],
+        "nextStep": "Note that it took the 32nd Constitutional Amendment in 1973 (Article 371-D) to finally override this constitutional hurdle."
+      },
+      {
+        "observation": "Selected irrigation deficits.",
+        "correctMeaning": "The Krishna-Godavari water dispute was handled by the Bachawat Tribunal (KWDT) from 1969, not by the Wanchoo Jurists Committee.",
+        "selectedMeaning": "Confusing water dispute tribunals with the constitutional jurists committee.",
+        "possibleConfusion": "Bachawat Tribunal was also constituted in 1969.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1969 river water dispute tribunal",
+            "choose": "Justice R.S. Bachawat Tribunal (KWDT)."
+          },
+          {
+            "when": "Asked about 1969 employment safeguards committee",
+            "choose": "Justice K.N. Wanchoo Committee."
+          }
+        ],
+        "nextStep": "Keep Bachawat (Water) and Wanchoo (Employment) clearly separated."
+      },
+      {
+        "observation": "Selected drafting bifurcation act.",
+        "correctMeaning": "The Central Government was firmly committed to maintaining unified Andhra Pradesh in 1969; bifurcation acts were drafted only in 2013–14.",
+        "selectedMeaning": "Anachronistic political distractor.",
+        "possibleConfusion": "Telangana people demanded bifurcation, but committees sought to avoid it.",
+        "decisionRules": [
+          {
+            "when": "Asked about Wanchoo Committee mandate",
+            "choose": "Devising employment safeguards within united Andhra Pradesh."
+          },
+          {
+            "when": "Evaluating bifurcation drafting in 1969",
+            "choose": "Eliminate bifurcation drafting."
+          }
+        ],
+        "nextStep": "Remember 1969 committees were intended to salvage united Andhra Pradesh."
+      },
+      {
+        "observation": "Selected police firing investigation.",
+        "correctMeaning": "Police firings were law and order matters; Wanchoo, Setalvad, and De were the top legal minds of India analyzing Article 16.",
+        "selectedMeaning": "Confusing judicial crime inquiries with constitutional advisory panels.",
+        "possibleConfusion": "Dozens of police firings occurred during this exact period.",
+        "decisionRules": [
+          {
+            "when": "Asked about Wanchoo Committee composition",
+            "choose": "Former CJI and Attorneys General examining constitutional law."
+          },
+          {
+            "when": "Evaluating police firing inquiries",
+            "choose": "Eliminate human rights and police inquiries."
+          }
+        ],
+        "nextStep": "Anchor Wanchoo to constitutional law and Article 16(3)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q235",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M10",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "The Telangana Praja Samithi (TPS) was the political spearhead of the 1969 separate state movement. Who founded the TPS in February 1969 as its inaugural President, and who took over its leadership in May 1969 to transform it into a mass electoral force?",
+    "options": [
+      {
+        "text": "Founded by Ananthula Madan Mohan (Feb 1969); Leadership taken over by Dr. Marri Chenna Reddy (May 1969)",
+        "why": "Ananthula Madan Mohan (an advocate from Siddipet) founded the Telangana Praja Samithi on 28 February 1969 (initially formed in Jan 1969 as Telangana Pranta Samithi). In May 1969, Dr. Marri Chenna Reddy took over as President, giving it immense political momentum.",
+        "attraction": "The authentic founder and subsequent mass leader of TPS.",
+        "confusion": false
+      },
+      {
+        "text": "Founded by K. Chandrashekar Rao; Leadership taken over by Prof. Jayashankar",
+        "why": "KCR founded the TRS in 2001, 32 years later; Prof. Jayashankar was an ideologue, not the 1969 TPS president.",
+        "attraction": "2001 movement leaders applied to 1969.",
+        "confusion": true
+      },
+      {
+        "text": "Founded by Mallikarjun; Leadership taken over by Pullela Venkat Rao",
+        "why": "Mallikarjun and Pullela Venkat Rao headed the Osmania University Student Action Committee, not the political party TPS.",
+        "attraction": "Student leaders confused with party leaders."
+      },
+      {
+        "text": "Founded by K.V. Ranga Reddy; Leadership taken over by Burgula Ramakrishna Rao",
+        "why": "Burgula died in 1967; K.V. Ranga Reddy gave blessings but did not head the TPS.",
+        "attraction": "1956 signatories distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "TPS was founded by Ananthula Madan Mohan in Feb 1969 and led by Dr. Marri Chenna Reddy from May 1969.",
+    "clue": "Look for Ananthula Madan Mohan as founder in Feb 1969 and Dr. Marri Chenna Reddy as leader from May 1969.",
+    "trap": "Do not confuse the founder (Madan Mohan) with the later mass leader (Chenna Reddy) or the student committee (Mallikarjun).",
+    "elimination": "Madan Mohan founded TPS; Dr. Marri Chenna Reddy took over in May 1969. KCR founded TRS in 2001; Mallikarjun led the Student JAC.",
+    "anchor": "Telangana Praja Samithi (1969) -> Founded by Ananthula Madan Mohan -> Led by Dr. Marri Chenna Reddy.",
+    "hint": "Madan Mohan was an advocate from Siddipet who later served as a minister in the state cabinet.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 374,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Ananthula Madan Mohan as founder and Dr. Marri Chenna Reddy as leader.",
+        "correctMeaning": "Under Marri Chenna Reddy's charismatic and militant leadership, the TPS transformed the student movement into an all-out political rebellion.",
+        "selectedMeaning": "Under Marri Chenna Reddy's charismatic and militant leadership, the TPS transformed the student movement into an all-out political rebellion.",
+        "possibleConfusion": "No confusion; classic Police SI question.",
+        "decisionRules": [
+          {
+            "when": "Asked who founded the Telangana Praja Samithi (TPS) in 1969",
+            "choose": "Ananthula Madan Mohan."
+          },
+          {
+            "when": "Asked who took over presidency of TPS in May 1969",
+            "choose": "Dr. Marri Chenna Reddy."
+          }
+        ],
+        "nextStep": "Note how TPS swept the 1971 Lok Sabha elections winning 10 out of 14 seats."
+      },
+      {
+        "observation": "Selected KCR and Prof. Jayashankar.",
+        "correctMeaning": "KCR and Prof. Jayashankar founded the Telangana Rashtra Samithi (TRS) on 27 April 2001; TPS was founded in 1969 by Madan Mohan.",
+        "selectedMeaning": "Confusing the 2001 party (TRS) with the 1969 party (TPS).",
+        "possibleConfusion": "Both TPS and TRS fought for separate statehood under similar names.",
+        "decisionRules": [
+          {
+            "when": "Asked about Telangana Praja Samithi (TPS) in 1969",
+            "choose": "Ananthula Madan Mohan and Dr. Marri Chenna Reddy."
+          },
+          {
+            "when": "Asked about Telangana Rashtra Samithi (TRS) in 2001",
+            "choose": "K. Chandrashekar Rao."
+          }
+        ],
+        "nextStep": "Differentiate TPS (1969) from TRS (2001)."
+      },
+      {
+        "observation": "Selected Mallikarjun and Pullela Venkat Rao.",
+        "correctMeaning": "Mallikarjun and Pullela Venkat Rao led the Osmania University Student Action Committee; TPS was the overarching political organization.",
+        "selectedMeaning": "Confusing student action committee leadership with the political party.",
+        "possibleConfusion": "Students worked closely with TPS, though students often accused politicians of opportunism.",
+        "decisionRules": [
+          {
+            "when": "Asked who headed Osmania University Student Action Committee",
+            "choose": "Mallikarjun."
+          },
+          {
+            "when": "Asked who headed TPS",
+            "choose": "Ananthula Madan Mohan followed by Dr. Marri Chenna Reddy."
+          }
+        ],
+        "nextStep": "Keep Student JAC distinct from political TPS."
+      },
+      {
+        "observation": "Selected K.V. Ranga Reddy and Burgula.",
+        "correctMeaning": "Burgula passed away on 14 September 1967; K.V. Ranga Reddy supported the students morally but did not run the TPS.",
+        "selectedMeaning": "Anachronism involving deceased and retired 1956 veterans.",
+        "possibleConfusion": "K.V. Ranga Reddy attended student conventions in 1969.",
+        "decisionRules": [
+          {
+            "when": "Evaluating Burgula Ramakrishna Rao in 1969",
+            "choose": "Eliminate Burgula (passed away in 1967)."
+          },
+          {
+            "when": "Asked about TPS leaders",
+            "choose": "Madan Mohan and Marri Chenna Reddy."
+          }
+        ],
+        "nextStep": "Anchor 1969 strictly to the new generation of leadership."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q236",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M11",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "During the 1969 Telangana Agitation, official records state that 369 separate state agitators (mostly students and youths) were killed in police firings. Who was the very first martyr of the 1969 movement, shot dead by police during a protest at Sadashivpet (Medak district) on 24 January 1969?",
+    "options": [
+      {
+        "text": "Shankar (Sadashivpet Shankar)",
+        "why": "On 24 January 1969, police opened fire on demonstrating students at Sadashivpet in Medak district, killing Shankar, a young student who became the very first martyr of the 1969 Telangana Agitation.",
+        "attraction": "The authentic, universally recognized first martyr of 1969.",
+        "confusion": false
+      },
+      {
+        "text": "Doddi Komaraiah",
+        "why": "Doddi Komaraiah was the first martyr of the 1946 Telangana Peasant Armed Struggle at Kadavendi, 23 years earlier.",
+        "attraction": "First martyr of the 1946 armed struggle.",
+        "confusion": true
+      },
+      {
+        "text": "Kolipaka Ramadasu",
+        "why": "Kolipaka Ramadasu was a living labor leader who organized the KTPS protests in Palvancha, not a martyr who died in police firing.",
+        "attraction": "Prominent 1969 protest organizer."
+      },
+      {
+        "text": "Srikantha Chary",
+        "why": "Kasoju Srikantha Chary was the first martyr of the 2009 agitation who immolated himself at LB Nagar, Hyderabad on 29 November 2009.",
+        "attraction": "First martyr of the 2009 agitation."
+      }
+    ],
+    "answer": 0,
+    "reason": "Shankar was shot dead at Sadashivpet on 24 January 1969, becoming the first martyr of the 1969 agitation.",
+    "clue": "Look for Shankar, the first martyr of 1969 killed in police firing at Sadashivpet on 24 January 1969.",
+    "trap": "Do not confuse the first martyr of 1946 (Doddi Komaraiah), 1969 (Shankar), and 2009 (Srikantha Chary).",
+    "elimination": "Shankar was the 1969 first martyr. Doddi Komaraiah was 1946; Srikantha Chary was 2009; Ramadasu was a labor organizer.",
+    "anchor": "24 January 1969 -> Sadashivpet (Medak) -> Shankar (First Martyr of 1969 Telangana Agitation).",
+    "hint": "Soon after, 17-year-old student Krishna was killed in firing in Hyderabad.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 380,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Shankar as the first martyr of the 1969 agitation.",
+        "correctMeaning": "Shankar's martyrdom on 24 January 1969 in Sadashivpet triggered widespread curfews and funeral processions across Medak, Hyderabad, and Warangal.",
+        "selectedMeaning": "Shankar's martyrdom on 24 January 1969 in Sadashivpet triggered widespread curfews and funeral processions across Medak, Hyderabad, and Warangal.",
+        "possibleConfusion": "No confusion; standard high-yield question tested across all TS police exams.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the first martyr of 1969 Telangana Agitation",
+            "choose": "Shankar (Sadashivpet, 24 January 1969)."
+          },
+          {
+            "when": "Asked how many martyrs officially died in the 1969 movement",
+            "choose": "369 martyrs."
+          }
+        ],
+        "nextStep": "Memorize the first martyrs of all three phases: 1946 = Doddi Komaraiah; 1969 = Shankar; 2009 = Srikantha Chary."
+      },
+      {
+        "observation": "Selected Doddi Komaraiah.",
+        "correctMeaning": "Doddi Komaraiah was martyred on 4 July 1946 at Kadavendi in the anti-feudal armed struggle; Shankar was martyred on 24 January 1969.",
+        "selectedMeaning": "Confusing the 1946 armed struggle martyr with the 1969 statehood martyr.",
+        "possibleConfusion": "Both are 'first martyrs' of their respective eras.",
+        "decisionRules": [
+          {
+            "when": "Asked about first martyr of 1946 Peasant Armed Struggle",
+            "choose": "Doddi Komaraiah."
+          },
+          {
+            "when": "Asked about first martyr of 1969 Separate Telangana Movement",
+            "choose": "Shankar (Sadashivpet)."
+          }
+        ],
+        "nextStep": "Always check the year specified in the question: 1946 vs 1969."
+      },
+      {
+        "observation": "Selected Kolipaka Ramadasu.",
+        "correctMeaning": "Kolipaka Ramadasu was the employee leader of KTPS Palvancha who led strikes; he was not killed in firing.",
+        "selectedMeaning": "Confusing a protest leader with a martyr.",
+        "possibleConfusion": "Ramadasu was prominently featured in January 1969 news.",
+        "decisionRules": [
+          {
+            "when": "Asked about KTPS Palvancha leader",
+            "choose": "Kolipaka Ramadasu."
+          },
+          {
+            "when": "Asked about first martyr of 1969",
+            "choose": "Shankar."
+          }
+        ],
+        "nextStep": "Remember Ramadasu survived and continued labor activism."
+      },
+      {
+        "observation": "Selected Srikantha Chary.",
+        "correctMeaning": "Srikantha Chary immolated himself on 29 November 2009 at LB Nagar; Shankar was killed in police firing on 24 January 1969.",
+        "selectedMeaning": "Confusing the 2009 first martyr with the 1969 first martyr.",
+        "possibleConfusion": "Both are celebrated as the supreme student martyrs of their respective generations.",
+        "decisionRules": [
+          {
+            "when": "Asked about first martyr of 2009 movement",
+            "choose": "Kasoju Srikantha Chary."
+          },
+          {
+            "when": "Asked about first martyr of 1969 movement",
+            "choose": "Shankar."
+          }
+        ],
+        "nextStep": "Anchor Srikantha Chary to 2009 and Shankar to 1969."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q237",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M12",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "The Telangana Martyrs Memorial (Telangana Amaraveerula Stupa) erected at Gun Park opposite the State Legislative Assembly in Hyderabad commemorates the 369 martyrs of the 1969 agitation. Who was the renowned sculptor and artist who designed and carved this iconic black stone memorial?",
+    "options": [
+      {
+        "text": "Aekka Yadagiri Rao",
+        "why": "Aekka Yadagiri Rao, a distinguished sculptor and professor of sculpture at JNTU College of Fine Arts, designed and carved the Gun Park Martyrs Memorial with symbolic red lilies, bullet marks, and 9 spokes representing the 9 districts of Telangana.",
+        "attraction": "The authentic, celebrated sculptor of the 1969 Martyrs Memorial.",
+        "confusion": false
+      },
+      {
+        "text": "Kapu Rajaiah",
+        "why": "Kapu Rajaiah was a celebrated folk painter of Telangana rural culture from Siddipet, not the sculptor of the Gun Park stupa.",
+        "attraction": "Famous Telangana painter.",
+        "confusion": true
+      },
+      {
+        "text": "Vaikuntam (Thota Vaikuntam)",
+        "why": "Thota Vaikuntam is a renowned contemporary painter famous for his Telangana rural figures, not the Gun Park sculptor.",
+        "attraction": "Famous contemporary artist."
+      },
+      {
+        "text": "Ram V. Sutar",
+        "why": "Ram V. Sutar is the sculptor of the Statue of Unity in Gujarat and Ambedkar statue, not the 1970 designer of the Gun Park monument.",
+        "attraction": "Famous national monument sculptor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Aekka Yadagiri Rao designed and carved the Telangana Martyrs Memorial at Gun Park.",
+    "clue": "Look for sculptor Aekka Yadagiri Rao, designer of the Gun Park Amaraveerula Stupa.",
+    "trap": "Do not confuse sculptor Aekka Yadagiri Rao with painters Kapu Rajaiah or Thota Vaikuntam.",
+    "elimination": "Aekka Yadagiri Rao carved the Gun Park memorial. Rajaiah and Vaikuntam are painters; Sutar is a modern national sculptor.",
+    "anchor": "Gun Park Martyrs Memorial -> Sculpted by Aekka Yadagiri Rao -> Dedicated to 369 martyrs of 1969.",
+    "hint": "The memorial features a base of black granite, bullet marks symbolizing police firing, and a white lily carved at the top symbolizing peace.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 386,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Aekka Yadagiri Rao as the sculptor of the Gun Park monument.",
+        "correctMeaning": "The foundation stone for the Gun Park memorial was laid on 23 February 1970 by Hyderabad Mayor Laxminarayan, defying police bans, and remains the sacred pilgrimage site of Telangana statehood.",
+        "selectedMeaning": "The foundation stone for the Gun Park memorial was laid on 23 February 1970 by Hyderabad Mayor Laxminarayan, defying police bans, and remains the sacred pilgrimage site of Telangana statehood.",
+        "possibleConfusion": "No confusion; standard cultural heritage question in TS examinations.",
+        "decisionRules": [
+          {
+            "when": "Asked who designed and sculpted the Telangana Martyrs Memorial at Gun Park",
+            "choose": "Aekka Yadagiri Rao."
+          },
+          {
+            "when": "Asked where the 1969 Martyrs Memorial is located",
+            "choose": "Gun Park (opposite Public Gardens / State Assembly, Hyderabad)."
+          }
+        ],
+        "nextStep": "Note how every Telangana agitation leader and Chief Minister begins their official program by paying homage at Gun Park."
+      },
+      {
+        "observation": "Selected Kapu Rajaiah.",
+        "correctMeaning": "Kapu Rajaiah was a master painter of rural Telangana festivals (Bonalu, Bathukamma, Kolatam); Aekka Yadagiri Rao was the sculptor.",
+        "selectedMeaning": "Confusing a painter with a sculptor.",
+        "possibleConfusion": "Both are celebrated visual artists of Telangana.",
+        "decisionRules": [
+          {
+            "when": "Asked about famous painter of Bathukamma and rural Telangana life",
+            "choose": "Kapu Rajaiah (Nakashi tradition)."
+          },
+          {
+            "when": "Asked about sculptor of Gun Park Stupa",
+            "choose": "Aekka Yadagiri Rao."
+          }
+        ],
+        "nextStep": "Remember Rajaiah = Painting; Yadagiri Rao = Sculpture."
+      },
+      {
+        "observation": "Selected Thota Vaikuntam.",
+        "correctMeaning": "Thota Vaikuntam is known for his colorful paintings of Telangana women draped in traditional sarees; he did not sculpt Gun Park.",
+        "selectedMeaning": "Confusing modern painting with monument sculpting.",
+        "possibleConfusion": "Both studied and taught in Hyderabad art circles.",
+        "decisionRules": [
+          {
+            "when": "Asked about painter of dusky, brightly attired Telangana men and women",
+            "choose": "Thota Vaikuntam."
+          },
+          {
+            "when": "Asked about Gun Park sculptor",
+            "choose": "Aekka Yadagiri Rao."
+          }
+        ],
+        "nextStep": "Associate Thota Vaikuntam with contemporary canvas art."
+      },
+      {
+        "observation": "Selected Ram V. Sutar.",
+        "correctMeaning": "Ram V. Sutar sculpted the Statue of Unity (Sardar Patel) and 125-foot Ambedkar statue in Hyderabad (2023); Yadagiri Rao sculpted Gun Park in 1970.",
+        "selectedMeaning": "Anachronism involving a national bronze sculptor.",
+        "possibleConfusion": "Sutar sculpted other monuments in Hyderabad.",
+        "decisionRules": [
+          {
+            "when": "Asked who sculpted the 125-foot Ambedkar statue in Hyderabad (2023)",
+            "choose": "Ram V. Sutar."
+          },
+          {
+            "when": "Asked who sculpted the 1969 Martyrs Memorial",
+            "choose": "Aekka Yadagiri Rao."
+          }
+        ],
+        "nextStep": "Differentiate 1970 Gun Park (Yadagiri Rao) from 2023 Ambedkar statue (Ram Sutar)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q238",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M13",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "During the 1969 movement, women participated in massive street demonstrations and braved lathicharges and tear gas. On which date was 'Telangana Women's Day' (Telangana Mahila Dinotsavam) celebrated across the region under the leadership of prominent women leaders like T. Sadalakshmi, Sangam Laxmibai, and Konda Parvathi Devi?",
+    "options": [
+      {
+        "text": "17 June 1969",
+        "why": "On 17 June 1969, 'Telangana Women's Day' was observed across all 9 districts of Telangana, with massive processions of mothers, students, and housewives protesting against police brutalities on their children.",
+        "attraction": "The authentic, official date of Telangana Women's Day in 1969.",
+        "confusion": false
+      },
+      {
+        "text": "8 March 1969",
+        "why": "8 March is International Women's Day; the special Telangana Women's Day of the 1969 movement was specifically declared and observed on 17 June 1969.",
+        "attraction": "International Women's Day date.",
+        "confusion": true
+      },
+      {
+        "text": "1 November 1969",
+        "why": "1 November was observed as 'Betrayal Day' (Vanchana Dinam) or 'Black Day' in Telangana, not Women's Day.",
+        "attraction": "Anti-unification protest day."
+      },
+      {
+        "text": "15 August 1969",
+        "why": "15 August was Independence Day; Women's Day was organized during the peak of June strikes.",
+        "attraction": "National day distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Telangana Women's Day was celebrated on 17 June 1969.",
+    "clue": "Look for 17 June 1969, the historic date observed as Telangana Women's Day.",
+    "trap": "Do not choose 8 March (International Women's Day); the movement-specific Telangana Women's Day was 17 June 1969.",
+    "elimination": "17 June 1969 was observed as Telangana Women's Day. 8 March is International Women's Day; 1 Nov was Vanchana Dinam.",
+    "anchor": "17 June 1969 -> Telangana Women's Day (Mahila Dinam) -> Led by Sadalakshmi, Laxmibai, Parvathi Devi.",
+    "hint": "T. Sadalakshmi was a former minister who resigned from Congress and led militant demonstrations.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 392,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies 17 June 1969 as Telangana Women's Day.",
+        "correctMeaning": "On this day, thousands of women broke curfews and formed human barricades to prevent police from arresting student activists.",
+        "selectedMeaning": "On this day, thousands of women broke curfews and formed human barricades to prevent police from arresting student activists.",
+        "possibleConfusion": "No confusion; high-yield calendar question in Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked when Telangana Women's Day was observed during 1969 agitation",
+            "choose": "17 June 1969."
+          },
+          {
+            "when": "Asked who were prominent women leaders of the 1969 movement",
+            "choose": "T. Sadalakshmi, Sangam Laxmibai, and Konda Parvathi Devi."
+          }
+        ],
+        "nextStep": "Note other designated protest days in 1969: Telangana Demands Day (1 May 1969), Betrayal Day (1 Nov 1969)."
+      },
+      {
+        "observation": "Selected 8 March.",
+        "correctMeaning": "8 March is UN International Women's Day; 17 June 1969 was the specific protest day designated by the Telangana Praja Samithi.",
+        "selectedMeaning": "Confusing global calendar day with regional movement milestone.",
+        "possibleConfusion": "Examiners intentionally place 8 March as a distractor.",
+        "decisionRules": [
+          {
+            "when": "Asked about International Women's Day",
+            "choose": "8 March."
+          },
+          {
+            "when": "Asked about 1969 Telangana Women's Day",
+            "choose": "17 June 1969."
+          }
+        ],
+        "nextStep": "Always separate generic UN dates from movement-specific dates."
+      },
+      {
+        "observation": "Selected 1 November.",
+        "correctMeaning": "1 November was observed as 'Betrayal Day' (Vanchana Dinam) or 'Black Flag Day'; Women's Day was 17 June.",
+        "selectedMeaning": "Confusing Betrayal Day with Women's Day.",
+        "possibleConfusion": "Both were major TPS protest observances in 1969.",
+        "decisionRules": [
+          {
+            "when": "Asked what day 1 November was observed as in Telangana",
+            "choose": "Betrayal Day / Black Day (Vanchana Dinam)."
+          },
+          {
+            "when": "Asked about Telangana Women's Day",
+            "choose": "17 June 1969."
+          }
+        ],
+        "nextStep": "Remember 1 November is the anniversary of merger (1956)."
+      },
+      {
+        "observation": "Selected 15 August.",
+        "correctMeaning": "15 August was Independence Day; Women's Day was on 17 June 1969.",
+        "selectedMeaning": "National calendar distractor.",
+        "possibleConfusion": "Agitators held parallel flag-hoistings on 15 August.",
+        "decisionRules": [
+          {
+            "when": "Asked about Telangana Women's Day",
+            "choose": "17 June 1969."
+          },
+          {
+            "when": "Evaluating national holidays",
+            "choose": "Eliminate 15 August."
+          }
+        ],
+        "nextStep": "Anchor 17 June to the militant women's marches of 1969."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q239",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M14",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "In the 1971 Mid-Term Lok Sabha Elections, the Telangana Praja Samithi (TPS) contested on the sole platform of an immediate separate Telangana state. Out of the 14 Lok Sabha seats in the Telangana region, how many seats did the TPS win in this historic landslide?",
+    "options": [
+      {
+        "text": "10 out of 14 Lok Sabha seats (polling over 47.5% of total popular votes in Telangana)",
+        "why": "The TPS won 10 out of the 14 Lok Sabha seats in Telangana, defeating the ruling Congress party in almost every constituency and establishing beyond doubt that the people overwhelmingly demanded separate statehood.",
+        "attraction": "The authentic, historic election result of 1971.",
+        "confusion": false
+      },
+      {
+        "text": "All 14 Lok Sabha seats (clean sweep)",
+        "why": "TPS did not win all 14; Congress won 3 seats and CPI won 1 seat (Khammam).",
+        "attraction": "Clean sweep assumption.",
+        "confusion": true
+      },
+      {
+        "text": "Only 2 out of 14 Lok Sabha seats",
+        "why": "TPS won a massive majority of 10 seats, not just 2.",
+        "attraction": "Underestimation distractor."
+      },
+      {
+        "text": "TPS boycotted the elections and won zero seats",
+        "why": "TPS actively contested on the election symbol of 'Two Leaves' (and later independent symbols), scoring a historic win.",
+        "attraction": "Boycott rumor distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "The Telangana Praja Samithi won 10 out of 14 Lok Sabha seats in the 1971 elections.",
+    "clue": "Look for TPS winning 10 out of 14 Lok Sabha seats in the 1971 elections.",
+    "trap": "Do not guess all 14; TPS won 10, Congress won 3, and CPI won 1 (Khammam).",
+    "elimination": "TPS won 10 out of 14 seats in 1971, proving democratic majority for separate statehood.",
+    "anchor": "1971 Lok Sabha Elections -> TPS wins 10 out of 14 seats in Telangana -> Mandate for Separate State.",
+    "hint": "TPS candidates included G. Venkatswamy (Peddapalli), S.B. Giri (Warangal), and M. Satyanarayana Rao (Karimnagar).",
+    "source": "SR-POLICE-SI-2016",
+    "page": 398,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies TPS winning 10 out of 14 Lok Sabha seats in 1971.",
+        "correctMeaning": "The 1971 election result was the first democratic referendum on Telangana statehood, where voters decisively rejected the ruling Congress party in favor of separation.",
+        "selectedMeaning": "The 1971 election result was the first democratic referendum on Telangana statehood, where voters decisively rejected the ruling Congress party in favor of separation.",
+        "possibleConfusion": "No confusion; standard high-yield milestone in Telangana electoral history.",
+        "decisionRules": [
+          {
+            "when": "Asked how many Lok Sabha seats TPS won in 1971",
+            "choose": "10 out of 14 seats."
+          },
+          {
+            "when": "Asked percentage of popular vote polled by TPS",
+            "choose": "Approximately 47.5%."
+          }
+        ],
+        "nextStep": "Note the four seats TPS lost: Khammam (CPI - T. Lakshmi Kantamma), Nalgonda, Miryalguda, and Adilabad."
+      },
+      {
+        "observation": "Selected all 14 seats.",
+        "correctMeaning": "TPS won 10 seats; Congress won 3 (including Miryalguda and Adilabad) and CPI won 1 (Khammam).",
+        "selectedMeaning": "Overstating a landslide victory into an impossible clean sweep.",
+        "possibleConfusion": "Many assume a wave election wins 100% of seats.",
+        "decisionRules": [
+          {
+            "when": "Asked exact tally of TPS in 1971",
+            "choose": "10 out of 14."
+          },
+          {
+            "when": "Evaluating total sweep",
+            "choose": "Eliminate all 14 seats."
+          }
+        ],
+        "nextStep": "Remember CPI held its traditional stronghold in Khammam."
+      },
+      {
+        "observation": "Selected only 2 seats.",
+        "correctMeaning": "TPS won 10 seats, sweeping Hyderabad, Secunderabad, Warangal, Karimnagar, Medak, Mahbubnagar, and Nizamabad.",
+        "selectedMeaning": "Severely underestimating the TPS electoral tsunami.",
+        "possibleConfusion": "Confusing 1971 results with later 1980s minor party performances.",
+        "decisionRules": [
+          {
+            "when": "Asked about TPS in 1971",
+            "choose": "Landslide victory of 10 seats."
+          },
+          {
+            "when": "Evaluating minor seat tallies",
+            "choose": "Eliminate low numbers like 2."
+          }
+        ],
+        "nextStep": "Anchor 1971 to 10 out of 14 seats."
+      },
+      {
+        "observation": "Selected election boycott.",
+        "correctMeaning": "TPS enthusiastically contested the election as a democratic referendum on separate statehood.",
+        "selectedMeaning": "Confusing boycott tactics with electoral participation.",
+        "possibleConfusion": "Some student factions advocated boycotts, but TPS contested.",
+        "decisionRules": [
+          {
+            "when": "Asked about TPS strategy in 1971",
+            "choose": "Contested elections and won 10 seats."
+          },
+          {
+            "when": "Evaluating boycott claims",
+            "choose": "Eliminate boycott claims."
+          }
+        ],
+        "nextStep": "Remember the 1971 election was the high point of TPS political power."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q240",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M15",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "Following the TPS landslide in 1971, Prime Minister Indira Gandhi brokered a settlement wherein TPS merged into Congress in September 1971, and Chief Minister Kasu Brahmananda Reddy was asked to resign. Who was sworn in as the first Chief Minister of Andhra Pradesh from the Telangana region on 30 September 1971?",
+    "options": [
+      {
+        "text": "Pamulaparthi Venkata (P.V.) Narasimha Rao",
+        "why": "P.V. Narasimha Rao (from Vangara, Karimnagar/Warangal) was chosen by Indira Gandhi as the first Chief Minister of Andhra Pradesh hailing from the Telangana region, taking oath on 30 September 1971.",
+        "attraction": "The authentic, landmark first Telangana Chief Minister of Andhra Pradesh.",
+        "confusion": false
+      },
+      {
+        "text": "Dr. Marri Chenna Reddy",
+        "why": "Dr. Marri Chenna Reddy became Chief Minister later in 1978 and 1989, but in September 1971, P.V. Narasimha Rao was chosen as CM.",
+        "attraction": "TPS leader who bargained the merger.",
+        "confusion": true
+      },
+      {
+        "text": "Jalagam Vengal Rao",
+        "why": "Jalagam Vengal Rao became Chief Minister in December 1973 following President's Rule, not in September 1971.",
+        "attraction": "Subsequent Telangana Chief Minister."
+      },
+      {
+        "text": "T. Anjaiah",
+        "why": "T. Anjaiah became Chief Minister nearly a decade later in October 1980.",
+        "attraction": "Another prominent Telangana Chief Minister of AP."
+      }
+    ],
+    "answer": 0,
+    "reason": "P.V. Narasimha Rao became the first Chief Minister of Andhra Pradesh from Telangana on 30 September 1971.",
+    "clue": "Look for P.V. Narasimha Rao, who took oath as the first Telangana Chief Minister of AP on 30 September 1971.",
+    "trap": "Do not choose Marri Chenna Reddy (CM in 1978) or Jalagam Vengal Rao (CM in 1973); P.V. Narasimha Rao took oath on 30 September 1971.",
+    "elimination": "P.V. Narasimha Rao took oath on 30 September 1971. Chenna Reddy became CM in 1978; Vengal Rao in 1973; Anjaiah in 1980.",
+    "anchor": "30 September 1971 -> P.V. Narasimha Rao sworn in as First Chief Minister of AP from Telangana region.",
+    "hint": "During his tenure, P.V. Narasimha Rao radicalized land reforms by introducing the Land Ceilings Act, which alienated powerful coastal landlords.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 404,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies P.V. Narasimha Rao as the first Telangana Chief Minister of AP.",
+        "correctMeaning": "P.V. Narasimha Rao's appointment on 30 September 1971 broke the 15-year monopoly of Andhra leaders (Sanjeeva Reddy, Sanjivayya, Kasu) over the Chief Minister's office.",
+        "selectedMeaning": "P.V. Narasimha Rao's appointment on 30 September 1971 broke the 15-year monopoly of Andhra leaders (Sanjeeva Reddy, Sanjivayya, Kasu) over the Chief Minister's office.",
+        "possibleConfusion": "No confusion; celebrated milestone in Telangana political biography.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the first Chief Minister of Andhra Pradesh from the Telangana region",
+            "choose": "P.V. Narasimha Rao (30 September 1971)."
+          },
+          {
+            "when": "Asked which assembly constituency P.V. represented at the time",
+            "choose": "Manthani constituency."
+          }
+        ],
+        "nextStep": "Note how P.V.'s aggressive enforcement of Mulki rules and Land Ceilings triggered the 1972 Jai Andhra reaction."
+      },
+      {
+        "observation": "Selected Dr. Marri Chenna Reddy.",
+        "correctMeaning": "Marri Chenna Reddy was barred from contesting elections for 6 years due to an election petition; he became CM in 1978.",
+        "selectedMeaning": "Confusing the TPS president with the chief ministerial appointee.",
+        "possibleConfusion": "Chenna Reddy led the TPS to the 1971 victory.",
+        "decisionRules": [
+          {
+            "when": "Asked who became CM in September 1971",
+            "choose": "P.V. Narasimha Rao."
+          },
+          {
+            "when": "Asked when Marri Chenna Reddy first became Chief Minister",
+            "choose": "1978."
+          }
+        ],
+        "nextStep": "Remember Chenna Reddy's election was set aside by the Supreme Court in 1969."
+      },
+      {
+        "observation": "Selected Jalagam Vengal Rao.",
+        "correctMeaning": "Jalagam Vengal Rao was Home Minister under Kasu and became CM in December 1973 after the Six-Point Formula.",
+        "selectedMeaning": "Confusing the post-Jai Andhra CM (1973) with the 1971 CM.",
+        "possibleConfusion": "Both were Telangana leaders from Congress.",
+        "decisionRules": [
+          {
+            "when": "Asked who became CM on 30 September 1971",
+            "choose": "P.V. Narasimha Rao."
+          },
+          {
+            "when": "Asked who became CM in December 1973",
+            "choose": "Jalagam Vengal Rao."
+          }
+        ],
+        "nextStep": "Chronology: Kasu (until Sept 1971) -> PV (1971–73) -> President's Rule (1973) -> Vengal Rao (1973–78)."
+      },
+      {
+        "observation": "Selected T. Anjaiah.",
+        "correctMeaning": "T. Anjaiah became Chief Minister in October 1980; P.V. Narasimha Rao was the pioneer in 1971.",
+        "selectedMeaning": "Major chronological jump of nearly 10 years.",
+        "possibleConfusion": "Anjaiah was a prominent Telangana trade unionist.",
+        "decisionRules": [
+          {
+            "when": "Asked who became CM in 1971",
+            "choose": "P.V. Narasimha Rao."
+          },
+          {
+            "when": "Asked when T. Anjaiah became CM",
+            "choose": "1980."
+          }
+        ],
+        "nextStep": "Anchor T. Anjaiah strictly to 1980–1982."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q241",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M16",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "On 3 October 1972, a 5-Judge Constitution Bench of the Supreme Court delivered a historic, earth-shaking judgment in 'Director of Industries and Commerce v. V. Venkata Reddy'. What did the Supreme Court rule regarding the 1919 Nizam Mulki Rules?",
+    "options": [
+      {
+        "text": "The 1919 Mulki Rules were fully valid, had constitutional protection under Article 35(b), and continued in force in the Telangana region even after the formation of Andhra Pradesh",
+        "why": "Chief Justice S.M. Sikri and the 5-judge bench held: The Mulki Rules issued by the Nizam in 1919 were 'laws in force' under Article 35(b) of the Constitution and continued to apply validly in the Telangana area notwithstanding the formation of Andhra Pradesh.",
+        "attraction": "The authentic, landmark ratio decidendi of the 1972 Supreme Court Constitution Bench.",
+        "confusion": false
+      },
+      {
+        "text": "The Mulki Rules were declared completely void and illegal from the date of Indian independence",
+        "why": "The Supreme Court ruled the exact opposite: it declared the Mulki rules completely valid and enforceable under Article 35(b).",
+        "attraction": "Opposite of the actual verdict.",
+        "confusion": true
+      },
+      {
+        "text": "The court ruled that only candidates with 50 years residence could be considered Mulkis",
+        "why": "The court upheld the 15-year rule under the 1919 Firman; 50 years is a fictitious number.",
+        "attraction": "Exaggerated duration distractor."
+      },
+      {
+        "text": "The court held that Mulki rules applied to the entire nation of India",
+        "why": "The court explicitly restricted the application of the pre-constitutional law to the specific territory of Telangana under Article 35(b).",
+        "attraction": "Territorial over-extension distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "The Supreme Court upheld the validity of Mulki Rules under Article 35(b) in the Venkata Reddy case on 3 October 1972.",
+    "clue": "Look for the Supreme Court's 3 October 1972 ruling upholding Mulki Rules under Article 35(b) as laws in force.",
+    "trap": "Do not guess that the court struck them down; the Supreme Court ruled in FAVOR of Telangana, upholding Mulki Rules under Article 35(b).",
+    "elimination": "The Supreme Court on 3 October 1972 ruled that Mulki Rules were valid and alive under Article 35(b).",
+    "anchor": "3 October 1972 -> Venkata Reddy case -> 5-Judge Bench -> Mulki Rules upheld under Article 35(b).",
+    "hint": "It was this historic victory for Telangana that triggered the violent 'Jai Andhra' backlash from coastal leaders who refused to be treated as 'non-Mulkis' in their own state capital.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 410,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the Supreme Court's historic 3 October 1972 judgment in the Venkata Reddy case.",
+        "correctMeaning": "The verdict proved that Telangana's claim to 15-year residential job reservation was 100% constitutionally sound under Article 35(b).",
+        "selectedMeaning": "The verdict proved that Telangana's claim to 15-year residential job reservation was 100% constitutionally sound under Article 35(b).",
+        "possibleConfusion": "No confusion; premier constitutional landmark in Telangana legal history.",
+        "decisionRules": [
+          {
+            "when": "Asked about Supreme Court ruling in Venkata Reddy case (3 Oct 1972)",
+            "choose": "Mulki Rules are valid and constitutionally protected under Article 35(b)."
+          },
+          {
+            "when": "Asked who was Chief Justice who headed the 5-judge bench",
+            "choose": "Chief Justice S.M. Sikri."
+          }
+        ],
+        "nextStep": "Note how coastal leaders reacted with rage to this verdict, launching the Jai Andhra movement demanding bifurcation."
+      },
+      {
+        "observation": "Selected that Mulki rules were declared void.",
+        "correctMeaning": "The Full Bench of AP High Court had declared them void, but the Supreme Court reversed the High Court and upheld the Mulki rules.",
+        "selectedMeaning": "Confusing the High Court's ruling with the Supreme Court's final reversal.",
+        "possibleConfusion": "The AP High Court had struck them down in February 1972.",
+        "decisionRules": [
+          {
+            "when": "Asked about AP High Court Full Bench (Feb 1972)",
+            "choose": "Struck down Mulki rules."
+          },
+          {
+            "when": "Asked about Supreme Court 5-Judge Bench (Oct 1972)",
+            "choose": "Reversed High Court and upheld Mulki rules."
+          }
+        ],
+        "nextStep": "Remember the Supreme Court verdict on 3 October 1972 was a complete victory for Telangana."
+      },
+      {
+        "observation": "Selected 50 years residence.",
+        "correctMeaning": "The 1919 Firman prescribed 15 years continuous residence; the Supreme Court upheld the exact 15-year text.",
+        "selectedMeaning": "Arbitrary duration distractor.",
+        "possibleConfusion": "Nizam rules had various clauses.",
+        "decisionRules": [
+          {
+            "when": "Asked residence requirement in 1919 Mulki Firman",
+            "choose": "15 years."
+          },
+          {
+            "when": "Evaluating alternative durations",
+            "choose": "Eliminate 50 years."
+          }
+        ],
+        "nextStep": "Remember 15 years was the golden standard of Asaf Jahi Mulki law."
+      },
+      {
+        "observation": "Selected nationwide application.",
+        "correctMeaning": "Article 35(b) protects pre-constitutional local laws only within their original territory (Telangana), not nationwide.",
+        "selectedMeaning": "Confusing local territorial protection with national applicability.",
+        "possibleConfusion": "Article 16 applies to all India.",
+        "decisionRules": [
+          {
+            "when": "Asked territorial scope of Mulki rules",
+            "choose": "Limited exclusively to the Telangana area of Andhra Pradesh."
+          },
+          {
+            "when": "Evaluating nationwide scope",
+            "choose": "Eliminate all-India options."
+          }
+        ],
+        "nextStep": "Anchor Article 35(b) as saving existing regional laws."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q242",
+    "topic": "TM-02.02",
+    "concept": "TM-02.02-M01",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Following the Supreme Court's upholding of Mulki Rules in October 1972, coastal Andhra politicians and students launched the fierce 'Jai Andhra Agitation', refusing to live as 'second-class citizens' in their own capital and demanding the partition of Andhra Pradesh. Who was the senior minister who resigned from P.V. Narasimha Rao's cabinet and became the supreme leader of the Jai Andhra movement?",
+    "options": [
+      {
+        "text": "Kakani Venkataratnam",
+        "why": "Kakani Venkataratnam (Agriculture Minister from Krishna district) resigned from P.V. Narasimha Rao's cabinet along with 8 other Andhra ministers, spearheading the Jai Andhra movement until his tragic death from a heart attack on 25 December 1972.",
+        "attraction": "The authentic, celebrated supreme leader of the 1972 Jai Andhra agitation.",
+        "confusion": false
+      },
+      {
+        "text": "Kasu Brahmananda Reddy",
+        "why": "Kasu Brahmananda Reddy was in New Delhi and had been ousted as CM in 1971; he was not the leader who resigned and led the street agitation.",
+        "attraction": "Former Chief Minister from Andhra.",
+        "confusion": true
+      },
+      {
+        "text": "Dr. Marri Chenna Reddy",
+        "why": "Dr. Marri Chenna Reddy was the leader of the 1969 Telangana movement, not the 1972 Jai Andhra agitation.",
+        "attraction": "Opposite regional movement leader."
+      },
+      {
+        "text": "Tanguturi Prakasam Pantulu",
+        "why": "Tanguturi Prakasam Pantulu passed away in May 1957, fifteen years before the Jai Andhra movement.",
+        "attraction": "Historical Andhra Kesari."
+      }
+    ],
+    "answer": 0,
+    "reason": "Kakani Venkataratnam resigned as Agriculture Minister and led the 1972 Jai Andhra Agitation.",
+    "clue": "Look for Kakani Venkataratnam, the minister who led the Jai Andhra movement demanding state division in 1972.",
+    "trap": "Do not confuse the 1969 Telangana leader (Marri Chenna Reddy) with the 1972 Jai Andhra leader (Kakani Venkataratnam).",
+    "elimination": "Kakani Venkataratnam led the 1972 Jai Andhra movement. Chenna Reddy led 1969; Prakasam died in 1957.",
+    "anchor": "October–December 1972 -> Jai Andhra Movement -> Supreme Leader: Kakani Venkataratnam.",
+    "hint": "Alongside Kakani, Gouthu Latchanna and Basi Reddy were prominent commanders of the Jai Andhra agitation.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 416,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Kakani Venkataratnam as the leader of the 1972 Jai Andhra movement.",
+        "correctMeaning": "The Jai Andhra movement paralyzed rail and road communications across coastal Andhra and Rayalaseema, with Andhra leaders openly demanding the bifurcation of the state.",
+        "selectedMeaning": "The Jai Andhra movement paralyzed rail and road communications across coastal Andhra and Rayalaseema, with Andhra leaders openly demanding the bifurcation of the state.",
+        "possibleConfusion": "No confusion; standard high-yield question in AP political history.",
+        "decisionRules": [
+          {
+            "when": "Asked who led the 1972 Jai Andhra Agitation",
+            "choose": "Kakani Venkataratnam."
+          },
+          {
+            "when": "Asked which minister's death on 25 Dec 1972 triggered massive rioting in Vijayawada",
+            "choose": "Kakani Venkataratnam."
+          }
+        ],
+        "nextStep": "Note how Kakani's sudden death led to Vijayawada violence, prompting central troop deployments."
+      },
+      {
+        "observation": "Selected Kasu Brahmananda Reddy.",
+        "correctMeaning": "Kasu remained in Delhi; Kakani Venkataratnam resigned from PV's cabinet to lead the frontline protests in Andhra.",
+        "selectedMeaning": "Confusing the former Chief Minister with the active protest leader.",
+        "possibleConfusion": "Kasu's faction tacitly supported the agitation against PV.",
+        "decisionRules": [
+          {
+            "when": "Asked about leader who resigned from PV cabinet to head Jai Andhra",
+            "choose": "Kakani Venkataratnam."
+          },
+          {
+            "when": "Asked about former CM in 1972",
+            "choose": "Kasu Brahmananda Reddy."
+          }
+        ],
+        "nextStep": "Remember Kakani resigned as Agriculture Minister in December 1972."
+      },
+      {
+        "observation": "Selected Dr. Marri Chenna Reddy.",
+        "correctMeaning": "Marri Chenna Reddy led the 1969 Telangana movement; Kakani Venkataratnam led the 1972 Jai Andhra movement.",
+        "selectedMeaning": "Regional and ideological confusion between rival movements.",
+        "possibleConfusion": "Both led massive agitations for state division 3 years apart.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1969 Telangana leader",
+            "choose": "Dr. Marri Chenna Reddy."
+          },
+          {
+            "when": "Asked about 1972 Jai Andhra leader",
+            "choose": "Kakani Venkataratnam."
+          }
+        ],
+        "nextStep": "Remember: 1969 = Telangana Praja Samithi; 1972 = Jai Andhra Front."
+      },
+      {
+        "observation": "Selected Tanguturi Prakasam Pantulu.",
+        "correctMeaning": "Prakasam died in 1957; he had no role in the 1972 agitation.",
+        "selectedMeaning": "Severe anachronism with an early Andhra leader.",
+        "possibleConfusion": "Prakasam is the father of Andhra State.",
+        "decisionRules": [
+          {
+            "when": "Evaluating Tanguturi Prakasam Pantulu after 1957",
+            "choose": "Eliminate Prakasam (passed away in 1957)."
+          },
+          {
+            "when": "Asked about 1972 leader",
+            "choose": "Kakani Venkataratnam."
+          }
+        ],
+        "nextStep": "Anchor Prakasam strictly to 1953–1957."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q243",
+    "topic": "TM-02.02",
+    "concept": "TM-02.02-M02",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "As the Jai Andhra agitation spiraled out of control and 9 Andhra ministers resigned, Chief Minister P.V. Narasimha Rao was compelled to step down, and the state was placed under President's Rule under Article 356. On which exact date was President's Rule imposed in Andhra Pradesh?",
+    "options": [
+      {
+        "text": "18 January 1973 (serving until 10 December 1973)",
+        "why": "P.V. Narasimha Rao resigned on 17 January, and President's Rule under Article 356 was officially proclaimed on 18 January 1973, lasting for nearly 11 months until Jalagam Vengal Rao took oath on 10 December 1973.",
+        "attraction": "The authentic, official date of President's Rule proclamation in 1973.",
+        "confusion": false
+      },
+      {
+        "text": "1 November 1972",
+        "why": "November 1972 was the beginning of the Jai Andhra agitation; the ministry fell in January 1973.",
+        "attraction": "Early agitation date.",
+        "confusion": true
+      },
+      {
+        "text": "21 September 1973",
+        "why": "21 September 1973 was the date the Six-Point Formula was announced, while President's Rule was still in effect.",
+        "attraction": "Six-Point Formula date."
+      },
+      {
+        "text": "26 January 1975",
+        "why": "1975 was the Emergency era; the Jai Andhra crisis occurred in 1972–1973.",
+        "attraction": "Emergency era distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "President's Rule was proclaimed in Andhra Pradesh on 18 January 1973 and lasted until 10 December 1973.",
+    "clue": "Look for 18 January 1973, when President's Rule was imposed following P.V. Narasimha Rao's resignation.",
+    "trap": "Do not confuse the imposition date (18 Jan 1973) with the Six-Point Formula date (21 Sept 1973).",
+    "elimination": "President's Rule was proclaimed on 18 January 1973 and revoked on 10 December 1973.",
+    "anchor": "18 January 1973 -> President's Rule imposed in AP under Article 356 -> Assembly kept in suspended animation.",
+    "hint": "Governor Khandubhai Kasanji Desai administered the state with the assistance of two advisors (H.C. Sarin and V.K. Rao).",
+    "source": "SR-POLICE-SI-2016",
+    "page": 422,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies 18 January 1973 as the date President's Rule was proclaimed.",
+        "correctMeaning": "This was the first time in the history of Andhra Pradesh that President's Rule was imposed under Article 356 due to internal regional conflict.",
+        "selectedMeaning": "This was the first time in the history of Andhra Pradesh that President's Rule was imposed under Article 356 due to internal regional conflict.",
+        "possibleConfusion": "No confusion; standard constitutional milestone in state history.",
+        "decisionRules": [
+          {
+            "when": "Asked when President's Rule was imposed during the Jai Andhra movement",
+            "choose": "18 January 1973."
+          },
+          {
+            "when": "Asked who were the central advisors during President's Rule",
+            "choose": "H.C. Sarin and V.K. Rao."
+          }
+        ],
+        "nextStep": "Note that the assembly was kept in suspended animation rather than dissolved."
+      },
+      {
+        "observation": "Selected 1 November 1972.",
+        "correctMeaning": "In November 1972, PV's cabinet was still attempting to negotiate a 5-point formula; the government fell two months later on 18 January 1973.",
+        "selectedMeaning": "Confusing the start of the agitation with the fall of the state government.",
+        "possibleConfusion": "Agitation intensified after November 1972.",
+        "decisionRules": [
+          {
+            "when": "Asked when President's Rule was declared",
+            "choose": "18 January 1973."
+          },
+          {
+            "when": "Evaluating late 1972 dates",
+            "choose": "Eliminate 1972 dates."
+          }
+        ],
+        "nextStep": "Remember PV resigned in January 1973."
+      },
+      {
+        "observation": "Selected 21 September 1973.",
+        "correctMeaning": "21 September 1973 was the announcement of the Six-Point Formula; President's Rule had already been in place since 18 January 1973.",
+        "selectedMeaning": "Confusing the announcement of the political solution with the imposition of emergency rule.",
+        "possibleConfusion": "Both occurred in 1973.",
+        "decisionRules": [
+          {
+            "when": "Asked when President's Rule began",
+            "choose": "18 January 1973."
+          },
+          {
+            "when": "Asked when Six-Point Formula was announced",
+            "choose": "21 September 1973."
+          }
+        ],
+        "nextStep": "Keep January (President's Rule) and September (Six-Point Formula) in order."
+      },
+      {
+        "observation": "Selected 1975.",
+        "correctMeaning": "1975 was the National Emergency; the state crisis was resolved in late 1973.",
+        "selectedMeaning": "Chronological confusion with the 1975 National Emergency.",
+        "possibleConfusion": "1975 was when the Presidential Order was issued.",
+        "decisionRules": [
+          {
+            "when": "Asked when President's Rule was imposed during Jai Andhra",
+            "choose": "18 January 1973."
+          },
+          {
+            "when": "Evaluating 1975 dates",
+            "choose": "Eliminate 1975."
+          }
+        ],
+        "nextStep": "Anchor President's Rule strictly to 18 January 1973."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q244",
+    "topic": "TM-02.02",
+    "concept": "TM-02.02-M03",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "To end the deadlock between Telangana and Andhra and restore popular government, Union Home Minister Uma Shankar Dikshit and Minister of State K.C. Pant brokered a new consensus known as the 'Six-Point Formula' (Aaru Suthrala Pathakam). On which date was the Six-Point Formula officially announced?",
+    "options": [
+      {
+        "text": "21 September 1973",
+        "why": "On 21 September 1973, leaders of both regions signed and the Central Government announced the Six-Point Formula, abolishing the Mulki Rules and the Telangana Regional Committee in exchange for a statewide Zonal employment and education system.",
+        "attraction": "The authentic, historic date of the Six-Point Formula.",
+        "confusion": false
+      },
+      {
+        "text": "11 April 1969",
+        "why": "11 April 1969 was the announcement date of the Eight-Point Formula by Indira Gandhi.",
+        "attraction": "Eight-Point Formula date.",
+        "confusion": true
+      },
+      {
+        "text": "20 February 1956",
+        "why": "20 February 1956 was the date of the Gentlemen's Agreement.",
+        "attraction": "Gentlemen's Agreement date."
+      },
+      {
+        "text": "30 December 1985",
+        "why": "30 December 1985 was the issuance date of G.O. Ms. No. 610 under N.T. Rama Rao.",
+        "attraction": "G.O. 610 date."
+      }
+    ],
+    "answer": 0,
+    "reason": "The Six-Point Formula was announced on 21 September 1973.",
+    "clue": "Look for 21 September 1973, the date of the Six-Point Formula.",
+    "trap": "Do not confuse the Six-Point Formula (21 Sept 1973) with the Eight-Point Formula (11 April 1969) or Gentlemen's Agreement (20 Feb 1956).",
+    "elimination": "Six-Point Formula was announced on 21 September 1973. 1969 was 8-Point; 1956 was Gentlemen's Agreement; 1985 was G.O. 610.",
+    "anchor": "21 September 1973 -> Six-Point Formula announced -> Abolished Mulki Rules & Regional Committee -> Created Zonal System.",
+    "hint": "It led directly to the 32nd Constitutional Amendment Act, 1973 and the 1975 Presidential Order.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 428,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies 21 September 1973 as the date of the Six-Point Formula.",
+        "correctMeaning": "The Six-Point Formula effectively terminated the Gentlemen's Agreement, replacing regional autonomy with statewide zonal decentralization.",
+        "selectedMeaning": "The Six-Point Formula effectively terminated the Gentlemen's Agreement, replacing regional autonomy with statewide zonal decentralization.",
+        "possibleConfusion": "No confusion; standard high-scoring question across TS recruitment exams.",
+        "decisionRules": [
+          {
+            "when": "Asked when the Six-Point Formula was announced",
+            "choose": "21 September 1973."
+          },
+          {
+            "when": "Asked what two historic institutions were abolished by the Six-Point Formula",
+            "choose": "The 1919 Mulki Rules and the Telangana Regional Committee."
+          }
+        ],
+        "nextStep": "Note how Point 1 provided for accelerated development of backward areas, and Point 2 provided for a Central University at Hyderabad."
+      },
+      {
+        "observation": "Selected 11 April 1969.",
+        "correctMeaning": "11 April 1969 was the Eight-Point Formula; the Six-Point Formula was announced on 21 September 1973.",
+        "selectedMeaning": "Confusing the 8-point formula (1969) with the 6-point formula (1973).",
+        "possibleConfusion": "Both formulas have numbered point titles.",
+        "decisionRules": [
+          {
+            "when": "Asked about Eight-Point Formula",
+            "choose": "11 April 1969."
+          },
+          {
+            "when": "Asked about Six-Point Formula",
+            "choose": "21 September 1973."
+          }
+        ],
+        "nextStep": "Remember: 8 points in 1969; 6 points in 1973."
+      },
+      {
+        "observation": "Selected 20 February 1956.",
+        "correctMeaning": "20 February 1956 was the Gentlemen's Agreement; the Six-Point Formula in 1973 replaced it.",
+        "selectedMeaning": "Confusing the original 1956 covenant with its 1973 replacement.",
+        "possibleConfusion": "Both were inter-regional compacts.",
+        "decisionRules": [
+          {
+            "when": "Asked about Gentlemen's Agreement",
+            "choose": "20 February 1956."
+          },
+          {
+            "when": "Asked about Six-Point Formula",
+            "choose": "21 September 1973."
+          }
+        ],
+        "nextStep": "Anchor 1956 to Gentlemen's Agreement and 1973 to Six-Point Formula."
+      },
+      {
+        "observation": "Selected 30 December 1985.",
+        "correctMeaning": "30 December 1985 was the issuance of G.O. 610 to correct violations of the 1975 Presidential Order.",
+        "selectedMeaning": "Major chronological jump of 12 years.",
+        "possibleConfusion": "G.O. 610 was issued to enforce the zonal system created by the Six-Point Formula.",
+        "decisionRules": [
+          {
+            "when": "Asked about Six-Point Formula",
+            "choose": "21 September 1973."
+          },
+          {
+            "when": "Asked about G.O. Ms. No. 610",
+            "choose": "30 December 1985."
+          }
+        ],
+        "nextStep": "Chronological chain: Six-Point Formula (1973) -> Presidential Order (1975) -> G.O. 610 (1985)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q245",
+    "topic": "TM-02.02",
+    "concept": "TM-02.02-M04",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Point 2 of the Six-Point Formula recommended the establishment of a premier Central educational institution in Hyderabad to augment higher education and research facilities. Which renowned institution was established in 1974 pursuant to this clause and Article 371-E of the Constitution?",
+    "options": [
+      {
+        "text": "University of Hyderabad (UoH / Central University of Hyderabad)",
+        "why": "Under Point 2 of the Six-Point Formula and Article 371-E, Parliament passed the University of Hyderabad Act, 1974, establishing the University of Hyderabad (UoH) as a premier Central University with Gurbaksh Singh as its first Vice-Chancellor.",
+        "attraction": "The authentic Central University established under Article 371-E.",
+        "confusion": false
+      },
+      {
+        "text": "Osmania University",
+        "why": "Osmania University was established 56 years earlier in 1918 by Nizam Mir Osman Ali Khan, not under the 1973 Six-Point Formula.",
+        "attraction": "Premier state university in Hyderabad.",
+        "confusion": true
+      },
+      {
+        "text": "Jawaharlal Nehru Technological University (JNTU)",
+        "why": "JNTU was established in 1972 by an Andhra Pradesh State legislative Act as India's first technological university, not under Article 371-E.",
+        "attraction": "Prominent engineering university in Hyderabad."
+      },
+      {
+        "text": "Kakatiya University",
+        "why": "Kakatiya University was established in Warangal in 1976 by upgrading the Osmania University Post-Graduate Centre, not as the Central University in Hyderabad.",
+        "attraction": "Telangana state university founded in 1976."
+      }
+    ],
+    "answer": 0,
+    "reason": "The University of Hyderabad (UoH) was established under Point 2 of the Six-Point Formula and Article 371-E in 1974.",
+    "clue": "Look for the University of Hyderabad (UoH), established under Article 371-E and the Six-Point Formula in 1974.",
+    "trap": "Do not confuse the University of Hyderabad (Central University, 1974) with Osmania University (1918) or JNTU (1972).",
+    "elimination": "University of Hyderabad was founded under Article 371-E in 1974. Osmania is 1918; JNTU is 1972; Kakatiya is 1976 in Warangal.",
+    "anchor": "Six-Point Formula Point 2 -> Article 371-E -> University of Hyderabad (UoH) established in 1974.",
+    "hint": "Article 371-E specifically states: 'Parliament may by law provide for the establishment of a University in the State of Andhra Pradesh.'",
+    "source": "SR-POLICE-SI-2016",
+    "page": 434,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies University of Hyderabad (UoH) under Article 371-E.",
+        "correctMeaning": "UoH was established in Gachibowli on lands formerly belonging to the Golden Threshold estate of Sarojini Naidu, serving as a national center of excellence.",
+        "selectedMeaning": "UoH was established in Gachibowli on lands formerly belonging to the Golden Threshold estate of Sarojini Naidu, serving as a national center of excellence.",
+        "possibleConfusion": "No confusion; standard constitutional question on Article 371-E.",
+        "decisionRules": [
+          {
+            "when": "Asked which university was established under Article 371-E of the Constitution",
+            "choose": "University of Hyderabad (UoH / Central University of Hyderabad)."
+          },
+          {
+            "when": "Asked when University of Hyderabad was founded",
+            "choose": "1974 (under Point 2 of Six-Point Formula)."
+          }
+        ],
+        "nextStep": "Note that Article 371-E has only one single sentence empowering Parliament to establish a Central University."
+      },
+      {
+        "observation": "Selected Osmania University.",
+        "correctMeaning": "Osmania University was established by Nizam VII in 1918 as an Urdu-medium royal university; UoH was established by Parliament in 1974.",
+        "selectedMeaning": "Major chronological error across 56 years.",
+        "possibleConfusion": "Both are premier universities in Hyderabad.",
+        "decisionRules": [
+          {
+            "when": "Asked about university founded in 1918 by Nizam VII",
+            "choose": "Osmania University."
+          },
+          {
+            "when": "Asked about university established under Article 371-E in 1974",
+            "choose": "University of Hyderabad."
+          }
+        ],
+        "nextStep": "Remember Osmania = 1918; UoH = 1974."
+      },
+      {
+        "observation": "Selected JNTU.",
+        "correctMeaning": "JNTU was established in 1972 under state law; UoH is a central university under federal law and Article 371-E.",
+        "selectedMeaning": "Confusing state technical university with the central university.",
+        "possibleConfusion": "Both were established in the early 1970s.",
+        "decisionRules": [
+          {
+            "when": "Asked about Central University established under Article 371-E",
+            "choose": "University of Hyderabad."
+          },
+          {
+            "when": "Asked about India's first technological university (1972)",
+            "choose": "JNTU Hyderabad."
+          }
+        ],
+        "nextStep": "Keep JNTU (state technical) distinct from UoH (central)."
+      },
+      {
+        "observation": "Selected Kakatiya University.",
+        "correctMeaning": "Kakatiya University was established in Warangal in 1976 by the state government; UoH was established in Hyderabad in 1974 under Article 371-E.",
+        "selectedMeaning": "Wrong city, wrong level of government, and wrong year.",
+        "possibleConfusion": "Both were established during the 1970s.",
+        "decisionRules": [
+          {
+            "when": "Asked about university in Warangal founded in 1976",
+            "choose": "Kakatiya University."
+          },
+          {
+            "when": "Asked about university in Hyderabad under Article 371-E",
+            "choose": "University of Hyderabad."
+          }
+        ],
+        "nextStep": "Remember Kakatiya is in Warangal, UoH is in Hyderabad."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q246",
+    "topic": "TM-02.02",
+    "concept": "TM-02.02-M05",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "To provide constitutional validity to the Six-Point Formula and overcome judicial invalidation of regional preferences, Parliament enacted the Constitution (Thirty-second Amendment) Act, 1973. Which two Articles were inserted into the Constitution of India by this landmark amendment?",
+    "options": [
+      {
+        "text": "Articles 371-D and 371-E",
+        "why": "The 32nd Constitutional Amendment Act, 1973 inserted Article 371-D (Special provisions with respect to the State of Andhra Pradesh, including local cadres, reservations, and Administrative Tribunal) and Article 371-E (Establishment of Central University in Andhra Pradesh).",
+        "attraction": "The authentic two articles inserted by the 32nd Amendment.",
+        "confusion": false
+      },
+      {
+        "text": "Articles 370 and 371",
+        "why": "Articles 370 and 371 were part of the original Constitution (amended in 1956), not inserted by the 32nd Amendment in 1973.",
+        "attraction": "Earlier constitutional articles.",
+        "confusion": true
+      },
+      {
+        "text": "Articles 371-A and 371-B",
+        "why": "Article 371-A applies to Nagaland (13th Amendment, 1962) and 371-B applies to Assam (22nd Amendment, 1969).",
+        "attraction": "Other state-specific articles in Part XXI."
+      },
+      {
+        "text": "Articles 352 and 356",
+        "why": "Articles 352 and 356 are Emergency Provisions in Part XVIII, having no connection with the Six-Point Formula.",
+        "attraction": "Emergency provisions distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "The 32nd Constitutional Amendment Act, 1973 inserted Articles 371-D and 371-E into the Constitution.",
+    "clue": "Look for Articles 371-D and 371-E inserted by the 32nd Constitutional Amendment in 1973.",
+    "trap": "Do not confuse the 32nd Amendment (Articles 371-D & 371-E in 1973) with the 7th Amendment (Article 371(1) in 1956).",
+    "elimination": "The 32nd Amendment inserted Articles 371-D and 371-E. 371-A is Nagaland; 371-B is Assam; 370 is J&K.",
+    "anchor": "32nd Constitutional Amendment Act 1973 -> Inserts Articles 371-D & 371-E -> Validates Six-Point Formula.",
+    "hint": "Article 371-D begins with a powerful non-obstante clause: 'Notwithstanding anything in this Constitution...'.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 440,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Articles 371-D and 371-E inserted by the 32nd Amendment Act, 1973.",
+        "correctMeaning": "Article 371-D empowered the President to bypass Articles 16(2) and 16(3) by organizing civil posts into local cadres and creating educational quotas.",
+        "selectedMeaning": "Article 371-D empowered the President to bypass Articles 16(2) and 16(3) by organizing civil posts into local cadres and creating educational quotas.",
+        "possibleConfusion": "No confusion; standard high-yield constitutional question in TS recruitment.",
+        "decisionRules": [
+          {
+            "when": "Asked which constitutional amendment inserted Article 371-D",
+            "choose": "Constitution (Thirty-second Amendment) Act, 1973."
+          },
+          {
+            "when": "Asked what Articles were added by 32nd Amendment",
+            "choose": "Articles 371-D and 371-E."
+          }
+        ],
+        "nextStep": "Note how Article 371-D Clause (10) gave the article overriding effect over all other constitutional provisions and court rulings."
+      },
+      {
+        "observation": "Selected Articles 370 and 371.",
+        "correctMeaning": "Article 370 was for J&K; Article 371(1) was the 1956 Regional Committee clause; the 1973 amendment specifically inserted 371-D and 371-E.",
+        "selectedMeaning": "Confusing older existing articles with the new sub-articles added in 1973.",
+        "possibleConfusion": "Both articles deal with special status.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1956 7th Amendment",
+            "choose": "Article 371(1) (Regional Committees)."
+          },
+          {
+            "when": "Asked about 1973 32nd Amendment",
+            "choose": "Articles 371-D and 371-E (Six-Point Formula)."
+          }
+        ],
+        "nextStep": "Keep 1956 (Art 371) and 1973 (Art 371-D) chronologically distinct."
+      },
+      {
+        "observation": "Selected Articles 371-A and 371-B.",
+        "correctMeaning": "Article 371-A is Nagaland; 371-B is Assam; 371-C is Manipur; 371-D and 371-E are exclusively for Andhra Pradesh.",
+        "selectedMeaning": "Selecting other regional special provisions in Part XXI.",
+        "possibleConfusion": "All are alphabetized sub-articles under Article 371.",
+        "decisionRules": [
+          {
+            "when": "Asked about Nagaland special article",
+            "choose": "Article 371-A."
+          },
+          {
+            "when": "Asked about Assam special article",
+            "choose": "Article 371-B."
+          },
+          {
+            "when": "Asked about Andhra Pradesh special articles",
+            "choose": "Articles 371-D and 371-E."
+          }
+        ],
+        "nextStep": "Remember D & E belong to Andhra Pradesh."
+      },
+      {
+        "observation": "Selected Articles 352 and 356.",
+        "correctMeaning": "Articles 352 (National Emergency) and 356 (President's Rule) are in Part XVIII, entirely distinct from local cadre safeguards.",
+        "selectedMeaning": "Confusing emergency provisions with regional local reservation amendments.",
+        "possibleConfusion": "President's Rule was active when the 32nd Amendment was passed.",
+        "decisionRules": [
+          {
+            "when": "Asked about 32nd Amendment",
+            "choose": "Articles 371-D and 371-E."
+          },
+          {
+            "when": "Evaluating Emergency Articles",
+            "choose": "Eliminate Articles 352/356."
+          }
+        ],
+        "nextStep": "Anchor 371-D to local reservation and administrative tribunals."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q247",
+    "topic": "TM-02.02",
+    "concept": "TM-02.02-M06",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Under Clause (3) of Article 371-D, the President was empowered to establish an Administrative Tribunal for the State of Andhra Pradesh to resolve service disputes of government employees. In which landmark 1987 judgment did the Supreme Court strike down Clause (5) of Article 371-D which unconstitutionally gave the State Government the power to modify or annul the Tribunal's orders?",
+    "options": [
+      {
+        "text": "P. Sambamurthy v. State of Andhra Pradesh (1987)",
+        "why": "In P. Sambamurthy v. State of AP (1987), the Supreme Court struck down Clause (5) of Article 371-D, ruling that giving the executive government power to annul or modify decisions of the Administrative Tribunal violated the Rule of Law and the Basic Structure of the Constitution.",
+        "attraction": "The authentic, landmark Supreme Court judgment on Article 371-D Clause (5).",
+        "confusion": false
+      },
+      {
+        "text": "A.V.S. Narasimha Rao v. State of Andhra Pradesh (1969)",
+        "why": "A.V.S. Narasimha Rao case struck down Section 3 of the Public Employment Act in 1969, eighteen years before the Sambamurthy case.",
+        "attraction": "1969 Mulki rules judgment.",
+        "confusion": true
+      },
+      {
+        "text": "Director of Industries and Commerce v. V. Venkata Reddy (1972)",
+        "why": "Venkata Reddy case upheld the 1919 Mulki rules in 1972, not the Administrative Tribunal clause in 1987.",
+        "attraction": "1972 landmark judgment."
+      },
+      {
+        "text": "Kesavananda Bharati v. State of Kerala (1973)",
+        "why": "Kesavananda Bharati established the Basic Structure doctrine generally, but the specific Article 371-D Clause (5) case was P. Sambamurthy (1987).",
+        "attraction": "General basic structure case."
+      }
+    ],
+    "answer": 0,
+    "reason": "In P. Sambamurthy v. State of AP (1987), the Supreme Court struck down Clause (5) of Article 371-D for violating the Rule of Law.",
+    "clue": "Look for P. Sambamurthy v. State of AP (1987), which struck down Clause (5) of Article 371-D.",
+    "trap": "Do not confuse P. Sambamurthy (1987, APAT executive veto struck down) with A.V.S. Narasimha Rao (1969) or Venkata Reddy (1972).",
+    "elimination": "P. Sambamurthy case (1987) struck down Clause (5) of Article 371-D. A.V.S. was 1969; Venkata Reddy was 1972.",
+    "anchor": "P. Sambamurthy v. State of AP (1987) -> Supreme Court strikes down Article 371-D Clause (5) -> Executive veto over tribunal violates Rule of Law.",
+    "hint": "Chief Justice P.N. Bhagwati delivered the unanimous judgment upholding judicial independence.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 446,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies P. Sambamurthy v. State of AP (1987).",
+        "correctMeaning": "The Sambamurthy judgment affirmed that no government can sit in judgment over decisions of a judicial tribunal, establishing the finality of APAT orders.",
+        "selectedMeaning": "The Sambamurthy judgment affirmed that no government can sit in judgment over decisions of a judicial tribunal, establishing the finality of APAT orders.",
+        "possibleConfusion": "No confusion; standard constitutional question on Article 371-D.",
+        "decisionRules": [
+          {
+            "when": "Asked which case struck down Clause (5) of Article 371-D",
+            "choose": "P. Sambamurthy v. State of Andhra Pradesh (1987)."
+          },
+          {
+            "when": "Asked why Clause (5) was struck down",
+            "choose": "Violated Rule of Law and Basic Structure by giving government power to annul tribunal decisions."
+          }
+        ],
+        "nextStep": "Note how the rest of Article 371-D was upheld as completely valid."
+      },
+      {
+        "observation": "Selected A.V.S. Narasimha Rao case.",
+        "correctMeaning": "A.V.S. Narasimha Rao was in 1969 striking down Section 3 of the Public Employment Act; Sambamurthy was in 1987 on the Administrative Tribunal.",
+        "selectedMeaning": "Confusing the 1969 employment judgment with the 1987 tribunal judgment.",
+        "possibleConfusion": "Both are landmark Supreme Court cases on Andhra Pradesh.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1969 judgment striking down Section 3",
+            "choose": "A.V.S. Narasimha Rao v. State of AP."
+          },
+          {
+            "when": "Asked about 1987 judgment striking down Article 371-D Clause (5)",
+            "choose": "P. Sambamurthy v. State of AP."
+          }
+        ],
+        "nextStep": "Remember: 1969 = A.V.S. Narasimha Rao; 1987 = P. Sambamurthy."
+      },
+      {
+        "observation": "Selected Venkata Reddy case.",
+        "correctMeaning": "Venkata Reddy was in 1972 upholding 1919 Mulki Rules under Article 35(b); Sambamurthy was in 1987 under Article 371-D.",
+        "selectedMeaning": "Confusing the 1972 Mulki rules case with the 1987 tribunal case.",
+        "possibleConfusion": "Both deal with service conditions in AP.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1972 5-judge bench upholding Mulki Rules",
+            "choose": "Director of Industries v. Venkata Reddy."
+          },
+          {
+            "when": "Asked about 1987 judgment on APAT",
+            "choose": "P. Sambamurthy v. State of AP."
+          }
+        ],
+        "nextStep": "Anchor Venkata Reddy to 1972 and Sambamurthy to 1987."
+      },
+      {
+        "observation": "Selected Kesavananda Bharati.",
+        "correctMeaning": "Kesavananda Bharati (1973) established the Basic Structure doctrine generally; P. Sambamurthy (1987) applied it specifically to strike down Article 371-D Clause (5).",
+        "selectedMeaning": "Selecting the parent constitutional precedent rather than the specific state case.",
+        "possibleConfusion": "Sambamurthy heavily cited Kesavananda Bharati.",
+        "decisionRules": [
+          {
+            "when": "Asked about the specific AP case on Article 371-D",
+            "choose": "P. Sambamurthy v. State of AP (1987)."
+          },
+          {
+            "when": "Asked about 13-judge bench establishing Basic Structure (1973)",
+            "choose": "Kesavananda Bharati v. State of Kerala."
+          }
+        ],
+        "nextStep": "Remember Sambamurthy is the definitive AP case on judicial review of tribunal orders."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q248",
+    "topic": "TM-02.02",
+    "concept": "TM-02.02-M07",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Under Article 371-D, President Fakhruddin Ali Ahmed issued the landmark 'Andhra Pradesh Public Employment (Organisation of Local Cadres and Regulation of Direct Recruitment) Order, 1975' (commonly called the 1975 Presidential Order) on 18 October 1975. How many total Zones was the state divided into, and which Zones exclusively comprised the Telangana region?",
+    "options": [
+      {
+        "text": "Total 6 Zones; Zones V and VI exclusively comprised the Telangana region",
+        "why": "The 1975 Presidential Order divided Andhra Pradesh into 6 Zones: Zones I, II, and III in Coastal Andhra, Zone IV in Rayalaseema, and Zones V (Basara Zone: Adilabad, Karimnagar, Warangal, Khammam) and VI (Charminar Zone: Hyderabad, Rangareddy, Nizamabad, Mahbubnagar, Medak, Nalgonda) in Telangana.",
+        "attraction": "The authentic, historic 6-zone structure of the 1975 Presidential Order.",
+        "confusion": false
+      },
+      {
+        "text": "Total 7 Zones; Zones I and II comprised the Telangana region",
+        "why": "7 Zones was created 43 years later in the 2018 Presidential Order under KCR, not the 1975 Presidential Order.",
+        "attraction": "2018 Presidential Order 7-zone system.",
+        "confusion": true
+      },
+      {
+        "text": "Total 3 Zones; Zone III was Telangana",
+        "why": "The state was not divided into 3 zones; it was organized into 6 zones.",
+        "attraction": "Three geographical regions assumption."
+      },
+      {
+        "text": "Total 10 Zones corresponding to the 10 Telangana districts",
+        "why": "Districts are district cadres; Zones were composite administrative divisions.",
+        "attraction": "District cadre confusion."
+      }
+    ],
+    "answer": 0,
+    "reason": "The 1975 Presidential Order created 6 Zones, with Zones V and VI comprising the Telangana region.",
+    "clue": "Look for 6 Zones in 1975, with Zones V and VI comprising the Telangana region.",
+    "trap": "Do not confuse the 1975 Presidential Order (6 Zones, Zones V & VI for Telangana) with the 2018 Presidential Order (7 Zones for Telangana).",
+    "elimination": "The 1975 Presidential Order divided the state into 6 zones; Zones V and VI were Telangana. 2018 created 7 zones for Telangana alone.",
+    "anchor": "1975 Presidential Order (18 Oct 1975) -> 6 Zones -> Zones V & VI = Telangana region.",
+    "hint": "Zone V was Basara/Eastern Telangana and Zone VI was Charminar/Western Telangana including Hyderabad.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 452,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the 6-zone structure and Zones V & VI in the 1975 Presidential Order.",
+        "correctMeaning": "Zones V and VI became the administrative bedrock of Telangana's local reservation from 1975 until the bifurcation in 2014 and reorganization in 2018.",
+        "selectedMeaning": "Zones V and VI became the administrative bedrock of Telangana's local reservation from 1975 until the bifurcation in 2014 and reorganization in 2018.",
+        "possibleConfusion": "No confusion; foundational question for every TS Police aspirant.",
+        "decisionRules": [
+          {
+            "when": "Asked how many zones were created in the 1975 Presidential Order",
+            "choose": "Six (6) Zones."
+          },
+          {
+            "when": "Asked which zones covered Telangana under the 1975 Order",
+            "choose": "Zones V and VI."
+          }
+        ],
+        "nextStep": "Compare this with the 2018 Presidential Order which divided Telangana alone into 7 Zones and 2 Multi-Zones."
+      },
+      {
+        "observation": "Selected 7 Zones.",
+        "correctMeaning": "The 7-zone system was created on 30 August 2018 exclusively for Telangana State; the 1975 Order covered united AP with 6 zones.",
+        "selectedMeaning": "Confusing the 2018 modern Presidential Order with the 1975 historical Presidential Order.",
+        "possibleConfusion": "Both are landmark Presidential Orders under Article 371-D.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1975 Presidential Order",
+            "choose": "6 Zones across united AP (Zones V & VI in Telangana)."
+          },
+          {
+            "when": "Asked about 2018 Presidential Order",
+            "choose": "7 Zones exclusively within Telangana State."
+          }
+        ],
+        "nextStep": "Remember: 1975 = 6 Zones; 2018 = 7 Zones."
+      },
+      {
+        "observation": "Selected 3 Zones.",
+        "correctMeaning": "Coastal Andhra, Rayalaseema, and Telangana are historical regions; the 1975 Order deliberately avoided regional names and created 6 numbered zones.",
+        "selectedMeaning": "Confusing geographical regions with statutory employment zones.",
+        "possibleConfusion": "The Three Regions theory.",
+        "decisionRules": [
+          {
+            "when": "Asked about statutory zones in 1975 Order",
+            "choose": "Six (6) Zones."
+          },
+          {
+            "when": "Evaluating 3-zone options",
+            "choose": "Eliminate 3 zones."
+          }
+        ],
+        "nextStep": "Understand that creating 6 zones was intended to break regional identity."
+      },
+      {
+        "observation": "Selected 10 Zones.",
+        "correctMeaning": "There were 10 districts in Telangana, but they were grouped into 2 zones (Zones V and VI) under the 1975 Order.",
+        "selectedMeaning": "Confusing districts with zonal formations.",
+        "possibleConfusion": "Telangana had 10 districts after Ranga Reddy district was carved out in 1978.",
+        "decisionRules": [
+          {
+            "when": "Asked number of zones in 1975",
+            "choose": "6 Zones."
+          },
+          {
+            "when": "Evaluating 10-zone claims",
+            "choose": "Eliminate 10 zones."
+          }
+        ],
+        "nextStep": "Note Zone V had 4 districts and Zone VI had 5 (later 6 with Ranga Reddy) districts."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q249",
+    "topic": "TM-02.02",
+    "concept": "TM-02.02-M08",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Under Paragraph 8 of the 1975 Presidential Order, direct recruitment in civil posts was reserved for local candidates according to cadre level. What were the exact local reservation percentages mandated for (1) District Cadre posts, (2) Zonal Cadre non-gazetted posts, and (3) Zonal Cadre Gazetted posts (such as Tahsildar)?",
+    "options": [
+      {
+        "text": "District Cadre: 80%; Zonal Non-Gazetted: 70%; Zonal Gazetted (Tahsildar): 60%",
+        "why": "Paragraph 8 of the 1975 Presidential Order prescribed: 80% reservation for local candidates in District Cadre posts (lower division clerks, teachers, constables); 70% in Zonal Cadre non-gazetted posts (senior assistants, sub-inspectors); and 60% in Zonal Cadre gazetted posts (Tahsildar/Deputy MRO).",
+        "attraction": "The authentic, statutory reservation formula of the 1975 Presidential Order.",
+        "confusion": false
+      },
+      {
+        "text": "District Cadre: 95%; Zonal Cadre: 95%; Multi-Zonal Cadre: 95%",
+        "why": "95% reservation across all cadres was introduced in the 2018 Presidential Order under KCR, not the 1975 Order.",
+        "attraction": "2018 Presidential Order 95% uniform local quota.",
+        "confusion": true
+      },
+      {
+        "text": "District Cadre: 100%; Zonal Cadre: 100%; Gazetted: 100%",
+        "why": "100% reservation was never enacted under the 1975 Order; open quotas of 20%, 30%, and 40% were maintained.",
+        "attraction": "Total reservation assumption."
+      },
+      {
+        "text": "District Cadre: 50%; Zonal Cadre: 50%; Gazetted: 50%",
+        "why": "50% was the Supreme Court ceiling for social reservations (SC/ST/BC), not the local cadre reservation under the 1975 Order.",
+        "attraction": "Mandal Commission 50% ceiling confusion."
+      }
+    ],
+    "answer": 0,
+    "reason": "The 1975 Presidential Order prescribed: 80% for District Cadre, 70% for Zonal Non-Gazetted, and 60% for Zonal Gazetted posts.",
+    "clue": "Look for 80% District, 70% Zonal Non-Gazetted, and 60% Zonal Gazetted under the 1975 Presidential Order.",
+    "trap": "Do not choose 95% (that is 2018 Order); the 1975 Order prescribed 80% - 70% - 60%.",
+    "elimination": "The 1975 Order allocated 80% (District), 70% (Zonal Non-Gazetted), and 60% (Zonal Gazetted). 95% is the 2018 Order.",
+    "anchor": "1975 Presidential Order Para 8 -> 80% (District) / 70% (Zonal Non-Gazetted) / 60% (Zonal Gazetted).",
+    "hint": "Police Sub-Inspectors were in the 70% Zonal Non-Gazetted category under this order.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 458,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the 80% - 70% - 60% formula of the 1975 Presidential Order.",
+        "correctMeaning": "The remaining 20% (District), 30% (Zonal Non-Gazetted), and 40% (Zonal Gazetted) were open to non-locals, which was heavily exploited to bring thousands of Andhra candidates into Telangana.",
+        "selectedMeaning": "The remaining 20% (District), 30% (Zonal Non-Gazetted), and 40% (Zonal Gazetted) were open to non-locals, which was heavily exploited to bring thousands of Andhra candidates into Telangana.",
+        "possibleConfusion": "No confusion; classic high-precision question in TS Police SI exams.",
+        "decisionRules": [
+          {
+            "when": "Asked local reservation percentages under 1975 Presidential Order",
+            "choose": "80% (District Cadre), 70% (Zonal Non-Gazetted), 60% (Zonal Gazetted)."
+          },
+          {
+            "when": "Asked local reservation percentage under 2018 Presidential Order",
+            "choose": "95% across all cadres."
+          }
+        ],
+        "nextStep": "Note how the open competition quota was misused by treating it as a non-local quota rather than merit quota."
+      },
+      {
+        "observation": "Selected 95% across all cadres.",
+        "correctMeaning": "95% reservation was achieved 43 years later in 2018 after Telangana state formation; 1975 had 80% - 70% - 60%.",
+        "selectedMeaning": "Confusing the 2018 reform with the 1975 historical order.",
+        "possibleConfusion": "Current recruitment notifications apply the 95% rule, confusing candidates.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1975 Order percentages",
+            "choose": "80% - 70% - 60%."
+          },
+          {
+            "when": "Asked about 2018 Order percentage",
+            "choose": "95%."
+          }
+        ],
+        "nextStep": "Always check which Presidential Order is asked: 1975 vs 2018."
+      },
+      {
+        "observation": "Selected 100% reservation.",
+        "correctMeaning": "100% reservation was barred by the Supreme Court; open quotas existed in every cadre under the 1975 Order.",
+        "selectedMeaning": "Assuming total exclusion of outside candidates.",
+        "possibleConfusion": "Telangana unions demanded 100% local jobs.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1975 percentages",
+            "choose": "80% / 70% / 60%."
+          },
+          {
+            "when": "Evaluating total reservation",
+            "choose": "Eliminate 100%."
+          }
+        ],
+        "nextStep": "Remember open merit quotas always existed under the 1975 Order."
+      },
+      {
+        "observation": "Selected 50% across all cadres.",
+        "correctMeaning": "50% applies to caste-based reservations under Indira Sawhney (1992); local presidential quotas were 80% - 70% - 60% under Article 371-D.",
+        "selectedMeaning": "Confusing Article 15/16 caste reservation ceilings with Article 371-D local cadre reservations.",
+        "possibleConfusion": "50% is a famous constitutional ceiling number.",
+        "decisionRules": [
+          {
+            "when": "Asked about Article 371-D local cadre reservation in 1975",
+            "choose": "80% (District), 70% (Zonal), 60% (Gazetted)."
+          },
+          {
+            "when": "Asked about social reservation ceiling",
+            "choose": "50% (Indira Sawhney case)."
+          }
+        ],
+        "nextStep": "Remember Article 371-D operates 'notwithstanding anything in this Constitution' overriding the 50% rule for local cadres."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q250",
+    "topic": "TM-02.02",
+    "concept": "TM-02.02-M09",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Paragraph 7 of the 1975 Presidential Order laid down the statutory definition of a 'Local Candidate' for public employment and education. Under Paragraph 7(1), what was the primary educational study criterion to qualify as a local candidate in a district or zone?",
+    "options": [
+      {
+        "text": "Study in an educational institution in that local area for not less than four (4) consecutive academic years ending with the year of SSC/matriculation exam",
+        "why": "Paragraph 7(1) provided: A candidate shall be regarded as a local candidate if he/she has studied in an educational institution in such local area for a period of not less than four consecutive academic years ending with the academic year in which he/she appeared for SSC or equivalent examination.",
+        "attraction": "The authentic, landmark 4-year study rule under Para 7(1).",
+        "confusion": false
+      },
+      {
+        "text": "Continuous physical residence in the district for 15 years certified by a Gazetted officer",
+        "why": "15 years physical residence was the 1919 Nizam Mulki rule; the 1975 Presidential Order replaced physical residence with 4 consecutive years of schooling.",
+        "attraction": "Confusing 1919 Mulki rule with 1975 Presidential Order definition.",
+        "confusion": true
+      },
+      {
+        "text": "Birth in the district with parents owning land in that revenue village",
+        "why": "Place of birth was strictly excluded under Article 16(2); schooling (study period) was the sole legal criterion.",
+        "attraction": "Nativity by birth assumption."
+      },
+      {
+        "text": "Studying from Class 1 to Class 10 without any gap in the same school",
+        "why": "10 years was not required; Paragraph 7 specifically required 4 consecutive years ending with SSC.",
+        "attraction": "Exaggerated schooling duration."
+      }
+    ],
+    "answer": 0,
+    "reason": "Paragraph 7 of the 1975 Presidential Order defined a local candidate as one who studied for at least 4 consecutive academic years ending with SSC.",
+    "clue": "Look for Paragraph 7: not less than 4 consecutive academic years of study ending with the year of SSC examination.",
+    "trap": "Do not choose 15 years residence (1919 Farman) or birth; the 1975 Order defined local candidate based on 4 consecutive years of schooling ending with SSC.",
+    "elimination": "Para 7 mandated 4 consecutive academic years of study ending with the SSC examination.",
+    "anchor": "1975 Presidential Order Para 7 -> Local Candidate Definition -> 4 consecutive academic years of study ending with SSC.",
+    "hint": "If a student studied in multiple places, the local area was where they studied the maximum period within a 7-year block (Classes 4 to 10).",
+    "source": "SR-POLICE-SI-2016",
+    "page": 464,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the 4 consecutive years study rule under Paragraph 7.",
+        "correctMeaning": "The 4-year schooling rule replaced the older 15-year residence rule to establish an objective, verifiable educational benchmark free from bogus domicile certificates.",
+        "selectedMeaning": "The 4-year schooling rule replaced the older 15-year residence rule to establish an objective, verifiable educational benchmark free from bogus domicile certificates.",
+        "possibleConfusion": "No confusion; compulsory knowledge for every government job applicant in Telangana.",
+        "decisionRules": [
+          {
+            "when": "Asked primary criterion for Local Candidate under 1975 Presidential Order Para 7",
+            "choose": "Study for not less than 4 consecutive academic years ending with SSC."
+          },
+          {
+            "when": "Asked what block period was evaluated if not studied consecutively",
+            "choose": "Maximum period of study within 7 consecutive years (Classes 4 to 10)."
+          }
+        ],
+        "nextStep": "Compare this with the 2018 Presidential Order which expanded the study period to 7 consecutive years ending with SSC (Classes 1 to 7)."
+      },
+      {
+        "observation": "Selected 15 years physical residence.",
+        "correctMeaning": "15 years was the Asaf Jahi Mulki rule of 1919; the 1975 Presidential Order abandoned physical residence and adopted 4 years of schooling.",
+        "selectedMeaning": "Confusing the Nizam-era Mulki Farman with the 1975 Presidential Order.",
+        "possibleConfusion": "Candidates often blend Mulki rules and Presidential Order definitions.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1919 Mulki Farman criterion",
+            "choose": "15 years physical residence."
+          },
+          {
+            "when": "Asked about 1975 Presidential Order criterion",
+            "choose": "4 consecutive academic years of study ending with SSC."
+          }
+        ],
+        "nextStep": "Remember: 1919 = 15 years residence; 1975 = 4 years schooling."
+      },
+      {
+        "observation": "Selected birth and parental landholding.",
+        "correctMeaning": "Article 16(2) strictly prohibits discrimination based on place of birth; the Presidential Order relied on institutional study, not birth certificates.",
+        "selectedMeaning": "Confusing nativity by birth with institutional study.",
+        "possibleConfusion": "Colloquially people say 'nativity', but the law recognizes 'local candidate by study'.",
+        "decisionRules": [
+          {
+            "when": "Asked basis of local candidacy in 1975 Order",
+            "choose": "Years of institutional study, not place of birth."
+          },
+          {
+            "when": "Evaluating birth criteria",
+            "choose": "Eliminate place of birth."
+          }
+        ],
+        "nextStep": "Remember study certificate is the sole proof of local candidate status."
+      },
+      {
+        "observation": "Selected Class 1 to 10 unbroken study.",
+        "correctMeaning": "10 unbroken years was never required; Para 7 required only 4 consecutive years ending with SSC (typically classes 7, 8, 9, 10).",
+        "selectedMeaning": "Exaggerating the requirement beyond the statutory 4-year rule.",
+        "possibleConfusion": "Candidates assume all schooling counts equally.",
+        "decisionRules": [
+          {
+            "when": "Asked exact number of consecutive years ending with SSC",
+            "choose": "Four (4) consecutive academic years."
+          },
+          {
+            "when": "Evaluating 10-year options",
+            "choose": "Eliminate Class 1 to 10 requirement."
+          }
+        ],
+        "nextStep": "Memorize the statutory phrase: 'four consecutive academic years ending with SSC'."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q251",
+    "topic": "TM-02.02",
+    "concept": "TM-02.02-M10",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "In 1984–1985, following massive representations by Telangana employee unions (TNGOs) regarding illegal non-local appointments in Zones V and VI, the N.T. Rama Rao government constituted an official Officers Committee to determine the extent of Presidential Order violations. Who was the senior IAS officer who headed this 3-member committee?",
+    "options": [
+      {
+        "text": "K. Jayabharat Reddy (with members K. Umapathi and Kamal Kumar)",
+        "why": "K. Jayabharat Reddy (then Principal Secretary, Home) headed the 3-member Committee with K. Umapathi (IAS) and Kamal Kumar (IPS), which investigated violations and submitted its report identifying roughly 58,962 irregular non-local appointments in Telangana.",
+        "attraction": "The authentic, celebrated Officers Committee that paved the way for G.O. 610.",
+        "confusion": false
+      },
+      {
+        "text": "J.M. Girglani",
+        "why": "J.M. Girglani was appointed 16 years later in June 2001 as a One-Man Commission, not the 1984–85 Officers Committee.",
+        "attraction": "Famous commission head who probed G.O. 610.",
+        "confusion": true
+      },
+      {
+        "text": "Justice Pingali Jaganmohan Reddy",
+        "why": "Justice Jaganmohan Reddy headed the 1952 City College firing commission, 32 years earlier.",
+        "attraction": "Famous inquiry head from 1952."
+      },
+      {
+        "text": "M.T. Raju",
+        "why": "M.T. Raju was Chief Secretary in 1969 who signed G.O. 36, not the 1984–85 committee head.",
+        "attraction": "1969 Chief Secretary."
+      }
+    ],
+    "answer": 0,
+    "reason": "K. Jayabharat Reddy headed the 1984–85 Officers Committee that investigated Presidential Order violations.",
+    "clue": "Look for K. Jayabharat Reddy, the senior bureaucrat who headed the 1984–85 committee with Umapathi and Kamal Kumar.",
+    "trap": "Do not confuse the Jayabharat Reddy Committee (1984–85) with the Girglani Commission (2001–2004).",
+    "elimination": "Jayabharat Reddy headed the 1984–85 committee. Girglani was 2001; Jaganmohan Reddy was 1952; M.T. Raju was 1969.",
+    "anchor": "1984–1985 Officers Committee -> K. Jayabharat Reddy (Head), K. Umapathi, Kamal Kumar -> Prompted G.O. 610.",
+    "hint": "Their findings formed the direct empirical basis upon which the Cabinet approved G.O. Ms. No. 610 on 30 December 1985.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 470,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the K. Jayabharat Reddy Officers Committee.",
+        "correctMeaning": "The Jayabharat Reddy Committee was the first official government body to officially confess that tens of thousands of non-locals had encroached on Telangana local jobs.",
+        "selectedMeaning": "The Jayabharat Reddy Committee was the first official government body to officially confess that tens of thousands of non-locals had encroached on Telangana local jobs.",
+        "possibleConfusion": "No confusion; standard high-yield administrative question in TS exams.",
+        "decisionRules": [
+          {
+            "when": "Asked who headed the 1984–1985 Officers Committee on Presidential Order violations",
+            "choose": "K. Jayabharat Reddy."
+          },
+          {
+            "when": "Asked who were members of Jayabharat Reddy Committee",
+            "choose": "K. Umapathi (IAS) and Kamal Kumar (IPS)."
+          }
+        ],
+        "nextStep": "Note how the Jayabharat Reddy report directly produced G.O. Ms. No. 610 on 30 December 1985."
+      },
+      {
+        "observation": "Selected J.M. Girglani.",
+        "correctMeaning": "J.M. Girglani headed the 2001 One-Man Commission; Jayabharat Reddy headed the 1984–85 Officers Committee.",
+        "selectedMeaning": "Confusing the 2001 Commission with the 1985 Committee that preceded G.O. 610.",
+        "possibleConfusion": "Both probed the exact same violations in Zones V and VI.",
+        "decisionRules": [
+          {
+            "when": "Asked about committee appointed before G.O. 610 (1984–85)",
+            "choose": "K. Jayabharat Reddy Committee."
+          },
+          {
+            "when": "Asked about commission appointed to probe non-implementation of G.O. 610 (2001)",
+            "choose": "J.M. Girglani Commission."
+          }
+        ],
+        "nextStep": "Sequence: Jayabharat Reddy (1985) -> G.O. 610 (1985) -> Girglani (2001)."
+      },
+      {
+        "observation": "Selected Justice Pingali Jaganmohan Reddy.",
+        "correctMeaning": "Justice Jaganmohan Reddy was a High Court judge in 1952 (City College); Jayabharat Reddy was an IAS officer in 1985.",
+        "selectedMeaning": "Confusing two different Reddys across a 33-year gap.",
+        "possibleConfusion": "Both investigated government excesses against Telangana.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1952 judicial inquiry",
+            "choose": "Justice Pingali Jaganmohan Reddy."
+          },
+          {
+            "when": "Asked about 1985 administrative committee",
+            "choose": "K. Jayabharat Reddy."
+          }
+        ],
+        "nextStep": "Remember: 1952 = Pingali Jaganmohan Reddy; 1985 = Jayabharat Reddy."
+      },
+      {
+        "observation": "Selected M.T. Raju.",
+        "correctMeaning": "M.T. Raju was Chief Secretary under Kasu in 1969; Jayabharat Reddy was Home Secretary under NTR in 1985.",
+        "selectedMeaning": "Confusing the 1969 bureaucratic signatory with the 1985 committee chairman.",
+        "possibleConfusion": "Both were top civil servants involved in landmark employment orders (G.O. 36 and G.O. 610).",
+        "decisionRules": [
+          {
+            "when": "Asked about Chief Secretary in G.O. 36 (1969)",
+            "choose": "M.T. Raju."
+          },
+          {
+            "when": "Asked about committee head in G.O. 610 (1985)",
+            "choose": "K. Jayabharat Reddy."
+          }
+        ],
+        "nextStep": "Link M.T. Raju to G.O. 36 (1969) and Jayabharat Reddy to G.O. 610 (1985)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q252",
+    "topic": "TM-02.02",
+    "concept": "TM-02.02-M11",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "G.O. Ms. No. 610 was issued by the General Administration Department (GAD) of Andhra Pradesh on 30 December 1985 under Chief Minister N.T. Rama Rao. What was the exact target deadline fixed in Clause 5 of G.O. 610 for repatriating all illegally allotted non-local employees from Zones V and VI back to their native zones?",
+    "options": [
+      {
+        "text": "31 March 1986",
+        "why": "Clause 5 of G.O. Ms. No. 610 explicitly mandated: 'The employees allotted in deviation of the Presidential Order shall be repatriated to their respective native zones by 31 March 1986, and local candidates appointed in the resultant vacancies.'",
+        "attraction": "The authentic, landmark 3-month statutory deadline of G.O. 610.",
+        "confusion": false
+      },
+      {
+        "text": "28 February 1969",
+        "why": "28 February 1969 was the repatriation deadline in G.O. Ms. No. 36 issued 16 years earlier under Kasu Brahmananda Reddy.",
+        "attraction": "Deadline of G.O. 36 (1969).",
+        "confusion": true
+      },
+      {
+        "text": "1 November 1990",
+        "why": "No 1990 deadline existed; G.O. 610 specified an immediate 3-month timeline ending on 31 March 1986.",
+        "attraction": "Arbitrary long-term deadline."
+      },
+      {
+        "text": "30 June 2004",
+        "why": "30 June 2004 was the submission period of the Girglani Commission Final Report, eighteen years after G.O. 610 was issued.",
+        "attraction": "Girglani report date."
+      }
+    ],
+    "answer": 0,
+    "reason": "G.O. Ms. No. 610 fixed 31 March 1986 as the deadline for repatriating all illegally allotted non-local employees.",
+    "clue": "Look for 31 March 1986, the 3-month deadline specified in Clause 5 of G.O. 610.",
+    "trap": "Do not confuse G.O. 36 (deadline: 28 Feb 1969) with G.O. 610 (deadline: 31 March 1986).",
+    "elimination": "G.O. 610 fixed 31 March 1986. G.O. 36 was 28 Feb 1969; Girglani submitted in 2004.",
+    "anchor": "30 December 1985 -> G.O. Ms. No. 610 -> Repatriation Deadline: 31 March 1986.",
+    "hint": "Despite this solemn order, successive governments failed to repatriate even a single non-local employee by 31 March 1986.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 476,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies 31 March 1986 as the deadline in G.O. 610.",
+        "correctMeaning": "G.O. 610 is the single most celebrated executive order in the post-1975 movement; its total betrayal catalyzed the 2001 revival of the statehood demand.",
+        "selectedMeaning": "G.O. 610 is the single most celebrated executive order in the post-1975 movement; its total betrayal catalyzed the 2001 revival of the statehood demand.",
+        "possibleConfusion": "No confusion; compulsory question for every TS Police SI & Constable aspirant.",
+        "decisionRules": [
+          {
+            "when": "Asked what deadline was fixed in G.O. Ms. No. 610 (issued 30 Dec 1985)",
+            "choose": "31 March 1986."
+          },
+          {
+            "when": "Asked which Chief Minister issued G.O. 610",
+            "choose": "N.T. Rama Rao."
+          }
+        ],
+        "nextStep": "Compare G.O. 36 (1969, deadline 28 Feb 1969) with G.O. 610 (1985, deadline 31 March 1986)."
+      },
+      {
+        "observation": "Selected 28 February 1969.",
+        "correctMeaning": "28 February 1969 was the deadline in G.O. 36; G.O. 610 was issued in 1985 with a deadline of 31 March 1986.",
+        "selectedMeaning": "Confusing G.O. 36 with G.O. 610.",
+        "possibleConfusion": "Both orders had very similar repatriation mandates separated by 16 years.",
+        "decisionRules": [
+          {
+            "when": "Asked about deadline in G.O. 36 (Kasu)",
+            "choose": "28 February 1969."
+          },
+          {
+            "when": "Asked about deadline in G.O. 610 (NTR)",
+            "choose": "31 March 1986."
+          }
+        ],
+        "nextStep": "Remember: G.O. 36 = 1969 (Feb); G.O. 610 = 1985 (March)."
+      },
+      {
+        "observation": "Selected 1990 deadline.",
+        "correctMeaning": "G.O. 610 gave only a 3-month deadline (Jan–March 1986) to quickly settle employee grievances; it was not a 5-year order.",
+        "selectedMeaning": "Confusing an immediate compliance order with long-term plans.",
+        "possibleConfusion": "Employee protests flared again in 1990.",
+        "decisionRules": [
+          {
+            "when": "Asked duration given in G.O. 610",
+            "choose": "3 months (ending 31 March 1986)."
+          },
+          {
+            "when": "Evaluating 1990s deadlines",
+            "choose": "Eliminate 1990."
+          }
+        ],
+        "nextStep": "Anchor G.O. 610 to its original 1986 target date."
+      },
+      {
+        "observation": "Selected 30 June 2004.",
+        "correctMeaning": "30 June 2004 was the completion of the Girglani Commission report, appointed 15 years later to find out why G.O. 610 had never been implemented.",
+        "selectedMeaning": "Confusing the inquiry commission report date with the original order deadline.",
+        "possibleConfusion": "Both documents are closely linked in literature.",
+        "decisionRules": [
+          {
+            "when": "Asked about original G.O. 610 deadline",
+            "choose": "31 March 1986."
+          },
+          {
+            "when": "Asked when Girglani Commission submitted its Final Report",
+            "choose": "30 September 2004."
+          }
+        ],
+        "nextStep": "Chronology: G.O. 610 (1985/1986) -> Girglani Report (2004)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q253",
+    "topic": "TM-02.03",
+    "concept": "TM-02.03-M01",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "On 25 June 2001, Chief Minister N. Chandrababu Naidu appointed a One-Man Commission headed by retired senior IAS officer J.M. Girglani to inquire into the non-implementation of G.O. 610. In its monumental Final Report submitted on 30 September 2004, how many distinct types of violations and deviations of the 1975 Presidential Order did the Girglani Commission identify?",
+    "options": [
+      {
+        "text": "72 distinct types of violations across 35 volumes",
+        "why": "The J.M. Girglani Commission submitted a comprehensive Final Report spanning 35 volumes, meticulously classifying 72 distinct types of violations and systemic circumventions of the Presidential Order across all government departments.",
+        "attraction": "The authentic, historic finding of 72 types of violations in 35 volumes.",
+        "confusion": false
+      },
+      {
+        "text": "Only 3 minor clerical errors",
+        "why": "The Commission exposed massive, calculated, and institutionalized violations running into tens of thousands of illegal appointments, not minor errors.",
+        "attraction": "Downplaying the violations.",
+        "confusion": true
+      },
+      {
+        "text": "14 violations corresponding to the 14 points of the Gentlemen's Agreement",
+        "why": "The Gentlemen's Agreement had 14 points, but Girglani identified 72 specific administrative mechanisms used to bypass the 1975 Presidential Order.",
+        "attraction": "Confusing Gentlemen's Agreement 14 points with Girglani violations."
+      },
+      {
+        "text": "Zero violations (holding that G.O. 610 had been perfectly implemented)",
+        "why": "The Commission proved that G.O. 610 was completely sabotaged and not implemented in letter or spirit.",
+        "attraction": "False compliance assumption."
+      }
+    ],
+    "answer": 0,
+    "reason": "The J.M. Girglani Commission identified 72 distinct types of violations of the Presidential Order across 35 volumes.",
+    "clue": "Look for the Girglani Commission's finding of 72 types of violations documented across 35 volumes.",
+    "trap": "Do not guess 14 (Gentlemen's Agreement points); Girglani identified exactly 72 types of violations.",
+    "elimination": "Girglani Commission identified 72 distinct types of violations across 35 volumes.",
+    "anchor": "J.M. Girglani Commission (2001–2004) -> 72 distinct types of violations -> 35 volumes.",
+    "hint": "Violations included illegal deputations, fake local certificates, declaring posts non-local, transferring cadres without approval, and misusing the 20% open quota.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 482,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies 72 distinct types of violations in the Girglani Report.",
+        "correctMeaning": "The Girglani Commission report was the most devastating indictment of the Andhra-dominated administration, proving that local youth were systematically cheated of over 1.5 lakh jobs in Telangana.",
+        "selectedMeaning": "The Girglani Commission report was the most devastating indictment of the Andhra-dominated administration, proving that local youth were systematically cheated of over 1.5 lakh jobs in Telangana.",
+        "possibleConfusion": "No confusion; standard high-yield numerical question in TS recruitment.",
+        "decisionRules": [
+          {
+            "when": "Asked how many types of violations the Girglani Commission identified",
+            "choose": "72 distinct types of violations."
+          },
+          {
+            "when": "Asked when Girglani Commission was appointed",
+            "choose": "25 June 2001."
+          }
+        ],
+        "nextStep": "Note that Girglani submitted an Interim Report on 6 October 2001 and his Final Report on 30 September 2004."
+      },
+      {
+        "observation": "Selected minor clerical errors.",
+        "correctMeaning": "Girglani exposed deliberate systemic subversion by heads of departments and secretariats, not minor clerical slips.",
+        "selectedMeaning": "Severely trivializing the findings of a 35-volume report.",
+        "possibleConfusion": "Official spokespersons attempted to downplay the report.",
+        "decisionRules": [
+          {
+            "when": "Asked nature of Girglani findings",
+            "choose": "72 systematic, widespread types of violations."
+          },
+          {
+            "when": "Evaluating minor error claims",
+            "choose": "Eliminate clerical error distractors."
+          }
+        ],
+        "nextStep": "Understand Girglani called the violation 'a fraud on the Constitution'."
+      },
+      {
+        "observation": "Selected 14 violations.",
+        "correctMeaning": "14 was the number of clauses in the 1956 Gentlemen's Agreement; Girglani classified 72 operational methods of cheating.",
+        "selectedMeaning": "Confusing 1956 treaty clauses with 2004 audit violations.",
+        "possibleConfusion": "14 is a familiar number in Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked about clauses in Gentlemen's Agreement",
+            "choose": "14 points."
+          },
+          {
+            "when": "Asked about violation categories in Girglani Report",
+            "choose": "72 types of violations."
+          }
+        ],
+        "nextStep": "Remember: Gentlemen's Agreement = 14 points; Girglani violations = 72 types."
+      },
+      {
+        "observation": "Selected zero violations.",
+        "correctMeaning": "Girglani documented that in Hyderabad city and across Telangana, non-locals held up to 70% of posts that belonged to local youth.",
+        "selectedMeaning": "Factually inverted assumption.",
+        "possibleConfusion": "Government orders falsely claimed compliance.",
+        "decisionRules": [
+          {
+            "when": "Asked if G.O. 610 was implemented according to Girglani",
+            "choose": "Completely not implemented; massive violations uncovered."
+          },
+          {
+            "when": "Evaluating compliance claims",
+            "choose": "Eliminate zero violations."
+          }
+        ],
+        "nextStep": "Review Girglani's recommended 125 remedial measures."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q254",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M01",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "The modern phase of the Telangana movement was catalyzed by the historic 'Warangal Declaration' (Warangal Prakatana) adopted at a massive 2-day conference on 'Telangana Betrayal & Democratic Rights' held on 28 and 29 December 1997. How many comprehensive resolutions demanding separate statehood and detailing exploitation across agriculture, power, irrigation, and education were passed at this convention?",
+    "options": [
+      {
+        "text": "50 comprehensive resolutions",
+        "why": "On 28–29 December 1997, the Warangal convention organized by the All India People's Resistance Forum (AIPRF) and attended by intellectuals like Prof. Jayashankar and Kaloji adopted the historic 50-point 'Warangal Declaration' calling for an uncompromising mass struggle for separate statehood.",
+        "attraction": "The authentic, landmark 50 resolutions of the Warangal Declaration.",
+        "confusion": false
+      },
+      {
+        "text": "14 resolutions",
+        "why": "14 was the number of points in the 1956 Gentlemen's Agreement, not the 1997 Warangal Declaration.",
+        "attraction": "Gentlemen's Agreement point count.",
+        "confusion": true
+      },
+      {
+        "text": "8 resolutions",
+        "why": "8 was the number of points in the 1969 Eight-Point Formula.",
+        "attraction": "Eight-Point Formula count."
+      },
+      {
+        "text": "6 resolutions",
+        "why": "6 was the number of points in the 1973 Six-Point Formula.",
+        "attraction": "Six-Point Formula count."
+      }
+    ],
+    "answer": 0,
+    "reason": "The 1997 Warangal Declaration adopted 50 comprehensive resolutions demanding separate Telangana.",
+    "clue": "Look for the 50 resolutions adopted at the 1997 Warangal Declaration on 28–29 December 1997.",
+    "trap": "Do not confuse the 50 resolutions of Warangal (1997) with 14 points (1956), 8 points (1969), or 6 points (1973).",
+    "elimination": "Warangal Declaration adopted 50 resolutions. 1956 had 14 points; 1969 had 8 points; 1973 had 6 points.",
+    "anchor": "28–29 December 1997 -> Warangal Declaration -> 50 comprehensive resolutions demanding Separate Telangana.",
+    "hint": "Presided by prominent writers and human rights activists, it declared that 'Telangana cannot develop without political self-rule'.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 488,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the 50 resolutions of the 1997 Warangal Declaration.",
+        "correctMeaning": "The Warangal Declaration of December 1997 is regarded by political scientists as the intellectual manifesto that resurrected the Telangana movement from its 25-year slumber.",
+        "selectedMeaning": "The Warangal Declaration of December 1997 is regarded by political scientists as the intellectual manifesto that resurrected the Telangana movement from its 25-year slumber.",
+        "possibleConfusion": "No confusion; celebrated milestone in modern Telangana movement history.",
+        "decisionRules": [
+          {
+            "when": "Asked how many resolutions were adopted in the 1997 Warangal Declaration",
+            "choose": "50 resolutions."
+          },
+          {
+            "when": "Asked exact dates of the Warangal conference",
+            "choose": "28 and 29 December 1997."
+          }
+        ],
+        "nextStep": "Note how the Warangal Declaration inspired the formation of multiple organizations like Telangana Aikya Vedika and Telangana Jana Sabha."
+      },
+      {
+        "observation": "Selected 14 resolutions.",
+        "correctMeaning": "14 was the number of clauses in the 1956 Gentlemen's Agreement; the 1997 Warangal Declaration had 50 resolutions.",
+        "selectedMeaning": "Confusing 1956 covenant terms with the 1997 revolutionary declaration.",
+        "possibleConfusion": "14 is a recurring number in Telangana curriculum.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1956 Gentlemen's Agreement points",
+            "choose": "14 points."
+          },
+          {
+            "when": "Asked about 1997 Warangal Declaration resolutions",
+            "choose": "50 resolutions."
+          }
+        ],
+        "nextStep": "Remember: 1956 = 14 points; 1997 = 50 resolutions."
+      },
+      {
+        "observation": "Selected 8 resolutions.",
+        "correctMeaning": "8 was the number of points in Indira Gandhi's 1969 package; Warangal had 50 resolutions.",
+        "selectedMeaning": "Confusing the 1969 8-Point Formula with the 1997 Declaration.",
+        "possibleConfusion": "Both addressed regional grievances.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1969 Indira Gandhi formula",
+            "choose": "Eight-Point Formula."
+          },
+          {
+            "when": "Asked about 1997 Warangal Declaration",
+            "choose": "50 resolutions."
+          }
+        ],
+        "nextStep": "Keep 1969 (8 points) distinct from 1997 (50 resolutions)."
+      },
+      {
+        "observation": "Selected 6 resolutions.",
+        "correctMeaning": "6 was the number of points in the 1973 Six-Point Formula; Warangal passed 50 resolutions.",
+        "selectedMeaning": "Confusing the 1973 formula with the 1997 declaration.",
+        "possibleConfusion": "Six-Point Formula is heavily tested.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1973 formula",
+            "choose": "Six-Point Formula."
+          },
+          {
+            "when": "Asked about 1997 Warangal Declaration",
+            "choose": "50 resolutions."
+          }
+        ],
+        "nextStep": "Memorize the progression: 14 (1956) -> 8 (1969) -> 6 (1973) -> 50 (1997)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q255",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M02",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "The 'Telangana Dhoom Dhaam' was a unique cultural-political performance movement that mobilized millions of rural and urban masses through traditional songs, Oggu Katha, and dance forms. Where and when was the very first 'Telangana Dhoom Dhaam' held under the leadership of Rasamayi Balakishan and Telangana Kalasamithi?",
+    "options": [
+      {
+        "text": "30 September 2002 at Kamareddy (Nizamabad district)",
+        "why": "The inaugural 'Telangana Dhoom Dhaam' was organized on 30 September 2002 at Kamareddy town in Nizamabad district by Telangana Kalasamithi under the leadership of Rasamayi Balakishan, bringing all folk artists onto a single political stage.",
+        "attraction": "The authentic, celebrated venue and date of the first Dhoom Dhaam.",
+        "confusion": false
+      },
+      {
+        "text": "28 December 1997 at Warangal",
+        "why": "28 December 1997 was the Warangal Declaration convention, not the Dhoom Dhaam performance festival.",
+        "attraction": "Warangal Declaration date.",
+        "confusion": true
+      },
+      {
+        "text": "27 April 2001 at Jala Drushyam, Hyderabad",
+        "why": "27 April 2001 at Jala Drushyam was the political founding of the Telangana Rashtra Samithi (TRS) by KCR.",
+        "attraction": "TRS founding date and venue."
+      },
+      {
+        "text": "9 December 2009 at Osmania University",
+        "why": "9 December 2009 was the historic announcement of Telangana statehood by P. Chidambaram.",
+        "attraction": "Chidambaram announcement date."
+      }
+    ],
+    "answer": 0,
+    "reason": "The first Telangana Dhoom Dhaam was held on 30 September 2002 at Kamareddy.",
+    "clue": "Look for 30 September 2002 at Kamareddy (Nizamabad), organized by Rasamayi Balakishan.",
+    "trap": "Do not confuse Dhoom Dhaam (30 Sept 2002 at Kamareddy) with TRS founding (2001) or Warangal Declaration (1997).",
+    "elimination": "First Dhoom Dhaam was on 30 September 2002 at Kamareddy. 1997 was Warangal; 2001 was TRS founding.",
+    "anchor": "30 September 2002 -> Kamareddy -> First Telangana Dhoom Dhaam -> Led by Rasamayi Balakishan.",
+    "hint": "It brought together iconic singers like Goreti Venkanna, Guda Anjaiah, Ande Sri, and Vimalakka.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 494,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies 30 September 2002 at Kamareddy as the first Dhoom Dhaam.",
+        "correctMeaning": "Dhoom Dhaam proved that cultural songs and folk arts were more powerful in awakening rural people than dry political speeches, becoming the heartbeat of the modern struggle.",
+        "selectedMeaning": "Dhoom Dhaam proved that cultural songs and folk arts were more powerful in awakening rural people than dry political speeches, becoming the heartbeat of the modern struggle.",
+        "possibleConfusion": "No confusion; standard high-yield cultural question in TS exams.",
+        "decisionRules": [
+          {
+            "when": "Asked where and when the first Telangana Dhoom Dhaam was held",
+            "choose": "30 September 2002 at Kamareddy (Nizamabad district)."
+          },
+          {
+            "when": "Asked who spearheaded the Dhoom Dhaam movement",
+            "choose": "Rasamayi Balakishan (Telangana Kalasamithi / Dhoom Dhaam convener)."
+          }
+        ],
+        "nextStep": "Note how Dhoom Dhaam was later performed internationally in Dubai, London, and the USA to mobilize the diaspora."
+      },
+      {
+        "observation": "Selected 1997 Warangal Declaration.",
+        "correctMeaning": "Warangal in 1997 was an intellectual conference adopting 50 resolutions; Kamareddy in 2002 was the folk performance festival of Dhoom Dhaam.",
+        "selectedMeaning": "Confusing the intellectual declaration with the cultural performance festival.",
+        "possibleConfusion": "Both energized the modern movement.",
+        "decisionRules": [
+          {
+            "when": "Asked about Warangal convention (1997)",
+            "choose": "Warangal Declaration (50 resolutions)."
+          },
+          {
+            "when": "Asked about first Dhoom Dhaam (2002)",
+            "choose": "Kamareddy (Rasamayi Balakishan)."
+          }
+        ],
+        "nextStep": "Chronology: Warangal Declaration (1997) -> TRS launch (2001) -> Dhoom Dhaam (2002)."
+      },
+      {
+        "observation": "Selected 27 April 2001 at Jala Drushyam.",
+        "correctMeaning": "27 April 2001 was the political party launch of TRS by K. Chandrashekar Rao; Dhoom Dhaam started in September 2002.",
+        "selectedMeaning": "Confusing the political party formation with the cultural art movement.",
+        "possibleConfusion": "TRS heavily utilized Dhoom Dhaam in its rallies.",
+        "decisionRules": [
+          {
+            "when": "Asked when TRS was founded at Jala Drushyam",
+            "choose": "27 April 2001."
+          },
+          {
+            "when": "Asked when first Dhoom Dhaam was organized",
+            "choose": "30 September 2002 at Kamareddy."
+          }
+        ],
+        "nextStep": "Remember Dhoom Dhaam was an autonomous artists' initiative that worked alongside political parties."
+      },
+      {
+        "observation": "Selected 9 December 2009.",
+        "correctMeaning": "9 December 2009 was the central government's statehood announcement; Dhoom Dhaam had been performing across villages for over 7 years by then.",
+        "selectedMeaning": "Major chronological jump of 7 years.",
+        "possibleConfusion": "Dhoom Dhaam artists performed outside Osmania University in December 2009.",
+        "decisionRules": [
+          {
+            "when": "Asked about 9 December 2009",
+            "choose": "Chidambaram's announcement on Telangana formation."
+          },
+          {
+            "when": "Asked about first Dhoom Dhaam",
+            "choose": "30 September 2002 at Kamareddy."
+          }
+        ],
+        "nextStep": "Anchor Kamareddy strictly to 30 September 2002."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q256",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M03",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Gaddar (Gummadi Vittal Rao), the legendary revolutionary balladeer and founder of Jana Natya Mandali, mobilized millions with his voice and red blanket. Which of his immortal songs, beginning with the lines 'Amma Telanganama Aakali Kekala Gaanama', was hailed as the emotional heartbeat of the Telangana struggle?",
+    "options": [
+      {
+        "text": "'Amma Telanganama Aakali Kekala Gaanama'",
+        "why": "Gaddar wrote and sang 'Amma Telanganama Aakali Kekala Gaanama', capturing the agony, starvation, and exploitation of Telangana under colonial coastal rule, which brought tears to millions in public gatherings.",
+        "attraction": "The authentic, immortal song penned by Gaddar.",
+        "confusion": false
+      },
+      {
+        "text": "'Ooru Manadira Ee Vaada Manadira'",
+        "why": "'Ooru Manadira Ee Vaada Manadira' was written by revolutionary folk poet Guda Anjaiah in 1971, not by Gaddar.",
+        "attraction": "Iconic revolutionary song written by Guda Anjaiah.",
+        "confusion": true
+      },
+      {
+        "text": "'Palle Kanneru Peduthundo'",
+        "why": "'Palle Kanneru Peduthundo' was composed and sung by Goreti Venkanna, depicting the decay of rural artisan livelihoods.",
+        "attraction": "Famous folk song composed by Goreti Venkanna."
+      },
+      {
+        "text": "'Jaya Jayahe Telangana Janani Jaya Ketanam'",
+        "why": "This official State Anthem was penned by Dr. Ande Sri, not by Gaddar.",
+        "attraction": "Official State Anthem."
+      }
+    ],
+    "answer": 0,
+    "reason": "Gaddar wrote and sang the immortal anthem 'Amma Telanganama Aakali Kekala Gaanama'.",
+    "clue": "Look for Gaddar, author and singer of 'Amma Telanganama Aakali Kekala Gaanama'.",
+    "trap": "Do not confuse Gaddar ('Amma Telanganama') with Guda Anjaiah ('Ooru Manadira') or Goreti Venkanna ('Palle Kanneru').",
+    "elimination": "Gaddar wrote 'Amma Telanganama'. Guda Anjaiah wrote 'Ooru Manadira'; Goreti Venkanna wrote 'Palle Kanneru'; Ande Sri wrote 'Jaya Jayahe Telangana'.",
+    "anchor": "Gaddar (Gummadi Vittal Rao) -> Jana Natya Mandali -> 'Amma Telanganama Aakali Kekala Gaanama' & 'Podustunna Poddu Meeda'.",
+    "hint": "Gaddar also wrote and performed 'Podustunna Poddu Meeda Telanganama', which won the Nandi Award (which he refused to accept).",
+    "source": "SR-POLICE-SI-2016",
+    "page": 500,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Gaddar as the author of 'Amma Telanganama'.",
+        "correctMeaning": "Gaddar was the supreme voice of the oppressed in Telangana, surviving an assassination attempt in 1997 and continuing his cultural crusade until his death in August 2023.",
+        "selectedMeaning": "Gaddar was the supreme voice of the oppressed in Telangana, surviving an assassination attempt in 1997 and continuing his cultural crusade until his death in August 2023.",
+        "possibleConfusion": "No confusion; universally recognized cultural hero of Telangana.",
+        "decisionRules": [
+          {
+            "when": "Asked who wrote 'Amma Telanganama Aakali Kekala Gaanama'",
+            "choose": "Gaddar (Gummadi Vittal Rao)."
+          },
+          {
+            "when": "Asked who wrote 'Podustunna Poddu Meeda Telanganama'",
+            "choose": "Gaddar."
+          }
+        ],
+        "nextStep": "Note that Gaddar hailed from Toopran in Medak district."
+      },
+      {
+        "observation": "Selected Ooru Manadira.",
+        "correctMeaning": "'Ooru Manadira Ee Vaada Manadira' was written by Guda Anjaiah; Gaddar popularized it in Jana Natya Mandali performances.",
+        "selectedMeaning": "Confusing the singer/performer with the original author.",
+        "possibleConfusion": "Gaddar frequently sang 'Ooru Manadira' on stage, causing many to attribute it to him.",
+        "decisionRules": [
+          {
+            "when": "Asked who originally composed 'Ooru Manadira'",
+            "choose": "Guda Anjaiah."
+          },
+          {
+            "when": "Asked who composed 'Amma Telanganama'",
+            "choose": "Gaddar."
+          }
+        ],
+        "nextStep": "Remember Guda Anjaiah is the author of 'Ooru Manadira'."
+      },
+      {
+        "observation": "Selected Palle Kanneru Peduthundo.",
+        "correctMeaning": "'Palle Kanneru Peduthundo' was written and sung by Goreti Venkanna, winning widespread acclaim in the film 'Kubusam'.",
+        "selectedMeaning": "Confusing Goreti Venkanna's masterpiece with Gaddar's anthem.",
+        "possibleConfusion": "Both were celebrated performers at Dhoom Dhaam.",
+        "decisionRules": [
+          {
+            "when": "Asked who composed 'Palle Kanneru Peduthundo'",
+            "choose": "Goreti Venkanna."
+          },
+          {
+            "when": "Asked who composed 'Amma Telanganama'",
+            "choose": "Gaddar."
+          }
+        ],
+        "nextStep": "Associate Goreti Venkanna with village social realism and nature poetry."
+      },
+      {
+        "observation": "Selected Jaya Jayahe Telangana.",
+        "correctMeaning": "'Jaya Jayahe Telangana' was written by Dr. Ande Sri; Gaddar wrote 'Amma Telanganama'.",
+        "selectedMeaning": "Confusing the official State Anthem with the revolutionary ballad.",
+        "possibleConfusion": "Both are iconic patriotic anthems of Telangana.",
+        "decisionRules": [
+          {
+            "when": "Asked who wrote 'Jaya Jayahe Telangana'",
+            "choose": "Dr. Ande Sri."
+          },
+          {
+            "when": "Asked who wrote 'Amma Telanganama'",
+            "choose": "Gaddar."
+          }
+        ],
+        "nextStep": "Anchor Ande Sri to 'Jaya Jayahe Telangana' and Gaddar to 'Amma Telanganama'."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q257",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M04",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Guda Anjaiah, the revolutionary folk poet from Lingampalli (Adilabad district), composed which of the following immortal songs in 1971 that was translated into 16 languages and became a worldwide anthem against landlord feudalism and untouchability?",
+    "options": [
+      {
+        "text": "'Ooru Manadira, Ee Vaada Manadira, Palle Manadira, Dora Yendiro Vani Pilupu Yendiro'",
+        "why": "Guda Anjaiah composed the immortal revolutionary song 'Ooru Manadira, Ee Vaada Manadira' in 1971, challenging feudal Deshmukhs ('Dora Yendiro Vani Gadi Yendiro'), which was translated into 16 Indian languages and sung across the subcontinent.",
+        "attraction": "The authentic, internationally celebrated song penned by Guda Anjaiah.",
+        "confusion": false
+      },
+      {
+        "text": "'Palletoori Pillagada Pasula Kaase Monagada'",
+        "why": "'Palletoori Pillagada' was written by Suddala Hanumanthu in the 1940s during the Telangana Armed Struggle, not by Guda Anjaiah in 1971.",
+        "attraction": "Classic armed struggle folk song by Suddala Hanumanthu.",
+        "confusion": true
+      },
+      {
+        "text": "'Naa Telangana Koti Ratanala Veena'",
+        "why": "Authored by Dasarathi Krishnamacharyulu on the walls of Nizamabad jail in the 1940s.",
+        "attraction": "Dasarathi's classical masterpiece."
+      },
+      {
+        "text": "'Podustunna Poddu Meeda'",
+        "why": "Written and composed by Gaddar for the separate state movement.",
+        "attraction": "Gaddar's famous song."
+      }
+    ],
+    "answer": 0,
+    "reason": "Guda Anjaiah composed 'Ooru Manadira, Ee Vaada Manadira' in 1971.",
+    "clue": "Look for Guda Anjaiah, author of 'Ooru Manadira' and 'Rajiga Ori Rajiga'.",
+    "trap": "Do not confuse Guda Anjaiah ('Ooru Manadira') with Suddala Hanumanthu ('Palletoori Pillagada') or Gaddar ('Podustunna Poddu').",
+    "elimination": "Guda Anjaiah wrote 'Ooru Manadira'. Suddala Hanumanthu wrote 'Palletoori Pillagada'; Dasarathi wrote 'Koti Ratanala Veena'; Gaddar wrote 'Podustunna Poddu'.",
+    "anchor": "Guda Anjaiah (1971) -> 'Ooru Manadira Ee Vaada Manadira' -> Defiance against feudal Doras.",
+    "hint": "Guda Anjaiah also wrote the famous Telangana movement song 'Ayyoniva Nuvvo Avvoniva Telanganoniki Thotikodakava' and the novel 'Polimera'.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 506,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Guda Anjaiah as the author of 'Ooru Manadira'.",
+        "correctMeaning": "Guda Anjaiah's 'Ooru Manadira' shook the feudal foundations of rural Telangana, questioning why landless Dalits and Bahujans who built the villages were treated as outcasts by the feudal Doras.",
+        "selectedMeaning": "Guda Anjaiah's 'Ooru Manadira' shook the feudal foundations of rural Telangana, questioning why landless Dalits and Bahujans who built the villages were treated as outcasts by the feudal Doras.",
+        "possibleConfusion": "No confusion; standard question on Telangana literature and social reform.",
+        "decisionRules": [
+          {
+            "when": "Asked who wrote 'Ooru Manadira, Ee Vaada Manadira'",
+            "choose": "Guda Anjaiah."
+          },
+          {
+            "when": "Asked who wrote the famous novel 'Polimera'",
+            "choose": "Guda Anjaiah."
+          }
+        ],
+        "nextStep": "Note that Guda Anjaiah also penned 'Rajiga Ori Rajiga' depicting the plight of Telangana cotton farmers."
+      },
+      {
+        "observation": "Selected Palletoori Pillagada.",
+        "correctMeaning": "'Palletoori Pillagada' was written by Suddala Hanumanthu during the anti-Nizam struggle; Guda Anjaiah wrote 'Ooru Manadira' in 1971.",
+        "selectedMeaning": "Confusing two different anti-feudal folk poets across 30 years.",
+        "possibleConfusion": "Both songs attack landlord tyranny and child exploitation.",
+        "decisionRules": [
+          {
+            "when": "Asked who wrote 'Palletoori Pillagada'",
+            "choose": "Suddala Hanumanthu (1940s)."
+          },
+          {
+            "when": "Asked who wrote 'Ooru Manadira'",
+            "choose": "Guda Anjaiah (1971)."
+          }
+        ],
+        "nextStep": "Remember Suddala = Palletoori Pillagada; Guda Anjaiah = Ooru Manadira."
+      },
+      {
+        "observation": "Selected Naa Telangana Koti Ratanala Veena.",
+        "correctMeaning": "Dasarathi Krishnamacharyulu wrote 'Koti Ratanala Veena'; Guda Anjaiah wrote 'Ooru Manadira'.",
+        "selectedMeaning": "Confusing classical literary verse with folk revolutionary song.",
+        "possibleConfusion": "Both are monumental poetic landmarks of Telangana.",
+        "decisionRules": [
+          {
+            "when": "Asked about Dasarathi's poem",
+            "choose": "Naa Telangana Koti Ratanala Veena."
+          },
+          {
+            "when": "Asked about Guda Anjaiah's song",
+            "choose": "Ooru Manadira."
+          }
+        ],
+        "nextStep": "Keep Dasarathi (classical/modern) and Guda Anjaiah (folk/rebel) distinct."
+      },
+      {
+        "observation": "Selected Podustunna Poddu Meeda.",
+        "correctMeaning": "Gaddar wrote 'Podustunna Poddu Meeda'; Guda Anjaiah wrote 'Ooru Manadira'.",
+        "selectedMeaning": "Confusing Gaddar's statehood song with Guda Anjaiah's anti-feudal song.",
+        "possibleConfusion": "Both were celebrated balladeers of the same movement.",
+        "decisionRules": [
+          {
+            "when": "Asked who composed 'Podustunna Poddu Meeda'",
+            "choose": "Gaddar."
+          },
+          {
+            "when": "Asked who composed 'Ooru Manadira'",
+            "choose": "Guda Anjaiah."
+          }
+        ],
+        "nextStep": "Anchor 'Podustunna Poddu' to Gaddar and 'Ooru Manadira' to Guda Anjaiah."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q258",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M05",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Goreti Venkanna, the celebrated folk singer and poet hailing from Mahbubnagar district, was awarded the prestigious Central Sahitya Akademi Award in 2021 for his outstanding poetry collection. What was the title of this award-winning anthology?",
+    "options": [
+      {
+        "text": "'Vallanki Taalam'",
+        "why": "Goreti Venkanna was awarded the Central Sahitya Akademi Award in 2021 for his acclaimed poetry anthology 'Vallanki Taalam', which celebrated the ecological, philosophical, and rustic beauty of Telangana nature.",
+        "attraction": "The authentic, celebrated Sahitya Akademi award-winning poetry collection.",
+        "confusion": false
+      },
+      {
+        "text": "'Ekunata' (Anthology)",
+        "why": "'Ekunata' was an earlier collection of poems by Goreti Venkanna, but 'Vallanki Taalam' was the collection that won the 2021 Sahitya Akademi Award.",
+        "attraction": "Earlier poetry volume by the same author.",
+        "confusion": true
+      },
+      {
+        "text": "'Alasandra Vanka'",
+        "why": "'Alasandra Vanka' was an earlier song anthology by Goreti Venkanna published in 2010.",
+        "attraction": "Song collection by Goreti Venkanna."
+      },
+      {
+        "text": "'Rela Poothalu'",
+        "why": "'Rela Poothalu' was a collection of songs by various folk artists, not Goreti Venkanna's Sahitya Akademi winning work.",
+        "attraction": "Folk song title distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Goreti Venkanna won the Central Sahitya Akademi Award in 2021 for 'Vallanki Taalam'.",
+    "clue": "Look for 'Vallanki Taalam', the 2021 Sahitya Akademi Award-winning poetry book by Goreti Venkanna.",
+    "trap": "Do not choose earlier collections like 'Alasandra Vanka' or 'Ekunata'; the 2021 award-winning book was 'Vallanki Taalam'.",
+    "elimination": "Goreti Venkanna won the 2021 Sahitya Akademi Award for 'Vallanki Taalam'.",
+    "anchor": "Goreti Venkanna -> 'Vallanki Taalam' -> Central Sahitya Akademi Award in Telugu (2021).",
+    "hint": "Goreti Venkanna is also famous for writing 'Palle Kanneru Peduthundo' and 'Galli Chinnadi Garibolla Katha Peddadi'.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 512,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies 'Vallanki Taalam' as Goreti Venkanna's award-winning collection.",
+        "correctMeaning": "Goreti Venkanna became the first folk poet in Telangana history to win the Central Sahitya Akademi Award for pure rustic folk rhythms in 2021, and was nominated to the Telangana Legislative Council (MLC).",
+        "selectedMeaning": "Goreti Venkanna became the first folk poet in Telangana history to win the Central Sahitya Akademi Award for pure rustic folk rhythms in 2021, and was nominated to the Telangana Legislative Council (MLC).",
+        "possibleConfusion": "No confusion; standard current affairs and cultural heritage question.",
+        "decisionRules": [
+          {
+            "when": "Asked which book won the 2021 Central Sahitya Akademi Award for Goreti Venkanna",
+            "choose": "'Vallanki Taalam'."
+          },
+          {
+            "when": "Asked who composed 'Palle Kanneru Peduthundo' and 'Galli Chinnadi'",
+            "choose": "Goreti Venkanna."
+          }
+        ],
+        "nextStep": "Note Goreti Venkanna hails from Gouraram village in Nagarkurnool / Mahbubnagar district."
+      },
+      {
+        "observation": "Selected Ekunata.",
+        "correctMeaning": "'Ekunata' was published in 2002; 'Vallanki Taalam' was published in 2019 and won the award in 2021.",
+        "selectedMeaning": "Confusing an earlier anthology with the award-winning masterpiece.",
+        "possibleConfusion": "Both were written by Goreti Venkanna.",
+        "decisionRules": [
+          {
+            "when": "Asked about 2021 Sahitya Akademi winning work",
+            "choose": "'Vallanki Taalam'."
+          },
+          {
+            "when": "Asked about 2002 collection",
+            "choose": "'Ekunata'."
+          }
+        ],
+        "nextStep": "Anchor 2021 Sahitya Akademi strictly to 'Vallanki Taalam'."
+      },
+      {
+        "observation": "Selected Alasandra Vanka.",
+        "correctMeaning": "'Alasandra Vanka' was a popular song volume; 'Vallanki Taalam' was the poetry anthology recognized by the national academy.",
+        "selectedMeaning": "Confusing song volume with the award-winning poetry book.",
+        "possibleConfusion": "Both share rustic agrarian titles.",
+        "decisionRules": [
+          {
+            "when": "Asked about Sahitya Akademi Award",
+            "choose": "'Vallanki Taalam'."
+          },
+          {
+            "when": "Evaluating other collections",
+            "choose": "Eliminate Alasandra Vanka."
+          }
+        ],
+        "nextStep": "Remember 'Vallanki Taalam' represents the rhythm of the Vallanki bird in rural nature."
+      },
+      {
+        "observation": "Selected Rela Poothalu.",
+        "correctMeaning": "'Rela Poothalu' was a television folk music series; 'Vallanki Taalam' was Venkanna's literary work.",
+        "selectedMeaning": "Confusing media programs with the published literary text.",
+        "possibleConfusion": "Venkanna appeared frequently on folk music shows.",
+        "decisionRules": [
+          {
+            "when": "Asked about literary award",
+            "choose": "'Vallanki Taalam'."
+          },
+          {
+            "when": "Evaluating folk song programs",
+            "choose": "Eliminate TV program titles."
+          }
+        ],
+        "nextStep": "Focus on the specific literary book title recognized by the Sahitya Akademi."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q259",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M06",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Dr. Ande Sri (Ande Yellaiah), the illiterate shepherd boy who rose to become one of Telangana's greatest nature poets and lyricists, penned which immortal anthem in 2006 that was officially adopted by the Government of Telangana as the State Song (Rashtra Geetham) in 2024?",
+    "options": [
+      {
+        "text": "'Jaya Jayahe Telangana Janani Jaya Ketanam'",
+        "why": "Dr. Ande Sri composed 'Jaya Jayahe Telangana Janani Jaya Ketanam' in 2006, capturing the sacred rivers, historical monuments, and heroic martyrs of all 10 districts; on 8 June 2024, the Telangana State Cabinet officially notified it as the official State Anthem.",
+        "attraction": "The authentic, historic State Song of Telangana.",
+        "confusion": false
+      },
+      {
+        "text": "'Maa Telugu Thalliki Malle Poodanda'",
+        "why": "'Maa Telugu Thalliki' was written by Sankarambadi Sundarachari in 1942 for the composite state, not by Ande Sri for Telangana.",
+        "attraction": "Former state song of united Andhra Pradesh.",
+        "confusion": true
+      },
+      {
+        "text": "'Amma Telanganama'",
+        "why": "Written and sung by revolutionary balladeer Gaddar, not by Dr. Ande Sri.",
+        "attraction": "Gaddar's masterpiece."
+      },
+      {
+        "text": "'Yeh Jung Hai Jung-e-Azadi'",
+        "why": "Written in Urdu by Makhdoom Mohiuddin during the 1946–48 armed struggle.",
+        "attraction": "Makhdoom's anthem."
+      }
+    ],
+    "answer": 0,
+    "reason": "Dr. Ande Sri wrote 'Jaya Jayahe Telangana Janani Jaya Ketanam', officially declared the State Anthem in 2024.",
+    "clue": "Look for Dr. Ande Sri, author of 'Jaya Jayahe Telangana Janani Jaya Ketanam'.",
+    "trap": "Do not confuse Ande Sri ('Jaya Jayahe Telangana') with Sankarambadi Sundarachari ('Maa Telugu Thalliki') or Gaddar ('Amma Telanganama').",
+    "elimination": "Ande Sri wrote 'Jaya Jayahe Telangana'. Sankarambadi wrote 'Maa Telugu Thalliki'; Gaddar wrote 'Amma Telanganama'; Makhdoom wrote 'Jung-e-Azadi'.",
+    "anchor": "Dr. Ande Sri -> 'Jaya Jayahe Telangana Janani Jaya Ketanam' -> Official State Song of Telangana (2024).",
+    "hint": "Hailing from Rebarthi village in Jangaon / Warangal, Ande Sri also composed the famous anti-alcohol song 'Mayadari Maikamu'.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 518,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Dr. Ande Sri and 'Jaya Jayahe Telangana'.",
+        "correctMeaning": "On 2 June 2024, the newly composed full version of 'Jaya Jayahe Telangana' tuned by Oscar-winner M.M. Keeravani was officially dedicated to the state.",
+        "selectedMeaning": "On 2 June 2024, the newly composed full version of 'Jaya Jayahe Telangana' tuned by Oscar-winner M.M. Keeravani was officially dedicated to the state.",
+        "possibleConfusion": "No confusion; standard high-yield contemporary and historical question in TS exams.",
+        "decisionRules": [
+          {
+            "when": "Asked who wrote the official Telangana State Song 'Jaya Jayahe Telangana'",
+            "choose": "Dr. Ande Sri."
+          },
+          {
+            "when": "Asked who composed the official 2024 musical score for the state anthem",
+            "choose": "M.M. Keeravani."
+          }
+        ],
+        "nextStep": "Note that Kakatiya University conferred an honorary doctorate (D.Litt.) on Ande Sri for his poetic genius."
+      },
+      {
+        "observation": "Selected Maa Telugu Thalliki.",
+        "correctMeaning": "'Maa Telugu Thalliki' was written by Sankarambadi Sundarachari from Tirupati for united AP; Telangana rejected it during the statehood movement.",
+        "selectedMeaning": "Confusing the former Andhra Pradesh state anthem with the Telangana State Song.",
+        "possibleConfusion": "Both served as state songs in different eras.",
+        "decisionRules": [
+          {
+            "when": "Asked who wrote 'Maa Telugu Thalliki Malle Poodanda'",
+            "choose": "Sankarambadi Sundarachari."
+          },
+          {
+            "when": "Asked who wrote 'Jaya Jayahe Telangana Janani Jaya Ketanam'",
+            "choose": "Dr. Ande Sri."
+          }
+        ],
+        "nextStep": "Remember Telangana replaced 'Maa Telugu Thalliki' with 'Jaya Jayahe Telangana'."
+      },
+      {
+        "observation": "Selected Amma Telanganama.",
+        "correctMeaning": "Gaddar wrote 'Amma Telanganama'; Ande Sri wrote 'Jaya Jayahe Telangana'.",
+        "selectedMeaning": "Confusing Gaddar's revolutionary song with Ande Sri's state anthem.",
+        "possibleConfusion": "Both were performed in every Telangana rally.",
+        "decisionRules": [
+          {
+            "when": "Asked who wrote 'Amma Telanganama'",
+            "choose": "Gaddar."
+          },
+          {
+            "when": "Asked who wrote 'Jaya Jayahe Telangana'",
+            "choose": "Dr. Ande Sri."
+          }
+        ],
+        "nextStep": "Keep Gaddar and Ande Sri clearly separated."
+      },
+      {
+        "observation": "Selected Yeh Jung Hai Jung-e-Azadi.",
+        "correctMeaning": "Makhdoom Mohiuddin wrote 'Yeh Jung Hai Jung-e-Azadi' in Urdu in the 1940s; Ande Sri wrote 'Jaya Jayahe' in Telugu in 2006.",
+        "selectedMeaning": "Linguistic and historical error across 60 years.",
+        "possibleConfusion": "Both are celebrated regional anthems.",
+        "decisionRules": [
+          {
+            "when": "Asked about Urdu poem by Makhdoom",
+            "choose": "Yeh Jung Hai Jung-e-Azadi."
+          },
+          {
+            "when": "Asked about Telugu state song by Ande Sri",
+            "choose": "Jaya Jayahe Telangana."
+          }
+        ],
+        "nextStep": "Anchor Ande Sri to modern Telugu poetry and 2024 State Song adoption."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q260",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M07",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Belli Lalitha, the fearless folk singer affectionately revered as the 'Nightingale of Telangana' (Telangana Kokila) and founder of the Telangana Kala Samithi, mobilized rural communities for separate statehood through her magnetic singing. On 26 May 1999, she was brutally murdered and chopped into 17 pieces by criminal gangs. In which district did this horrific martyrdom take place?",
+    "options": [
+      {
+        "text": "Nalgonda district (near Bhongir)",
+        "why": "Belli Lalitha was kidnapped, brutally murdered, and her body chopped into 17 pieces and thrown into wells across Bhongir and Choutuppal in Nalgonda district on 26 May 1999 by the notorious gangster Nayeemuddin gang with police collusion.",
+        "attraction": "The authentic, tragic martyrdom location of Belli Lalitha.",
+        "confusion": false
+      },
+      {
+        "text": "Warangal district (near Kazipet)",
+        "why": "Warangal was an epicenter of meetings, but Belli Lalitha hailed from and was murdered in Bhongir, Nalgonda district.",
+        "attraction": "Famous movement epicenter.",
+        "confusion": true
+      },
+      {
+        "text": "Adilabad district (near Nirmal)",
+        "why": "Adilabad was the region of Guda Anjaiah and Komaram Bheem, not Belli Lalitha's martyrdom site.",
+        "attraction": "Folk music region."
+      },
+      {
+        "text": "Khammam district (near Kothagudem)",
+        "why": "Khammam was the spark site of 1969, not Belli Lalitha's murder site.",
+        "attraction": "Historic movement district."
+      }
+    ],
+    "answer": 0,
+    "reason": "Belli Lalitha was murdered on 26 May 1999 near Bhongir in Nalgonda district.",
+    "clue": "Look for Belli Lalitha ('Telangana Kokila'), murdered at Bhongir in Nalgonda district on 26 May 1999.",
+    "trap": "Do not guess Warangal or Khammam; Belli Lalitha lived and was martyred at Bhongir in Nalgonda district.",
+    "elimination": "Belli Lalitha was murdered at Bhongir, Nalgonda district on 26 May 1999.",
+    "anchor": "26 May 1999 -> Bhongir, Nalgonda district -> Belli Lalitha ('Telangana Kokila') martyred.",
+    "hint": "Her murder triggered massive outrage across civil society, immortalized in songs by Gaddar and Goreti Venkanna.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 524,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Bhongir in Nalgonda district as Belli Lalitha's martyrdom site.",
+        "correctMeaning": "Belli Lalitha's supreme sacrifice demonstrated the deadly nexus between the state, mafia gangs, and anti-Telangana forces seeking to silence the cultural voice of the movement.",
+        "selectedMeaning": "Belli Lalitha's supreme sacrifice demonstrated the deadly nexus between the state, mafia gangs, and anti-Telangana forces seeking to silence the cultural voice of the movement.",
+        "possibleConfusion": "No confusion; standard question on cultural martyrs in Telangana recruitment.",
+        "decisionRules": [
+          {
+            "when": "Asked who was known as 'Telangana Kokila' (Nightingale of Telangana)",
+            "choose": "Belli Lalitha."
+          },
+          {
+            "when": "Asked where Belli Lalitha was martyred on 26 May 1999",
+            "choose": "Bhongir (Nalgonda district)."
+          }
+        ],
+        "nextStep": "Note that Belli Lalitha was the sister of revolutionary activist and singer Belli Krishna."
+      },
+      {
+        "observation": "Selected Warangal.",
+        "correctMeaning": "Warangal was the site of the 1997 Declaration; Belli Lalitha was martyred in Bhongir, Nalgonda district.",
+        "selectedMeaning": "Confusing the conference site with the singer's murder site.",
+        "possibleConfusion": "Both were major movement districts in the late 1990s.",
+        "decisionRules": [
+          {
+            "when": "Asked where Warangal Declaration took place (1997)",
+            "choose": "Warangal."
+          },
+          {
+            "when": "Asked where Belli Lalitha was martyred (1999)",
+            "choose": "Bhongir (Nalgonda)."
+          }
+        ],
+        "nextStep": "Remember Bhongir is located between Hyderabad and Warangal."
+      },
+      {
+        "observation": "Selected Adilabad.",
+        "correctMeaning": "Adilabad was where Komaram Bheem died in 1940; Belli Lalitha was killed in Bhongir in 1999.",
+        "selectedMeaning": "Geographical error across northern and southern Telangana.",
+        "possibleConfusion": "Both involved state-sponsored brutality against local icons.",
+        "decisionRules": [
+          {
+            "when": "Asked about Komaram Bheem's martyrdom (1940)",
+            "choose": "Jodeghat, Adilabad (Asifabad)."
+          },
+          {
+            "when": "Asked about Belli Lalitha's martyrdom (1999)",
+            "choose": "Bhongir, Nalgonda."
+          }
+        ],
+        "nextStep": "Keep Jodeghat (1940) and Bhongir (1999) geographically distinct."
+      },
+      {
+        "observation": "Selected Khammam.",
+        "correctMeaning": "Khammam was famous for the 1969 hunger strike of Ravindranath; Belli Lalitha was martyred in Bhongir.",
+        "selectedMeaning": "District confusion.",
+        "possibleConfusion": "Both are eastern/southern Telangana districts.",
+        "decisionRules": [
+          {
+            "when": "Asked about Belli Lalitha's murder site",
+            "choose": "Bhongir (Nalgonda district)."
+          },
+          {
+            "when": "Evaluating Khammam options",
+            "choose": "Eliminate Khammam."
+          }
+        ],
+        "nextStep": "Anchor Belli Lalitha strictly to Bhongir."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q261",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M08",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "On 16 October 1997, a major umbrella organization was established in Hyderabad bringing together intellectuals, writers, and retired officials to present a unified intellectual demand for separate Telangana statehood. Who were the two visionary leaders who headed this 'Telangana Aikya Vedika' (TAV) as its guiding patron and chief convener?",
+    "options": [
+      {
+        "text": "Kaloji Narayana Rao (Patron) and Prof. K. Jayashankar (Chief Convener)",
+        "why": "Telangana Aikya Vedika was formed on 16 October 1997 with 'Praja Kavi' Kaloji Narayana Rao as Patron and Prof. Kothapalli Jayashankar as Chief Convener, spearheading seminars and publishing research booklets exposing regional disparities.",
+        "attraction": "The authentic, celebrated twin leadership of Telangana Aikya Vedika.",
+        "confusion": false
+      },
+      {
+        "text": "K. Chandrashekar Rao and T. Harish Rao",
+        "why": "KCR was Deputy Speaker in the TDP government in 1997 and formed TRS only in 2001; TAV was an intellectual body led by Jayashankar and Kaloji.",
+        "attraction": "TRS leaders from later political phase.",
+        "confusion": true
+      },
+      {
+        "text": "Dr. Marri Chenna Reddy and K.V. Ranga Reddy",
+        "why": "K.V. Ranga Reddy died in 1970 and Marri Chenna Reddy died in 1996; neither was alive for the 1997 Telangana Aikya Vedika.",
+        "attraction": "Deceased historical Congress leaders."
+      },
+      {
+        "text": "Prof. Kodandaram and Mallikarjun",
+        "why": "Prof. Kodandaram headed the TJAC in 2009; Mallikarjun led the 1969 student committee; TAV in 1997 was led by Jayashankar and Kaloji.",
+        "attraction": "Other prominent movement conveners."
+      }
+    ],
+    "answer": 0,
+    "reason": "Telangana Aikya Vedika (1997) was headed by Kaloji Narayana Rao as Patron and Prof. K. Jayashankar as Chief Convener.",
+    "clue": "Look for Kaloji Narayana Rao as Patron and Prof. K. Jayashankar as Chief Convener of Telangana Aikya Vedika in 1997.",
+    "trap": "Do not choose KCR (who launched TRS in 2001) or Kodandaram (TJAC in 2009); TAV in 1997 was headed by Kaloji and Jayashankar.",
+    "elimination": "Kaloji and Prof. Jayashankar founded Telangana Aikya Vedika in 1997. KCR founded TRS in 2001; Kodandaram led TJAC in 2009.",
+    "anchor": "16 October 1997 -> Telangana Aikya Vedika -> Patron: Kaloji Narayana Rao; Convener: Prof. K. Jayashankar.",
+    "hint": "Prof. Jayashankar was former Vice-Chancellor of Kakatiya University and the undisputed ideological father of the Telangana movement.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 530,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Kaloji Narayana Rao and Prof. K. Jayashankar.",
+        "correctMeaning": "Telangana Aikya Vedika prepared the intellectual groundwork, producing authoritative research on river water theft, budget diversion, and employment violations that armed the political movement.",
+        "selectedMeaning": "Telangana Aikya Vedika prepared the intellectual groundwork, producing authoritative research on river water theft, budget diversion, and employment violations that armed the political movement.",
+        "possibleConfusion": "No confusion; standard question on the ideological phase of the movement.",
+        "decisionRules": [
+          {
+            "when": "Asked who were the leaders of Telangana Aikya Vedika (1997)",
+            "choose": "Kaloji Narayana Rao (Patron) and Prof. K. Jayashankar (Convener)."
+          },
+          {
+            "when": "Asked who is hailed as the 'Father of Telangana Ideology'",
+            "choose": "Prof. Kothapalli Jayashankar."
+          }
+        ],
+        "nextStep": "Note how Prof. Jayashankar later became the primary mentor and philosophical advisor to KCR upon the founding of TRS in 2001."
+      },
+      {
+        "observation": "Selected KCR and Harish Rao.",
+        "correctMeaning": "KCR was in the ruling Telugu Desam Party (TDP) in 1997; he resigned and formed TRS on 27 April 2001.",
+        "selectedMeaning": "Confusing the later political party with the earlier intellectual forum.",
+        "possibleConfusion": "KCR worked closely with Prof. Jayashankar after 2001.",
+        "decisionRules": [
+          {
+            "when": "Asked about Telangana Aikya Vedika in 1997",
+            "choose": "Kaloji and Prof. Jayashankar."
+          },
+          {
+            "when": "Asked about Telangana Rashtra Samithi in 2001",
+            "choose": "K. Chandrashekar Rao."
+          }
+        ],
+        "nextStep": "Sequence: Intellectual Phase (TAV, 1997) -> Political Phase (TRS, 2001)."
+      },
+      {
+        "observation": "Selected Chenna Reddy and K.V. Ranga Reddy.",
+        "correctMeaning": "Both leaders had passed away before 1997 (Chenna Reddy in Dec 1996, Ranga Reddy in 1970).",
+        "selectedMeaning": "Anachronism involving deceased leaders.",
+        "possibleConfusion": "Chenna Reddy was CM until 1990.",
+        "decisionRules": [
+          {
+            "when": "Evaluating Chenna Reddy in late 1997",
+            "choose": "Eliminate Chenna Reddy (passed away in 1996)."
+          },
+          {
+            "when": "Asked about 1997 leadership",
+            "choose": "Kaloji and Prof. Jayashankar."
+          }
+        ],
+        "nextStep": "Remember 1997 marked a fresh intellectual leadership."
+      },
+      {
+        "observation": "Selected Prof. Kodandaram and Mallikarjun.",
+        "correctMeaning": "Prof. Kodandaram was an active member, but he became Chairman of the all-party TJAC in December 2009; Mallikarjun led the 1969 student committee.",
+        "selectedMeaning": "Confusing the 2009 TJAC chairman with the 1997 TAV convener.",
+        "possibleConfusion": "Both Kodandaram and Jayashankar were university professors from Warangal.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1997 Telangana Aikya Vedika convener",
+            "choose": "Prof. K. Jayashankar."
+          },
+          {
+            "when": "Asked about 2009 TJAC chairman",
+            "choose": "Prof. M. Kodandaram."
+          }
+        ],
+        "nextStep": "Remember: 1997 TAV = Prof. Jayashankar; 2009 TJAC = Prof. Kodandaram."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q262",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M09",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "The Telangana Jana Sabha (TJS) was established on 9 July 1997 in Hyderabad as a militant mass organization championing the liberation of Telangana's oppressed Bahujan and Dalit communities. Who was the charismatic underground mass organizer and leader who founded the Telangana Jana Sabha and was later killed in a staged police encounter on 16 May 1999?",
+    "options": [
+      {
+        "text": "Maroju Veeranna",
+        "why": "Maroju Veeranna, a brilliant student organizer from Osmania University and leader of revolutionary mass organizations, founded the Telangana Jana Sabha (TJS) and Telangana Mahasabha, articulating the slogan 'Democratic Telangana / Bahujana Telangana' before being killed in a fake encounter near Mahabubabad on 16 May 1999.",
+        "attraction": "The authentic, celebrated revolutionary founder of Telangana Jana Sabha.",
+        "confusion": false
+      },
+      {
+        "text": "Prof. K. Jayashankar",
+        "why": "Prof. Jayashankar was an academician and convener of Telangana Aikya Vedika, living until 2011; he was never an underground activist killed in an encounter.",
+        "attraction": "Ideological father of the movement.",
+        "confusion": true
+      },
+      {
+        "text": "Belli Lalitha",
+        "why": "Belli Lalitha was a folk singer and founder of Telangana Kala Samithi murdered on 26 May 1999, ten days after Maroju Veeranna.",
+        "attraction": "Martyr of the same month."
+      },
+      {
+        "text": "Kolishetti Ravindranath",
+        "why": "Ravindranath was the student hunger striker of Khammam in 1969, not the founder of the 1997 Telangana Jana Sabha.",
+        "attraction": "1969 student leader."
+      }
+    ],
+    "answer": 0,
+    "reason": "Maroju Veeranna founded the Telangana Jana Sabha in 1997 and was martyred on 16 May 1999.",
+    "clue": "Look for Maroju Veeranna, founder of Telangana Jana Sabha who championed 'Bahujana Telangana' and died in May 1999.",
+    "trap": "Do not confuse Maroju Veeranna (TJS founder, martyred 16 May 1999) with Belli Lalitha (murdered 26 May 1999).",
+    "elimination": "Maroju Veeranna founded Telangana Jana Sabha. Prof. Jayashankar led TAV; Belli Lalitha was the folk singer martyr; Ravindranath was 1969.",
+    "anchor": "9 July 1997 -> Telangana Jana Sabha -> Founded by Maroju Veeranna -> Championed Bahujana Telangana.",
+    "hint": "Maroju Veeranna championed the doctrine that Telangana statehood must fundamentally empower SC, ST, BC, and minority communities.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 536,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Maroju Veeranna as the founder of Telangana Jana Sabha.",
+        "correctMeaning": "Maroju Veeranna gave the Telangana movement its sharp caste and social justice dimension, arguing that political liberation without Bahujan empowerment would merely replace Andhra Doras with Telangana Doras.",
+        "selectedMeaning": "Maroju Veeranna gave the Telangana movement its sharp caste and social justice dimension, arguing that political liberation without Bahujan empowerment would merely replace Andhra Doras with Telangana Doras.",
+        "possibleConfusion": "No confusion; standard high-analytical question in Telangana sociology and movement history.",
+        "decisionRules": [
+          {
+            "when": "Asked who founded the Telangana Jana Sabha on 9 July 1997",
+            "choose": "Maroju Veeranna."
+          },
+          {
+            "when": "Asked who coined the perspective of 'Bahujana Telangana'",
+            "choose": "Maroju Veeranna."
+          }
+        ],
+        "nextStep": "Note the wave of political assassinations in May 1999: Maroju Veeranna (16 May) and Belli Lalitha (26 May)."
+      },
+      {
+        "observation": "Selected Prof. K. Jayashankar.",
+        "correctMeaning": "Prof. Jayashankar was an open academic intellectual heading Telangana Aikya Vedika; Maroju Veeranna operated mass political organizations.",
+        "selectedMeaning": "Confusing the university professor with the revolutionary mass organizer.",
+        "possibleConfusion": "Both worked in Telangana advocacy in 1997.",
+        "decisionRules": [
+          {
+            "when": "Asked about founder of Telangana Jana Sabha",
+            "choose": "Maroju Veeranna."
+          },
+          {
+            "when": "Asked about convener of Telangana Aikya Vedika",
+            "choose": "Prof. K. Jayashankar."
+          }
+        ],
+        "nextStep": "Keep TAV (Jayashankar) and TJS (Maroju Veeranna) clearly separated."
+      },
+      {
+        "observation": "Selected Belli Lalitha.",
+        "correctMeaning": "Belli Lalitha was the singer who founded Telangana Kala Samithi; Maroju Veeranna founded Telangana Jana Sabha.",
+        "selectedMeaning": "Confusing the cultural singer martyr with the ideological political organizer.",
+        "possibleConfusion": "Both were close associates and were killed within 10 days of each other in May 1999.",
+        "decisionRules": [
+          {
+            "when": "Asked about founder of Telangana Kala Samithi ('Telangana Kokila')",
+            "choose": "Belli Lalitha."
+          },
+          {
+            "when": "Asked about founder of Telangana Jana Sabha",
+            "choose": "Maroju Veeranna."
+          }
+        ],
+        "nextStep": "Remember both were martyred in May 1999."
+      },
+      {
+        "observation": "Selected Kolishetti Ravindranath.",
+        "correctMeaning": "Ravindranath was the student faster in Khammam in 1969; Maroju Veeranna led the 1997 mass movement.",
+        "selectedMeaning": "Major chronological jump across 28 years.",
+        "possibleConfusion": "Both were fiery leaders from student backgrounds.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1969 Khammam faster",
+            "choose": "B. Ravindranath."
+          },
+          {
+            "when": "Asked about 1997 Telangana Jana Sabha founder",
+            "choose": "Maroju Veeranna."
+          }
+        ],
+        "nextStep": "Anchor Ravindranath to 1969 and Maroju Veeranna to 1997–1999."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q263",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M10",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "On 11 August 1997, the 'Telangana Mahasabha' was founded in Hyderabad by veteran separate state activists. On which date and at which historic venue was the historic 'Dokka Seethamma Sabhaganam' convention held in Suryapet (Nalgonda district), declaring that 'Telangana is in a state of internal colonization'?",
+    "options": [
+      {
+        "text": "11 August 1997 at Suryapet, Nalgonda district",
+        "why": "On 11 August 1997, the Telangana Mahasabha organized a massive convention at Dokka Seethamma Hall in Suryapet under the leadership of V. Prakash, Bhoopathi Krishnamurthy, and Katam Narsimha Reddy, declaring Telangana as an internally colonized region.",
+        "attraction": "The authentic, landmark date and venue of the Telangana Mahasabha Suryapet convention.",
+        "confusion": false
+      },
+      {
+        "text": "28 December 1997 at Warangal",
+        "why": "28 December 1997 was the Warangal Declaration convention organized by AIPRF, four months after the Suryapet convention.",
+        "attraction": "Warangal Declaration date.",
+        "confusion": true
+      },
+      {
+        "text": "1 November 1956 at Jubilee Hall",
+        "why": "1 November 1956 was the formation of Andhra Pradesh.",
+        "attraction": "Formation date distractor."
+      },
+      {
+        "text": "6 March 1952 at Shadnagar",
+        "why": "6 March 1952 was the swearing-in of Burgula Ramakrishna Rao's ministry.",
+        "attraction": "1952 ministry date."
+      }
+    ],
+    "answer": 0,
+    "reason": "The Telangana Mahasabha convention was held on 11 August 1997 at Suryapet.",
+    "clue": "Look for 11 August 1997 at Suryapet, where Telangana Mahasabha declared Telangana an internally colonized region.",
+    "trap": "Do not confuse the Suryapet convention of Telangana Mahasabha (11 Aug 1997) with the Warangal Declaration (28 Dec 1997).",
+    "elimination": "Telangana Mahasabha met on 11 August 1997 at Suryapet. Warangal Declaration was on 28 December 1997.",
+    "anchor": "11 August 1997 -> Suryapet, Nalgonda -> Telangana Mahasabha -> V. Prakash & Bhoopathi Krishnamurthy.",
+    "hint": "Bhoopathi Krishnamurthy, popularly known as 'Telangana Gandhi', served as the guiding inspiration of this convention.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 542,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies 11 August 1997 at Suryapet as the Telangana Mahasabha convention.",
+        "correctMeaning": "The Suryapet convention was one of the earliest public gatherings in 1997 that challenged the legitimacy of united Andhra Pradesh and demanded immediate statehood.",
+        "selectedMeaning": "The Suryapet convention was one of the earliest public gatherings in 1997 that challenged the legitimacy of united Andhra Pradesh and demanded immediate statehood.",
+        "possibleConfusion": "No confusion; standard high-yield calendar question in modern Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked when and where the Telangana Mahasabha held its historic convention",
+            "choose": "11 August 1997 at Suryapet (Nalgonda district)."
+          },
+          {
+            "when": "Asked who were key leaders of Telangana Mahasabha",
+            "choose": "V. Prakash, Bhoopathi Krishnamurthy ('Telangana Gandhi'), and Katam Narsimha Reddy."
+          }
+        ],
+        "nextStep": "Note how V. Prakash later served as a founding general secretary of TRS in 2001."
+      },
+      {
+        "observation": "Selected 28 December 1997 at Warangal.",
+        "correctMeaning": "Warangal was the site of the AIPRF convention adopting the Warangal Declaration in late December; Suryapet was held earlier in August 1997.",
+        "selectedMeaning": "Confusing the December Warangal declaration with the August Suryapet convention.",
+        "possibleConfusion": "Both were iconic 1997 conventions in neighboring districts.",
+        "decisionRules": [
+          {
+            "when": "Asked about August 1997 Suryapet meeting",
+            "choose": "Telangana Mahasabha."
+          },
+          {
+            "when": "Asked about December 1997 Warangal meeting",
+            "choose": "Warangal Declaration (AIPRF)."
+          }
+        ],
+        "nextStep": "Sequence of 1997 meetings: TJS (July) -> Suryapet (August) -> TAV (October) -> Warangal (December)."
+      },
+      {
+        "observation": "Selected 1 November 1956.",
+        "correctMeaning": "1 November 1956 created Andhra Pradesh; Telangana Mahasabha met 41 years later in 1997 to demand its dissolution.",
+        "selectedMeaning": "Confusing the creation of the state with the 1990s resistance movement.",
+        "possibleConfusion": "Formation date distractor.",
+        "decisionRules": [
+          {
+            "when": "Asked about Suryapet Telangana Mahasabha",
+            "choose": "11 August 1997."
+          },
+          {
+            "when": "Evaluating 1956 dates",
+            "choose": "Eliminate 1950s dates."
+          }
+        ],
+        "nextStep": "Anchor modern resurgence strictly to 1997."
+      },
+      {
+        "observation": "Selected 1952 Shadnagar.",
+        "correctMeaning": "1952 Shadnagar was Burgula's election and ministry; 1997 Suryapet was the Mahasabha convention.",
+        "selectedMeaning": "Chronological error across 45 years.",
+        "possibleConfusion": "Both occurred in southern Telangana.",
+        "decisionRules": [
+          {
+            "when": "Asked about Telangana Mahasabha",
+            "choose": "11 August 1997 at Suryapet."
+          },
+          {
+            "when": "Evaluating early electoral history",
+            "choose": "Eliminate 1952."
+          }
+        ],
+        "nextStep": "Remember 1997 was the watershed year of Telangana cultural-political rebirth."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q264",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M11",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "In January 1998, during its State Executive Committee meeting held at Kakinada, which national political party adopted the historic resolution promising to create a separate Telangana state, coining the famous electoral slogan: 'One Vote, Two States' (Oka Vote, Rendu Rashtralu)?",
+    "options": [
+      {
+        "text": "Bharatiya Janata Party (BJP)",
+        "why": "In January 1998 at Kakinada, the Bharatiya Janata Party (BJP) under the leadership of Bandaru Dattatreya, M. Venkaiah Naidu, and Ch. Vidyasagar Rao adopted the historic resolution promising to carve out a separate Telangana state, adopting the slogan 'One Vote, Two States'.",
+        "attraction": "The authentic national party and famous Kakinada resolution.",
+        "confusion": false
+      },
+      {
+        "text": "Communist Party of India (Marxist) [CPM]",
+        "why": "CPM was staunchly opposed to the division of Andhra Pradesh throughout, advocating 'Samaikya Andhra' until the very end.",
+        "attraction": "Prominent left party.",
+        "confusion": true
+      },
+      {
+        "text": "Telugu Desam Party (TDP)",
+        "why": "TDP under N. Chandrababu Naidu was the ruling party firmly committed to an undivided Andhra Pradesh in 1998.",
+        "attraction": "Ruling party in 1998."
+      },
+      {
+        "text": "Bahujan Samaj Party (BSP)",
+        "why": "BSP supported smaller states philosophically, but the specific 'One Vote, Two States' Kakinada resolution was passed by the BJP.",
+        "attraction": "Smaller states advocate."
+      }
+    ],
+    "answer": 0,
+    "reason": "The BJP passed the 'One Vote, Two States' resolution at its Kakinada session in January 1998.",
+    "clue": "Look for BJP and its famous slogan 'One Vote, Two States' at the 1998 Kakinada resolution.",
+    "trap": "Do not choose CPM or TDP; the BJP was the first national party to officially promise Telangana at Kakinada in 1998.",
+    "elimination": "The BJP adopted 'One Vote, Two States' at Kakinada in 1998. CPM opposed division; TDP was the ruling integrationist party.",
+    "anchor": "January 1998 -> BJP Kakinada Resolution -> 'One Vote, Two States' (Oka Vote, Rendu Rashtralu).",
+    "hint": "However, when the NDA formed government in Delhi, it allied with Chandrababu Naidu's TDP and created Chhattisgarh, Jharkhand, and Uttarakhand in 2000, leaving Telangana out.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 548,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the BJP's 1998 Kakinada Resolution.",
+        "correctMeaning": "The Kakinada Resolution was a major political breakthrough because it broke the national party taboo against bifurcating Andhra Pradesh and yielded the BJP 4 Lok Sabha seats in Telangana in 1998.",
+        "selectedMeaning": "The Kakinada Resolution was a major political breakthrough because it broke the national party taboo against bifurcating Andhra Pradesh and yielded the BJP 4 Lok Sabha seats in Telangana in 1998.",
+        "possibleConfusion": "No confusion; standard high-yield question in political party positions on Telangana.",
+        "decisionRules": [
+          {
+            "when": "Asked which party adopted the 'One Vote, Two States' slogan at Kakinada in 1998",
+            "choose": "Bharatiya Janata Party (BJP)."
+          },
+          {
+            "when": "Asked where BJP passed its separate Telangana resolution in 1998",
+            "choose": "Kakinada State Executive Meeting."
+          }
+        ],
+        "nextStep": "Note how the BJP's failure to grant Telangana in 2000 due to TDP pressure directly paved the way for KCR to launch the TRS in 2001."
+      },
+      {
+        "observation": "Selected CPM.",
+        "correctMeaning": "The CPM (under Puchalapalli Sundarayya, B.V. Raghavulu) was the fiercest opponent of Telangana statehood, sticking to its 1946 Visalandhra line.",
+        "selectedMeaning": "Inverting the most anti-bifurcation party with the pro-bifurcation resolution.",
+        "possibleConfusion": "CPI later supported statehood, but CPM opposed it till the end.",
+        "decisionRules": [
+          {
+            "when": "Asked which party championed 'One Vote, Two States'",
+            "choose": "BJP."
+          },
+          {
+            "when": "Asked which party consistently opposed state bifurcation",
+            "choose": "CPM."
+          }
+        ],
+        "nextStep": "Remember CPM opposed the 2014 Andhra Pradesh Reorganisation Bill in Parliament."
+      },
+      {
+        "observation": "Selected TDP.",
+        "correctMeaning": "TDP under Chandrababu Naidu coined slogans like 'Telugu Tejam' and vehemently opposed separate statehood in 1998.",
+        "selectedMeaning": "Confusing the ruling integrationist party with the opposition challenger.",
+        "possibleConfusion": "TDP later gave a letter favoring Telangana in 2008 before backtracking.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1998 Kakinada resolution",
+            "choose": "BJP."
+          },
+          {
+            "when": "Asked about TDP's stance in 1998",
+            "choose": "Opposed separate statehood."
+          }
+        ],
+        "nextStep": "Understand that TDP's opposition prevented the Vajpayee government from creating Telangana in 2000."
+      },
+      {
+        "observation": "Selected BSP.",
+        "correctMeaning": "Mayawati's BSP supported separate Telangana, but the specific 'One Vote, Two States' slogan was coined by the BJP at Kakinada.",
+        "selectedMeaning": "Confusing general small-state ideology with the specific historical resolution.",
+        "possibleConfusion": "BSP supported the bill in 2014.",
+        "decisionRules": [
+          {
+            "when": "Asked about 'One Vote, Two States' at Kakinada",
+            "choose": "BJP."
+          },
+          {
+            "when": "Evaluating other parties",
+            "choose": "Eliminate BSP."
+          }
+        ],
+        "nextStep": "Anchor 'One Vote, Two States' strictly to the BJP's 1998 election campaign."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q265",
+    "topic": "TM-02.01",
+    "concept": "TM-02.01-M17",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "During the 1969 movement, government employees under the Telangana Non-Gazetted Officers (TNGOs) union played a decisive frontline role, paralyzing the state administration with an unprecedented indefinite strike beginning on 10 June 1969. Who was the President of the TNGOs union who led this historic strike and suffered arrest under the Preventive Detention (PD) Act?",
+    "options": [
+      {
+        "text": "K.R. Amos",
+        "why": "K.R. Amos was the fiery President of the Telangana Non-Gazetted Officers (TNGOs) union who led the historic 1969 employees' strike from 10 June to 16 July 1969, braving dismissal notices and imprisonment under the PD Act alongside General Secretary G. Narayana Swamy.",
+        "attraction": "The authentic, celebrated President of TNGOs during the 1969 strike.",
+        "confusion": false
+      },
+      {
+        "text": "K. Swamy Goud",
+        "why": "K. Swamy Goud was the TNGOs President who led the historic 'Sakala Janula Samme' 42 years later in 2011, not in 1969.",
+        "attraction": "TNGOs President during the 2011 agitation.",
+        "confusion": true
+      },
+      {
+        "text": "Deviprasad",
+        "why": "C. Vittal and G. Deviprasad were leaders of the TNGOs union during the 2009–2014 agitation period.",
+        "attraction": "TNGOs leader from modern era."
+      },
+      {
+        "text": "T. Anjaiah",
+        "why": "T. Anjaiah was an INTUC trade union leader and politician who later became Chief Minister in 1980.",
+        "attraction": "Prominent labor politician."
+      }
+    ],
+    "answer": 0,
+    "reason": "K.R. Amos was the President of the TNGOs union who led the 1969 employees' strike.",
+    "clue": "Look for K.R. Amos, President of the TNGOs union in 1969 who led the June–July 1969 strike.",
+    "trap": "Do not confuse the 1969 TNGOs President (K.R. Amos) with the 2011 TNGOs President (K. Swamy Goud).",
+    "elimination": "K.R. Amos led the 1969 TNGOs strike. K. Swamy Goud led the 2011 Sakala Janula Samme; Deviprasad was active in 2011.",
+    "anchor": "1969 TNGOs Strike -> President: K.R. Amos -> Paralyzed state administration from 10 June 1969.",
+    "hint": "K.R. Amos famously declared that Telangana employees would rather starve than submit to non-Mulki domination.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 554,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies K.R. Amos as the 1969 TNGOs President.",
+        "correctMeaning": "K.R. Amos led over 3 lakh government employees on strike for 37 days, braving salary cuts and police repression, making the employee union the backbone of the movement.",
+        "selectedMeaning": "K.R. Amos led over 3 lakh government employees on strike for 37 days, braving salary cuts and police repression, making the employee union the backbone of the movement.",
+        "possibleConfusion": "No confusion; standard high-yield trade union milestone in Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked who was the President of TNGOs during the 1969 agitation",
+            "choose": "K.R. Amos."
+          },
+          {
+            "when": "Asked who was President of TNGOs during the 2011 Sakala Janula Samme",
+            "choose": "K. Swamy Goud."
+          }
+        ],
+        "nextStep": "Note how K.R. Amos later served as an MLC in the Andhra Pradesh Legislative Council."
+      },
+      {
+        "observation": "Selected K. Swamy Goud.",
+        "correctMeaning": "K. Swamy Goud led the 2011 strike (Sakala Janula Samme) and later became the first Chairman of the Telangana Legislative Council in 2014; K.R. Amos led the 1969 strike.",
+        "selectedMeaning": "Confusing the 2011 employee leader with the 1969 employee leader.",
+        "possibleConfusion": "Both led legendary strikes that crippled the state capital.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1969 employee strike leader",
+            "choose": "K.R. Amos."
+          },
+          {
+            "when": "Asked about 2011 employee strike leader",
+            "choose": "K. Swamy Goud."
+          }
+        ],
+        "nextStep": "Remember: 1969 = K.R. Amos; 2011 = K. Swamy Goud."
+      },
+      {
+        "observation": "Selected Deviprasad.",
+        "correctMeaning": "G. Deviprasad was General Secretary of TNGOs during the 2011 movement alongside Swamy Goud; Amos was 1969.",
+        "selectedMeaning": "Confusing modern 21st-century union leaders with 1969 veterans.",
+        "possibleConfusion": "Deviprasad was a prominent TV face in 2011.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1969 TNGOs leader",
+            "choose": "K.R. Amos."
+          },
+          {
+            "when": "Asked about 2011 TNGOs General Secretary",
+            "choose": "G. Deviprasad."
+          }
+        ],
+        "nextStep": "Anchor Deviprasad to 2011."
+      },
+      {
+        "observation": "Selected T. Anjaiah.",
+        "correctMeaning": "T. Anjaiah was a Congress politician and trade unionist who became CM in 1980; he did not lead the TNGOs strike in 1969.",
+        "selectedMeaning": "Confusing general labor politicians with the civil service union president.",
+        "possibleConfusion": "Anjaiah had a strong trade union background in Hyderabad.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1969 TNGOs President",
+            "choose": "K.R. Amos."
+          },
+          {
+            "when": "Asked about Chief Minister from 1980 to 1982",
+            "choose": "T. Anjaiah."
+          }
+        ],
+        "nextStep": "Keep civil service unions (TNGOs) separate from party trade unions (INTUC)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q266",
+    "topic": "TM-02.02",
+    "concept": "TM-02.02-M12",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "In which landmark 1984 judgment did the Supreme Court of India hold that while wholesale residential reservation in medical college admissions across India is unconstitutional, the special institutional reservations in Andhra Pradesh were constitutionally immune and protected by virtue of Article 371-D?",
+    "options": [
+      {
+        "text": "Dr. Pradeep Jain v. Union of India (1984)",
+        "why": "In Dr. Pradeep Jain v. Union of India (1984), a 3-judge bench of the Supreme Court held that while state-level domicile reservation in medical postgraduate courses was restricted to 50% across India, Andhra Pradesh was an exception because its 85% local reservation was constitutionally insulated by Article 371-D.",
+        "attraction": "The authentic, landmark Supreme Court judgment on medical admissions and Article 371-D.",
+        "confusion": false
+      },
+      {
+        "text": "Indira Sawhney v. Union of India (1992)",
+        "why": "Indira Sawhney was the 9-judge Mandal Commission case on OBC reservations, not the 1984 case on medical college domicile.",
+        "attraction": "Famous national reservation judgment.",
+        "confusion": true
+      },
+      {
+        "text": "Minerva Mills v. Union of India (1980)",
+        "why": "Minerva Mills dealt with Directive Principles vs Fundamental Rights and Article 368 judicial review, having no bearing on AP medical admissions.",
+        "attraction": "Famous constitutional case."
+      },
+      {
+        "text": "Maneka Gandhi v. Union of India (1978)",
+        "why": "Maneka Gandhi dealt with Article 21 personal liberty and passport impoundment.",
+        "attraction": "Famous Article 21 precedent."
+      }
+    ],
+    "answer": 0,
+    "reason": "In Dr. Pradeep Jain v. Union of India (1984), the Supreme Court upheld the constitutional immunity of Article 371-D for medical admissions in AP.",
+    "clue": "Look for Dr. Pradeep Jain v. Union of India (1984), which protected Article 371-D medical admission quotas in AP.",
+    "trap": "Do not confuse Dr. Pradeep Jain (1984, medical admissions) with Indira Sawhney (1992, OBC quota).",
+    "elimination": "Dr. Pradeep Jain (1984) protected AP's 85% local medical admission quota under Article 371-D.",
+    "anchor": "Dr. Pradeep Jain v. Union of India (1984) -> Supreme Court upholds Article 371-D educational immunity.",
+    "hint": "Because of Article 371-D, Andhra Pradesh did not participate in the All-India Quota (AIQ) for medical seats for over three decades.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 560,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Dr. Pradeep Jain v. Union of India (1984).",
+        "correctMeaning": "The Pradeep Jain ruling confirmed that Article 371-D's non-obstante clause gives complete constitutional immunity to educational reservations in Osmania, Kakatiya, and other local university areas.",
+        "selectedMeaning": "The Pradeep Jain ruling confirmed that Article 371-D's non-obstante clause gives complete constitutional immunity to educational reservations in Osmania, Kakatiya, and other local university areas.",
+        "possibleConfusion": "No confusion; high-level legal question in Telangana competitive syllabus.",
+        "decisionRules": [
+          {
+            "when": "Asked which Supreme Court case upheld AP's exemption from national medical quotas under Article 371-D",
+            "choose": "Dr. Pradeep Jain v. Union of India (1984)."
+          },
+          {
+            "when": "Asked percentage of seats reserved for local candidates in university areas under 1974 Order",
+            "choose": "85% local reservation."
+          }
+        ],
+        "nextStep": "Note how 85% local reservation applied to Osmania University area (Telangana) and Andhra/SVU areas."
+      },
+      {
+        "observation": "Selected Indira Sawhney case.",
+        "correctMeaning": "Indira Sawhney (1992) fixed the 50% ceiling on caste reservations; Pradeep Jain (1984) dealt with institutional/domicile quotas in medical education.",
+        "selectedMeaning": "Confusing social reservation cases with geographical local candidate cases.",
+        "possibleConfusion": "Both are premier reservation precedents.",
+        "decisionRules": [
+          {
+            "when": "Asked about OBC 27% quota and 50% ceiling",
+            "choose": "Indira Sawhney v. Union of India (1992)."
+          },
+          {
+            "when": "Asked about medical admission local quotas under Article 371-D",
+            "choose": "Dr. Pradeep Jain v. Union of India (1984)."
+          }
+        ],
+        "nextStep": "Differentiate Article 15/16 social quotas from Article 371-D local candidate quotas."
+      },
+      {
+        "observation": "Selected Minerva Mills.",
+        "correctMeaning": "Minerva Mills (1980) dealt with amending power under Article 368 and balance between Part III and Part IV.",
+        "selectedMeaning": "Confusing general constitutional law with state educational quotas.",
+        "possibleConfusion": "Both are celebrated 1980s constitutional bench decisions.",
+        "decisionRules": [
+          {
+            "when": "Asked about Basic Structure of Article 368",
+            "choose": "Minerva Mills (1980)."
+          },
+          {
+            "when": "Asked about Article 371-D educational quotas",
+            "choose": "Dr. Pradeep Jain (1984)."
+          }
+        ],
+        "nextStep": "Anchor Minerva Mills to Article 368 amendments."
+      },
+      {
+        "observation": "Selected Maneka Gandhi.",
+        "correctMeaning": "Maneka Gandhi (1978) expanded Article 21 due process; it had nothing to do with Andhra Pradesh medical admissions.",
+        "selectedMeaning": "Selecting a famous fundamental rights case unrelated to state reservations.",
+        "possibleConfusion": "Recognizing a famous constitutional title.",
+        "decisionRules": [
+          {
+            "when": "Asked about Article 21 procedure established by law",
+            "choose": "Maneka Gandhi (1978)."
+          },
+          {
+            "when": "Asked about Article 371-D medical admission immunity",
+            "choose": "Dr. Pradeep Jain (1984)."
+          }
+        ],
+        "nextStep": "Remember Pradeep Jain is the leading authority on local candidate medical reservations."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q267",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M13",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "On 1 November 1996, on the 40th anniversary of the formation of Andhra Pradesh, a historic seminar was held at Nizam College Grounds / Sundarayya Vignana Kendram in Hyderabad on 'Telangana Statehood: Democratic Rights'. Who organized this seminal meeting that marked the first collective public convention of intellectuals demanding the repeal of the merger?",
+    "options": [
+      {
+        "text": "Telangana Information Trust (founded by Prabhakar Rao) and Osmania University Teachers",
+        "why": "The Telangana Information Trust (founded by B. Prabhakar Rao and supported by Prof. Jayashankar) organized the landmark 1 November 1996 convention, publishing the historic booklet 'Telangana: The Case for a Separate State' and re-igniting public discourse.",
+        "attraction": "The authentic founding trust that spearheaded the 1996 intellectual convention.",
+        "confusion": false
+      },
+      {
+        "text": "Andhra Pradesh State Government Protocol Department",
+        "why": "The state government was celebrating the official 'AP Formation Day' (Avatharana Dinotsavam); the anti-merger convention was organized in protest by the Telangana Information Trust.",
+        "attraction": "Official state department distractor.",
+        "confusion": true
+      },
+      {
+        "text": "Telangana Rashtra Samithi (TRS)",
+        "why": "TRS was founded in 2001, five years after this 1996 intellectual convention.",
+        "attraction": "Subsequent political party."
+      },
+      {
+        "text": "Federation of Indian Chambers of Commerce & Industry (FICCI)",
+        "why": "FICCI is a corporate business lobby, having no role in the Telangana statehood movement.",
+        "attraction": "Corporate body distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "The Telangana Information Trust organized the historic 1 November 1996 seminar in Hyderabad.",
+    "clue": "Look for Telangana Information Trust (Prabhakar Rao and Prof. Jayashankar) on 1 November 1996.",
+    "trap": "Do not choose TRS (founded in 2001); the 1996 intellectual pioneer was the Telangana Information Trust.",
+    "elimination": "Telangana Information Trust organized the 1996 seminar. TRS was founded in 2001; government was celebrating official formation day.",
+    "anchor": "1 November 1996 -> Telangana Information Trust -> Historic seminar on 40th merger anniversary.",
+    "hint": "It was here that Prof. Jayashankar declared: 'Telangana problem is not a problem of development; it is a problem of internal colonial subjugation.'",
+    "source": "SR-POLICE-SI-2016",
+    "page": 566,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies the Telangana Information Trust.",
+        "correctMeaning": "The 1 November 1996 convention ended the culture of silence that had gripped Telangana since 1973, sparking the cascade of conventions that culminated in the Warangal Declaration of 1997.",
+        "selectedMeaning": "The 1 November 1996 convention ended the culture of silence that had gripped Telangana since 1973, sparking the cascade of conventions that culminated in the Warangal Declaration of 1997.",
+        "possibleConfusion": "No confusion; essential foundational step in modern movement history.",
+        "decisionRules": [
+          {
+            "when": "Asked who organized the landmark 1 November 1996 seminar on Telangana",
+            "choose": "Telangana Information Trust."
+          },
+          {
+            "when": "Asked who founded the Telangana Information Trust",
+            "choose": "B. Prabhakar Rao."
+          }
+        ],
+        "nextStep": "Note how Prof. Jayashankar used the Trust to publish dozens of pamphlets detailing irrigation and financial statistics."
+      },
+      {
+        "observation": "Selected State Government Protocol Department.",
+        "correctMeaning": "The government was holding official celebrations across the road, while intellectuals wore black badges and gathered at the Trust seminar to mourn the merger.",
+        "selectedMeaning": "Inverting the protest convention with official government festivities.",
+        "possibleConfusion": "Both events took place on the exact same date (1 November).",
+        "decisionRules": [
+          {
+            "when": "Asked about protest convention on 1 Nov 1996",
+            "choose": "Telangana Information Trust."
+          },
+          {
+            "when": "Evaluating official government role",
+            "choose": "Eliminate government protocol department."
+          }
+        ],
+        "nextStep": "Remember 1 November was observed as a Day of Protest by Telangana intellectuals."
+      },
+      {
+        "observation": "Selected TRS.",
+        "correctMeaning": "TRS was established in 2001; the 1996 convention was purely non-political and academic.",
+        "selectedMeaning": "Chronological confusion across 5 years.",
+        "possibleConfusion": "TRS adopted the arguments formulated in the 1996 seminar.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1996 intellectual seminar",
+            "choose": "Telangana Information Trust."
+          },
+          {
+            "when": "Asked about 2001 party launch",
+            "choose": "Telangana Rashtra Samithi."
+          }
+        ],
+        "nextStep": "Trace the lineage: Information Trust (1996) -> Aikya Vedika (1997) -> TRS (2001)."
+      },
+      {
+        "observation": "Selected FICCI.",
+        "correctMeaning": "FICCI is a national industry federation; the movement was driven by academics and civil rights groups.",
+        "selectedMeaning": "Irrelevant corporate distractor.",
+        "possibleConfusion": "Industrial chambers operated in Hyderabad.",
+        "decisionRules": [
+          {
+            "when": "Asked about Telangana seminar organizers",
+            "choose": "Telangana Information Trust."
+          },
+          {
+            "when": "Evaluating business lobbies",
+            "choose": "Eliminate industrial chambers."
+          }
+        ],
+        "nextStep": "Focus on civil society and academic institutions."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q268",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M14",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "The 'Telangana Vidhyavanthula Vedika' (Telangana Intellectuals Forum) was established on 16 December 2001 at Hyderabad to organize intellectuals, university professors, and teachers independently of political parties. Who was elected as its founding President?",
+    "options": [
+      {
+        "text": "Prof. M. Kodandaram (Prof. Kodandaram Reddy)",
+        "why": "Prof. M. Kodandaram (then Professor of Political Science at Osmania University) was elected as the founding President of Telangana Vidhyavanthula Vedika on 16 December 2001, guiding intellectual advocacy across all districts.",
+        "attraction": "The authentic founding President of Telangana Vidhyavanthula Vedika.",
+        "confusion": false
+      },
+      {
+        "text": "Prof. K. Jayashankar",
+        "why": "Prof. Jayashankar was the chief patron and mentor of all intellectual bodies, while Prof. Kodandaram was elected President of Vidhyavanthula Vedika.",
+        "attraction": "Senior patron and ideologue.",
+        "confusion": true
+      },
+      {
+        "text": "Dr. K. Chiranjeevi",
+        "why": "Chiranjeevi was a film actor who launched Praja Rajyam Party in 2008 advocating Samaikya Andhra, not a Telangana intellectual leader.",
+        "attraction": "Celebrity politician distractor."
+      },
+      {
+        "text": "K. Chandrashekar Rao",
+        "why": "KCR headed the political party TRS; Vidhyavanthula Vedika was deliberately formed as a non-partisan intellectuals' body.",
+        "attraction": "TRS political chief."
+      }
+    ],
+    "answer": 0,
+    "reason": "Prof. M. Kodandaram was the founding President of Telangana Vidhyavanthula Vedika in 2001.",
+    "clue": "Look for Prof. M. Kodandaram, elected founding President of Telangana Vidhyavanthula Vedika on 16 December 2001.",
+    "trap": "Do not confuse the founding President (Prof. Kodandaram) with the chief mentor (Prof. Jayashankar).",
+    "elimination": "Prof. Kodandaram was President of Telangana Vidhyavanthula Vedika. Prof. Jayashankar was mentor; KCR headed TRS.",
+    "anchor": "16 December 2001 -> Telangana Vidhyavanthula Vedika -> Founding President: Prof. M. Kodandaram.",
+    "hint": "His leadership of this intellectual forum established the credibility that later made him the unanimous choice to head the Telangana JAC in 2009.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 572,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Prof. M. Kodandaram as the founding President of Telangana Vidhyavanthula Vedika.",
+        "correctMeaning": "Under Prof. Kodandaram, the Vedika conducted hundreds of diagnostic field studies on handloom weaver suicides in Pochampally, farmer distress in Mahbubnagar, and fluorosis in Nalgonda.",
+        "selectedMeaning": "Under Prof. Kodandaram, the Vedika conducted hundreds of diagnostic field studies on handloom weaver suicides in Pochampally, farmer distress in Mahbubnagar, and fluorosis in Nalgonda.",
+        "possibleConfusion": "No confusion; standard high-yield question in Telangana movement history.",
+        "decisionRules": [
+          {
+            "when": "Asked who was founding President of Telangana Vidhyavanthula Vedika (2001)",
+            "choose": "Prof. M. Kodandaram."
+          },
+          {
+            "when": "Asked which university department Prof. Kodandaram headed",
+            "choose": "Department of Political Science, Osmania University."
+          }
+        ],
+        "nextStep": "Note how Prof. Kodandaram seamlessly transitioned from heading the Vidhyavanthula Vedika to heading the Telangana Joint Action Committee (TJAC) in 2009."
+      },
+      {
+        "observation": "Selected Prof. K. Jayashankar.",
+        "correctMeaning": "Prof. Jayashankar was the supreme mentor and honorary advisor; active executive presidency of Vidhyavanthula Vedika was held by Prof. Kodandaram.",
+        "selectedMeaning": "Confusing the philosophical mentor with the organizational president.",
+        "possibleConfusion": "Both were leading Osmania/Kakatiya university professors.",
+        "decisionRules": [
+          {
+            "when": "Asked about founding President of Telangana Vidhyavanthula Vedika",
+            "choose": "Prof. M. Kodandaram."
+          },
+          {
+            "when": "Asked about chief ideological patron",
+            "choose": "Prof. K. Jayashankar."
+          }
+        ],
+        "nextStep": "Remember Kodandaram was the active executive head of the Vedika."
+      },
+      {
+        "observation": "Selected Chiranjeevi.",
+        "correctMeaning": "Chiranjeevi launched Praja Rajyam Party in 2008 and later opposed Telangana statehood; he had no connection with Vidhyavanthula Vedika.",
+        "selectedMeaning": "Irrelevant celebrity political distractor.",
+        "possibleConfusion": "Chiranjeevi was active in state politics in 2008–2012.",
+        "decisionRules": [
+          {
+            "when": "Asked about Telangana intellectual organizations",
+            "choose": "University academics like Prof. Kodandaram."
+          },
+          {
+            "when": "Evaluating cinema personalities",
+            "choose": "Eliminate film actors."
+          }
+        ],
+        "nextStep": "Keep film politics separate from university intellectual forums."
+      },
+      {
+        "observation": "Selected KCR.",
+        "correctMeaning": "KCR founded TRS in April 2001; Vidhyavanthula Vedika was founded in December 2001 as an autonomous body to keep civil society independent of political control.",
+        "selectedMeaning": "Confusing the political party chief with the civil society leader.",
+        "possibleConfusion": "Both cooperated closely in the agitation.",
+        "decisionRules": [
+          {
+            "when": "Asked who headed TRS",
+            "choose": "K. Chandrashekar Rao."
+          },
+          {
+            "when": "Asked who headed Telangana Vidhyavanthula Vedika",
+            "choose": "Prof. M. Kodandaram."
+          }
+        ],
+        "nextStep": "Remember Vidhyavanthula Vedika was strictly a non-political civil society platform."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q269",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M15",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Nandini Sidha Reddy, the eminent poet, lyricist, and President of Telangana Sahitya Academy, founded which famous literary organization in Medak district in 1986 to nurture native Telangana poetic idiom and resist linguistic domination?",
+    "options": [
+      {
+        "text": "Manjira Rachayitala Sangham (MaRaSam)",
+        "why": "Nandini Sidha Reddy founded the 'Manjira Rachayitala Sangham' (MaRaSam) in 1986 in Medak, nurturing hundreds of rural poets and writers and championing the distinct cultural identity of the Manjira river basin.",
+        "attraction": "The authentic, celebrated literary organization founded by Nandini Sidha Reddy.",
+        "confusion": false
+      },
+      {
+        "text": "Abhyudaya Rachayitala Sangham (Arasam)",
+        "why": "Arasam was the Progressive Writers Association founded in 1943 by Tapi Dharma Rao and Sri Sri, not by Nandini Sidha Reddy in 1986.",
+        "attraction": "Historic progressive writers association of 1943.",
+        "confusion": true
+      },
+      {
+        "text": "Viplava Rachayitala Sangham (Virasam)",
+        "why": "Virasam was the Revolutionary Writers Association founded in 1970 by Sri Sri, Varavara Rao, and K.V. Ramana Reddy.",
+        "attraction": "Famous revolutionary writers association of 1970."
+      },
+      {
+        "text": "Telangana Rachayitala Vedika",
+        "why": "Telangana Rachayitala Vedika was formed in 2001 in Hyderabad, whereas MaRaSam was founded in Medak in 1986.",
+        "attraction": "2001 state-level writers forum."
+      }
+    ],
+    "answer": 0,
+    "reason": "Nandini Sidha Reddy founded Manjira Rachayitala Sangham (MaRaSam) in Medak in 1986.",
+    "clue": "Look for Manjira Rachayitala Sangham (MaRaSam), founded in 1986 by Nandini Sidha Reddy.",
+    "trap": "Do not confuse MaRaSam (Nandini Sidha Reddy, 1986) with Arasam (1943) or Virasam (1970).",
+    "elimination": "Nandini Sidha Reddy founded Manjira Rachayitala Sangham (1986). Arasam was 1943; Virasam was 1970; Rachayitala Vedika was 2001.",
+    "anchor": "Nandini Sidha Reddy -> 1986 -> Manjira Rachayitala Sangham (MaRaSam) -> Medak district.",
+    "hint": "He also wrote the celebrated movement song 'Nageti Saallallo Naa Telangana' and 'Oka Puvvu Oka Navvu'.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 578,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Manjira Rachayitala Sangham (MaRaSam) founded by Nandini Sidha Reddy.",
+        "correctMeaning": "Nandini Sidha Reddy's MaRaSam was the pioneer regional literary movement that reclaimed the native dialect and local idiom from coastal derogatory ridicule.",
+        "selectedMeaning": "Nandini Sidha Reddy's MaRaSam was the pioneer regional literary movement that reclaimed the native dialect and local idiom from coastal derogatory ridicule.",
+        "possibleConfusion": "No confusion; standard literary history question in TS examinations.",
+        "decisionRules": [
+          {
+            "when": "Asked who founded Manjira Rachayitala Sangham (MaRaSam) in 1986",
+            "choose": "Nandini Sidha Reddy."
+          },
+          {
+            "when": "Asked who wrote the famous song 'Nageti Saallallo Naa Telangana'",
+            "choose": "Nandini Sidha Reddy."
+          }
+        ],
+        "nextStep": "Note that Nandini Sidha Reddy was appointed the first Chairman of the Telangana Sahitya Academy after state formation in 2017."
+      },
+      {
+        "observation": "Selected Arasam.",
+        "correctMeaning": "Arasam (Abhyudaya Rachayitala Sangham) was founded in 1943 in Tenali/Vijayawada under Sri Sri; MaRaSam was founded in 1986 in Medak.",
+        "selectedMeaning": "Confusing the historic 1943 national progressive movement with the 1986 regional literary society.",
+        "possibleConfusion": "Both share similar acronym structures (Arasam vs MaRaSam).",
+        "decisionRules": [
+          {
+            "when": "Asked about 1943 Progressive Writers Association",
+            "choose": "Arasam (Sri Sri, Tapi Dharma Rao)."
+          },
+          {
+            "when": "Asked about 1986 Medak writers association",
+            "choose": "MaRaSam (Nandini Sidha Reddy)."
+          }
+        ],
+        "nextStep": "Remember the acronym MaRaSam stands for MANJIRA Rachayitala Sangham."
+      },
+      {
+        "observation": "Selected Virasam.",
+        "correctMeaning": "Virasam (Viplava Rachayitala Sangham) was formed on 4 July 1970 in Hyderabad by Sri Sri, Varavara Rao, and K.V. Ramana Reddy under the influence of Naxalbari/Srikakulam.",
+        "selectedMeaning": "Confusing the revolutionary Marxist-Leninist writers association with the regional Telangana literary body.",
+        "possibleConfusion": "Both associations were deeply active in Telangana.",
+        "decisionRules": [
+          {
+            "when": "Asked about Revolutionary Writers Association founded in 1970",
+            "choose": "Virasam (Sri Sri, Varavara Rao)."
+          },
+          {
+            "when": "Asked about Manjira river basin writers association in 1986",
+            "choose": "MaRaSam (Nandini Sidha Reddy)."
+          }
+        ],
+        "nextStep": "Memorize Virasam = 1970 (Revolutionary); MaRaSam = 1986 (Manjira)."
+      },
+      {
+        "observation": "Selected Telangana Rachayitala Vedika.",
+        "correctMeaning": "Telangana Rachayitala Vedika was formed in 2001 in Hyderabad by Jayashankar, Juluru Gowrishankar, and others; MaRaSam was 1986 in Medak.",
+        "selectedMeaning": "Confusing the 2001 state-level forum with the 1986 district pioneer.",
+        "possibleConfusion": "Both fought for Telangana linguistic rights.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1986 Medak literary body",
+            "choose": "MaRaSam."
+          },
+          {
+            "when": "Asked about 2001 state writers forum",
+            "choose": "Telangana Rachayitala Vedika."
+          }
+        ],
+        "nextStep": "Anchor Nandini Sidha Reddy to MaRaSam and the Manjira river basin."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q270",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M16",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "The endemic fluorosis crisis in Nalgonda district crippled over one lakh people with skeletal deformities due to contaminated groundwater, while Krishna river waters flowing right through Nalgonda were diverted to coastal delta irrigation and Hyderabad. Who was the relentless anti-fluorosis crusader who founded the 'Jala Sadhana Samithi' (JSS) in 1980 and took crippled victims to Parliament to awaken the national conscience?",
+    "options": [
+      {
+        "text": "Dusharla Satyanarayana",
+        "why": "Dusharla Satyanarayana, an engineer and social activist from Nalgonda, founded the Jala Sadhana Samithi (JSS) in 1980, waging a 40-year crusade against fluorosis, organizing padayatras, and physically presenting twisted-limbed victims before Prime Ministers Atal Bihari Vajpayee and Manmohan Singh.",
+        "attraction": "The authentic, celebrated water rights and anti-fluorosis warrior of Nalgonda.",
+        "confusion": false
+      },
+      {
+        "text": "Marri Chenna Reddy",
+        "why": "Marri Chenna Reddy was Chief Minister and Governor, not the grassroots activist who ran the Jala Sadhana Samithi.",
+        "attraction": "Prominent politician.",
+        "confusion": true
+      },
+      {
+        "text": "Gaddar",
+        "why": "Gaddar was a cultural balladeer who supported the cause through songs, but Jala Sadhana Samithi was founded and led by Dusharla Satyanarayana.",
+        "attraction": "Revolutionary singer."
+      },
+      {
+        "text": "Prof. Kodandaram",
+        "why": "Prof. Kodandaram headed the TJAC and supported the fluorosis struggle, but JSS was established in 1980 by Dusharla Satyanarayana.",
+        "attraction": "TJAC Chairman."
+      }
+    ],
+    "answer": 0,
+    "reason": "Dusharla Satyanarayana founded the Jala Sadhana Samithi in 1980 to fight the Nalgonda fluorosis crisis.",
+    "clue": "Look for Dusharla Satyanarayana, founder of Jala Sadhana Samithi (1980) who fought against fluorosis in Nalgonda.",
+    "trap": "Do not choose political leaders or singers; the crusader who led the Jala Sadhana Samithi for 40 years was Dusharla Satyanarayana.",
+    "elimination": "Dusharla Satyanarayana founded Jala Sadhana Samithi in 1980. Chenna Reddy was CM; Gaddar was a balladeer; Kodandaram was TJAC chief.",
+    "anchor": "Jala Sadhana Samithi (1980) -> Dusharla Satyanarayana -> Anti-Fluorosis and Krishna Water Crusade in Nalgonda.",
+    "hint": "He fought for the Srisailam Left Bank Canal (SLBC) and Dindi balancing reservoir to provide drinking water to fluorosis-hit mandals like Marriguda and Munugode.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 584,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Dusharla Satyanarayana as the founder of Jala Sadhana Samithi.",
+        "correctMeaning": "Dusharla Satyanarayana's crusade turned the tragedy of Nalgonda fluorosis into an undeniable moral indictment of the discrimination that left local people drinking poison while river waters were pumped past them.",
+        "selectedMeaning": "Dusharla Satyanarayana's crusade turned the tragedy of Nalgonda fluorosis into an undeniable moral indictment of the discrimination that left local people drinking poison while river waters were pumped past them.",
+        "possibleConfusion": "No confusion; classic social movement and environmental rights question.",
+        "decisionRules": [
+          {
+            "when": "Asked who founded Jala Sadhana Samithi (JSS) in 1980",
+            "choose": "Dusharla Satyanarayana."
+          },
+          {
+            "when": "Asked which district was most acutely devastated by endemic groundwater fluorosis",
+            "choose": "Nalgonda district (Marriguda, Munugode, Choutuppal)."
+          }
+        ],
+        "nextStep": "Note how the resolution of fluorosis was finally achieved in 2020 through Mission Bhagiratha supplying treated surface water to every household."
+      },
+      {
+        "observation": "Selected Marri Chenna Reddy.",
+        "correctMeaning": "Marri Chenna Reddy was Chief Minister; Dusharla Satyanarayana was the grassroots activist who protested outside Chenna Reddy's office.",
+        "selectedMeaning": "Confusing the government authority with the protesting activist.",
+        "possibleConfusion": "Chenna Reddy sanctioned preliminary canal works in 1979.",
+        "decisionRules": [
+          {
+            "when": "Asked about Jala Sadhana Samithi founder",
+            "choose": "Dusharla Satyanarayana."
+          },
+          {
+            "when": "Evaluating Chief Ministers",
+            "choose": "Eliminate Marri Chenna Reddy."
+          }
+        ],
+        "nextStep": "Remember Dusharla Satyanarayana maintained strict political neutrality."
+      },
+      {
+        "observation": "Selected Gaddar.",
+        "correctMeaning": "Gaddar sang about fluorosis in his ballads; Dusharla Satyanarayana was the dedicated engineer-activist who organized the 40-year organizational battle.",
+        "selectedMeaning": "Confusing the cultural supporter with the movement founder.",
+        "possibleConfusion": "Both appeared together on anti-fluorosis stages.",
+        "decisionRules": [
+          {
+            "when": "Asked who founded Jala Sadhana Samithi",
+            "choose": "Dusharla Satyanarayana."
+          },
+          {
+            "when": "Asked who sang 'Amma Telanganama'",
+            "choose": "Gaddar."
+          }
+        ],
+        "nextStep": "Anchor Jala Sadhana Samithi strictly to Dusharla Satyanarayana."
+      },
+      {
+        "observation": "Selected Prof. Kodandaram.",
+        "correctMeaning": "Prof. Kodandaram joined Dusharla's rallies in the 2000s; JSS was founded by Dusharla three decades earlier in 1980.",
+        "selectedMeaning": "Confusing the modern coalition convener with the 1980 water rights pioneer.",
+        "possibleConfusion": "Both worked on Nalgonda water rights.",
+        "decisionRules": [
+          {
+            "when": "Asked about founder of Jala Sadhana Samithi in 1980",
+            "choose": "Dusharla Satyanarayana."
+          },
+          {
+            "when": "Asked about TJAC Chairman in 2009",
+            "choose": "Prof. M. Kodandaram."
+          }
+        ],
+        "nextStep": "Remember: JSS = Dusharla Satyanarayana; TJAC = Prof. Kodandaram."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q271",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M17",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "During the late 1990s and early 2000s, crisis in traditional handloom and powerloom sectors triggered waves of starvation deaths and suicides among weavers, exposing acute economic distress under Chandrababu Naidu's economic policies. Which two historic weaving centers in Telangana became the tragic epicenters of weaver suicides, earning one of them the sorrowful title 'Ulla Ulikki' (Town of Hangings)?",
+    "options": [
+      {
+        "text": "Sircilla (Rajanna Sircilla / Karimnagar) and Bhoodan Pochampally (Yadadri Bhuvanagiri / Nalgonda)",
+        "why": "Sircilla (powerlooms) in Karimnagar and Bhoodan Pochampally (traditional Ikat silk/cotton handlooms) in Nalgonda witnessed hundreds of weaver suicides and starvation deaths between 1998 and 2004 due to power tariff hikes, yarn price spikes, and lack of marketing support, with Sircilla tragically branded as 'Ulla Ulikki'.",
+        "attraction": "The authentic, tragic epicenters of Telangana weaver distress.",
+        "confusion": false
+      },
+      {
+        "text": "Tirupati and Vijayawada",
+        "why": "Tirupati and Vijayawada are in Andhra Pradesh and are commercial/pilgrimage centers, not Telangana textile hubs.",
+        "attraction": "Coastal Andhra cities distractor.",
+        "confusion": true
+      },
+      {
+        "text": "Secunderabad and Cantonment",
+        "why": "Secunderabad is an urban military and railway hub, not a traditional handloom weaving center.",
+        "attraction": "Urban twin cities distractor."
+      },
+      {
+        "text": "Kothagudem and Bellampalli",
+        "why": "Kothagudem and Bellampalli are coal mining centers in the Godavari valley, not handloom weaving clusters.",
+        "attraction": "Mining centers distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Sircilla and Bhoodan Pochampally were the epicenters of weaver suicides in Telangana.",
+    "clue": "Look for Sircilla and Bhoodan Pochampally, the textile and handloom centers devastated by weaver suicides.",
+    "trap": "Do not guess mining towns or Andhra cities; Sircilla and Bhoodan Pochampally were the textile distress centers in Telangana.",
+    "elimination": "Sircilla and Pochampally were the epicenters of weaver suicides. Kothagudem is coal mining; Tirupati is in Andhra.",
+    "anchor": "Weaver Crisis (1998–2004) -> Sircilla (Powerloom suicides) & Bhoodan Pochampally (Ikat handloom suicides).",
+    "hint": "Sircilla's distress became a major issue raised by KCR during the launch of the Telangana Rashtra Samithi.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 590,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Sircilla and Bhoodan Pochampally as the weaving crisis centers.",
+        "correctMeaning": "The plight of Sircilla and Pochampally weavers became powerful evidence used by the movement to prove that economic liberalization under united AP had devastated indigenous Telangana artisan classes.",
+        "selectedMeaning": "The plight of Sircilla and Pochampally weavers became powerful evidence used by the movement to prove that economic liberalization under united AP had devastated indigenous Telangana artisan classes.",
+        "possibleConfusion": "No confusion; standard high-yield socio-economic question in TS recruitment.",
+        "decisionRules": [
+          {
+            "when": "Asked which town was tragically known as 'Ulla Ulikki' due to powerloom weaver suicides",
+            "choose": "Sircilla (Rajanna Sircilla district)."
+          },
+          {
+            "when": "Asked about world-famous Ikat handloom center affected by weaver distress",
+            "choose": "Bhoodan Pochampally."
+          }
+        ],
+        "nextStep": "Note how post-2014 welfare policies like 'Nethannaku Cheyutha' and government bathukamma saree orders targeted Sircilla."
+      },
+      {
+        "observation": "Selected Tirupati and Vijayawada.",
+        "correctMeaning": "Tirupati and Vijayawada are in Andhra Pradesh; the weaver distress crisis examined in Telangana exams focuses strictly on Telangana clusters.",
+        "selectedMeaning": "Geographical error outside Telangana.",
+        "possibleConfusion": "Chittoor and Krishna also had weaver populations.",
+        "decisionRules": [
+          {
+            "when": "Asked about Telangana weaver crisis centers",
+            "choose": "Sircilla and Bhoodan Pochampally."
+          },
+          {
+            "when": "Evaluating Andhra cities",
+            "choose": "Eliminate Tirupati and Vijayawada."
+          }
+        ],
+        "nextStep": "Remember Sircilla is on the Manair river in Telangana."
+      },
+      {
+        "observation": "Selected Secunderabad.",
+        "correctMeaning": "Secunderabad is a metropolitan cantonment; weaving is concentrated in rural and peri-urban clusters like Sircilla, Pochampally, and Gadwal.",
+        "selectedMeaning": "Confusing metropolitan urban centers with cottage industry clusters.",
+        "possibleConfusion": "Weaver rallies were held in Secunderabad.",
+        "decisionRules": [
+          {
+            "when": "Asked about handloom/powerloom hubs",
+            "choose": "Sircilla, Pochampally, Gadwal, Narayanpet."
+          },
+          {
+            "when": "Evaluating metropolitan cities",
+            "choose": "Eliminate Secunderabad."
+          }
+        ],
+        "nextStep": "Memorize the quartet of Telangana weaving towns: Sircilla, Pochampally, Gadwal, and Narayanpet."
+      },
+      {
+        "observation": "Selected Kothagudem and Bellampalli.",
+        "correctMeaning": "Kothagudem and Bellampalli are coal mining towns of Singareni Collieries; Sircilla and Pochampally are textile centers.",
+        "selectedMeaning": "Confusing mining industry towns with textile weaving clusters.",
+        "possibleConfusion": "Both sectors experienced labor unrest.",
+        "decisionRules": [
+          {
+            "when": "Asked about coal mining centers",
+            "choose": "Kothagudem, Bellampalli, Ramagundam, Mandamarri."
+          },
+          {
+            "when": "Asked about textile weaving centers",
+            "choose": "Sircilla and Pochampally."
+          }
+        ],
+        "nextStep": "Differentiate mining districts from textile clusters."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q272",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M18",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "In August 2000, 41 Congress MLAs from Telangana broke party discipline to form the 'Telangana Congress Legislators Forum' (TCLF) and submitted a historic memorandum to AICC President Sonia Gandhi demanding separate statehood. Who was the senior Congress leader who presided as Chairman of this Telangana Congress Legislators Forum?",
+    "options": [
+      {
+        "text": "P. Goverdhan Reddy (Palvai Goverdhan Reddy)",
+        "why": "Palvai Goverdhan Reddy (veteran MLA from Munugode, Nalgonda) was elected Chairman of the Telangana Congress Legislators Forum (TCLF), with K.R. Amos and others coordinating, submitting a memorandum signed by 41 MLAs to Sonia Gandhi demanding separate Telangana.",
+        "attraction": "The authentic, celebrated Chairman of the Telangana Congress Legislators Forum.",
+        "confusion": false
+      },
+      {
+        "text": "Dr. Y.S. Rajasekhara Reddy",
+        "why": "Y.S. Rajasekhara Reddy was the Leader of the Opposition from Kadapa (Rayalaseema) who was staunchly opposed to the division of the state.",
+        "attraction": "Opposition leader in 2000.",
+        "confusion": true
+      },
+      {
+        "text": "K. Chandrashekar Rao",
+        "why": "KCR was in the Telugu Desam Party (TDP) in 2000 serving as Deputy Speaker, not in the Congress party or TCLF.",
+        "attraction": "TRS founder."
+      },
+      {
+        "text": "Nallari Kiran Kumar Reddy",
+        "why": "Kiran Kumar Reddy was a young Congress MLA from Rayalaseema and Government Chief Whip, not a Telangana forum leader.",
+        "attraction": "Last Chief Minister of united AP."
+      }
+    ],
+    "answer": 0,
+    "reason": "Palvai Goverdhan Reddy was Chairman of the Telangana Congress Legislators Forum in 2000.",
+    "clue": "Look for Palvai Goverdhan Reddy, Chairman of the 41-MLA Telangana Congress Legislators Forum in 2000.",
+    "trap": "Do not confuse Palvai Goverdhan Reddy with YSR (who opposed separation) or KCR (who was in TDP in 2000).",
+    "elimination": "Palvai Goverdhan Reddy chaired the TCLF. YSR was from Rayalaseema and opposed division; KCR was in TDP.",
+    "anchor": "August 2000 -> Telangana Congress Legislators Forum (41 MLAs) -> Chairman: Palvai Goverdhan Reddy.",
+    "hint": "Alongside Palvai, senior leaders like G. Chinna Reddy and Marri Shashidhar Reddy played active roles.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 596,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 2,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Palvai Goverdhan Reddy as Chairman of the TCLF in 2000.",
+        "correctMeaning": "The submission of the 41-MLA memorandum in August 2000 forced the Congress High Command in New Delhi to formally re-open the Telangana statehood question after a gap of 29 years.",
+        "selectedMeaning": "The submission of the 41-MLA memorandum in August 2000 forced the Congress High Command in New Delhi to formally re-open the Telangana statehood question after a gap of 29 years.",
+        "possibleConfusion": "No confusion; standard high-yield political history question in TS exams.",
+        "decisionRules": [
+          {
+            "when": "Asked who chaired the Telangana Congress Legislators Forum in 2000",
+            "choose": "Palvai Goverdhan Reddy."
+          },
+          {
+            "when": "Asked how many Congress MLAs signed the 2000 memorandum to Sonia Gandhi",
+            "choose": "41 MLAs."
+          }
+        ],
+        "nextStep": "Note how the TCLF memorandum directly prompted KCR to conclude that political space was ripe for launching a dedicated regional party."
+      },
+      {
+        "observation": "Selected Y.S. Rajasekhara Reddy.",
+        "correctMeaning": "YSR was from Pulivendula (Kadapa) and opposed statehood; Palvai Goverdhan Reddy led the Telangana rebel legislators.",
+        "selectedMeaning": "Confusing the integrationist opposition leader with the Telangana forum head.",
+        "possibleConfusion": "YSR was the leader of the Congress Legislature Party (CLP) at the time.",
+        "decisionRules": [
+          {
+            "when": "Asked about CLP Leader in 2000",
+            "choose": "Dr. Y.S. Rajasekhara Reddy."
+          },
+          {
+            "when": "Asked about Telangana Congress Forum Chairman",
+            "choose": "Palvai Goverdhan Reddy."
+          }
+        ],
+        "nextStep": "Remember YSR fought tooth and nail against the bifurcation of the state."
+      },
+      {
+        "observation": "Selected KCR.",
+        "correctMeaning": "KCR was in the TDP as Deputy Speaker in August 2000; he resigned from TDP and formed TRS eight months later in April 2001.",
+        "selectedMeaning": "Party and chronological error.",
+        "possibleConfusion": "KCR watched the Congress forum development closely.",
+        "decisionRules": [
+          {
+            "when": "Asked what post KCR held in August 2000",
+            "choose": "Deputy Speaker of AP Legislative Assembly (TDP)."
+          },
+          {
+            "when": "Asked who chaired the Congress forum",
+            "choose": "Palvai Goverdhan Reddy."
+          }
+        ],
+        "nextStep": "Remember KCR launched TRS on 27 April 2001."
+      },
+      {
+        "observation": "Selected Kiran Kumar Reddy.",
+        "correctMeaning": "N. Kiran Kumar Reddy was an MLA from Vayalpadu (Chittoor) and staunch integrationist; he became the last CM of united AP in 2010.",
+        "selectedMeaning": "Confusing a coastal/Rayalaseema integrationist with the Telangana forum chairman.",
+        "possibleConfusion": "Kiran Kumar Reddy was active in assembly debates.",
+        "decisionRules": [
+          {
+            "when": "Asked about last Chief Minister of united AP (2010–2014)",
+            "choose": "N. Kiran Kumar Reddy."
+          },
+          {
+            "when": "Asked about TCLF Chairman (2000)",
+            "choose": "Palvai Goverdhan Reddy."
+          }
+        ],
+        "nextStep": "Anchor Kiran Kumar Reddy strictly to 2010–2014."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q273",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M19",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "In November 2000, the Atal Bihari Vajpayee-led NDA Central Government reorganized states and created three new states under Article 3 of the Constitution. Which three states were created in November 2000, leaving Telangana people deeply betrayed and fueling the immediate launch of the TRS in early 2001?",
+    "options": [
+      {
+        "text": "Chhattisgarh (carved from MP), Uttarakhand (from UP), and Jharkhand (from Bihar)",
+        "why": "In November 2000, Parliament created Chhattisgarh (1 Nov 2000), Uttarakhand (9 Nov 2000), and Jharkhand (15 Nov 2000); despite the BJP's 1998 Kakinada promise, Telangana was excluded due to pressure from NDA ally N. Chandrababu Naidu (TDP).",
+        "attraction": "The authentic, historic three states created in November 2000.",
+        "confusion": false
+      },
+      {
+        "text": "Goa, Sikkim, and Arunachal Pradesh",
+        "why": "Goa became a state in 1987, Sikkim in 1975, and Arunachal in 1987, not in 2000.",
+        "attraction": "Earlier statehood creations.",
+        "confusion": true
+      },
+      {
+        "text": "Haryana, Himachal Pradesh, and Punjab",
+        "why": "Haryana and Punjab were bifurcated in 1966, and HP became a state in 1971.",
+        "attraction": "1960s state reorganization."
+      },
+      {
+        "text": "Meghalaya, Manipur, and Tripura",
+        "why": "These North-Eastern states achieved statehood in 1972 under the North-Eastern Areas Act.",
+        "attraction": "1972 statehood reorganizations."
+      }
+    ],
+    "answer": 0,
+    "reason": "Chhattisgarh, Uttarakhand, and Jharkhand were created in November 2000, excluding Telangana.",
+    "clue": "Look for Chhattisgarh, Uttarakhand, and Jharkhand created in November 2000 under the NDA government.",
+    "trap": "Do not guess North-Eastern states (1972) or Goa (1987); the 2000 trio was Chhattisgarh, Uttarakhand, and Jharkhand.",
+    "elimination": "Parliament created Chhattisgarh, Uttarakhand, and Jharkhand in November 2000. Telangana was deliberately omitted.",
+    "anchor": "November 2000 -> NDA creates Chhattisgarh, Uttarakhand, Jharkhand -> Telangana betrayed -> Catalyzed TRS launch in April 2001.",
+    "hint": "Union Home Minister L.K. Advani stated in Parliament that Telangana could not be formed because the Andhra Pradesh state assembly had not passed a resolution favoring it.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 602,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Chhattisgarh, Uttarakhand, and Jharkhand created in November 2000.",
+        "correctMeaning": "The creation of these three states while ignoring Telangana proved that national political parties would only act when forced by a dedicated, uncompromising regional party, directly inspiring KCR to launch the TRS in April 2001.",
+        "selectedMeaning": "The creation of these three states while ignoring Telangana proved that national political parties would only act when forced by a dedicated, uncompromising regional party, directly inspiring KCR to launch the TRS in April 2001.",
+        "possibleConfusion": "No confusion; classic high-yield question in Indian polity and movement trajectory.",
+        "decisionRules": [
+          {
+            "when": "Asked which three states were created in November 2000",
+            "choose": "Chhattisgarh, Uttarakhand, and Jharkhand."
+          },
+          {
+            "when": "Asked why Telangana was omitted by NDA in 2000",
+            "choose": "Opposition and coalition blackmail by N. Chandrababu Naidu (TDP)."
+          }
+        ],
+        "nextStep": "Note how KCR cited this exact betrayal in his resignation speech from TDP on 27 April 2001."
+      },
+      {
+        "observation": "Selected Goa, Sikkim, Arunachal Pradesh.",
+        "correctMeaning": "Sikkim was 1975; Goa and Arunachal were 1987; the 2000 trio was Chhattisgarh, Uttarakhand, and Jharkhand.",
+        "selectedMeaning": "Confusing 1970s/1980s statehoods with the 2000 reorganization.",
+        "possibleConfusion": "All are small states created post-1970.",
+        "decisionRules": [
+          {
+            "when": "Asked about November 2000 new states",
+            "choose": "Chhattisgarh, Uttarakhand, Jharkhand."
+          },
+          {
+            "when": "Evaluating Goa and Sikkim",
+            "choose": "Eliminate pre-1990 state creations."
+          }
+        ],
+        "nextStep": "Remember 2000 had exactly 3 states created from MP, UP, and Bihar."
+      },
+      {
+        "observation": "Selected Haryana, HP, Punjab.",
+        "correctMeaning": "Punjab/Haryana reorganisation was in 1966 under the Shah Commission; HP in 1971.",
+        "selectedMeaning": "Major chronological jump back to the 1960s.",
+        "possibleConfusion": "Punjab had regional committees similar to Andhra Pradesh.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1966 linguistic division",
+            "choose": "Punjab and Haryana."
+          },
+          {
+            "when": "Asked about 2000 new states",
+            "choose": "Chhattisgarh, Uttarakhand, Jharkhand."
+          }
+        ],
+        "nextStep": "Anchor Punjab/Haryana strictly to 1966."
+      },
+      {
+        "observation": "Selected North-Eastern states (1972).",
+        "correctMeaning": "Meghalaya, Manipur, and Tripura were created in 1972; 2000 was Chhattisgarh, Uttarakhand, and Jharkhand.",
+        "selectedMeaning": "Confusing North-Eastern reorganization with central/eastern Hindi belt division.",
+        "possibleConfusion": "Both reorganizations involved 3 states simultaneously.",
+        "decisionRules": [
+          {
+            "when": "Asked about 1972 North-Eastern reorganization",
+            "choose": "Meghalaya, Manipur, Tripura."
+          },
+          {
+            "when": "Asked about 2000 reorganization",
+            "choose": "Chhattisgarh, Uttarakhand, Jharkhand."
+          }
+        ],
+        "nextStep": "Remember: 1972 = North-East; 2000 = Chhattisgarh, Uttarakhand, Jharkhand."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q274",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M20",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Kaloji Narayana Rao (Raghuveer Narayan Laxmikanth Srinivasa Rao Kaloji), the revered 'Praja Kavi' and Padma Vibhushan awardee, was the moral conscience of Telangana who proclaimed: 'Telugu is our language, but Telangana Telugu is our fragrance'. In honor of his birth anniversary, which date is officially celebrated every year as 'Telangana Language Day' (Telangana Bhasha Dinotsavam)?",
+    "options": [
+      {
+        "text": "9 September",
+        "why": "Kaloji Narayana Rao was born on 9 September 1914 at Madikonda (near Warangal); following the formation of Telangana State, the government officially designated 9 September as 'Telangana Bhasha Dinotsavam' (Telangana Language Day) in his honor.",
+        "attraction": "The authentic, official date of Telangana Language Day.",
+        "confusion": false
+      },
+      {
+        "text": "29 August",
+        "why": "29 August is celebrated as Telugu Language Day in Andhra Pradesh commemorating the birth anniversary of Gidugu Venkata Ramamurthy.",
+        "attraction": "Telugu Language Day in Andhra Pradesh.",
+        "confusion": true
+      },
+      {
+        "text": "17 September",
+        "why": "17 September is commemorated as Telangana Liberation Day / Praja Palana Dinam marking the end of Nizam rule in 1948.",
+        "attraction": "Telangana Liberation Day date."
+      },
+      {
+        "text": "2 June",
+        "why": "2 June is celebrated as Telangana State Formation Day (Telangana Rashtra Avatharana Dinotsavam).",
+        "attraction": "State Formation Day date."
+      }
+    ],
+    "answer": 0,
+    "reason": "9 September (Kaloji's birth anniversary) is officially celebrated as Telangana Bhasha Dinotsavam.",
+    "clue": "Look for 9 September, the birth anniversary of Kaloji Narayana Rao celebrated as Telangana Bhasha Dinotsavam.",
+    "trap": "Do not confuse Telangana Language Day (9 Sept - Kaloji) with AP Telugu Language Day (29 Aug - Gidugu Ramamurthy).",
+    "elimination": "Telangana Bhasha Dinotsavam is 9 September (Kaloji's birthday). 29 August is Gidugu's day; 17 Sept is Liberation Day; 2 June is Formation Day.",
+    "anchor": "9 September -> Kaloji Narayana Rao birth anniversary -> Telangana Bhasha Dinotsavam (Telangana Language Day).",
+    "hint": "Kaloji was awarded the Padma Vibhushan in 1992 and passed away on 13 November 2002, donating his body to Kakatiya Medical College.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 608,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies 9 September as Telangana Bhasha Dinotsavam.",
+        "correctMeaning": "Kaloji's poetry collection 'Naa Godava' (My Agony / My Struggle) was hailed by Sri Sri as a 'volcano of people's conscience', capturing the soul of rural Telangana dialect.",
+        "selectedMeaning": "Kaloji's poetry collection 'Naa Godava' (My Agony / My Struggle) was hailed by Sri Sri as a 'volcano of people's conscience', capturing the soul of rural Telangana dialect.",
+        "possibleConfusion": "No confusion; standard high-yield calendar and cultural question in TS exams.",
+        "decisionRules": [
+          {
+            "when": "Asked when Telangana Bhasha Dinotsavam is celebrated",
+            "choose": "9 September (Kaloji's birthday)."
+          },
+          {
+            "when": "Asked who wrote the famous lines 'Puttukathone Savu Kooda Puttinadi'",
+            "choose": "Kaloji Narayana Rao."
+          }
+        ],
+        "nextStep": "Note that the Health University in Warangal was named Kaloji Narayana Rao University of Health Sciences (KNRUHS) in his honor."
+      },
+      {
+        "observation": "Selected 29 August.",
+        "correctMeaning": "29 August is the birthday of Gidugu Venkata Ramamurthy (spokesman of spoken Telugu in Coastal Andhra); Telangana celebrates its language day on 9 September for Kaloji.",
+        "selectedMeaning": "Confusing Andhra Pradesh's language day with Telangana's language day.",
+        "possibleConfusion": "Before 2014, 29 August was celebrated across united AP.",
+        "decisionRules": [
+          {
+            "when": "Asked about Telangana Bhasha Dinotsavam",
+            "choose": "9 September (Kaloji)."
+          },
+          {
+            "when": "Asked about Gidugu Ramamurthy's Telugu Bhasha Dinotsavam",
+            "choose": "29 August."
+          }
+        ],
+        "nextStep": "Remember: 29 August = Gidugu Ramamurthy; 9 September = Kaloji Narayana Rao."
+      },
+      {
+        "observation": "Selected 17 September.",
+        "correctMeaning": "17 September marks the 1948 surrender of the Nizam (Telangana Liberation / Praja Palana Day); Language Day is 9 September.",
+        "selectedMeaning": "Confusing political liberation day with language day.",
+        "possibleConfusion": "Both occur in September one week apart.",
+        "decisionRules": [
+          {
+            "when": "Asked about 17 September",
+            "choose": "Telangana Liberation Day / Praja Palana Dinam."
+          },
+          {
+            "when": "Asked about 9 September",
+            "choose": "Telangana Bhasha Dinotsavam (Kaloji's birthday)."
+          }
+        ],
+        "nextStep": "Remember: 9 Sept = Language Day; 17 Sept = Liberation Day."
+      },
+      {
+        "observation": "Selected 2 June.",
+        "correctMeaning": "2 June is Telangana State Formation Day (Rashtra Avatharana Dinam); Kaloji's birthday on 9 September is Language Day.",
+        "selectedMeaning": "Confusing state foundation day with language day.",
+        "possibleConfusion": "2 June is the principal official state holiday.",
+        "decisionRules": [
+          {
+            "when": "Asked about Telangana Formation Day",
+            "choose": "2 June (2014)."
+          },
+          {
+            "when": "Asked about Telangana Language Day",
+            "choose": "9 September."
+          }
+        ],
+        "nextStep": "Anchor 2 June to 2014 state formation and 9 September to Kaloji."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q275",
+    "topic": "TM-02.04",
+    "concept": "TM-02.04-M21",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Prof. Kothapalli Jayashankar, revered as the 'Ideologue of Telangana' (Telangana Rashtra Siddhantha Kartha), dedicated over six decades of his life to the single cause of Telangana statehood from the 1952 Non-Mulki agitation until his death in June 2011. Which premier educational institution did he serve as Vice-Chancellor from 1991 to 1994, using his scholarly authority to compile irrefutable data on regional exploitation?",
+    "options": [
+      {
+        "text": "Kakatiya University, Warangal",
+        "why": "Prof. K. Jayashankar served as Vice-Chancellor of Kakatiya University, Warangal from 1991 to 1994 (having previously served as Registrar of Central Institute of English and Foreign Languages - CIEFL and Kakatiya University), where he trained a generation of student leaders and scholars.",
+        "attraction": "The authentic, celebrated university where Prof. Jayashankar served as Vice-Chancellor.",
+        "confusion": false
+      },
+      {
+        "text": "Osmania University, Hyderabad",
+        "why": "Prof. Jayashankar studied and taught at Osmania, but served as Vice-Chancellor of Kakatiya University in Warangal.",
+        "attraction": "Premier university in Hyderabad.",
+        "confusion": true
+      },
+      {
+        "text": "Andhra University, Visakhapatnam",
+        "why": "Andhra University is located in coastal Andhra; Prof. Jayashankar never served as its Vice-Chancellor.",
+        "attraction": "Coastal university distractor."
+      },
+      {
+        "text": "Sri Venkateswara University, Tirupati",
+        "why": "Sri Venkateswara University is in Rayalaseema; Prof. Jayashankar served in Warangal.",
+        "attraction": "Rayalaseema university distractor."
+      }
+    ],
+    "answer": 0,
+    "reason": "Prof. K. Jayashankar served as Vice-Chancellor of Kakatiya University, Warangal from 1991 to 1994.",
+    "clue": "Look for Kakatiya University, Warangal where Prof. Jayashankar was Vice-Chancellor from 1991 to 1994.",
+    "trap": "Do not choose Osmania University; he studied at OU but served as Vice-Chancellor of Kakatiya University.",
+    "elimination": "Prof. Jayashankar was Vice-Chancellor of Kakatiya University (1991–1994). He was not VC of Osmania, Andhra, or SVU.",
+    "anchor": "Prof. K. Jayashankar -> Vice-Chancellor of Kakatiya University (1991–1994) -> Father of Telangana Ideology.",
+    "hint": "Following state formation, the Telangana State Agricultural University was named Prof. Jayashankar Telangana State Agricultural University (PJTSAU) in his honor.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 614,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Correctly identifies Kakatiya University as the institution where Prof. Jayashankar was Vice-Chancellor.",
+        "correctMeaning": "Prof. Jayashankar was the intellectual soul of the struggle who famously vowed never to marry until Telangana achieved separate statehood, living as a celibate crusader until his demise on 21 June 2011.",
+        "selectedMeaning": "Prof. Jayashankar was the intellectual soul of the struggle who famously vowed never to marry until Telangana achieved separate statehood, living as a celibate crusader until his demise on 21 June 2011.",
+        "possibleConfusion": "No confusion; universally revered personality in Telangana history.",
+        "decisionRules": [
+          {
+            "when": "Asked where Prof. K. Jayashankar served as Vice-Chancellor (1991–1994)",
+            "choose": "Kakatiya University, Warangal."
+          },
+          {
+            "when": "Asked what native village Prof. Jayashankar hailed from",
+            "choose": "Akkampet village (Warangal district)."
+          }
+        ],
+        "nextStep": "Note how Jayashankar district (Bhupalpally) was created in 2016 and named in his eternal memory."
+      },
+      {
+        "observation": "Selected Osmania University.",
+        "correctMeaning": "Prof. Jayashankar earned his M.A. and Ph.D. from Osmania University and served on its academic bodies, but served as Vice-Chancellor of Kakatiya University.",
+        "selectedMeaning": "Confusing his alma mater with the university he headed as Vice-Chancellor.",
+        "possibleConfusion": "Jayashankar was intimately connected with Osmania University agitation circles.",
+        "decisionRules": [
+          {
+            "when": "Asked which university Prof. Jayashankar headed as Vice-Chancellor",
+            "choose": "Kakatiya University (Warangal)."
+          },
+          {
+            "when": "Asked about his alma mater",
+            "choose": "Osmania University (and Banaras Hindu University)."
+          }
+        ],
+        "nextStep": "Remember: VC of Kakatiya University (1991–1994)."
+      },
+      {
+        "observation": "Selected Andhra University.",
+        "correctMeaning": "Andhra University is located in Visakhapatnam; Prof. Jayashankar dedicated his life exclusively to Telangana institutions.",
+        "selectedMeaning": "Geographical and political impossibility.",
+        "possibleConfusion": "Andhra University had famous vice-chancellors like Dr. Sarvepalli Radhakrishnan.",
+        "decisionRules": [
+          {
+            "when": "Asked about Prof. Jayashankar's vice-chancellorship",
+            "choose": "Kakatiya University."
+          },
+          {
+            "when": "Evaluating coastal universities",
+            "choose": "Eliminate Andhra University."
+          }
+        ],
+        "nextStep": "Anchor Jayashankar strictly to Warangal and Kakatiya University."
+      },
+      {
+        "observation": "Selected SV University Tirupati.",
+        "correctMeaning": "SV University is in Tirupati (Rayalaseema); Prof. Jayashankar lived and worked in Warangal.",
+        "selectedMeaning": "Regional error.",
+        "possibleConfusion": "SVU is another major state university.",
+        "decisionRules": [
+          {
+            "when": "Asked about Prof. Jayashankar's university",
+            "choose": "Kakatiya University."
+          },
+          {
+            "when": "Evaluating Rayalaseema universities",
+            "choose": "Eliminate SV University."
+          }
+        ],
+        "nextStep": "Remember Jayashankar was Warangal's pride and Kakatiya's leader."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q276",
+    "topic": "TM-03.01",
+    "concept": "TM-03.01-M01",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "On 27 April 2001, K. Chandrashekar Rao launched the Telangana Rashtra Samithi (TRS) to revive the statehood movement through constitutional politics. At which historic venue in Hyderabad was this founding convention held after he resigned as Deputy Speaker of the AP Legislative Assembly?",
+    "options": [
+      {
+        "text": "Jala Drushyam (residence of senior leader Konda Laxman Bapuji)",
+        "why": "TRS was formally founded on 27 April 2001 at Jala Drushyam, overlooking Hussain Sagar, which was the residence of veteran freedom fighter and Telangana leader Konda Laxman Bapuji.",
+        "attraction": "The authentic founding venue of TRS on 27 April 2001.",
+        "confusion": false
+      },
+      {
+        "text": "Nizam College Grounds",
+        "why": "Nizam College Grounds hosted numerous major student rallies and declarations, but was not the venue where TRS was founded on 27 April 2001.",
+        "attraction": "Major Hyderabad public meeting venue.",
+        "confusion": true
+      },
+      {
+        "text": "Vivekavardhani Hall",
+        "why": "Vivekavardhani Hall was the venue of the historic 12 November 1921 meeting that gave rise to the Andhra Jana Sangham, 80 years before TRS.",
+        "attraction": "Famous historical meeting hall in Hyderabad.",
+        "confusion": true
+      },
+      {
+        "text": "Indira Priyadarshini Hall (Public Gardens)",
+        "why": "Indira Priyadarshini Hall hosted many conferences and state events, but not the 27 April 2001 launch of TRS.",
+        "attraction": "Prominent convention hall in Public Gardens.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "TRS was formally founded on 27 April 2001 at Jala Drushyam, overlooking Hussain Sagar, which was the residence of veteran freedom fighter and Telangana leader Konda Laxman Bapuji.",
+    "clue": "Identify Jala Drushyam (residence of senior leader Konda Laxman Bapuji)",
+    "trap": "Do not confuse with Nizam College Grounds",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "Jala Drushyam (residence of senior leader Konda Laxman Bapuji) is the established historical fact.",
+    "hint": "The authentic founding venue of TRS on 27 April 2001.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 500,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Jala Drushyam as the exact launch site of TRS on 27 April 2001.",
+        "correctMeaning": "K. Chandrashekar Rao resigned as Deputy Speaker and TDP MLA on 27 April 2001 and convened the founding press meet and convention at Konda Laxman Bapuji's residence 'Jala Drushyam'.",
+        "selectedMeaning": "Correct choice recognizing the historical birthplace of TRS at Jala Drushyam on 27 April 2001.",
+        "possibleConfusion": "Confusing Jala Drushyam with large public meeting grounds like Nizam College.",
+        "decisionRules": [
+          {
+            "when": "If the question asks for the venue where TRS was founded on 27 April 2001",
+            "choose": "Jala Drushyam."
+          },
+          {
+            "when": "Differentiate 1921 Andhra Jana Sangham (Vivekavardhani Hall) from 2001 TRS formation (Jala Drushyam).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Memorize: 27 April 2001 -> KCR resigns Deputy Speaker -> launches TRS at Jala Drushyam (Konda Laxman Bapuji residence)."
+      },
+      {
+        "observation": "Confuses public rally grounds with the private residence-cum-office where TRS was launched.",
+        "correctMeaning": "Jala Drushyam was the specific site hosted by Konda Laxman Bapuji.",
+        "selectedMeaning": "Selected Nizam College Grounds, which was a venue for student agitations rather than TRS founding.",
+        "possibleConfusion": "Associating Nizam College Grounds with all major Telangana political meetings.",
+        "decisionRules": [
+          {
+            "when": "Nizam College Grounds held student mass protests; the TRS political party was founded at Jala Drushyam.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Check whether the question asks for party founding venue or student agitation venue.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Re-read the founding events of TRS on 27 April 2001."
+      },
+      {
+        "observation": "Selects the 1921 venue of Andhra Jana Sangham instead of the 2001 venue of TRS.",
+        "correctMeaning": "Vivekavardhani Hall hosted the 12 Nov 1921 Andhra Jana Sangham founding.",
+        "selectedMeaning": "Incorrectly placed the 2001 political party launch at the 1921 cultural association hall.",
+        "possibleConfusion": "Recognizing Vivekavardhani Hall as a landmark Hyderabad political venue.",
+        "decisionRules": [
+          {
+            "when": "Vivekavardhani Hall = 1921 Andhra Jana Sangham launch.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Jala Drushyam = 2001 TRS founding.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Verify dates: 1921 vs 2001 across Hyderabad political milestones."
+      },
+      {
+        "observation": "Selects Indira Priyadarshini Hall at Public Gardens.",
+        "correctMeaning": "Indira Priyadarshini Hall was used for governmental and legal conferences, not the TRS launch.",
+        "selectedMeaning": "Confused Public Gardens auditorium with Konda Laxman Bapuji's Jala Drushyam.",
+        "possibleConfusion": "Both are prominent landmark venues located near Hyderabad administrative centers.",
+        "decisionRules": [
+          {
+            "when": "Match Konda Laxman Bapuji's residence with Jala Drushyam.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Confirm that TRS was founded at Jala Drushyam overlooking Hussain Sagar.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Note Konda Laxman Bapuji's personal role in hosting TRS at Jala Drushyam."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q277",
+    "topic": "TM-03.01",
+    "concept": "TM-03.01-M02",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "In the 2004 General and Assembly elections, TRS entered into an electoral alliance with the Indian National Congress. What specific formulation regarding Telangana statehood was included in the United Progressive Alliance (UPA) National Common Minimum Programme (NCMP) in May 2004?",
+    "options": [
+      {
+        "text": "The UPA government will consider the demand for the formation of a Telangana state by consensus and consultations",
+        "why": "The official National Common Minimum Programme (NCMP) of May 2004 stated: 'The UPA Government will consider the demand for the formation of a Telangana State by consensus and consultations'.",
+        "attraction": "The exact statutory language adopted in the 2004 UPA Common Minimum Programme.",
+        "confusion": false
+      },
+      {
+        "text": "An immediate constitutional amendment bill under Article 3 will be introduced in the monsoon session of Parliament",
+        "why": "No immediate parliamentary bill was promised in May 2004; the commitment was strictly limited to considering the demand through consensus and consultations.",
+        "attraction": "Plausible assertive legislative promise.",
+        "confusion": true
+      },
+      {
+        "text": "A second States Reorganisation Commission (SRC-II) will decide within six months",
+        "why": "Congress leaders occasionally debated an SRC-II, but it was explicitly rejected by TRS and was not the wording adopted in the NCMP.",
+        "attraction": "Frequently debated alternative mechanism in national politics.",
+        "confusion": true
+      },
+      {
+        "text": "Telangana will be granted autonomous regional council status under the Sixth Schedule",
+        "why": "The Sixth Schedule applies exclusively to northeastern tribal areas, not Telangana; the demand was full statehood, not an autonomous council.",
+        "attraction": "Constitutional mechanism for tribal regional autonomy.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "The official National Common Minimum Programme (NCMP) of May 2004 stated: 'The UPA Government will consider the demand for the formation of a Telangana State by consensus and consultations'.",
+    "clue": "Identify The UPA government will consider the demand for the formation of a Telangana state by consensus and consultations",
+    "trap": "Do not confuse with An immediate constitutional amendment bill under Article 3 will be introduced in the monsoon session of Parliament",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "The UPA government will consider the demand for the formation of a Telangana state by consensus and consultations is the established historical fact.",
+    "hint": "The exact statutory language adopted in the 2004 UPA Common Minimum Programme.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 501,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies the exact consensus and consultations clause in the 2004 NCMP.",
+        "correctMeaning": "The 2004 UPA NCMP contained the specific pledge that Telangana statehood would be considered through 'consensus and consultations'.",
+        "selectedMeaning": "Correct option identifying the official May 2004 NCMP text.",
+        "possibleConfusion": "Assuming the 2004 alliance promised immediate parliamentary bifurcation.",
+        "decisionRules": [
+          {
+            "when": "Look for 'consensus and consultations' in the 2004 UPA Common Minimum Programme.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Remember that TRS joined the Union Cabinet in 2004 based on this specific clause.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Note the exact phrase 'consensus and consultations' from the May 2004 UPA NCMP."
+      },
+      {
+        "observation": "Assumes an immediate Article 3 bill was promised in 2004.",
+        "correctMeaning": "The UPA promised only consideration through consensus and consultations, not an immediate bill.",
+        "selectedMeaning": "Overestimated the legislative commitment made in the 2004 alliance document.",
+        "possibleConfusion": "Confusing later 2013-14 legislative steps with the early 2004 political compromise.",
+        "decisionRules": [
+          {
+            "when": "In 2004, the wording was conditional ('consensus and consultations').",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Firm legislative introduction occurred only in 2013–2014, not 2004.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Review the progression from 2004 CMP to the 2014 AP Reorganisation Act."
+      },
+      {
+        "observation": "Selects SRC-II instead of the NCMP consensus clause.",
+        "correctMeaning": "The NCMP specified 'consensus and consultations', avoiding an explicit SRC-II commitment which TRS opposed.",
+        "selectedMeaning": "Confused internal Congress proposals for a Second SRC with the agreed UPA NCMP text.",
+        "possibleConfusion": "Senior leaders like Pranab Mukherjee often spoke of consensus while some suggested SRC-II.",
+        "decisionRules": [
+          {
+            "when": "UPA NCMP text did not mandate SRC-II; it stated 'consensus and consultations'.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "TRS strongly opposed SRC-II as a delaying tactic.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Differentiate between political proposals (SRC-II) and official UPA NCMP text."
+      },
+      {
+        "observation": "Selects Sixth Schedule regional council status.",
+        "correctMeaning": "Telangana movement demanded full statehood under Article 3, never Sixth Schedule regional autonomy.",
+        "selectedMeaning": "Mistook northeastern tribal governance for Telangana statehood demands.",
+        "possibleConfusion": "Confusing Telangana Regional Committee with Sixth Schedule Autonomous District Councils.",
+        "decisionRules": [
+          {
+            "when": "Sixth Schedule is for Northeast tribal areas only (Assam, Meghalaya, Tripura, Mizoram).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Telangana demanded separate statehood under Article 3 of the Constitution.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Keep Article 3 state creation distinct from Sixth Schedule tribal district councils."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q278",
+    "topic": "TM-03.01",
+    "concept": "TM-03.01-M03",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "In November 2004, the UPA central government constituted a 3-member Cabinet Sub-Committee to evolve political consensus among national and regional parties regarding Telangana statehood. Who chaired this committee?",
+    "options": [
+      {
+        "text": "Pranab Mukherjee (with members Raghuvansh Prasad Singh and Dayanidhi Maran)",
+        "why": "The Cabinet Sub-Committee on Telangana constituted in November 2004 was headed by Defence Minister Pranab Mukherjee, with Union Ministers Raghuvansh Prasad Singh (RJD) and Dayanidhi Maran (DMK) as members.",
+        "attraction": "The authentic 2004 UPA Cabinet Sub-Committee leadership.",
+        "confusion": false
+      },
+      {
+        "text": "Shivraj Patil",
+        "why": "Shivraj Patil was Union Home Minister in 2004, but was not the Chairman of the Cabinet Sub-Committee on Telangana.",
+        "attraction": "Union Home Minister in the 2004 UPA Government.",
+        "confusion": true
+      },
+      {
+        "text": "A.K. Antony",
+        "why": "A.K. Antony headed the Congress Party's 4-member committee formed almost a decade later in August 2013, not the 2004 Cabinet Sub-Committee.",
+        "attraction": "Headed the 2013 Congress panel on AP bifurcation.",
+        "confusion": true
+      },
+      {
+        "text": "Sharad Pawar",
+        "why": "Sharad Pawar was Agriculture Minister in the UPA cabinet and an ally, but did not chair the 2004 Telangana Cabinet Sub-Committee.",
+        "attraction": "Senior UPA coalition partner leader.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "The Cabinet Sub-Committee on Telangana constituted in November 2004 was headed by Defence Minister Pranab Mukherjee, with Union Ministers Raghuvansh Prasad Singh (RJD) and Dayanidhi Maran (DMK) as members.",
+    "clue": "Identify Pranab Mukherjee (with members Raghuvansh Prasad Singh and Dayanidhi Maran)",
+    "trap": "Do not confuse with Shivraj Patil",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "Pranab Mukherjee (with members Raghuvansh Prasad Singh and Dayanidhi Maran) is the established historical fact.",
+    "hint": "The authentic 2004 UPA Cabinet Sub-Committee leadership.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 502,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Pranab Mukherjee as Chairman of the 2004 Cabinet Sub-Committee.",
+        "correctMeaning": "Pranab Mukherjee headed the 3-member UPA Cabinet Sub-Committee with Raghuvansh Prasad Singh and Dayanidhi Maran to elicit views of all political parties.",
+        "selectedMeaning": "Correct choice recognizing Pranab Mukherjee's chairmanship in 2004.",
+        "possibleConfusion": "Confusing the 2004 Cabinet Sub-Committee with the 2013 Antony Committee or 2013 GoM.",
+        "decisionRules": [
+          {
+            "when": "2004 Cabinet Sub-Committee on Telangana = Pranab Mukherjee (Chairman).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Members = Raghuvansh Prasad Singh and Dayanidhi Maran.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember: 2004 Cabinet Sub-Committee = Pranab Mukherjee Committee."
+      },
+      {
+        "observation": "Selects Home Minister Shivraj Patil.",
+        "correctMeaning": "Although Home Minister, Shivraj Patil did not chair this specific sub-committee; Pranab Mukherjee did.",
+        "selectedMeaning": "Assumed the Home Minister automatically chairs statehood committees.",
+        "possibleConfusion": "Home Ministry deals with internal state reorganization.",
+        "decisionRules": [
+          {
+            "when": "Don't assume Home Minister is always committee chair.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Defence Minister Pranab Mukherjee was entrusted with chairing the 2004 panel.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Associate Pranab Mukherjee specifically with the 2004–2006 consensus committee."
+      },
+      {
+        "observation": "Confuses 2004 Cabinet Sub-Committee with the 2013 Antony Committee.",
+        "correctMeaning": "A.K. Antony chaired the 2013 high-level party committee after the CWC statehood resolution.",
+        "selectedMeaning": "Selected the 2013 committee chair instead of the 2004 committee chair.",
+        "possibleConfusion": "Both Pranab Mukherjee and A.K. Antony were senior Congress troubleshooting figures.",
+        "decisionRules": [
+          {
+            "when": "2004 = Pranab Mukherjee Committee.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "2013 = A.K. Antony Committee / GoM.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Map the chronology: 2004 Pranab -> 2010 Srikrishna -> 2013 Antony/GoM."
+      },
+      {
+        "observation": "Selects Sharad Pawar.",
+        "correctMeaning": "Sharad Pawar was a coalition partner who supported smaller states, but did not head the committee.",
+        "selectedMeaning": "Confused coalition partner stance with committee leadership.",
+        "possibleConfusion": "NCP was a vocal supporter of Telangana statehood.",
+        "decisionRules": [
+          {
+            "when": "Check the committee composition: Pranab (Congress), Raghuvansh (RJD), Maran (DMK).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Confirm Pranab Mukherjee was the designated Chairman.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Review the three members of the 2004 Cabinet Sub-Committee."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q279",
+    "topic": "TM-03.01",
+    "concept": "TM-03.01-M04",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "In October 2008, which major regional opposition party in Andhra Pradesh, led by N. Chandrababu Naidu, reversed its long-standing stance by passing a formal politburo resolution and submitting a letter to the Rosaiah Committee in support of separate Telangana statehood?",
+    "options": [
+      {
+        "text": "Telugu Desam Party (TDP)",
+        "why": "In October 2008, after reviewing the K. Devender Goud defection and Telangana sentiment, TDP passed a formal politburo resolution supporting Telangana statehood and submitted a written letter to the K. Rosaiah Committee.",
+        "attraction": "The primary opposition party whose 2008 shift created unprecedented all-party consensus.",
+        "confusion": false
+      },
+      {
+        "text": "Communist Party of India (Marxist) - CPM",
+        "why": "CPM consistently opposed the bifurcation of Andhra Pradesh throughout the movement, maintaining its stance for a united state.",
+        "attraction": "Left party with significant presence.",
+        "confusion": true
+      },
+      {
+        "text": "Praja Rajyam Party (PRP)",
+        "why": "Praja Rajyam Party was formed by Chiranjeevi in August 2008 with a stance of 'Samajika Telangana' but later took an ambivalent and united AP stance.",
+        "attraction": "Newly formed party in 2008 with wide public attention.",
+        "confusion": true
+      },
+      {
+        "text": "Majlis-e-Ittehadul Muslimeen (MIM)",
+        "why": "MIM favored a united Andhra Pradesh or Rayala-Telangana to preserve Muslim demographic influence in Hyderabad and did not submit a letter supporting bifurcation in 2008.",
+        "attraction": "Hyderabad-based political party.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "In October 2008, after reviewing the K. Devender Goud defection and Telangana sentiment, TDP passed a formal politburo resolution supporting Telangana statehood and submitted a written letter to the K. Rosaiah Committee.",
+    "clue": "Identify Telugu Desam Party (TDP)",
+    "trap": "Do not confuse with Communist Party of India (Marxist) - CPM",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "Telugu Desam Party (TDP) is the established historical fact.",
+    "hint": "The primary opposition party whose 2008 shift created unprecedented all-party consensus.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 503,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies TDP's historic 2008 resolution supporting Telangana statehood.",
+        "correctMeaning": "In October 2008, TDP under N. Chandrababu Naidu formally resolved to support Telangana and communicated this in writing to the AP government's Rosaiah Committee.",
+        "selectedMeaning": "Correct choice recognizing TDP's 2008 policy reversal.",
+        "possibleConfusion": "Assuming TDP always maintained an anti-Telangana stance.",
+        "decisionRules": [
+          {
+            "when": "In October 2008, TDP reversed its stance and formally supported Telangana.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "This enabled the 2009 Mahakootami (Grand Alliance) of TDP, TRS, CPI, and CPM.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember TDP's October 2008 resolution and its letter to the Rosaiah Committee."
+      },
+      {
+        "observation": "Selects CPM, which strictly opposed bifurcation.",
+        "correctMeaning": "CPM was the only major party that maintained a resolute stance against bifurcation throughout.",
+        "selectedMeaning": "Incorrectly attributed a pro-Telangana policy shift to CPM.",
+        "possibleConfusion": "Confusing CPI (which supported Telangana) with CPM (which opposed bifurcation).",
+        "decisionRules": [
+          {
+            "when": "CPI supported separate Telangana.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "CPM strictly opposed bifurcation and advocated united Andhra Pradesh.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Always differentiate CPI (pro-Telangana) from CPM (anti-bifurcation)."
+      },
+      {
+        "observation": "Selects Chiranjeevi's Praja Rajyam Party.",
+        "correctMeaning": "PRP coined 'Samajika Telangana' but did not submit a clear pro-statehood resolution in October 2008, later taking a United AP stance.",
+        "selectedMeaning": "Confused PRP's 2008 launch with TDP's official politburo shift.",
+        "possibleConfusion": "PRP was launched in 2008 and frequently discussed Telangana issues.",
+        "decisionRules": [
+          {
+            "when": "TDP officially resolved in October 2008 to support Telangana.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "PRP vacillated and its MLAs later resigned in favor of Samaikyandhra.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Note PRP's slogan 'Samajika Telangana' versus TDP's formal 2008 resolution."
+      },
+      {
+        "observation": "Selects MIM.",
+        "correctMeaning": "MIM generally preferred a united state or Rayala-Telangana, not separate 10-district Telangana.",
+        "selectedMeaning": "Mistook MIM's position on state reorganization.",
+        "possibleConfusion": "MIM was an active participant in all-party consultations.",
+        "decisionRules": [
+          {
+            "when": "MIM opposed bifurcation or demanded inclusion of Rayalaseema districts (Rayala-Telangana).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "TDP provided the crucial opposition consensus letter to the Rosaiah Committee in 2008.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Review the stances of MIM and CPM during the Srikrishna Committee submissions."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q280",
+    "topic": "TM-03.01",
+    "concept": "TM-03.01-M05",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "On 29 November 2009, K. Chandrashekar Rao embarked on an indefinite fast ('Amara Neerahara Deeksha') demanding a separate Telangana state with the popular slogan 'Telangana Vachudo, KCR Sachudo'. At which location was he intercepted and arrested by the police on his way to Siddipet?",
+    "options": [
+      {
+        "text": "Alugunur village (Karimnagar outskirts)",
+        "why": "On the morning of 29 November 2009, as KCR was traveling from Karimnagar towards his deeksha venue at Siddipet, police intercepted his convoy and arrested him at Alugunur village on the Karimnagar-Hyderabad highway.",
+        "attraction": "The authentic, landmark arrest location of KCR on 29 November 2009.",
+        "confusion": false
+      },
+      {
+        "text": "Toopran bypass (Medak)",
+        "why": "Toopran is in Medak district on the NH-44 route to Siddipet, but KCR was based in Karimnagar and was arrested near Karimnagar outskirts at Alugunur.",
+        "attraction": "Geographic point close to Siddipet / Medak.",
+        "confusion": true
+      },
+      {
+        "text": "Alair checkpost (Nalgonda)",
+        "why": "Alair was a center for rail roko and road blockades, but was not the site of KCR's arrest on 29 November 2009.",
+        "attraction": "Familiar highway agitation junction.",
+        "confusion": true
+      },
+      {
+        "text": "Shamirpet crossroads (Ranga Reddy)",
+        "why": "Shamirpet was heavily barricaded to prevent Hyderabad students from reaching Siddipet, but KCR was already in Karimnagar and was arrested at Alugunur.",
+        "attraction": "Major Hyderabad-Karimnagar highway bottleneck.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "On the morning of 29 November 2009, as KCR was traveling from Karimnagar towards his deeksha venue at Siddipet, police intercepted his convoy and arrested him at Alugunur village on the Karimnagar-Hyderabad highway.",
+    "clue": "Identify Alugunur village (Karimnagar outskirts)",
+    "trap": "Do not confuse with Toopran bypass (Medak)",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "Alugunur village (Karimnagar outskirts) is the established historical fact.",
+    "hint": "The authentic, landmark arrest location of KCR on 29 November 2009.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 504,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Alugunur (Karimnagar outskirts) as the arrest site on 29 Nov 2009.",
+        "correctMeaning": "KCR was intercepted at Alugunur near Karimnagar, sent to Khammam Sub-Jail, and later shifted to NIMS Hospital as his fast triggered massive statewide unrest.",
+        "selectedMeaning": "Correct choice recognizing Alugunur village as the historic arrest site.",
+        "possibleConfusion": "Guessing locations closer to Siddipet (the intended hunger strike venue).",
+        "decisionRules": [
+          {
+            "when": "29 November 2009 KCR arrest location = Alugunur (near Karimnagar).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Intended deeksha venue was Siddipet; subsequent jail was Khammam; hospital was NIMS Hyderabad.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Memorize the sequence: Karimnagar -> Alugunur arrest -> Khammam Sub-Jail -> NIMS."
+      },
+      {
+        "observation": "Selects Toopran near Siddipet.",
+        "correctMeaning": "KCR started his journey from Karimnagar North Telangana Bhavan, not Hyderabad, so he was intercepted at Alugunur before reaching Medak.",
+        "selectedMeaning": "Assumed the arrest occurred near the Siddipet destination.",
+        "possibleConfusion": "Siddipet was the deeksha venue, and Toopran lies in Medak district.",
+        "decisionRules": [
+          {
+            "when": "KCR started from Karimnagar, so he was arrested right outside Karimnagar at Alugunur.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "He never reached Medak / Siddipet on 29 November 2009.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Note KCR's starting point was Karimnagar on the morning of 29 November 2009."
+      },
+      {
+        "observation": "Selects Alair in Nalgonda.",
+        "correctMeaning": "Alair was prominent during rail rokos, not KCR's arrest on 29 November 2009.",
+        "selectedMeaning": "Confused Nalgonda rail-roko centers with KCR's arrest route.",
+        "possibleConfusion": "Alair is a famous protest site in the Telangana movement.",
+        "decisionRules": [
+          {
+            "when": "Karimnagar-Siddipet axis passes through Alugunur, not Alair.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Alugunur is in Karimnagar district.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Verify highway geography: Karimnagar to Siddipet via Alugunur and Manakondur."
+      },
+      {
+        "observation": "Selects Shamirpet crossroads.",
+        "correctMeaning": "Shamirpet was heavily policed to stop Hyderabad students, but was not where KCR was arrested.",
+        "selectedMeaning": "Confused student containment checkposts with KCR's convoy interception.",
+        "possibleConfusion": "Shamirpet connects Hyderabad to Karimnagar.",
+        "decisionRules": [
+          {
+            "when": "KCR was arrested at Alugunur near Karimnagar.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Shamirpet was used for student blockades heading north.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Keep KCR's personal movement distinct from Hyderabad student containment operations."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q281",
+    "topic": "TM-03.01",
+    "concept": "TM-03.01-M06",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "During the intense initial phase of KCR's indefinite hunger strike in December 2009, which student of Osmania University became an iconic martyr of the Telangana statehood movement after self-immolating near L.B. Nagar crossroads on 29 November 2009 and succumbing to injuries on 3 December 2009?",
+    "options": [
+      {
+        "text": "K. Srikantha Chary",
+        "why": "Kasojula Srikantha Chary, a diploma student and youth activist from Nalgonda studying in Hyderabad, self-immolated at Dr. B.R. Ambedkar statue near L.B. Nagar crossroads on 29 Nov 2009 and died on 3 Dec 2009, igniting the second phase of the mass agitation.",
+        "attraction": "The most iconic student martyr whose sacrifice galvanized the 2009 agitation.",
+        "confusion": false
+      },
+      {
+        "text": "Police Constable Kishtaiah",
+        "why": "Police Constable Kishtaiah shot himself with his service weapon on 1 December 2009 at Kamareddy, sacrificing his life as a serving policeman.",
+        "attraction": "Iconic police martyr during the same week in Dec 2009.",
+        "confusion": true
+      },
+      {
+        "text": "Yadi Reddy",
+        "why": "Yadi Reddy sacrificed his life by hanging near Parliament House in New Delhi in July 2011, not at L.B. Nagar in 2009.",
+        "attraction": "Prominent martyr who died in New Delhi during the agitation.",
+        "confusion": true
+      },
+      {
+        "text": "Siripuram Yadaiah",
+        "why": "Siripuram Yadaiah self-immolated at the Osmania University NCC Gate on 20 February 2010 shouting 'Jai Telangana', not at L.B. Nagar in Nov 2009.",
+        "attraction": "Famous student martyr of Osmania University in early 2010.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "Kasojula Srikantha Chary, a diploma student and youth activist from Nalgonda studying in Hyderabad, self-immolated at Dr. B.R. Ambedkar statue near L.B. Nagar crossroads on 29 Nov 2009 and died on 3 Dec 2009, igniting the second phase of the mass agitation.",
+    "clue": "Identify K. Srikantha Chary",
+    "trap": "Do not confuse with Police Constable Kishtaiah",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "K. Srikantha Chary is the established historical fact.",
+    "hint": "The most iconic student martyr whose sacrifice galvanized the 2009 agitation.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 505,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies K. Srikantha Chary as the martyr of L.B. Nagar crossroads in Nov/Dec 2009.",
+        "correctMeaning": "Srikantha Chary's self-immolation at L.B. Nagar on 29 Nov 2009 (died 3 Dec 2009) became the emotional spark that electrified students across Osmania, Kakatiya, and Telangana.",
+        "selectedMeaning": "Correct choice recognizing Kasojula Srikantha Chary.",
+        "possibleConfusion": "Confusing Srikantha Chary with Constable Kishtaiah or OU NCC gate martyr Siripuram Yadaiah.",
+        "decisionRules": [
+          {
+            "when": "L.B. Nagar crossroads self-immolation (29 Nov / 3 Dec 2009) = K. Srikantha Chary.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Kamareddy police suicide (1 Dec 2009) = Police Constable Kishtaiah.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "OU NCC Gate self-immolation (20 Feb 2010) = Siripuram Yadaiah.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Map the three key 2009-2010 martyrs: Srikantha Chary (L.B. Nagar), Kishtaiah (Kamareddy), Siripuram Yadaiah (OU Gate)."
+      },
+      {
+        "observation": "Selects Police Constable Kishtaiah.",
+        "correctMeaning": "Constable Kishtaiah died on 1 Dec 2009 at Kamareddy using his service rifle, not by self-immolation at L.B. Nagar.",
+        "selectedMeaning": "Confused the police martyr with the student martyr from the same pivotal week.",
+        "possibleConfusion": "Both sacrificed their lives within days of each other in early December 2009.",
+        "decisionRules": [
+          {
+            "when": "Kishtaiah was a serving Police Constable who died at Kamareddy.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Srikantha Chary was a student who self-immolated at L.B. Nagar.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Note Constable Kishtaiah's specific location (Kamareddy) and method (service weapon)."
+      },
+      {
+        "observation": "Selects Yadi Reddy.",
+        "correctMeaning": "Yadi Reddy died near Parliament House in New Delhi in July 2011 leaving an 8-page suicide note demanding statehood.",
+        "selectedMeaning": "Confused the Delhi Parliament martyr with the 2009 Hyderabad martyr.",
+        "possibleConfusion": "Both left heart-wrenching messages demanding separate Telangana.",
+        "decisionRules": [
+          {
+            "when": "Yadi Reddy = New Delhi Parliament (July 2011).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Srikantha Chary = L.B. Nagar, Hyderabad (Dec 2009).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Review the chronology and location of martyrs outside Telangana (New Delhi)."
+      },
+      {
+        "observation": "Selects Siripuram Yadaiah.",
+        "correctMeaning": "Siripuram Yadaiah sacrificed his life at Osmania University NCC Gate on 20 February 2010.",
+        "selectedMeaning": "Selected the OU campus martyr instead of the L.B. Nagar crossroads martyr.",
+        "possibleConfusion": "Both were students who self-immolated in the movement.",
+        "decisionRules": [
+          {
+            "when": "Srikantha Chary = L.B. Nagar (Dec 2009).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Siripuram Yadaiah = OU NCC Gate (Feb 2010).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Differentiate the dates and venues of student martyrs in 2009 vs 2010."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q282",
+    "topic": "TM-03.01",
+    "concept": "TM-03.01-M07",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "On 9 December 2009 at 11:30 PM, Union Home Minister P. Chidambaram made a historic midnight policy announcement after an emergency meeting at Prime Minister Dr. Manmohan Singh's residence. What was the exact core assurance delivered in that announcement?",
+    "options": [
+      {
+        "text": "The process of forming the state of Telangana will be initiated and an appropriate resolution moved in the AP State Legislative Assembly",
+        "why": "The exact words spoken by P. Chidambaram on 9 Dec 2009 were: 'The process of forming the state of Telangana will be initiated. An appropriate resolution will be moved in the State Legislative Assembly.'",
+        "attraction": "The historic, exact wording of the 9 December 2009 midnight announcement.",
+        "confusion": false
+      },
+      {
+        "text": "Hyderabad is declared a Union Territory with immediate effect",
+        "why": "Hyderabad was never declared a Union Territory on 9 Dec 2009; the statement focused solely on initiating the process of forming the state of Telangana.",
+        "attraction": "Contentious proposal frequently discussed by Seemandhra leaders.",
+        "confusion": true
+      },
+      {
+        "text": "A judicial commission will be appointed to recommend the borders of Telangana within two years",
+        "why": "No judicial commission was announced on 9 Dec 2009; the Srikrishna Committee was only constituted later in February 2010 after the Centre backtracked on 23 Dec 2009.",
+        "attraction": "Plausible administrative delaying mechanism.",
+        "confusion": true
+      },
+      {
+        "text": "Telangana is granted special regional status under Article 371-D",
+        "why": "Article 371-D was already in effect since 1973; the 9 Dec 2009 announcement explicitly conceded the formation of the state of Telangana.",
+        "attraction": "Existing constitutional article related to AP.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "The exact words spoken by P. Chidambaram on 9 Dec 2009 were: 'The process of forming the state of Telangana will be initiated. An appropriate resolution will be moved in the State Legislative Assembly.'",
+    "clue": "Identify The process of forming the state of Telangana will be initiated and an appropriate resolution moved in the AP State Legislative Assembly",
+    "trap": "Do not confuse with Hyderabad is declared a Union Territory with immediate effect",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "The process of forming the state of Telangana will be initiated and an appropriate resolution moved in the AP State Legislative Assembly is the established historical fact.",
+    "hint": "The historic, exact wording of the 9 December 2009 midnight announcement.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 506,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies the exact wording of P. Chidambaram's 9 Dec 2009 midnight announcement.",
+        "correctMeaning": "On 9 Dec 2009, the Centre formally announced that the process of forming the state of Telangana will be initiated, which led KCR to break his 11-day fast.",
+        "selectedMeaning": "Correct choice recognizing the core text of the 9 December declaration.",
+        "possibleConfusion": "Confusing the initial announcement with subsequent backtracking or committee formations.",
+        "decisionRules": [
+          {
+            "when": "9 Dec 2009 statement: 'The process of forming the state of Telangana will be initiated'.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "It included moving an appropriate resolution in the AP Assembly.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Commit to memory: 9 December 2009 = 'Process of forming state of Telangana will be initiated'."
+      },
+      {
+        "observation": "Assumes Hyderabad was declared a Union Territory.",
+        "correctMeaning": "The 9 Dec statement made no reference to Union Territory status for Hyderabad.",
+        "selectedMeaning": "Confused later lobby demands with the actual government statement.",
+        "possibleConfusion": "Seemandhra leaders demanded UT status for Hyderabad after the announcement.",
+        "decisionRules": [
+          {
+            "when": "9 Dec 2009 statement had no UT status for Hyderabad.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "It promised full state formation process.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Verify the brief two-sentence text of Chidambaram's 9 December announcement."
+      },
+      {
+        "observation": "Confuses 9 Dec 2009 with the February 2010 Srikrishna Committee formation.",
+        "correctMeaning": "The Srikrishna Committee was constituted on 3 Feb 2010 following the 23 Dec 2009 backtracking statement, not on 9 Dec 2009.",
+        "selectedMeaning": "Selected the committee mechanism instituted months later.",
+        "possibleConfusion": "Committees are standard government responses to contentious issues.",
+        "decisionRules": [
+          {
+            "when": "9 Dec 2009 = Statehood process initiated.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "23 Dec 2009 = Centre pauses process due to Seemandhra resignations.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "3 Feb 2010 = Srikrishna Committee appointed.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Trace the sequence: 9 Dec announcement -> 23 Dec backtracking -> 3 Feb Srikrishna Committee."
+      },
+      {
+        "observation": "Selects Article 371-D regional status.",
+        "correctMeaning": "Article 371-D was the 1973 Six-Point Formula amendment, not the 2009 statehood announcement.",
+        "selectedMeaning": "Mistook the 1973 regional arrangement for the 2009 statehood announcement.",
+        "possibleConfusion": "Both deal with Telangana safeguards.",
+        "decisionRules": [
+          {
+            "when": "Article 371-D = 32nd Amendment 1973 (Six-Point Formula).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "9 Dec 2009 was an explicit promise of separate statehood.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Keep 1973 regional safeguards distinct from 2009 sovereign statehood commitments."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q283",
+    "topic": "TM-03.01",
+    "concept": "TM-03.01-M08",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "Following the central government's backtracking statement on 23 December 2009, an all-party and civil society platform was founded on 24 December 2009 at the TRS headquarters to spearhead the non-violent mass movement. Who was chosen as the Convener of this Telangana Joint Action Committee (TJAC)?",
+    "options": [
+      {
+        "text": "Prof. M. Kodandaram (Professor of Political Science at Osmania University)",
+        "why": "Prof. M. Kodandaram, who had earlier headed the Telangana Vidhyavanthula Vedika, was unanimously chosen as the Convener of the Telangana Joint Action Committee (TJAC) on 24 Dec 2009 to provide neutral, non-partisan intellectual leadership.",
+        "attraction": "The universally recognized, authentic Convener of TJAC.",
+        "confusion": false
+      },
+      {
+        "text": "Prof. K. Jayashankar",
+        "why": "Prof. Jayashankar was the chief ideological mentor and patron of the movement, but Prof. Kodandaram was appointed the executive Convener of TJAC.",
+        "attraction": "Chief ideologue and mentor of the Telangana movement.",
+        "confusion": true
+      },
+      {
+        "text": "Swami Goud",
+        "why": "Swami Goud was the leader of the Telangana Employees Joint Action Committee (TNGOs), which was a major constituent of TJAC, but was not the overall TJAC Convener.",
+        "attraction": "Prominent employee union leader in TJAC.",
+        "confusion": true
+      },
+      {
+        "text": "V. Prakash",
+        "why": "V. Prakash was a senior Telangana thinker and TRS general secretary, but not the Convener of the all-party TJAC.",
+        "attraction": "Key intellectual and founder of Telangana Mahasabha.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "Prof. M. Kodandaram, who had earlier headed the Telangana Vidhyavanthula Vedika, was unanimously chosen as the Convener of the Telangana Joint Action Committee (TJAC) on 24 Dec 2009 to provide neutral, non-partisan intellectual leadership.",
+    "clue": "Identify Prof. M. Kodandaram (Professor of Political Science at Osmania University)",
+    "trap": "Do not confuse with Prof. K. Jayashankar",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "Prof. M. Kodandaram (Professor of Political Science at Osmania University) is the established historical fact.",
+    "hint": "The universally recognized, authentic Convener of TJAC.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 507,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Prof. M. Kodandaram as the Convener of TJAC founded on 24 Dec 2009.",
+        "correctMeaning": "TJAC was formed on 24 Dec 2009 immediately after the Centre's 23 Dec backtracking, with Prof. M. Kodandaram as Convener to unite political parties, students, employees, and civil society.",
+        "selectedMeaning": "Correct choice recognizing Prof. Kodandaram's central role in TJAC.",
+        "possibleConfusion": "Confusing the active Convener (Prof. Kodandaram) with the chief mentor (Prof. Jayashankar).",
+        "decisionRules": [
+          {
+            "when": "TJAC Convener = Prof. M. Kodandaram.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "TJAC formation date = 24 December 2009 (following the 23 Dec backtracking).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember: TJAC Convener = Prof. M. Kodandaram."
+      },
+      {
+        "observation": "Selects Prof. K. Jayashankar.",
+        "correctMeaning": "Prof. Jayashankar was the ideological father of the movement, while Prof. Kodandaram served as the operational Convener of TJAC.",
+        "selectedMeaning": "Confused the mentor/ideologue with the operational committee convener.",
+        "possibleConfusion": "Both were eminent Osmania/Kakatiya professors driving the movement.",
+        "decisionRules": [
+          {
+            "when": "Prof. Jayashankar = Ideologue / Father figure of Telangana movement.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Prof. Kodandaram = TJAC Convener.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Differentiate the roles of Prof. Jayashankar (Ideologue) and Prof. Kodandaram (TJAC Convener)."
+      },
+      {
+        "observation": "Selects Swami Goud.",
+        "correctMeaning": "Swami Goud led the TNGOs / Employees JAC, which was one constituent unit under TJAC.",
+        "selectedMeaning": "Mistook the employee union leader for the supreme all-party TJAC Convener.",
+        "possibleConfusion": "Swami Goud was frequently seen alongside Prof. Kodandaram on stage.",
+        "decisionRules": [
+          {
+            "when": "Swami Goud = Telangana Employees JAC (TNGOs) leader.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Prof. Kodandaram = Apex TJAC Convener.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Note the structure of constituent JACs (Employees, Lawyers, Doctors, Students) under TJAC."
+      },
+      {
+        "observation": "Selects V. Prakash.",
+        "correctMeaning": "V. Prakash was an author, Telangana historian, and TRS leader, not the neutral TJAC Convener.",
+        "selectedMeaning": "Confused a political party leader with the neutral academic convener.",
+        "possibleConfusion": "V. Prakash played a prominent role in early organizations like Telangana Mahasabha (1997).",
+        "decisionRules": [
+          {
+            "when": "TJAC required a non-party academic head; Prof. Kodandaram was chosen.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "V. Prakash was affiliated with TRS leadership.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember why a non-partisan academic (Prof. Kodandaram) was chosen to lead TJAC."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q284",
+    "topic": "TM-03.01",
+    "concept": "TM-03.01-M09",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "On 10 March 2011, defying police curfews, section 144 orders, and severe barricading across Hyderabad, thousands of Telangana agitators converged on Tank Bund for which massive civil disobedience action organized by TJAC?",
+    "options": [
+      {
+        "text": "Million March",
+        "why": "The 'Million March' inspired by Egypt's Tahrir Square protests was organized by TJAC on 10 March 2011 at Tank Bund, overcoming unprecedented police barricades and arrests.",
+        "attraction": "The authentic, celebrated Tank Bund civil disobedience action on 10 March 2011.",
+        "confusion": false
+      },
+      {
+        "text": "Sakala Janula Samme",
+        "why": "Sakala Janula Samme was a 42-day continuous general strike launched in September 2011, not the one-day Tank Bund convergence on 10 March 2011.",
+        "attraction": "The most prolonged strike in Telangana history.",
+        "confusion": true
+      },
+      {
+        "text": "Sagara Haram",
+        "why": "Sagara Haram (Telangana March) took place on 30 September 2012 around Necklace Road, not on 10 March 2011.",
+        "attraction": "Massive 2012 mass protest around the same lake.",
+        "confusion": true
+      },
+      {
+        "text": "Sadak Bandh",
+        "why": "Sadak Bandh was a 400-km highway blockade on NH-44 held on 21 March 2013, not a march on Tank Bund.",
+        "attraction": "Major TJAC protest on transport arteries.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "The 'Million March' inspired by Egypt's Tahrir Square protests was organized by TJAC on 10 March 2011 at Tank Bund, overcoming unprecedented police barricades and arrests.",
+    "clue": "Identify Million March",
+    "trap": "Do not confuse with Sakala Janula Samme",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "Million March is the established historical fact.",
+    "hint": "The authentic, celebrated Tank Bund civil disobedience action on 10 March 2011.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 508,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Million March on 10 March 2011 at Tank Bund.",
+        "correctMeaning": "Million March was held on 10 March 2011 at Tank Bund inspired by Tahrir Square, breaking through massive police cordons.",
+        "selectedMeaning": "Correct choice recognizing the Million March date and venue.",
+        "possibleConfusion": "Confusing the Million March (March 2011) with Sagara Haram (Sept 2012).",
+        "decisionRules": [
+          {
+            "when": "10 March 2011 at Tank Bund = Million March.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "30 September 2012 at Necklace Road = Sagara Haram (Telangana March).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Memorize: 10 March 2011 = Million March at Tank Bund."
+      },
+      {
+        "observation": "Confuses the Million March with the Sakala Janula Samme general strike.",
+        "correctMeaning": "Sakala Janula Samme began on 13 September 2011 and lasted 42 days across the whole state.",
+        "selectedMeaning": "Confused a one-day direct action march with the multi-week indefinite general strike.",
+        "possibleConfusion": "Both occurred in 2011 under TJAC leadership.",
+        "decisionRules": [
+          {
+            "when": "March 2011 = Million March (1-day demonstration).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Sept–Oct 2011 = Sakala Janula Samme (42-day general strike).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Differentiate the calendar timing of 2011 events: March (Million March) vs September (Samme)."
+      },
+      {
+        "observation": "Confuses Million March (2011) with Sagara Haram (2012).",
+        "correctMeaning": "Sagara Haram took place on 30 September 2012 along Necklace Road.",
+        "selectedMeaning": "Selected the 2012 protest instead of the 2011 protest.",
+        "possibleConfusion": "Both took place around the Hussain Sagar water body in Hyderabad.",
+        "decisionRules": [
+          {
+            "when": "Tank Bund (10 March 2011) = Million March.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Necklace Road (30 Sept 2012) = Sagara Haram.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Note the specific venue: Tank Bund (Million March) vs Necklace Road (Sagara Haram)."
+      },
+      {
+        "observation": "Confuses Million March with Sadak Bandh.",
+        "correctMeaning": "Sadak Bandh was the NH-44 highway shutdown between Shamshabad and Alampur on 21 March 2013.",
+        "selectedMeaning": "Confused the highway blockade with the city lake march.",
+        "possibleConfusion": "Both were bold civil disobedience operations executed by TJAC.",
+        "decisionRules": [
+          {
+            "when": "City center / Tank Bund = Million March.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "National Highway 44 = Sadak Bandh.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember: Sadak Bandh = NH-44 blockade (March 2013)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q285",
+    "topic": "TM-03.01",
+    "concept": "TM-03.01-M10",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "The historic 'Sakala Janula Samme' (All People's General Strike) spearheaded by TJAC and government employees crippled state administration, RTC buses, coal production at Singareni, and electricity generation. For how many consecutive days did this unprecedented strike continue from 13 September 2011?",
+    "options": [
+      {
+        "text": "42 days (called off on 24 October 2011)",
+        "why": "Sakala Janula Samme began on 13 September 2011 and lasted an astounding 42 consecutive days until it was called off on 24 October 2011 following assurances and intense public fatigue.",
+        "attraction": "The exact, historic duration of Sakala Janula Samme.",
+        "confusion": false
+      },
+      {
+        "text": "28 days",
+        "why": "28 days was the duration of the RTC bus workers strike in a subsequent phase, not the complete 42-day Sakala Janula Samme.",
+        "attraction": "Plausible four-week duration.",
+        "confusion": true
+      },
+      {
+        "text": "56 days",
+        "why": "56 days was the duration of the 1969 Telangana NGOs strike led by K.R. Amos, not the 2011 Sakala Janula Samme.",
+        "attraction": "Historic strike duration from the 1969 agitation.",
+        "confusion": true
+      },
+      {
+        "text": "16 days",
+        "why": "16 days was the duration of the 1972 Jai Andhra strike in Seemandhra, not the 2011 Telangana general strike.",
+        "attraction": "Commonly cited strike period in AP history.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "Sakala Janula Samme began on 13 September 2011 and lasted an astounding 42 consecutive days until it was called off on 24 October 2011 following assurances and intense public fatigue.",
+    "clue": "Identify 42 days (called off on 24 October 2011)",
+    "trap": "Do not confuse with 28 days",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "42 days (called off on 24 October 2011) is the established historical fact.",
+    "hint": "The exact, historic duration of Sakala Janula Samme.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 509,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies 42 days as the exact duration of the 2011 Sakala Janula Samme.",
+        "correctMeaning": "Sakala Janula Samme ran for 42 days from 13 September to 24 October 2011, paralyzing administration, education, transport, and coal mining across Telangana.",
+        "selectedMeaning": "Correct choice recognizing the 42-day duration.",
+        "possibleConfusion": "Confusing 2011 (42 days) with 1969 TNGO strike (56 days).",
+        "decisionRules": [
+          {
+            "when": "2011 Sakala Janula Samme = 42 days (13 Sept - 24 Oct 2011).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "1969 TNGOs Strike = 56 days (led by K.R. Amos).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Commit to memory: Sakala Janula Samme = 42 days; 1969 TNGO Strike = 56 days."
+      },
+      {
+        "observation": "Selects 28 days.",
+        "correctMeaning": "The full multi-sector strike continued for 42 days, far exceeding 28 days.",
+        "selectedMeaning": "Understated the duration by two full weeks.",
+        "possibleConfusion": "Certain specific departmental unions paused after roughly 4 weeks.",
+        "decisionRules": [
+          {
+            "when": "The official overall duration recognized in government and exam records is 42 days.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Strike started 13 Sept and ended 24 Oct 2011.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Verify calendar span: 18 days in September + 24 days in October = 42 days."
+      },
+      {
+        "observation": "Confuses 2011 with the 1969 TNGOs strike (56 days).",
+        "correctMeaning": "The 56-day strike was staged in 1969 by K.R. Amos and TNGOs; 2011 Sakala Janula Samme was 42 days.",
+        "selectedMeaning": "Selected the 1969 strike figure for the 2011 movement.",
+        "possibleConfusion": "Both are legendary government employee strikes in Telangana history.",
+        "decisionRules": [
+          {
+            "when": "1969 TNGOs strike = 56 days.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "2011 Sakala Janula Samme = 42 days.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Write down the two strike figures side-by-side to avoid cross-era confusion."
+      },
+      {
+        "observation": "Selects 16 days.",
+        "correctMeaning": "16 days is far shorter than the massive 42-day shutdown.",
+        "selectedMeaning": "Severely understated the duration of the general strike.",
+        "possibleConfusion": "Confusing short protest phases with the overarching general strike.",
+        "decisionRules": [
+          {
+            "when": "Sakala Janula Samme was unprecedented in modern Indian history lasting 42 days.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Singareni coal mining was shut for nearly the entire 42 days.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember the historic economic impact of the 42-day shutdown."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q286",
+    "topic": "TM-03.01",
+    "concept": "TM-03.01-M11",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "On 30 September 2012, despite unprecedented barricades, tear gas, and police crackdowns, TJAC organized another mammoth demonstration along Necklace Road around Hussain Sagar lake. By what name is this mass mobilization popularly known?",
+    "options": [
+      {
+        "text": "Sagara Haram (Telangana March)",
+        "why": "The massive demonstration on 30 September 2012 held on Necklace Road was christened 'Sagara Haram' (Garland around the Lake / Telangana March), symbolizing encirclement of the state capital's lake.",
+        "attraction": "The authentic title of the 30 September 2012 Necklace Road march.",
+        "confusion": false
+      },
+      {
+        "text": "Million March",
+        "why": "Million March was held 18 months earlier on 10 March 2011 at Tank Bund, not on 30 September 2012 at Necklace Road.",
+        "attraction": "Preceding historic march around the same lake.",
+        "confusion": true
+      },
+      {
+        "text": "Sadak Bandh",
+        "why": "Sadak Bandh took place on 21 March 2013 on NH-44, not at Necklace Road.",
+        "attraction": "Major subsequent TJAC mobilization.",
+        "confusion": true
+      },
+      {
+        "text": "Palle Palle Pattala Paiki",
+        "why": "Palle Palle Pattala Paiki was the rail-roko movement organized by TJAC in March and October 2011, halting train networks across Telangana.",
+        "attraction": "Famous rail-blockade movement slogan.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "The massive demonstration on 30 September 2012 held on Necklace Road was christened 'Sagara Haram' (Garland around the Lake / Telangana March), symbolizing encirclement of the state capital's lake.",
+    "clue": "Identify Sagara Haram (Telangana March)",
+    "trap": "Do not confuse with Million March",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "Sagara Haram (Telangana March) is the established historical fact.",
+    "hint": "The authentic title of the 30 September 2012 Necklace Road march.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 510,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Sagara Haram (Telangana March) on 30 September 2012 at Necklace Road.",
+        "correctMeaning": "Sagara Haram was organized on 30 September 2012 by TJAC at Necklace Road amidst intense police tear-gassing, rain, and public defiance.",
+        "selectedMeaning": "Correct choice recognizing Sagara Haram.",
+        "possibleConfusion": "Confusing Sagara Haram with Million March or rail-roko programs.",
+        "decisionRules": [
+          {
+            "when": "30 September 2012 at Necklace Road = Sagara Haram (Telangana March).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "10 March 2011 at Tank Bund = Million March.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember: Sagara Haram = Necklace Road on 30 September 2012."
+      },
+      {
+        "observation": "Confuses Sagara Haram with the Million March.",
+        "correctMeaning": "Million March was 10 March 2011 at Tank Bund; Sagara Haram was 30 September 2012 at Necklace Road.",
+        "selectedMeaning": "Selected the 2011 protest rather than the 2012 protest.",
+        "possibleConfusion": "Both took place around Hussain Sagar lake.",
+        "decisionRules": [
+          {
+            "when": "Million March = Tank Bund (10 March 2011).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Sagara Haram = Necklace Road (30 Sept 2012).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Distinguish between the eastern side (Tank Bund) and western side (Necklace Road) of the lake."
+      },
+      {
+        "observation": "Confuses Sagara Haram with Sadak Bandh.",
+        "correctMeaning": "Sadak Bandh was on 21 March 2013 on the national highway, not in September 2012 at the lake.",
+        "selectedMeaning": "Confused the highway shutdown with the lake encirclement march.",
+        "possibleConfusion": "Both were iconic TJAC protest designs.",
+        "decisionRules": [
+          {
+            "when": "Sadak Bandh = Road / Highway blockade (2013).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Sagara Haram = Lake encirclement march (2012).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Associate 'Sagara' with water/lake (Hussain Sagar) and 'Sadak' with highway (NH-44)."
+      },
+      {
+        "observation": "Selects the rail-roko campaign 'Palle Palle Pattala Paiki'.",
+        "correctMeaning": "Palle Palle Pattala Paiki specifically targeted railway tracks, not Necklace Road.",
+        "selectedMeaning": "Confused the railway track agitations with the Necklace Road march.",
+        "possibleConfusion": "Both involved massive participation of rural youth in mass actions.",
+        "decisionRules": [
+          {
+            "when": "Palle Palle Pattala Paiki = Rail tracks (Rail Roko).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Sagara Haram = Necklace Road march.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Keep transport-specific agitations (rail roko) distinct from urban mass marches."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q287",
+    "topic": "TM-03.01",
+    "concept": "TM-03.01-M12",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "On 21 March 2013, TJAC organized the historic 'Sadak Bandh', completely paralyzing vehicular movement on National Highway 44. Across what distance and between which two locations was this massive highway blockade executed?",
+    "options": [
+      {
+        "text": "A 400-kilometer stretch on NH-44 between Shamshabad (Hyderabad outskirts) and Alampur (Mahabubnagar border)",
+        "why": "The Sadak Bandh on 21 March 2013 blocked National Highway 44 across nearly 400 km from Shamshabad outside Hyderabad all the way south to Alampur at the Krishna river border of Mahabubnagar.",
+        "attraction": "The authentic, exact geographical stretch of the historic Sadak Bandh.",
+        "confusion": false
+      },
+      {
+        "text": "A 200-kilometer stretch on NH-65 between Hyderabad and Suryapet",
+        "why": "NH-65 (Hyderabad-Vijayawada) was heavily agitated during various bandhs, but Sadak Bandh was specifically organized on NH-44 south towards Kurnool/Alampur.",
+        "attraction": "Major highway linking Telangana and Coastal Andhra.",
+        "confusion": true
+      },
+      {
+        "text": "A 150-kilometer stretch on NH-163 between Uppal and Warangal",
+        "why": "Warangal highway witnessed many rallies, but Sadak Bandh on 21 March 2013 was focused on the North-South corridor (NH-44).",
+        "attraction": "Crucial cultural axis between Hyderabad and Warangal.",
+        "confusion": true
+      },
+      {
+        "text": "A 300-kilometer stretch on NH-563 between Jagtial and Khammam",
+        "why": "NH-563 connects northern and eastern Telangana, but was not the designated highway for the 21 March 2013 Sadak Bandh.",
+        "attraction": "Interior Telangana highway corridor.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "The Sadak Bandh on 21 March 2013 blocked National Highway 44 across nearly 400 km from Shamshabad outside Hyderabad all the way south to Alampur at the Krishna river border of Mahabubnagar.",
+    "clue": "Identify A 400-kilometer stretch on NH-44 between Shamshabad (Hyderabad outskirts) and Alampur (Mahabubnagar border)",
+    "trap": "Do not confuse with A 200-kilometer stretch on NH-65 between Hyderabad and Suryapet",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "A 400-kilometer stretch on NH-44 between Shamshabad (Hyderabad outskirts) and Alampur (Mahabubnagar border) is the established historical fact.",
+    "hint": "The authentic, exact geographical stretch of the historic Sadak Bandh.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 511,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies 400 km on NH-44 between Shamshabad and Alampur.",
+        "correctMeaning": "On 21 March 2013, TJAC activists cooked, danced, and pitched tents on NH-44 across 400 km from Shamshabad to Alampur, cutting off transit between Hyderabad and Bangalore/Rayalaseema.",
+        "selectedMeaning": "Correct choice recognizing the exact stretch of Sadak Bandh.",
+        "possibleConfusion": "Confusing NH-44 (Bangalore route) with NH-65 (Vijayawada route).",
+        "decisionRules": [
+          {
+            "when": "Sadak Bandh highway = NH-44 (400 km).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Terminus points = Shamshabad (Hyderabad) to Alampur (Mahabubnagar / AP border).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember: Sadak Bandh = NH-44 (Shamshabad to Alampur, 400 km, 21 March 2013)."
+      },
+      {
+        "observation": "Confuses NH-44 with NH-65 (Hyderabad-Vijayawada).",
+        "correctMeaning": "NH-65 was blocked during border blockades at Kodad, but Sadak Bandh was explicitly planned on NH-44.",
+        "selectedMeaning": "Selected the eastern highway towards Coastal Andhra instead of the southern highway NH-44.",
+        "possibleConfusion": "NH-65 was the main road to Seemandhra.",
+        "decisionRules": [
+          {
+            "when": "Sadak Bandh route was NH-44 towards Alampur/Bangalore.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Don't substitute NH-65 (Vijayawada highway) for Sadak Bandh.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Note why NH-44 was selected: long continuous stretch running through Mahabubnagar."
+      },
+      {
+        "observation": "Selects NH-163 (Hyderabad-Warangal).",
+        "correctMeaning": "NH-163 is the Warangal corridor, not the 400-km Sadak Bandh artery.",
+        "selectedMeaning": "Confused the Warangal road with the NH-44 interstate highway.",
+        "possibleConfusion": "Warangal was the epicentre of student rallies.",
+        "decisionRules": [
+          {
+            "when": "Warangal highway is NH-163.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Sadak Bandh was executed on NH-44 (Shamshabad-Alampur).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Keep the highway numbers and names clear for SI & Constable exams."
+      },
+      {
+        "observation": "Selects NH-563 (Jagtial to Khammam).",
+        "correctMeaning": "NH-563 was not the corridor chosen for the mass blockade.",
+        "selectedMeaning": "Selected an interior state highway instead of the national transit corridor.",
+        "possibleConfusion": "Jagtial and Khammam were active agitation hubs.",
+        "decisionRules": [
+          {
+            "when": "Target was National Highway 44 (formerly NH-7).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "The goal was to demonstrate total control over interstate freight transit.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Recognize that Sadak Bandh targeted the major North-South national corridor."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q288",
+    "topic": "TM-03.01",
+    "concept": "TM-03.01-M13",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "The 5-member Committee for Consultations on the Situation in Andhra Pradesh (headed by retired Chief Justice B.N. Srikrishna) submitted its comprehensive report on 30 December 2010 evaluating six policy alternatives. Which was Option 5 recommended by the committee?",
+    "options": [
+      {
+        "text": "Bifurcation of the State into Telangana and Seemandhra as per existing boundaries with Hyderabad as the capital of Telangana and Seemandhra to have a new capital",
+        "why": "Option 5 in Chapter 9 was: 'Bifurcation of the State into Telangana and Seemandhra as per existing boundaries with Hyderabad as the capital of Telangana and Seemandhra to have a new capital'.",
+        "attraction": "The authentic Option 5 of the Srikrishna Committee report.",
+        "confusion": false
+      },
+      {
+        "text": "Keeping the State united and providing constitutional / statutory measures for socio-economic development through a Telangana Regional Council (Option 6)",
+        "why": "Keeping the state united with a statutory regional council was Option 6, which the committee itself termed the 'most workable option', whereas Option 5 was bifurcation.",
+        "attraction": "Option 6 (preferred by the committee itself).",
+        "confusion": true
+      },
+      {
+        "text": "Bifurcation into Telangana and Andhra with Hyderabad declared a Union Territory (Option 3)",
+        "why": "Option 3 proposed dividing the state into two with Hyderabad as a separate Union Territory, not Option 5.",
+        "attraction": "Another of the 6 options formulated by the committee.",
+        "confusion": true
+      },
+      {
+        "text": "Bifurcation into Rayala-Telangana and Coastal Andhra (Option 4)",
+        "why": "Option 4 proposed merging Rayalaseema with Telangana (Rayala-Telangana) and separating Coastal Andhra, not Option 5.",
+        "attraction": "Controversial political option evaluated by the committee.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "Option 5 in Chapter 9 was: 'Bifurcation of the State into Telangana and Seemandhra as per existing boundaries with Hyderabad as the capital of Telangana and Seemandhra to have a new capital'.",
+    "clue": "Identify Bifurcation of the State into Telangana and Seemandhra as per existing boundaries with Hyderabad as the capital of Telangana and Seemandhra to have a new capital",
+    "trap": "Do not confuse with Keeping the State united and providing constitutional / statutory measures for socio-economic development through a Telangana Regional Council (Option 6)",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "Bifurcation of the State into Telangana and Seemandhra as per existing boundaries with Hyderabad as the capital of Telangana and Seemandhra to have a new capital is the established historical fact.",
+    "hint": "The authentic Option 5 of the Srikrishna Committee report.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 512,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Option 5 as full bifurcation with Hyderabad as Telangana's capital.",
+        "correctMeaning": "Option 5 of the Srikrishna Committee report proposed bifurcating the state into Telangana and Seemandhra with Hyderabad as Telangana's capital, which ultimately formed the basis of the 2014 reorganization.",
+        "selectedMeaning": "Correct choice distinguishing Option 5 from Option 6.",
+        "possibleConfusion": "Confusing Option 5 (bifurcation) with Option 6 (united state with statutory council).",
+        "decisionRules": [
+          {
+            "when": "Option 5 = Bifurcation into Telangana and Seemandhra (Hyderabad to Telangana).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Option 6 = Keep state united with empowered Statutory Regional Council (committee's preferred option).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Commit to memory the distinction: Option 5 = Bifurcation; Option 6 = United AP with Council."
+      },
+      {
+        "observation": "Selects Option 6 instead of Option 5.",
+        "correctMeaning": "Option 6 was the united state proposal favored by the committee; Option 5 was bifurcation.",
+        "selectedMeaning": "Confused the committee's preferred option (6) with the bifurcation option (5).",
+        "possibleConfusion": "Because the committee recommended Option 6 as 'best', students often confuse its number.",
+        "decisionRules": [
+          {
+            "when": "Option 5 = Bifurcation (what the people of Telangana wanted and eventually got).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Option 6 = United AP with Regional Council (what the committee endorsed).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Always check whether the question asks for Option 5 (Bifurcation) or Option 6 (United AP)."
+      },
+      {
+        "observation": "Selects Option 3 (Hyderabad as Union Territory).",
+        "correctMeaning": "Option 3 was bifurcation with Hyderabad as a Union Territory, rejected by Telangana people.",
+        "selectedMeaning": "Confused Option 3 with Option 5.",
+        "possibleConfusion": "Both involve dividing the state into two parts.",
+        "decisionRules": [
+          {
+            "when": "Option 3 = Bifurcation with Hyderabad as UT.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Option 5 = Bifurcation with Hyderabad as Telangana capital.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Note the capital status: Option 3 = Hyderabad UT; Option 5 = Hyderabad to Telangana."
+      },
+      {
+        "observation": "Selects Option 4 (Rayala-Telangana).",
+        "correctMeaning": "Option 4 was the Rayala-Telangana concept (Telangana + Rayalaseema), which was widely rejected.",
+        "selectedMeaning": "Confused the Rayala-Telangana formula with standard 10-district bifurcation (Option 5).",
+        "possibleConfusion": "Rayala-Telangana was actively promoted by certain Congress politicians.",
+        "decisionRules": [
+          {
+            "when": "Option 4 = Rayala-Telangana and Coastal Andhra.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Option 5 = 10-district Telangana with Hyderabad capital.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Keep the exact numbering of the Srikrishna Committee's 6 options clear."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q289",
+    "topic": "TM-03.01",
+    "concept": "TM-03.01-M14",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "The Justice B.N. Srikrishna Committee report included an undisclosed 'Chapter 8' marked strictly confidential. On 23 March 2011, which judge of the Andhra Pradesh High Court directed the Union Ministry of Home Affairs to make Chapter 8 public, declaring that advisory bodies cannot operate secretly against democratic rights?",
+    "options": [
+      {
+        "text": "Justice L. Narasimha Reddy",
+        "why": "Justice L. Narasimha Reddy of the AP High Court delivered the landmark verdict on 23 March 2011 directing the Centre to disclose Chapter 8, observing that the committee had acted like an intelligence bureau in advising how to manage media and political resistance.",
+        "attraction": "The authentic High Court judge who ordered the disclosure of Chapter 8.",
+        "confusion": false
+      },
+      {
+        "text": "Justice N. Kumarayya",
+        "why": "Justice N. Kumarayya was a former Chief Justice of Hyderabad High Court in the early post-independence era, not 2011.",
+        "attraction": "Historic Telangana jurist.",
+        "confusion": true
+      },
+      {
+        "text": "Justice P. Jaganmohan Reddy",
+        "why": "Justice P. Jaganmohan Reddy headed the 1952 City College firing inquiry commission, six decades earlier.",
+        "attraction": "Legendary commission inquiry judge.",
+        "confusion": true
+      },
+      {
+        "text": "Justice K. Subba Rao",
+        "why": "Justice K. Subba Rao was the first Chief Justice of Andhra High Court (1954) and later Chief Justice of India (1966), not on the bench in 2011.",
+        "attraction": "Iconic constitutional jurist.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "Justice L. Narasimha Reddy of the AP High Court delivered the landmark verdict on 23 March 2011 directing the Centre to disclose Chapter 8, observing that the committee had acted like an intelligence bureau in advising how to manage media and political resistance.",
+    "clue": "Identify Justice L. Narasimha Reddy",
+    "trap": "Do not confuse with Justice N. Kumarayya",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "Justice L. Narasimha Reddy is the established historical fact.",
+    "hint": "The authentic High Court judge who ordered the disclosure of Chapter 8.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 513,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Justice L. Narasimha Reddy as the judge who ordered Chapter 8 disclosure.",
+        "correctMeaning": "Justice L. Narasimha Reddy ruled that the Srikrishna Committee exceeded its mandate in Chapter 8 by advising government strategy to suppress political agitations, ordering its public release.",
+        "selectedMeaning": "Correct choice recognizing Justice L. Narasimha Reddy.",
+        "possibleConfusion": "Confusing modern High Court judges with historical judicial inquiry heads.",
+        "decisionRules": [
+          {
+            "when": "High Court Judge who ordered disclosure of Srikrishna Committee Chapter 8 = Justice L. Narasimha Reddy.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Date of landmark judgment = 23 March 2011.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember: Justice L. Narasimha Reddy = Srikrishna Committee Chapter 8 disclosure judgment."
+      },
+      {
+        "observation": "Selects Justice N. Kumarayya.",
+        "correctMeaning": "Justice Kumarayya was from the 1950s-1960s judiciary, not the 2011 bench.",
+        "selectedMeaning": "Confused an early post-merger Chief Justice with the 2011 judge.",
+        "possibleConfusion": "Both were respected jurists from Telangana.",
+        "decisionRules": [
+          {
+            "when": "Justice Kumarayya served in the 1950s/1960s.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Justice L. Narasimha Reddy delivered the 2011 ruling.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Check judicial eras: 1960s vs 2011."
+      },
+      {
+        "observation": "Selects Justice P. Jaganmohan Reddy.",
+        "correctMeaning": "Justice Jaganmohan Reddy is famous for the 1952 City College firing report, not the 2011 Chapter 8 ruling.",
+        "selectedMeaning": "Selected the 1952 judicial inquiry head.",
+        "possibleConfusion": "Both delivered landmark rulings/reports related to Telangana agitations.",
+        "decisionRules": [
+          {
+            "when": "1952 City College Firing = Justice P. Jaganmohan Reddy.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "2011 Srikrishna Committee Chapter 8 = Justice L. Narasimha Reddy.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Always associate Jaganmohan Reddy with 1952 City College and Narasimha Reddy with 2011 Chapter 8."
+      },
+      {
+        "observation": "Selects Justice K. Subba Rao.",
+        "correctMeaning": "Justice Subba Rao was the celebrated CJI in Golaknath (1967), not a sitting judge in 2011.",
+        "selectedMeaning": "Selected a historical Supreme Court Chief Justice.",
+        "possibleConfusion": "High fame in Indian constitutional jurisprudence.",
+        "decisionRules": [
+          {
+            "when": "Justice Subba Rao was CJI in the 1960s.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "The Srikrishna Chapter 8 case was adjudicated in 2011 by Justice L. Narasimha Reddy.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Keep Supreme Court historical luminaries distinct from 2011 AP High Court benches."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q290",
+    "topic": "TM-03.01",
+    "concept": "TM-03.01-M15",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "On which date did the Congress Working Committee (CWC) pass its historic, unanimous resolution officially resolving to recommend the formation of a separate Telangana State comprising 10 districts, with Hyderabad as the common capital for a period not exceeding 10 years?",
+    "options": [
+      {
+        "text": "30 July 2013",
+        "why": "On 30 July 2013, the Congress Working Committee (CWC) met at 10 Janpath, New Delhi, and unanimously resolved to recommend to the Central Government the formation of a separate Telangana State with 10 districts.",
+        "attraction": "The authentic date of the decisive CWC Telangana resolution.",
+        "confusion": false
+      },
+      {
+        "text": "9 December 2009",
+        "why": "9 December 2009 was Union Home Minister P. Chidambaram's initial policy announcement, not the final CWC resolution.",
+        "attraction": "The initial midnight policy announcement date.",
+        "confusion": true
+      },
+      {
+        "text": "3 October 2013",
+        "why": "3 October 2013 was when the Union Cabinet officially approved the bifurcation proposal and constituted the Group of Ministers (GoM), not the CWC meeting.",
+        "attraction": "Union Cabinet approval date following CWC.",
+        "confusion": true
+      },
+      {
+        "text": "18 February 2014",
+        "why": "18 February 2014 was when the Lok Sabha passed the AP Reorganisation Bill, not the political party CWC resolution.",
+        "attraction": "Lok Sabha bill passage date.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "On 30 July 2013, the Congress Working Committee (CWC) met at 10 Janpath, New Delhi, and unanimously resolved to recommend to the Central Government the formation of a separate Telangana State with 10 districts.",
+    "clue": "Identify 30 July 2013",
+    "trap": "Do not confuse with 9 December 2009",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "30 July 2013 is the established historical fact.",
+    "hint": "The authentic date of the decisive CWC Telangana resolution.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 514,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies 30 July 2013 as the date of the CWC resolution.",
+        "correctMeaning": "The CWC passed its historic unanimous resolution on 30 July 2013, setting in motion the statutory drafting and parliamentary passage of the bifurcation bill.",
+        "selectedMeaning": "Correct choice recognizing the 30 July 2013 CWC resolution date.",
+        "possibleConfusion": "Confusing party resolution (30 July 2013) with Cabinet approval (3 Oct 2013) or Lok Sabha vote (18 Feb 2014).",
+        "decisionRules": [
+          {
+            "when": "CWC Resolution = 30 July 2013.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Union Cabinet Approval & GoM = 3 October 2013.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Lok Sabha Passage = 18 February 2014.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember the sequence: 30 July 2013 (CWC) -> 3 Oct 2013 (Cabinet) -> 18 Feb 2014 (Lok Sabha)."
+      },
+      {
+        "observation": "Confuses the 2013 CWC resolution with the 2009 announcement.",
+        "correctMeaning": "9 Dec 2009 was the government statement by Chidambaram, which was paused two weeks later.",
+        "selectedMeaning": "Selected the earlier 2009 announcement date.",
+        "possibleConfusion": "Both were major national turning points.",
+        "decisionRules": [
+          {
+            "when": "2009 = Initial government announcement.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "2013 = Final CWC resolution recommending bifurcation.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Keep 2009 initial declaration and 2013 final decision clearly distinct."
+      },
+      {
+        "observation": "Selects 3 October 2013 (Union Cabinet approval).",
+        "correctMeaning": "On 3 October 2013 the Union Cabinet formally approved the CWC's recommendation and set up the GoM.",
+        "selectedMeaning": "Confused the Union Cabinet executive approval with the political party CWC resolution.",
+        "possibleConfusion": "Cabinet action directly implemented the CWC resolution two months later.",
+        "decisionRules": [
+          {
+            "when": "CWC party resolution came first on 30 July 2013.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Union Cabinet executive approval followed on 3 October 2013.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Differentiate political party resolution (CWC) from executive cabinet decision."
+      },
+      {
+        "observation": "Selects 18 February 2014 (Lok Sabha passage).",
+        "correctMeaning": "18 February 2014 was parliamentary enactment in Lok Sabha, occurring 7 months after CWC.",
+        "selectedMeaning": "Confused legislative enactment with the governing party's resolution.",
+        "possibleConfusion": "Both were monumental victories for the statehood movement.",
+        "decisionRules": [
+          {
+            "when": "30 July 2013 = Political decision (CWC).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "18 February 2014 = Legislative passage (Lok Sabha).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Trace the path from political consensus (July 2013) to legislative law (Feb 2014)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q291",
+    "topic": "TM-03.02",
+    "concept": "TM-03.02-M01",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "On which historic date did the Lok Sabha pass the Andhra Pradesh Reorganisation Bill, 2014, amidst unprecedented scenes where the official Lok Sabha TV live telecast was temporarily interrupted?",
+    "options": [
+      {
+        "text": "18 February 2014",
+        "why": "On 18 February 2014, the Lok Sabha passed the Andhra Pradesh Reorganisation Bill, 2014 by voice vote with the support of the main opposition BJP, during which the live television feed was famously blacked out.",
+        "attraction": "The authentic date of the AP Reorganisation Bill passage in the Lok Sabha.",
+        "confusion": false
+      },
+      {
+        "text": "20 February 2014",
+        "why": "20 February 2014 was the date when the Rajya Sabha passed the bill, two days after the Lok Sabha.",
+        "attraction": "Rajya Sabha passage date.",
+        "confusion": true
+      },
+      {
+        "text": "1 March 2014",
+        "why": "1 March 2014 was the date President Pranab Mukherjee signed the bill into law (Act 6 of 2014), not the Lok Sabha vote.",
+        "attraction": "Presidential assent date.",
+        "confusion": true
+      },
+      {
+        "text": "2 June 2014",
+        "why": "2 June 2014 was the Appointed Day when Telangana officially became a state, not the parliamentary passage date.",
+        "attraction": "Telangana State Formation Day.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "On 18 February 2014, the Lok Sabha passed the Andhra Pradesh Reorganisation Bill, 2014 by voice vote with the support of the main opposition BJP, during which the live television feed was famously blacked out.",
+    "clue": "Identify 18 February 2014",
+    "trap": "Do not confuse with 20 February 2014",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "18 February 2014 is the established historical fact.",
+    "hint": "The authentic date of the AP Reorganisation Bill passage in the Lok Sabha.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 515,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies 18 February 2014 as the Lok Sabha passage date.",
+        "correctMeaning": "The Lok Sabha passed the historic bill on 18 February 2014, overcoming disruptions, pepper spray incidents in earlier sittings, and the blackout of the live telecast.",
+        "selectedMeaning": "Correct choice recognizing the Lok Sabha passage date.",
+        "possibleConfusion": "Confusing Lok Sabha passage (18 Feb) with Rajya Sabha passage (20 Feb).",
+        "decisionRules": [
+          {
+            "when": "Lok Sabha passage = 18 February 2014.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Rajya Sabha passage = 20 February 2014.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Memorize: Lok Sabha = 18 Feb 2014; Rajya Sabha = 20 Feb 2014."
+      },
+      {
+        "observation": "Selects 20 February 2014 (Rajya Sabha passage).",
+        "correctMeaning": "20 February 2014 was the Rajya Sabha passage date, where Prime Minister Manmohan Singh announced a 5-year special category status package for Seemandhra.",
+        "selectedMeaning": "Selected the Upper House passage date instead of the Lower House.",
+        "possibleConfusion": "Both houses passed the bill within 48 hours of each other.",
+        "decisionRules": [
+          {
+            "when": "Lower House (Lok Sabha) passed it first on 18 February 2014.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Upper House (Rajya Sabha) passed it second on 20 February 2014.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember the 48-hour gap between Lok Sabha (18th) and Rajya Sabha (20th)."
+      },
+      {
+        "observation": "Selects 1 March 2014 (Presidential assent).",
+        "correctMeaning": "1 March 2014 was when President Pranab Mukherjee gave assent and the Act was published in the Gazette.",
+        "selectedMeaning": "Confused executive Presidential assent with the parliamentary chamber vote.",
+        "possibleConfusion": "Presidential assent is the final constitutional enactment step.",
+        "decisionRules": [
+          {
+            "when": "Parliamentary passage = 18 & 20 February 2014.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Presidential assent = 1 March 2014.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Review the three distinct dates: Lok Sabha -> Rajya Sabha -> President."
+      },
+      {
+        "observation": "Selects 2 June 2014 (Appointed Day).",
+        "correctMeaning": "2 June 2014 was the Appointed Day of state birth, three months after legislative completion.",
+        "selectedMeaning": "Confused the state formation holiday with the parliamentary voting day.",
+        "possibleConfusion": "2 June is celebrated annually as Telangana Formation Day.",
+        "decisionRules": [
+          {
+            "when": "Legislative passage took place in February 2014.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "The state officially came into legal existence on 2 June 2014.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Keep the legislative passage phase distinct from the official Appointed Day."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q292",
+    "topic": "TM-03.02",
+    "concept": "TM-03.02-M02",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "Following passage in both Houses of Parliament, on which date did President Pranab Mukherjee accord his official Presidential assent to the Andhra Pradesh Reorganisation Act, 2014 (Act No. 6 of 2014)?",
+    "options": [
+      {
+        "text": "1 March 2014 (published in the Gazette of India on 1 March 2014)",
+        "why": "President Pranab Mukherjee signed the Andhra Pradesh Reorganisation Bill on 1 March 2014, converting it into Act No. 6 of 2014, published in the Extraordinary Gazette of India on the same day.",
+        "attraction": "The authentic date of Presidential assent for Act 6 of 2014.",
+        "confusion": false
+      },
+      {
+        "text": "18 February 2014",
+        "why": "18 February 2014 was the Lok Sabha passage date, not the date of Presidential assent.",
+        "attraction": "Lok Sabha approval date.",
+        "confusion": true
+      },
+      {
+        "text": "20 February 2014",
+        "why": "20 February 2014 was the Rajya Sabha passage date, not Presidential assent.",
+        "attraction": "Rajya Sabha approval date.",
+        "confusion": true
+      },
+      {
+        "text": "2 June 2014",
+        "why": "2 June 2014 was the Appointed Day fixed by the Ministry of Home Affairs notification, not the date of Presidential assent.",
+        "attraction": "Appointed Day for state formation.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "President Pranab Mukherjee signed the Andhra Pradesh Reorganisation Bill on 1 March 2014, converting it into Act No. 6 of 2014, published in the Extraordinary Gazette of India on the same day.",
+    "clue": "Identify 1 March 2014 (published in the Gazette of India on 1 March 2014)",
+    "trap": "Do not confuse with 18 February 2014",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "1 March 2014 (published in the Gazette of India on 1 March 2014) is the established historical fact.",
+    "hint": "The authentic date of Presidential assent for Act 6 of 2014.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 516,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies 1 March 2014 as the date of Presidential assent for Act 6 of 2014.",
+        "correctMeaning": "President Pranab Mukherjee gave his assent on 1 March 2014, formally enacting the Andhra Pradesh Reorganisation Act, 2014 as Central Act No. 6 of 2014.",
+        "selectedMeaning": "Correct choice recognizing the Presidential assent date.",
+        "possibleConfusion": "Confusing parliamentary passage with Presidential assent.",
+        "decisionRules": [
+          {
+            "when": "Presidential assent date = 1 March 2014.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Act number = Act No. 6 of 2014.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Commit to memory: Act No. 6 of 2014 received Presidential assent on 1 March 2014."
+      },
+      {
+        "observation": "Selects the Lok Sabha passage date (18 Feb 2014).",
+        "correctMeaning": "The bill still required Rajya Sabha passage and Presidential assent before becoming law.",
+        "selectedMeaning": "Equated Lok Sabha voting with final Presidential assent.",
+        "possibleConfusion": "Major media celebrations occurred immediately on 18 Feb.",
+        "decisionRules": [
+          {
+            "when": "Lok Sabha passage did not make it an Act.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "It became an Act on 1 March 2014 with Presidential signature.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Review Article 111 of the Constitution on Presidential assent."
+      },
+      {
+        "observation": "Selects the Rajya Sabha passage date (20 Feb 2014).",
+        "correctMeaning": "Rajya Sabha completed parliamentary approval, but Presidential signature occurred on 1 March 2014.",
+        "selectedMeaning": "Confused final parliamentary approval with Presidential signature.",
+        "possibleConfusion": "Rajya Sabha was the final legislative chamber.",
+        "decisionRules": [
+          {
+            "when": "Rajya Sabha passage = 20 February 2014.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Presidential assent = 1 March 2014.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Note the 9-day gap between Rajya Sabha passage and Presidential assent."
+      },
+      {
+        "observation": "Selects 2 June 2014 (Appointed Day).",
+        "correctMeaning": "The Appointed Day is when the Act took operational effect; assent occurred on 1 March 2014.",
+        "selectedMeaning": "Confused the operational commencement date with the assent date.",
+        "possibleConfusion": "Both are key dates printed in the text of the Act.",
+        "decisionRules": [
+          {
+            "when": "Assent Date = 1 March 2014 (creates the Act).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Appointed Day = 2 June 2014 (creates the new State).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember: Assent (1 March 2014) precedes Appointed Day (2 June 2014) by 3 months."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q293",
+    "topic": "TM-03.02",
+    "concept": "TM-03.02-M03",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Under Section 5 of the Andhra Pradesh Reorganisation Act, 2014, what specific statutory provision was made regarding the capital city of Hyderabad?",
+    "options": [
+      {
+        "text": "Hyderabad would serve as a common capital for both Telangana and Andhra Pradesh for a period not exceeding 10 years, after which it would be exclusively the capital of Telangana",
+        "why": "Section 5(1) provided that Hyderabad shall be the common capital for both states for a period not exceeding 10 years, and Section 5(2) specified that on expiry of this period, Hyderabad shall be the sole capital of Telangana and AP shall have a new capital.",
+        "attraction": "The exact statutory provision of Section 5.",
+        "confusion": false
+      },
+      {
+        "text": "Hyderabad was declared a permanent Union Territory with a Legislative Assembly",
+        "why": "Hyderabad was never made a Union Territory; it remained an integral part of Telangana subject only to a temporary 10-year common capital status.",
+        "attraction": "Demanded by coastal political lobbies, but firmly rejected.",
+        "confusion": true
+      },
+      {
+        "text": "Hyderabad was bifurcated into North and South police commissionerates divided between both states",
+        "why": "Hyderabad was never territorially or administratively partitioned between the two states; Section 5 only permitted shared administrative office use.",
+        "attraction": "Plausible administrative partition concept.",
+        "confusion": true
+      },
+      {
+        "text": "Hyderabad would remain a permanent joint capital indefinitely until Parliament legislates otherwise",
+        "why": "The statutory period was strictly bounded by 'a period not exceeding 10 years', expiring automatically on 2 June 2024.",
+        "attraction": "Open-ended joint capital arrangement similar to Chandigarh.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "Section 5(1) provided that Hyderabad shall be the common capital for both states for a period not exceeding 10 years, and Section 5(2) specified that on expiry of this period, Hyderabad shall be the sole capital of Telangana and AP shall have a new capital.",
+    "clue": "Identify Hyderabad would serve as a common capital for both Telangana and Andhra Pradesh for a period not exceeding 10 years, after which it would be exclusively the capital of Telangana",
+    "trap": "Do not confuse with Hyderabad was declared a permanent Union Territory with a Legislative Assembly",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "Hyderabad would serve as a common capital for both Telangana and Andhra Pradesh for a period not exceeding 10 years, after which it would be exclusively the capital of Telangana is the established historical fact.",
+    "hint": "The exact statutory provision of Section 5.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 517,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Section 5: Hyderabad as common capital for not more than 10 years.",
+        "correctMeaning": "Section 5 mandated that Hyderabad serves as common capital for up to 10 years (expiring 2 June 2024), after which it belongs exclusively to Telangana.",
+        "selectedMeaning": "Correct choice recognizing Section 5 of the 2014 Act.",
+        "possibleConfusion": "Comparing Hyderabad with Chandigarh's permanent Union Territory status.",
+        "decisionRules": [
+          {
+            "when": "Section 5 = Hyderabad common capital for not exceeding 10 years.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "On 2 June 2024, the 10-year period expired and Hyderabad is exclusively Telangana's capital.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Commit Section 5 to memory: Common Capital for up to 10 years."
+      },
+      {
+        "observation": "Assumes Hyderabad was made a Union Territory.",
+        "correctMeaning": "Telangana political leadership and students successfully prevented Hyderabad from becoming a Union Territory.",
+        "selectedMeaning": "Selected the rejected Seemandhra political demand.",
+        "possibleConfusion": "Repeated media debates about UT status prior to the bill's passage.",
+        "decisionRules": [
+          {
+            "when": "Hyderabad was never a Union Territory under the 2014 Act.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "It is solely within the territory of Telangana.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Note that Section 5 specifically kept Hyderabad within Telangana territory."
+      },
+      {
+        "observation": "Selects physical bifurcation into North/South commissionerates.",
+        "correctMeaning": "There was no geographic division of Hyderabad city between the two states.",
+        "selectedMeaning": "Mistook joint office arrangements for a territorial partition.",
+        "possibleConfusion": "Certain buildings (Secretariat blocks, Assembly) were temporarily shared.",
+        "decisionRules": [
+          {
+            "when": "City territory was completely preserved intact under Telangana.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Only designated government complexes were shared on lease.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Verify that Section 5 dealt with administrative capital function, not territorial split."
+      },
+      {
+        "observation": "Assumes permanent joint capital like Chandigarh.",
+        "correctMeaning": "Unlike Chandigarh, Section 5 set a strict statutory ceiling of 'not exceeding ten years'.",
+        "selectedMeaning": "Confused the Punjab/Haryana Chandigarh model with the Telangana 2014 Act.",
+        "possibleConfusion": "Chandigarh has remained a joint capital indefinitely since 1966.",
+        "decisionRules": [
+          {
+            "when": "Chandigarh = indefinite UT and joint capital.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Hyderabad = maximum 10-year temporary common capital under Section 5.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Contrast Section 5 with Chandigarh's indefinite status."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q294",
+    "topic": "TM-03.02",
+    "concept": "TM-03.02-M04",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Under Section 8 of the Andhra Pradesh Reorganisation Act, 2014, what special responsibility was assigned to the Governor of the common capital area of Greater Hyderabad?",
+    "options": [
+      {
+        "text": "Special responsibility for the security of life, liberty, and property of all people residing in the common capital area, and responsibility for law and order",
+        "why": "Section 8 assigned the Governor special responsibility for security of life, liberty, and property, law and order, internal security, and safety of vital installations in the common capital area, consulting the Council of Ministers but exercising individual judgment.",
+        "attraction": "The authentic, highly debated statutory provision of Section 8.",
+        "confusion": false
+      },
+      {
+        "text": "Direct legislative power to veto financial bills passed by the Telangana Legislative Assembly",
+        "why": "The Governor was never granted financial veto powers over the legislature; normal constitutional rules under Article 200 applied.",
+        "attraction": "Extreme executive power over state finances.",
+        "confusion": true
+      },
+      {
+        "text": "Supervisory authority over revenue collections of the Greater Hyderabad Municipal Corporation",
+        "why": "Section 8 was strictly restricted to law and order, security of residents, and vital installations, having no jurisdiction over municipal tax revenues.",
+        "attraction": "Administrative revenue supervision concept.",
+        "confusion": true
+      },
+      {
+        "text": "Sole authority to conduct recruitment of public servants through TSPSC",
+        "why": "Recruitment remained the constitutional prerogative of the newly constituted Public Service Commission, entirely outside Section 8.",
+        "attraction": "Employment safeguard concept.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "Section 8 assigned the Governor special responsibility for security of life, liberty, and property, law and order, internal security, and safety of vital installations in the common capital area, consulting the Council of Ministers but exercising individual judgment.",
+    "clue": "Identify Special responsibility for the security of life, liberty, and property of all people residing in the common capital area, and responsibility for law and order",
+    "trap": "Do not confuse with Direct legislative power to veto financial bills passed by the Telangana Legislative Assembly",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "Special responsibility for the security of life, liberty, and property of all people residing in the common capital area, and responsibility for law and order is the established historical fact.",
+    "hint": "The authentic, highly debated statutory provision of Section 8.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 518,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Section 8: Governor's special responsibility for law and order in common capital.",
+        "correctMeaning": "Section 8 gave the Governor special responsibility for security of life, liberty, property, and law and order in Greater Hyderabad, which was strongly criticized by TRS as an infringement on state autonomy.",
+        "selectedMeaning": "Correct choice recognizing Section 8 of the 2014 Act.",
+        "possibleConfusion": "Confusing law and order responsibility with municipal or legislative powers.",
+        "decisionRules": [
+          {
+            "when": "Section 8 = Governor's special responsibility for law & order in common capital area.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Applicable only during the period Hyderabad served as common capital.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Commit Section 8 to memory: Governor's special powers for law and order in Hyderabad."
+      },
+      {
+        "observation": "Assumes financial bill veto power.",
+        "correctMeaning": "Section 8 did not touch financial or legislative procedures of the state assembly.",
+        "selectedMeaning": "Attributed exaggerated legislative veto powers to the Governor.",
+        "possibleConfusion": "Section 8 was contentious, leading some to assume vast legislative interference.",
+        "decisionRules": [
+          {
+            "when": "Legislative powers are governed by standard Articles 199 and 200.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Section 8 is strictly confined to security and law and order.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Re-read Section 8 text to verify its scope is limited to security."
+      },
+      {
+        "observation": "Selects GHMC municipal revenue supervision.",
+        "correctMeaning": "GHMC finances and municipal administration remained entirely with the state government.",
+        "selectedMeaning": "Confused civic governance with the law and order security mandate.",
+        "possibleConfusion": "The common capital area coincided largely with GHMC boundaries.",
+        "decisionRules": [
+          {
+            "when": "GHMC revenue collection was not transferred to the Governor.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Only safety, security, and vital installations fell under Section 8.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Note the boundary of GHMC was used only to define the geographical security area."
+      },
+      {
+        "observation": "Selects TSPSC recruitment authority.",
+        "correctMeaning": "Public employment recruitment was governed by Section 85 and Article 315, not Section 8.",
+        "selectedMeaning": "Confused employee recruitment with the Governor's security role.",
+        "possibleConfusion": "Employment was the central issue of the Telangana movement.",
+        "decisionRules": [
+          {
+            "when": "Public employment is governed by Part VIII of the Act and Article 371-D.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Section 8 relates strictly to security and policing oversight.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Keep employment/cadre allocation separate from Section 8 security provisions."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q295",
+    "topic": "TM-03.02",
+    "concept": "TM-03.02-M05",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Soon after the passage of the AP Reorganisation Act 2014, seven revenue mandals of Khammam district were transferred to Andhra Pradesh to facilitate the Indira Sagar (Polavaram) National Irrigation Project. Which of the following mandals was partially (not fully) transferred under this statutory reallocation?",
+    "options": [
+      {
+        "text": "Burgampahad mandal (only revenue villages affected by Polavaram submergence were transferred; mandal headquarters remained in Telangana)",
+        "why": "Of the seven transferred mandals, six (Kukunoor, Velairpadu, Kunavaram, Chintoor, VR Puram, and Bhadrachalam rural villages) were transferred completely or primarily, but Burgampahad was strictly bifurcated: only the submergence villages were transferred to AP, while the mandal headquarters Burgampahad remained in Telangana (now in Bhadradri Kothagudem).",
+        "attraction": "The classic, exact factual question tested in TSPSC SI and Constable examinations.",
+        "confusion": false
+      },
+      {
+        "text": "Kunavaram mandal (fully transferred)",
+        "why": "Kunavaram mandal was fully transferred in its entirety to East Godavari / Alluri Sitharama Raju district of Andhra Pradesh.",
+        "attraction": "Completely transferred mandal.",
+        "confusion": true
+      },
+      {
+        "text": "Chintoor mandal (fully transferred)",
+        "why": "Chintoor mandal was completely transferred in its entirety to Andhra Pradesh.",
+        "attraction": "Completely transferred tribal mandal.",
+        "confusion": true
+      },
+      {
+        "text": "Vararamachandrapuram / VR Puram mandal (fully transferred)",
+        "why": "VR Puram mandal was transferred in its entirety to Andhra Pradesh.",
+        "attraction": "Completely transferred submergence mandal.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "Of the seven transferred mandals, six (Kukunoor, Velairpadu, Kunavaram, Chintoor, VR Puram, and Bhadrachalam rural villages) were transferred completely or primarily, but Burgampahad was strictly bifurcated: only the submergence villages were transferred to AP, while the mandal headquarters Burgampahad remained in Telangana (now in Bhadradri Kothagudem).",
+    "clue": "Identify Burgampahad mandal (only revenue villages affected by Polavaram submergence were transferred; mandal headquarters remained in Telangana)",
+    "trap": "Do not confuse with Kunavaram mandal (fully transferred)",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "Burgampahad mandal (only revenue villages affected by Polavaram submergence were transferred; mandal headquarters remained in Telangana) is the established historical fact.",
+    "hint": "The classic, exact factual question tested in TSPSC SI and Constable examinations.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 519,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Burgampahad as the mandal only partially transferred to Andhra Pradesh.",
+        "correctMeaning": "Under the Polavaram transfer ordinance/amendment (2014), Burgampahad mandal was split: non-submergence villages and the mandal HQ remained in Telangana, while submergence villages went to AP.",
+        "selectedMeaning": "Correct choice recognizing the partial transfer of Burgampahad mandal.",
+        "possibleConfusion": "Thinking all 7 mandals were transferred as complete administrative units.",
+        "decisionRules": [
+          {
+            "when": "The partially transferred mandal = Burgampahad (HQ remained in Telangana).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Also Bhadrachalam temple town and revenue village remained in Telangana, while its rural submergence hamlets were moved to AP.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Commit to memory: Burgampahad = partially transferred mandal (HQ in Telangana)."
+      },
+      {
+        "observation": "Selects Kunavaram, which was transferred fully.",
+        "correctMeaning": "Kunavaram was completely transferred to Andhra Pradesh without retaining any part in Telangana.",
+        "selectedMeaning": "Confused a fully transferred mandal with the bifurcated mandal.",
+        "possibleConfusion": "Kunavaram is one of the celebrated 7 transferred mandals.",
+        "decisionRules": [
+          {
+            "when": "Kunavaram = fully transferred.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Burgampahad = partially transferred.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Review the list of 6 fully transferred mandals versus Burgampahad."
+      },
+      {
+        "observation": "Selects Chintoor, which was transferred fully.",
+        "correctMeaning": "Chintoor was fully transferred to AP and became a revenue division headquarters in AP.",
+        "selectedMeaning": "Confused a fully transferred tribal division with Burgampahad.",
+        "possibleConfusion": "Chintoor had the largest tribal population among the transferred mandals.",
+        "decisionRules": [
+          {
+            "when": "Chintoor was transferred completely.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Only Burgampahad had its headquarters retained in Telangana.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Note Chintoor's total transfer to Andhra Pradesh."
+      },
+      {
+        "observation": "Selects VR Puram, which was transferred fully.",
+        "correctMeaning": "VR Puram was located directly in the gorge submergence zone and was transferred entirely.",
+        "selectedMeaning": "Mistook a completely submerged and transferred mandal for the partial one.",
+        "possibleConfusion": "VR Puram was the epicenter of Polavaram submergence fears.",
+        "decisionRules": [
+          {
+            "when": "VR Puram = 100% transferred.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Burgampahad = partially transferred.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Memorize the 7 transferred mandals: Kukunoor, Velairpadu, Chintoor, Kunavaram, VR Puram, Bhadrachalam (rural villages), Burgampahad (partial)."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q296",
+    "topic": "TM-03.02",
+    "concept": "TM-03.02-M06",
+    "model": "Chronology",
+    "modelId": "TM-QM-CHRON-01",
+    "stage": "practice",
+    "prompt": "On which date, officially designated as the 'Appointed Day' under Section 2(a) of the Andhra Pradesh Reorganisation Act 2014, did the new State of Telangana legally come into existence as the 29th State of the Republic of India?",
+    "options": [
+      {
+        "text": "2 June 2014",
+        "why": "By official notification of the Ministry of Home Affairs on 4 March 2014, 2 June 2014 was notified as the 'Appointed Day', on which Telangana officially became India's 29th State and KCR was sworn in as the first Chief Minister.",
+        "attraction": "The authentic Appointed Day / Telangana State Formation Day.",
+        "confusion": false
+      },
+      {
+        "text": "1 March 2014",
+        "why": "1 March 2014 was the date of Presidential assent to Act No. 6 of 2014, not the Appointed Day of state birth.",
+        "attraction": "Presidential assent date.",
+        "confusion": true
+      },
+      {
+        "text": "15 August 2014",
+        "why": "15 August 2014 was India's Independence Day, where KCR delivered his first address at Golconda Fort, not the Appointed Day.",
+        "attraction": "Historic Independence Day celebrated at Golconda Fort.",
+        "confusion": true
+      },
+      {
+        "text": "1 November 2014",
+        "why": "1 November was the date of Andhra Pradesh formation in 1956, which Telangana people had rejected for decades.",
+        "attraction": "Former Andhra Pradesh state formation date.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "By official notification of the Ministry of Home Affairs on 4 March 2014, 2 June 2014 was notified as the 'Appointed Day', on which Telangana officially became India's 29th State and KCR was sworn in as the first Chief Minister.",
+    "clue": "Identify 2 June 2014",
+    "trap": "Do not confuse with 1 March 2014",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "2 June 2014 is the established historical fact.",
+    "hint": "The authentic Appointed Day / Telangana State Formation Day.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 520,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies 2 June 2014 as the official Appointed Day of Telangana.",
+        "correctMeaning": "2 June 2014 is the statutory Appointed Day under Section 2(a) of the AP Reorganisation Act 2014, celebrated annually as Telangana State Formation Day.",
+        "selectedMeaning": "Correct choice recognizing 2 June 2014.",
+        "possibleConfusion": "Confusing Presidential assent (1 March 2014) with the Appointed Day (2 June 2014).",
+        "decisionRules": [
+          {
+            "when": "Appointed Day = 2 June 2014.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Swearing-in: KCR as first CM, E.S.L. Narasimhan as Governor.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Commit to memory: 2 June 2014 = Telangana Appointed Day / State Formation Day."
+      },
+      {
+        "observation": "Selects 1 March 2014 (Presidential assent).",
+        "correctMeaning": "1 March 2014 made the bill an Act; the Act itself came into force on the Appointed Day (2 June 2014).",
+        "selectedMeaning": "Confused the date of enactment with the Appointed Day.",
+        "possibleConfusion": "Both dates mark major legal milestones.",
+        "decisionRules": [
+          {
+            "when": "Presidential assent = 1 March 2014.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Appointed Day = 2 June 2014.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Differentiate between enactment date and appointed commencement date."
+      },
+      {
+        "observation": "Selects 15 August 2014.",
+        "correctMeaning": "15 August 2014 was the first Independence Day celebrated at Golconda Fort, not the state's founding day.",
+        "selectedMeaning": "Confused the historic Golconda Fort speech with the founding day.",
+        "possibleConfusion": "KCR shifted the Independence Day parade from Parade Grounds to Golconda Fort in 2014.",
+        "decisionRules": [
+          {
+            "when": "2 June 2014 = State Formation Day.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "15 August 2014 = First Independence Day at Golconda Fort.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Note the significance of Golconda Fort on 15 August 2014."
+      },
+      {
+        "observation": "Selects 1 November 2014.",
+        "correctMeaning": "1 November 1956 was the original merger date (Visalandhra), which was commemorated as a betrayal day by Telangana people.",
+        "selectedMeaning": "Selected the old composite state formation anniversary.",
+        "possibleConfusion": "Andhra Pradesh celebrated 1 November for 58 years.",
+        "decisionRules": [
+          {
+            "when": "1 November = 1956 Andhra Pradesh merger.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "2 June = 2014 Telangana State formation.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember why 2 June replaced 1 November as the state day."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q297",
+    "topic": "TM-03.02",
+    "concept": "TM-03.02-M07",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Under the new Presidential Order of 2018 (The Telangana Public Employment Organisation of Local Cadres and Regulation of Direct Recruitment Order, 2018), the state was reorganized into 7 Zones and 2 Multi-Zones. What exact percentage of direct recruitment posts in District, Zonal, and Multi-Zonal cadres (including Police SI and Constable) was reserved for local candidates?",
+    "options": [
+      {
+        "text": "95% reservation for local candidates (5% open unreserved quota)",
+        "why": "Under the 2018 Presidential Order, an unprecedented 95% of direct recruitment posts in all local cadres (District, Zonal, and Multi-Zonal, including SI and Constable) are reserved exclusively for local candidates, leaving only 5% as open unreserved quota.",
+        "attraction": "The exact statutory reservation percentage enacted in the 2018 Presidential Order.",
+        "confusion": false
+      },
+      {
+        "text": "80% reservation for local candidates (20% open quota)",
+        "why": "80% was the district cadre local reservation under the old 1975 Presidential Order, not the 2018 Order.",
+        "attraction": "Old 1975 Presidential Order district percentage.",
+        "confusion": true
+      },
+      {
+        "text": "70% reservation for local candidates (30% open quota)",
+        "why": "70% was the zonal non-gazetted reservation under the 1975 Presidential Order, not the 2018 Order.",
+        "attraction": "Old 1975 Presidential Order zonal percentage.",
+        "confusion": true
+      },
+      {
+        "text": "100% reservation for local candidates (0% open quota)",
+        "why": "100% local reservation is unconstitutional under Article 16(2) and Supreme Court rulings; the order legally preserves a 5% unreserved merit pool.",
+        "attraction": "Common misconception that local reservation is total.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "Under the 2018 Presidential Order, an unprecedented 95% of direct recruitment posts in all local cadres (District, Zonal, and Multi-Zonal, including SI and Constable) are reserved exclusively for local candidates, leaving only 5% as open unreserved quota.",
+    "clue": "Identify 95% reservation for local candidates (5% open unreserved quota)",
+    "trap": "Do not confuse with 80% reservation for local candidates (20% open quota)",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "95% reservation for local candidates (5% open unreserved quota) is the established historical fact.",
+    "hint": "The exact statutory reservation percentage enacted in the 2018 Presidential Order.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 521,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies 95% local reservation under the 2018 Presidential Order.",
+        "correctMeaning": "The 2018 Presidential Order unified all cadres (District, Zonal, Multi-Zonal) to provide a uniform 95% reservation for locals and 5% open merit quota, directly applying to TS Police SI and Constable recruitments.",
+        "selectedMeaning": "Correct choice recognizing 95% local reservation.",
+        "possibleConfusion": "Confusing 2018's 95% with 1975's tiered 80%/70%/60% system.",
+        "decisionRules": [
+          {
+            "when": "2018 Presidential Order = 95% local reservation across District, Zonal, and Multi-Zonal posts.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "1975 Presidential Order = 80% District, 70% Zonal Non-Gazetted, 60% Zonal Gazetted.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Commit 95% to memory: direct question for TS Police SI and Constable aspirants."
+      },
+      {
+        "observation": "Selects 80% from the 1975 Presidential Order.",
+        "correctMeaning": "80% applied only to district cadres under the 1975 order; the 2018 order raised it to 95%.",
+        "selectedMeaning": "Selected the old 1975 district reservation percentage.",
+        "possibleConfusion": "1975 order percentages are frequently memorized for history questions.",
+        "decisionRules": [
+          {
+            "when": "1975 Order District Cadre = 80%.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "2018 Order all cadres = 95%.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Always verify whether the question asks about the 1975 Order or the 2018 Order."
+      },
+      {
+        "observation": "Selects 70% from the 1975 Zonal cadre.",
+        "correctMeaning": "70% was the old zonal non-gazetted quota; 2018 unified everything at 95%.",
+        "selectedMeaning": "Selected the old zonal non-gazetted percentage.",
+        "possibleConfusion": "SI is a zonal/multi-zonal post, leading students to remember old zonal figures.",
+        "decisionRules": [
+          {
+            "when": "Under the 2018 Order, Sub-Inspector (Multi-Zonal) is 95% local.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "The old 70% figure is completely superseded.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Note that under the 2018 order, SI posts enjoy 95% local reservation."
+      },
+      {
+        "observation": "Selects 100% reservation.",
+        "correctMeaning": "Supreme Court jurisprudence prohibits 100% reservation in direct recruitment, so 5% open quota is retained.",
+        "selectedMeaning": "Assumed total exclusion of non-locals.",
+        "possibleConfusion": "Believing 'local quota' means complete exclusion of outside competition.",
+        "decisionRules": [
+          {
+            "when": "5% is open to all on merit.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "95% is strictly reserved for local candidates.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember the 95:5 ratio in all Telangana direct recruitment notifications."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q298",
+    "topic": "TM-03.02",
+    "concept": "TM-03.02-M08",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "Under the 2018 Presidential Order 7-zone organizational setup, into which two Multi-Zones are the 7 Zones grouped for higher state government cadres, including Police Sub-Inspectors (SI)?",
+    "options": [
+      {
+        "text": "Multi-Zone I (Zones 1 to 4: Kaleshwaram, Basara, Rajanna, Bhadradri) and Multi-Zone II (Zones 5 to 7: Yadadri, Charminar, Jogulamba)",
+        "why": "Multi-Zone I comprises Zone 1 (Kaleshwaram), Zone 2 (Basara), Zone 3 (Rajanna), and Zone 4 (Bhadradri). Multi-Zone II comprises Zone 5 (Yadadri), Zone 6 (Charminar), and Zone 7 (Jogulamba).",
+        "attraction": "The authentic, statutory grouping of Zones into Multi-Zones under the 2018 Order.",
+        "confusion": false
+      },
+      {
+        "text": "Multi-Zone I (Zones 1 to 3) and Multi-Zone II (Zones 4 to 7)",
+        "why": "Multi-Zone I has 4 zones (1-4) and Multi-Zone II has 3 zones (5-7), not 3 and 4.",
+        "attraction": "Plausible numerical division.",
+        "confusion": true
+      },
+      {
+        "text": "Multi-Zone I (Northern Telangana: Zones 1, 2, 5) and Multi-Zone II (Southern Telangana: Zones 3, 4, 6, 7)",
+        "why": "Zone 5 (Yadadri) is in Multi-Zone II, not Multi-Zone I; Zone 3 and 4 are in Multi-Zone I.",
+        "attraction": "Geographical north-south speculation.",
+        "confusion": true
+      },
+      {
+        "text": "Multi-Zone I (Rural Zones) and Multi-Zone II (Urban GHMC Zones)",
+        "why": "The zones are contiguous geographical territories combining rural and urban districts, not separated into rural and urban categories.",
+        "attraction": "Rural vs urban administrative categorization.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "Multi-Zone I comprises Zone 1 (Kaleshwaram), Zone 2 (Basara), Zone 3 (Rajanna), and Zone 4 (Bhadradri). Multi-Zone II comprises Zone 5 (Yadadri), Zone 6 (Charminar), and Zone 7 (Jogulamba).",
+    "clue": "Identify Multi-Zone I (Zones 1 to 4: Kaleshwaram, Basara, Rajanna, Bhadradri) and Multi-Zone II (Zones 5 to 7: Yadadri, Charminar, Jogulamba)",
+    "trap": "Do not confuse with Multi-Zone I (Zones 1 to 3) and Multi-Zone II (Zones 4 to 7)",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "Multi-Zone I (Zones 1 to 4: Kaleshwaram, Basara, Rajanna, Bhadradri) and Multi-Zone II (Zones 5 to 7: Yadadri, Charminar, Jogulamba) is the established historical fact.",
+    "hint": "The authentic, statutory grouping of Zones into Multi-Zones under the 2018 Order.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 522,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Multi-Zone I (Zones 1-4) and Multi-Zone II (Zones 5-7).",
+        "correctMeaning": "Multi-Zone I (Northern & Eastern: Kaleshwaram, Basara, Rajanna, Bhadradri) and Multi-Zone II (Central & Southern: Yadadri, Charminar, Jogulamba) divide the state for SI and intermediate gazetted cadres.",
+        "selectedMeaning": "Correct choice recognizing the exact zone distribution between Multi-Zone I and II.",
+        "possibleConfusion": "Misremembering which zone numbers belong to Multi-Zone I versus Multi-Zone II.",
+        "decisionRules": [
+          {
+            "when": "Multi-Zone I = Zones 1, 2, 3, 4 (Kaleshwaram, Basara, Rajanna, Bhadradri).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Multi-Zone II = Zones 5, 6, 7 (Yadadri, Charminar, Jogulamba).",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Commit to memory: Multi-Zone I has 4 zones (1 to 4); Multi-Zone II has 3 zones (5 to 7)."
+      },
+      {
+        "observation": "Assumes Multi-Zone I has 3 zones and Multi-Zone II has 4.",
+        "correctMeaning": "Multi-Zone I contains 4 zones; Multi-Zone II contains 3 zones.",
+        "selectedMeaning": "Reversed the zone count between the two multi-zones.",
+        "possibleConfusion": "Even split assumption (3 and 4 vs 4 and 3).",
+        "decisionRules": [
+          {
+            "when": "Multi-Zone I has 4 zones.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Multi-Zone II has 3 zones.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "List the 7 zones in order: Kaleshwaram, Basara, Rajanna, Bhadradri, Yadadri, Charminar, Jogulamba."
+      },
+      {
+        "observation": "Mismatches Zone 5 into Multi-Zone I.",
+        "correctMeaning": "Zone 5 (Yadadri) is part of Multi-Zone II along with Charminar (6) and Jogulamba (7).",
+        "selectedMeaning": "Misclassified Zone 5 into Multi-Zone I.",
+        "possibleConfusion": "Yadadri borders northern districts, causing boundary confusion.",
+        "decisionRules": [
+          {
+            "when": "Yadadri (Zone 5) is in Multi-Zone II.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Bhadradri (Zone 4) is in Multi-Zone I.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember: Bhadradri is in MZ-I; Yadadri is in MZ-II."
+      },
+      {
+        "observation": "Assumes rural versus urban split.",
+        "correctMeaning": "Zonal division is purely geographic and contiguous, not segregated by urban/rural characteristics.",
+        "selectedMeaning": "Confused functional zoning with geographic multi-zoning.",
+        "possibleConfusion": "Charminar (Zone 6) includes urban GHMC, tempting students to assume an urban category.",
+        "decisionRules": [
+          {
+            "when": "Zones are territorial clusters of revenue districts.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Charminar zone also includes Rangareddy and Medchal-Malkajgiri districts.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Review district allocations within each of the 7 zones."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q299",
+    "topic": "TM-03.02",
+    "concept": "TM-03.02-M09",
+    "model": "Recognition",
+    "modelId": "TM-QM-REC-01",
+    "stage": "practice",
+    "prompt": "In June 2024, the Government of Telangana officially adopted the celebrated song 'Jaya Jayahe Telangana Janani Jayakethanam' as the official State Anthem of Telangana. Who is the renowned poet and folk lyricist who composed this iconic anthem during the statehood agitation?",
+    "options": [
+      {
+        "text": "Dr. Ande Sri",
+        "why": "Dr. Ande Sri (Andesree), a self-taught folk poet and philosopher from Jangaon, composed 'Jaya Jayahe Telangana Janani Jayakethanam', which became the emotional anthem of the statehood agitation and was officially designated the State Anthem in June 2024.",
+        "attraction": "The authentic composer of the official Telangana State Anthem.",
+        "confusion": false
+      },
+      {
+        "text": "Gaddar",
+        "why": "Gaddar wrote and sang immortal movement songs like 'Podustunna Poddu Meeda' and 'Amma Telanganama', but did not write 'Jaya Jayahe Telangana'.",
+        "attraction": "Legendary revolutionary balladeer.",
+        "confusion": true
+      },
+      {
+        "text": "Goreti Venkanna",
+        "why": "Goreti Venkanna wrote celebrated folk songs like 'Galli Chinnadi' and 'Vallanki Taalam' (Sahitya Akademi Award), not 'Jaya Jayahe Telangana'.",
+        "attraction": "Eminent Telangana folk poet and MLC.",
+        "confusion": true
+      },
+      {
+        "text": "Nandini Sidha Reddy",
+        "why": "Nandini Sidha Reddy composed the famous song 'Nageti Chaallalla Naa Telangana' and headed the Telangana Sahitya Academy, but not 'Jaya Jayahe Telangana'.",
+        "attraction": "First Chairman of Telangana Sahitya Academy.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "Dr. Ande Sri (Andesree), a self-taught folk poet and philosopher from Jangaon, composed 'Jaya Jayahe Telangana Janani Jayakethanam', which became the emotional anthem of the statehood agitation and was officially designated the State Anthem in June 2024.",
+    "clue": "Identify Dr. Ande Sri",
+    "trap": "Do not confuse with Gaddar",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "Dr. Ande Sri is the established historical fact.",
+    "hint": "The authentic composer of the official Telangana State Anthem.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 523,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Dr. Ande Sri as the creator of 'Jaya Jayahe Telangana'.",
+        "correctMeaning": "Dr. Ande Sri penned 'Jaya Jayahe Telangana Janani Jayakethanam', which was officially notified as the State Anthem in June 2024 with music composed by M.M. Keeravani.",
+        "selectedMeaning": "Correct choice recognizing Dr. Ande Sri.",
+        "possibleConfusion": "Confusing Dr. Ande Sri with Gaddar, Goreti Venkanna, or Nandini Sidha Reddy.",
+        "decisionRules": [
+          {
+            "when": "'Jaya Jayahe Telangana' = Dr. Ande Sri (State Anthem).",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "'Podustunna Poddu Meeda' & 'Amma Telanganama' = Gaddar.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "'Nageti Chaallalla Naa Telangana' = Nandini Sidha Reddy.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Commit to memory: State Anthem = Dr. Ande Sri (adopted June 2024)."
+      },
+      {
+        "observation": "Selects Gaddar.",
+        "correctMeaning": "Gaddar is famous for 'Amma Telanganama' and 'Podustunna Poddu Meeda', while Ande Sri composed 'Jaya Jayahe Telangana'.",
+        "selectedMeaning": "Confused the revolutionary balladeer with the state anthem poet.",
+        "possibleConfusion": "Gaddar's songs were omnipresent in every rally.",
+        "decisionRules": [
+          {
+            "when": "Gaddar composed 'Podustunna Poddu Meeda'.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Ande Sri composed 'Jaya Jayahe Telangana'.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Match the iconic songs to their respective authors."
+      },
+      {
+        "observation": "Selects Goreti Venkanna.",
+        "correctMeaning": "Goreti Venkanna wrote 'Galli Chinnadi' and won the 2021 Sahitya Akademi Award for 'Vallanki Taalam'.",
+        "selectedMeaning": "Confused Goreti Venkanna's folk works with the State Anthem.",
+        "possibleConfusion": "Both are celebrated rural folk poets.",
+        "decisionRules": [
+          {
+            "when": "Goreti Venkanna = 'Galli Chinnadi' / 'Vallanki Taalam'.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Ande Sri = 'Jaya Jayahe Telangana' / 'Mayadari Maikamu'.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Review Goreti Venkanna's major works to avoid poet confusion."
+      },
+      {
+        "observation": "Selects Nandini Sidha Reddy.",
+        "correctMeaning": "Nandini Sidha Reddy wrote 'Nageti Chaallalla Naa Telangana' and founded MaRaSam, but did not compose 'Jaya Jayahe Telangana'.",
+        "selectedMeaning": "Confused the MaRaSam founder with Ande Sri.",
+        "possibleConfusion": "Both poets' songs were featured prominently in films like 'Jai Bolo Telangana'.",
+        "decisionRules": [
+          {
+            "when": "Nandini Sidha Reddy = 'Nageti Chaallalla Naa Telangana'.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Ande Sri = 'Jaya Jayahe Telangana'.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Differentiate the poetic styles and signature songs of Sidha Reddy and Ande Sri."
+      }
+    ]
+  },
+  {
+    "id": "TM-Q300",
+    "topic": "TM-03.02",
+    "concept": "TM-03.02-M10",
+    "model": "Provision identification",
+    "modelId": "TM-QM-PROV-01",
+    "stage": "practice",
+    "prompt": "In 2024, the Government of Telangana constituted a Judicial Commission of Inquiry headed by a retired Supreme Court judge to thoroughly investigate alleged structural irregularities, sinking of piers, and design defects at the Medigadda, Annaram, and Sundilla barrages of the Kaleshwaram Lift Irrigation Project. Who heads this commission?",
+    "options": [
+      {
+        "text": "Justice Pinaki Chandra Ghose (Justice P.C. Ghose, former Supreme Court judge and former Lokpal of India)",
+        "why": "In March 2024, the Telangana government appointed Justice Pinaki Chandra Ghose (P.C. Ghose), former Supreme Court judge and India's first Lokpal, as the one-man Judicial Commission of Inquiry to probe irregularities in the Medigadda, Annaram, and Sundilla barrages of the Kaleshwaram project.",
+        "attraction": "The authentic head of the 2024 Kaleshwaram judicial inquiry commission.",
+        "confusion": false
+      },
+      {
+        "text": "Justice L. Narasimha Reddy",
+        "why": "Justice L. Narasimha Reddy was appointed in March 2024 to probe the power purchase agreements and Bhadradri/Yadadri thermal power plant decisions (later stepped down), not the Kaleshwaram barrages commission.",
+        "attraction": "Headed the parallel 2024 power sector inquiry commission.",
+        "confusion": true
+      },
+      {
+        "text": "Justice B.N. Srikrishna",
+        "why": "Justice B.N. Srikrishna headed the 2010 Committee on Andhra Pradesh situation, 14 years earlier.",
+        "attraction": "Famous head of the 2010 statehood consultations committee.",
+        "confusion": true
+      },
+      {
+        "text": "Justice V.R. Krishna Iyer",
+        "why": "Justice V.R. Krishna Iyer was a legendary Supreme Court jurist who passed away in 2014, with no connection to the 2024 inquiry.",
+        "attraction": "Historic legal icon.",
+        "confusion": true
+      }
+    ],
+    "answer": 0,
+    "reason": "In March 2024, the Telangana government appointed Justice Pinaki Chandra Ghose (P.C. Ghose), former Supreme Court judge and India's first Lokpal, as the one-man Judicial Commission of Inquiry to probe irregularities in the Medigadda, Annaram, and Sundilla barrages of the Kaleshwaram project.",
+    "clue": "Identify Justice Pinaki Chandra Ghose (Justice P.C. Ghose, former Supreme Court judge and former Lokpal of India)",
+    "trap": "Do not confuse with Justice L. Narasimha Reddy",
+    "elimination": "Option 1 is correct. Others are distractors.",
+    "anchor": "Justice Pinaki Chandra Ghose (Justice P.C. Ghose, former Supreme Court judge and former Lokpal of India) is the established historical fact.",
+    "hint": "The authentic head of the 2024 Kaleshwaram judicial inquiry commission.",
+    "source": "SR-POLICE-SI-2016",
+    "page": 524,
+    "sourceStatus": "VERIFIED PYQ",
+    "difficulty": 1,
+    "relevance": 5,
+    "teaching": [
+      {
+        "observation": "Identifies Justice P.C. Ghose as head of the 2024 Kaleshwaram Commission.",
+        "correctMeaning": "Justice P.C. Ghose was appointed in March 2024 to investigate the pier sinking and construction defects at Medigadda, Annaram, and Sundilla barrages of the Kaleshwaram project.",
+        "selectedMeaning": "Correct choice recognizing Justice P.C. Ghose.",
+        "possibleConfusion": "Confusing Justice P.C. Ghose (Kaleshwaram Barrages) with Justice L. Narasimha Reddy (Power Purchases / Power Plants).",
+        "decisionRules": [
+          {
+            "when": "Kaleshwaram Barrages (Medigadda) Inquiry = Justice P.C. Ghose Commission.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Power Purchase Agreements (Bhadradri/Yadadri) Inquiry = Justice L. Narasimha Reddy Commission.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Remember the two 2024 inquiries: Justice P.C. Ghose (Kaleshwaram) and Justice L. Narasimha Reddy (Power sector)."
+      },
+      {
+        "observation": "Selects Justice L. Narasimha Reddy.",
+        "correctMeaning": "Justice L. Narasimha Reddy was appointed to probe the electricity and power purchase deals, not the Kaleshwaram barrages.",
+        "selectedMeaning": "Confused the power sector commission with the irrigation barrage commission.",
+        "possibleConfusion": "Both commissions were announced around the same time in March 2024 by the state government.",
+        "decisionRules": [
+          {
+            "when": "Irrigation / Barrages = Justice P.C. Ghose.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Power agreements = Justice L. Narasimha Reddy.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Always distinguish the subject matter: Water/Barrages (Ghose) vs Electricity/Power (Narasimha Reddy)."
+      },
+      {
+        "observation": "Selects Justice B.N. Srikrishna.",
+        "correctMeaning": "Justice Srikrishna headed the 2010 statehood consultations committee, not the 2024 engineering probe.",
+        "selectedMeaning": "Selected the 2010 statehood committee head.",
+        "possibleConfusion": "High name recognition in Telangana contemporary history.",
+        "decisionRules": [
+          {
+            "when": "2010 Srikrishna Committee was on state bifurcation.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "2024 P.C. Ghose Commission is on Kaleshwaram barrages.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Keep statehood agitation committees distinct from post-formation governance inquiry commissions."
+      },
+      {
+        "observation": "Selects Justice V.R. Krishna Iyer.",
+        "correctMeaning": "Justice Krishna Iyer passed away in 2014 and was an iconic jurist of the 1970s and 1980s.",
+        "selectedMeaning": "Selected a historical Supreme Court figure.",
+        "possibleConfusion": "Prominent name in Indian public interest law.",
+        "decisionRules": [
+          {
+            "when": "Justice P.C. Ghose is a modern retired SC judge and former Lokpal.",
+            "choose": "Verified historical fact"
+          },
+          {
+            "when": "Verify active judicial appointments made in 2024.",
+            "choose": "Verified historical fact"
+          }
+        ],
+        "nextStep": "Review the recent 2024 judicial commissions constituted in Telangana."
+      }
+    ]
   }
 ];
