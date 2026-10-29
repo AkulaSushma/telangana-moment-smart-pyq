@@ -51,6 +51,12 @@ import {
 import { classify } from "@/lib/classification";
 import type { StudyQuestion } from "@/lib/contracts";
 import { TeacherExplanation } from "./teacher-explanation";
+import {
+  getClientLearningData,
+  postClientLearningAction,
+  postClientAuthAction,
+  searchClientQuestions,
+} from "@/lib/client-engine";
 type Data = {
   learner: Learner;
   stats: ReturnType<typeof stats>;
@@ -170,8 +176,16 @@ export default function LearningApp() {
   async function load() {
     try {
       const r = await fetch("/api/learning");
-      if (!r.ok) throw new Error("Could not load your learning profile.");
-      setData(await r.json());
+      if (r.ok) {
+        setData(await r.json());
+        setError("");
+        return;
+      }
+    } catch {}
+    // Client-side fallback for Cloudflare Pages / static hosting
+    try {
+      const fallback = getClientLearningData();
+      setData(fallback as unknown as Data);
       setError("");
     } catch (e) {
       setError(String(e));
@@ -194,14 +208,32 @@ export default function LearningApp() {
           target: authTarget,
         }),
       });
+      if (res.ok) {
+        setAuthOpen(false);
+        setAuthPassword("");
+        setAuthError(null);
+        await load();
+        return;
+      }
       const result = await res.json();
-      if (!res.ok) throw new Error(result.error || "Authentication failed.");
-      setAuthOpen(false);
-      setAuthPassword("");
-      setAuthError(null);
-      await load();
-    } catch (err) {
-      setAuthError(err instanceof Error ? err.message : "Authentication error.");
+      throw new Error(result.error || "Authentication failed.");
+    } catch {
+      // Client-side auth fallback
+      try {
+        await postClientAuthAction({
+          action: authMode,
+          name: authName,
+          email: authEmail,
+          password: authPassword,
+          targetExam: authTarget,
+        });
+        setAuthOpen(false);
+        setAuthPassword("");
+        setAuthError(null);
+        await load();
+      } catch (err) {
+        setAuthError(err instanceof Error ? err.message : "Authentication error.");
+      }
     } finally {
       setAuthBusy(false);
     }
@@ -214,10 +246,11 @@ export default function LearningApp() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ action: "logout" }),
       });
-      await load();
-    } catch (err) {
-      console.error("Logout error:", err);
-    }
+    } catch {}
+    try {
+      await postClientAuthAction({ action: "logout" });
+    } catch {}
+    await load();
   }
   useEffect(() => {
     void load();
@@ -244,7 +277,18 @@ export default function LearningApp() {
           setLibraryTotal(page.total);
         })
         .catch((e) => {
-          if (e.name !== "AbortError") setLibraryError(e.message);
+          if (e.name === "AbortError") return;
+          // Fallback to client question search
+          const allFound = searchClientQuestions({
+            topic: topic || undefined,
+            q: search || undefined,
+            limit: 150,
+          });
+          const filtered = view === "Bookmarks"
+            ? allFound.filter((q) => data.learner.bookmarks.includes(q.id))
+            : allFound;
+          setLibrary(filtered.slice(libraryOffset, libraryOffset + 20));
+          setLibraryTotal(filtered.length);
         })
         .finally(() => {
           if (!controller.signal.aborted) setLibraryLoading(false);
@@ -269,11 +313,19 @@ export default function LearningApp() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
       });
-      const next = await r.json();
-      if (!r.ok) throw new Error(next.error);
-      if (!quiet) setData(next);
+      if (r.ok) {
+        const next = await r.json();
+        if (!quiet) setData(next);
+        setError("");
+        return next as Data;
+      }
+    } catch {}
+    // Client-side learning fallback
+    try {
+      const next = postClientLearningAction(payload);
+      if (!quiet) setData(next as unknown as Data);
       setError("");
-      return next as Data;
+      return next as unknown as Data;
     } catch (e) {
       setError(
         e instanceof Error ? e.message : "Could not save. Please try again.",
@@ -2240,11 +2292,13 @@ export default function LearningApp() {
                 onChange={async (e) => {
                   const target = e.target.value as "SI" | "Constable";
                   if (data?.user) {
-                    await fetch("/api/auth", {
-                      method: "POST",
-                      headers: { "Content-Type": "application/json" },
-                      body: JSON.stringify({ action: "target", target }),
-                    });
+                    try {
+                      await fetch("/api/auth", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ action: "target", target }),
+                      });
+                    } catch {}
                   }
                   send({ action: "target", target });
                 }}

@@ -84,7 +84,27 @@ The application includes a multi-stage `Dockerfile` (Node 24 Alpine, unprivilege
 
 ---
 
-### Option C: Cloudflare Tunnel Deployment (Direct Edge CDN & Zero Port Forwarding)
+### Option C: Cloudflare Pages Deployment (100% Free Unlimited Bandwidth — Recommended)
+
+Cloudflare Pages provides **unlimited, unmetered bandwidth** on Cloudflare's global edge network without needing a custom domain or maintaining a running local computer:
+
+1. **In Cloudflare Dashboard**:
+   - Go to **Compute** → **Workers & Pages**.
+   - Click **Create** → Select **Pages** tab.
+   - Click **Connect to Git** → Select repository: **`AkulaSushma/telangana-moment-smart-pyq`**.
+2. **Build Settings**:
+   - **Framework Preset**: None (or Next.js)
+   - **Build command**: `npm run build:pages`
+   - **Build output directory**: `out`
+   - **Environment variables**: None needed
+3. **Click Save and Deploy**:
+   - Cloudflare builds the static bundle and provisions:
+     👉 **`https://telangana-moment-smart-pyq.pages.dev`**
+   - Features: All 150 questions, complete 4-option teacher explanations, per-user progress and bookmark isolation in local storage, and instant sub-10ms response times.
+
+---
+
+### Option D: Cloudflare Tunnel Deployment (Direct Edge CDN to Local Server)
 
 Cloudflare Tunnel connects the local Next.js production server with its embedded SQLite database directly to Cloudflare's global edge network via encrypted QUIC tunnels:
 
